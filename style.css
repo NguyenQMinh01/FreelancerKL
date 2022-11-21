@@ -772,4 +772,21 @@ p {
 	text-align: center;
 }
 
+.btn-primary{
+	background: #2db964;
+	color: #fff;
+	border: 1px solid #2db964;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	text-shadow: none;
+	padding: 11px 24px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: initial;
+	letter-spacing: -.02em;
+	line-height: 24px;
+	letter-spacing: -.02em;
+	border-radius: 4px;
+}
+
 /* End  Media Query For Desktop */

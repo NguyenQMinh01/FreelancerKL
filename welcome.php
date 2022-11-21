@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>My Website</title>
 </head>
 
@@ -29,13 +30,14 @@
           </div>
           <ul>
             <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a class="btn-login" href="http://localhost:3000/freelancer/one-page-website-html-css-project/login.php" onclick="login()">Login</a></li>
+            <!-- <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li> -->
+            <li><a href="#" data-after="About">Find job</a></li>
+            <li><a href="#" data-after="Contact">Hire Freelancer</a></li>
+            <li><a class="btn-login" href="http://localhost:3000/login.php" onclick="login()">Login</a></li>
             <li><a class="btn btn-primary btn-logout " onclick="logout()">Logout</a></li>
             <li><a class="btn btn-primary btn-edit  " onclick="edit()">Edit</a></li>
+            <li><a href="#projects"  ><button type = "button" class="btn btn-primary">Post a job</button></a></li>
           </ul>
         </div>
       </div>
@@ -53,7 +55,7 @@
         <h1>Hello, <span></span></h1>
         <h1>This is Website <span></span></h1>
         <h1>Freelancer <span></span></h1>
-        <a href="#projects" type="button" class="cta">Post project</a>
+        <a href="#projects" type="button" class="cta">Hire Freelancer</a>
       </div>
     </div>
   </section>
@@ -183,7 +185,7 @@
 
 		<div class="portfolio-content">
 			<div class="row">
-				<img src="integrated/img/WHAT-IS-WEB-DESIGN.avif">
+				<img src="./img/">
 				<div class="main-row">
 					<div class="row-text center">
 						<h6 class ="portfolio_title">Development</h6>
@@ -196,7 +198,7 @@
 			</div>  
 
 			<div class="row">
-				<img src="integrated/img/web-design.webp">
+				<img src="./img/">
 				<div class="main-row">
 					<div class="row-text center">
 						<h6 class ="portfolio_title">Development</h6>
@@ -209,7 +211,7 @@
 			</div>
 
 			<div class="row">
-				<img src="integrated/img/rails.webp">
+				<img src="./img/">
 				<div class="main-row">
 					<div class="row-text center">
 						<h6 class ="portfolio_title">Development</h6>
@@ -222,7 +224,7 @@
 			</div>
 
       <div class="row">
-				<img src="img/">
+				<img src="./img/">
 				<div class="main-row">
 					<div class="row-text center">
 						<h6 class ="portfolio_title">Development</h6>
@@ -236,7 +238,7 @@
 			
 
 			<div class="row">
-				<img src="img/">
+				<img src="./img/">
 				<div class="main-row">
 					<div class="row-text">
 						<h6 class ="portfolio_title">Development</h6>
@@ -249,7 +251,7 @@
 			</div>
 
 			<div class="row">
-				<img src="img/">
+				<img src="./img/">
 				<div class="main-row">
 					<div class="row-text">
 						<h6 class ="portfolio_title">Development</h6>
@@ -269,12 +271,12 @@
     <div class="about container">
       <div class="col-left">
         <div class="about-img">
-          <img src="./img/img-2.png" alt="img">
+          <img src="./img/img-1.png" alt="img">
         </div>
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>us</span></h1>
-        <h2>Front End Developer</h2>
+        <h2>Full Stack Developer</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
           repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
           exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
@@ -336,7 +338,7 @@
           <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
         </div>
         <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
         </div>
         <div class="social-item">
           <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
