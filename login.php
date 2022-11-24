@@ -46,7 +46,7 @@
 			 
 			  <div class="field btn">
 				<div class="btn-layer"></div>
-				<input type="submit" value="Login">
+				<a href="#"><input type="submit" value="Login"></a>
 			  </div>
 
 			  <div class="or"></div>

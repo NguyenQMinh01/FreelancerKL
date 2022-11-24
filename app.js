@@ -24,8 +24,8 @@ menu_item.forEach((item) => {
 	});
 });
 
-$(".btn-logout").hide();
-$(".btn-edit").hide();
+// $(".btn-logout").hide();
+// $(".btn-edit").hide();
 // $("#projects").hide();
 
 

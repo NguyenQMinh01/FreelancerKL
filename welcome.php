@@ -8,6 +8,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js"></script> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="bot.css" rel="stylesheet" >
+
   <title>My Website</title>
 </head>
 
@@ -35,8 +37,6 @@
             <li><a href="#" data-after="About">Find job</a></li>
             <li><a href="#" data-after="Contact">Hire Freelancer</a></li>
             <li><a class="btn-login" href="http://localhost:3000/login.php" onclick="login()">Login</a></li>
-            <li><a class="btn btn-primary btn-logout " onclick="logout()">Logout</a></li>
-            <li><a class="btn btn-primary btn-edit  " onclick="edit()">Edit</a></li>
             <li><a href="#projects"  ><button type = "button" class="btn btn-primary">Post a job</button></a></li>
           </ul>
         </div>
