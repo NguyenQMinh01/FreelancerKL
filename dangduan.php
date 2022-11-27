@@ -211,22 +211,6 @@
     <script type="text/javascript" src="https://www.vlance.vn/lib/slick/slick.min.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/skill/tagmanager.min.js?v=20221103.1449" defer></script>
-    <!--[if IE]>
-    <script type="text/javascript" src="/js/jquery.placeholder.min.js"></script>
-    <script>
-        $(function() {
-            $('input, textarea').placeholder();
-
-        });
-    </script>
-    <style type="text/css">
-        input, textarea { color: #000; }
-        .placeholder { color: #aaa; }
-    </style>
-    <![endif]-->
-
-
-
     <script type="text/javascript">
         (function(e, a) {
             if (!a.__SV) {
@@ -1765,18 +1749,7 @@
                                     <div class="control-group primary-type">
                                         <div class="row-fluid">
                                             <div class="span2">
-                                                <!-- <div class="sprites-job-posting sprites-5"></div> -->
                                             </div>
-                                            <!-- <div class="span10">
-                                <h4 style="line-height: 28px">Tùy chọn hiển thị cho công việc này (không bắt buộc)</h4>
-                                <div>
-                                <label class="is-private checkbox">
-                                <input type="checkbox" id="vlance_jobbundle_jobtype_isPrivate" name="vlance_jobbundle_jobtype[isPrivate]" value="1" /> <p>
-                                <i class="fa fa-lock" aria-hidden="true"></i>
-                                <label for="vlance_jobbundle_jobtype_isPrivate">Tôi muốn việc này được Hiển Thị Bí Mật - chỉ những người nào tôi gửi link việc này cho họ và tôi mời họ làm việc qua vLance.vn, thì mới xem được. (Số lượng hiển thị sẽ rất ít, vì chỉ những người được cho phép mới xem được). </label> </p>
-                                </label>
-                                </div>
-                                </div> -->
                                         </div>
                                     </div>
                                 </div>
