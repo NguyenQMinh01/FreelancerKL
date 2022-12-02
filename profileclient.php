@@ -102,6 +102,8 @@
     <link itemprop="sameAs" href="https://twitter.com/vlancevn" />
     <link itemprop="sameAs" href="https://www.linkedin.com/company/vlance-vn" />
     <link itemprop="sameAs" href="https://plus.google.com/+VlanceVn" />
+    <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
@@ -127,11 +129,11 @@
         }
     </script>
     <noscript>
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://www.vlance.vn/css/bootstrap.min.css" />
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,vietnamese&display=block' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" type='text/css' href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-        <link href="/css/slider_home.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/vlance_datepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://www.vlance.vn/css/slider_home.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://www.vlance.vn/css/vlance_datepicker.min.css" rel="stylesheet" type="text/css" />
     </noscript>
     <script>
         (function() {
@@ -153,11 +155,11 @@
             font4.rel = 'stylesheet';
             font5.rel = 'stylesheet';
 
-            font1.href = '/css/bootstrap.min.css';
+            font1.href = 'https://www.vlance.vn/css/bootstrap.min.css';
             font2.href = 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,vietnamese&display=block';
             font3.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
-            font4.href = '/css/slider_home.min.css';
-            font5.href = '/css/vlance_datepicker.min.css';
+            font4.href = 'https://www.vlance.vn/css/slider_home.min.css';
+            font5.href = 'https://www.vlance.vn/css/vlance_datepicker.min.css';
 
             var s1 = document.getElementsByTagName('link')[0];
             var s2 = document.getElementsByTagName('link')[0];
@@ -172,10 +174,10 @@
             s5.parentNode.insertBefore(font5, s5);
         })();
     </script>
-    <link href="/css/gui/main.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    <link href="/css/gui/account/profile.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.vlance.vn/css/gui/main.css?v=20221103.1449" rel="stylesheet" type="text/css" />
+    <link href="https://www.vlance.vn/css/gui/account/profile.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
     <noscript>
-        <link href="/css/lightbox.min.css?v=20221103.1449" rel="stylesheet" type="text/css" />
+        <link href="https://www.vlance.vn/css/lightbox.min.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     </noscript>
     <script>
         (function() {
@@ -188,7 +190,7 @@
         })();
     </script>
     <noscript>
-        <link href="/lib/slick/vlance_slick.css?v=20221103.1449" rel="stylesheet" type="text/css" />
+        <link href="https://www.vlance.vn/lib/slick/vlance_slick.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     </noscript>
     <script>
         (function() {
@@ -200,35 +202,17 @@
             s.parentNode.insertBefore(font, s);
         })();
     </script>
-    <!--[if IE 8]>
-        <link href="/css/vlance-ie8.css" media="screen" rel="stylesheet" type="text/css" />
-        <![endif]-->
-    <!--[if IE 7]>
-        <link href="/css/vlance-ie7.css" media="screen" rel="stylesheet" type="text/css" />
-        <![endif]-->
-    <link href="/css/header_homepage_new_ver2.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="/js/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js" defer></script>
-    <script type="text/javascript" src="/js/vlance_datepicker.min.js" defer></script>
-    <script type="text/javascript" src="/js/vlance_base.min.js" defer></script>
-    <script type="text/javascript" src="/js/lazyload.js" defer></script>
-    <script type="text/javascript" src="/js/form/vlance_validate.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="/js/lightbox/lightbox-2.6.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="/js/form/credit/spend.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="/lib/slick/slick.min.js?v=20221103.1449" defer></script>
-    <!--[if IE]>
-    <script type="text/javascript" src="/js/jquery.placeholder.min.js"></script>
-    <script>
-        $(function() {
-            $('input, textarea').placeholder();
 
-        });
-    </script>
-    <style type="text/css">
-        input, textarea { color: #000; }
-        .placeholder { color: #aaa; }
-    </style>
-    <![endif]-->
+    <link href="https://www.vlance.vn/css/header_homepage_new_ver2.css?v=20221103.1449" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://www.vlance.vn/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/bootstrap.min.js" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/vlance_datepicker.min.js" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/vlance_base.min.js" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js?v=20221103.1449" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/lightbox/lightbox-2.6.min.js?v=20221103.1449" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js?v=20221103.1449" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/lib/slick/slick.min.js?v=20221103.1449" defer></script>
 
 
 
@@ -368,7 +352,8 @@
             <div class="container">
                 <div class="logo span2">
                     <a href="/">
-                        <img style="width: 65px; height: 40px" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" />
+                        <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                        <div class="bx bx-menu" id="menu-icon"></div>
                     </a>
                 </div>
                 <div class="span5">
@@ -429,72 +414,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item ver2 second ">
-                                <a title="Tìm việc làm" href="/viec-lam-freelance">Tìm việc làm<span class="caret"></span></a>
-                                <ul class="menu-dropdown-list">
-                                    <li class="menu-dropdown-item">
-                                        <div class="container visitor">
-                                            <ul class="menu-dropdown-content">
-                                                <li class="menu-dropdown-content-item">
-                                                    <a href="/dang-dich-vu?utm_campaign=GDV1-TPN-20220627&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">
-                                                        <div class="content-item-block">
-                                                            <div class="block-text">
-                                                                <strong class="block-text-title">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></strong>
-                                                                <span class="block-text-subtitle">Để có cơ hội nhận việc không giới hạn</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-dropdown-content-item">
-                                                    <a href="#">
-                                                        <div class="content-item-block">
-                                                            <div class="block-text">
-                                                                <strong class="block-text-title">Tìm việc làm</strong>
-                                                                <span class="block-text-subtitle">Hàng ngàn công việc mới được đăng mỗi ngày</span>
-                                                            </div>
-                                                            <div class="block-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                                                        </div>
-                                                    </a>
-                                                    <ul class="content-item-detail">
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a></li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/cuoc-thi-thiet-ke" onclick="vtrack('Click contest list page', {'position':'Homepage'})">Cuộc thi thiết kế</a></li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-dropdown-content-item">
-                                                    <a href="#">
-                                                        <div class="content-item-block">
-                                                            <div class="block-text">
-                                                                <strong class="block-text-title">Đăng hồ sơ năng lực</strong>
-                                                                <span class="block-text-subtitle">Để khách hàng có thể chủ động liên hệ với bạn</span>
-                                                            </div>
-                                                            <div class="block-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                                                        </div>
-                                                    </a>
-                                                    <ul class="content-item-detail">
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1250511/editbasic">Hồ sơ vLance</a></li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a></li>
-
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-dropdown-content-item">
-                                                    <a href="/doanh-nghiep">
-                                                        <div class="content-item-block">
-                                                            <div class="block-text">
-                                                                <strong class="block-text-title">Đăng ký làm Agency</strong>
-                                                                <span class="block-text-subtitle">Trở thành đối tác cung cấp dịch vụ cho vLance Business.</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
+                         
                             <li class="menu-item tool-sign display-desktop">
                                 <a style="width: 109px; height: 27px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'account_show_client'})">
-                                    <img src="/img/vn/homepage-new/invite_friends_red.svg">
+                                    <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
                                 </a>
                             </li>
                         </ul>
@@ -502,29 +425,20 @@
                 </div>
                 <div class="span3 span3-b">
                     <div class="pull-right nav-account sec-account-menu ver2">
-                        <div class="lang-option" style="margin-right: 15px;padding-top: 20px;padding-bottom: 0px;">
-                            <span class="see-more-option">VI <i class="fa fa-angle-down" style="font-size: 20px;font-weight: 600;margin-left: 5px;"></i>
-                            </span>
-                            <div class="option-item list-option" style="display:none">
-                                <ul>
-                                    <li><a class="switch-vietnamese">Tiếng Việt</a></li>
-                                    <li><a class="switch-english">English</a></li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <div class="inbox-menu ver2 pull-right nofity-ver2">
                             <div class="i32 i32-mail i32-notify ver2 ">
                                 <div class="mail-counter">
                                 </div>
                             </div>
-                            <img src="/img/homepage-new/icon-bell.svg" style="margin-top:14px">
+                            <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg" style="margin-top:14px">
                         </div>
                         <div class="inbox-menu ver2 pull-right mesenger-ver2">
                             <div class="i32 i32-mail i32-not-notify ver2">
                                 <div class="mail-counter">
                                 </div>
                             </div>
-                            <img src="/img/homepage-new/icon-chat.svg" style="margin-top:14px">
+                            <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg" style="margin-top:14px">
                         </div>
                         <div class="account-menu pull-right">
                             <div class="avata avata_ver2">
@@ -545,10 +459,6 @@
                                 </div>
                                 <div id="popover-in"></div>
                                 <ul class="dropdown-menu">
-
-
-
-
                                     <li><a href="/khach-hang/minh-166">Hồ sơ cá nhân</a></li>
                                     <li><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
                                     <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
@@ -581,24 +491,10 @@
                         </div>
                     </li>
                     <li class="tf200 ">
-
-                        <div class="dropdown manage-user">
-                            <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu" style="min-width:200px">
-                                <li style="margin-bottom:20px"><a href="/j-s/freelancer" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
-                                <li><a href="/s-p/freelancer">Quản lý gói dịch vụ & đơn hàng</a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="tf200 ">
                         <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                     </li>
-                    <li class="tf200 ">
-                        <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
-                    </li>
                     <div class="button">
-                        <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng dự án</a>
+                        <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng dự án</a>
                     </div>
                 </ul>
             </div>
@@ -624,7 +520,6 @@
                             <div class="mail-counter">
                             </div>
                         </div>
-                        <img src="/img/homepage-new/icon-bell.svg">
                     </div>
                     <div class="inbox-menu ver2 pull-right mesenger-ver2">
                         <div class="i32 i32-mail i32-not-notify ver2">
@@ -815,34 +710,6 @@
         <hx:include evaljs="true" src="/message/new-message-ver2">
         </hx:include>
     </div>
-
-    <script type="text/javascript">
-        // $(function(){
-        //     $(window).scroll(function(){
-        //         var aTop = 21, mTop = 1;
-        //         if($(this).scrollTop()>=aTop){
-        //             $('.menu_scoll').addClass('menu_scoll_display');
-        //             $('.pull-right.nav-account').addClass('account-mail-menu');
-        //             $('account-mail-menu').show();
-        //             $('.upper_scoll').addClass('upper_scoll_display');
-        //         };
-        //         if($(this).scrollTop() <= (aTop)){
-        //             $('.menu_scoll').removeClass('menu_scoll_display');
-        //             $('.menu_scoll').addClass('menu_scoll');
-        //             $('.pull-right.nav-account').removeClass('account-mail-menu');
-        //             $('account-mail-menu').hide();
-        //             $('.upper_scoll').removeClass('upper_scoll_display');
-        //             $('.upper_scoll').addClass('upper_scoll');
-        //         }
-        //         if($(this).scrollTop()>=mTop){
-        //             $('.navbar-static-top.display-mobile').addClass('menu_scoll_display');
-        //         }
-        //         if($(this).scrollTop()<mTop){
-        //             $('.navbar-static-top.display-mobile').removeClass('menu_scoll_display');
-        //         }
-        //     });
-        // });
-    </script>
     <script type="text/javascript">
         //Menu mobile
         $(document).ready(function() {
@@ -978,38 +845,8 @@
         });
     </script>
     <div class="top_content ">
-        <div class="block-feature-freelancer container">
-            <div class="feature-freelancer guider-block" data-display-track="show-feature-freelancer-block">
-                <div class="row-fluid">
-                    <div class="content inner span6">
-                        <div class="container-image">
-                            <img src="/img/credit/feature-freelancer.jpg" title="Freelancer nổi bật" alt="Freelancer nổi bật">
-                        </div>
-                    </div>
-                    <div class="content detail span6" style="margin-left: 0">
-                        <h4>Bạn muốn tăng <b>gấp 5 lần</b> số khách hàng liên hệ làm việc?</h4>
-                        <p><i style="color: #2DB964" class="fa fa-check"></i></i>Đặt hồ sơ của bạn nằm ở <b>vị trí đầu tiên</b> danh sách freelancer.</p>
-                        <p><i style="color: #2DB964" class="fa fa-check"></i>Hiển thị liên tục trong vòng <b>5 ngày</b>.</span></p>
-                        <p><i style="color: #2DB964" class="fa fa-check"></i>Và <b>nổi bật hơn</b> so với hồ sơ khác.</p>
-                        <div class="buy-credit feature-fl-info-acc">
-                            <p>
-                                Bạn hiện có <b> 0 Credit </b> - Tài khoản: <b>FBASIC</b>
-                            </p>
-                        </div>
-                        <p class="cta-button">
-                            <a class="btn btn-vl-green suggest-upgrade-fl" onclick="vtrack('Click view upgrade account', {'location' : 'feature freelancer'})" href="/credit/balance">Nâng cấp tài khoản</a>
-                            <a id="pay-feature-freelancer" class="btn btn-vl-white" onclick="vtrack('Click - Feature freelancer', {
-                                                'location': 'profile page',
-                                                'authenticated':'true', 
-                                                'category':'Lập tr&igrave;nh web', 
-                                                'freelancer':'M&iacute;nh', 
-                                                'freelancer_id':'1250511'})">
-                                Nổi bật hồ sơ (10 Credit) <img class="loading-feature-freelancer" src="/img/loading-new.gif" />
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="block-feature-freelancer container" style="margin-bottom: 50px;">
+
         </div>
         <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile" id="feature-freelancer-success">
             <div class="modal-header">
@@ -1098,7 +935,7 @@
                                 <div class="col3-left span4 left-profile">
                                     <div class="avata">
                                         <div class="update-link tf300"><a class="tf300" href="/a/1250511/editbasic/redirect">Thay hình đại diện</a></div>
-                                        <img width="160" height="160" itemprop="photo" src="https://www.vlance.vn/uploads/160x160/5137679a253a06555c594a9df5f13502041e06931.png" alt="M&iacute;nh" title="M&iacute;nh" />
+                                        <img itemprop="photo" src="img/img-2.png" alt="M&iacute;nh" title="M&iacute;nh" />
                                     </div>
                                     <div class="id_profile">
                                         id. 1250511 </div>
@@ -1132,7 +969,7 @@
                                             </div>
                                             <div class="regional-price">
                                                 <span>
-                                                    <img src="/media/internal-link/location.png">
+                                                    <img src="/img/location.png">
                                                 </span>
                                                 <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
                                                     <span class="location editable tf300" itemprop="region">H&agrave; Nội</span>
@@ -1149,8 +986,14 @@
                                             <div class="body">
                                                 t&ocirc;i l&agrave; freelancer </div>
                                         </div>
-                                        <hx:include evaljs="true" src="/block/client-job-working/minh-166">
-                                            <img style="margin-top: 50px" src="/img/loading/vlance-profile-page-block-center.gif" />
+                                        <hx:include evaljs="true" src="/block/client-job-working/minh-nguyen-1130" class="included include_200">
+                                            <div class="overview-mobile overview overview-client no-job-client">
+                                                <h2 class="overview-title" style="margin-top: 44px">
+                                                    Việc đã đăng </h2>
+                                                <div class="body">
+                                                    Khách hàng chưa đăng việc nào
+                                                </div>
+                                            </div>
                                         </hx:include>
                                     </div>
                                 </div>
@@ -1158,26 +1001,26 @@
                                     <div class="row-fluid">
                                         <div class="span6 il-item il-item-full" onclick="location.href='/';" style="cursor: pointer;">
                                             <span class="span3" style="padding-top: 12px">
-                                                <img style="width:64px; height:64px;" src="/media/internal-link/internal_link_profile_client_1.png">
+                                                <img style="width:64px; height:64px;" src="/img/internal_link_profile_client_1.png">
                                             </span>
                                             <span class="il-title span7" style="padding-top: 0">
                                                 <a class="il-link-client" href="/">Kết nối uy tín</a>
                                                 <p class="il-content">vLance.vn là trang kết nối Freelancer và Khách hàng uy tín đầu tiên tại Việt Nam</p>
                                             </span>
                                             <span class="il-arrow span2" style="padding-top: 31px">
-                                                <img style="float: right" src="/media/internal-link/internal_link_profile_client_3.png">
+                                                <img style="float: right" src="/img/internal_link_profile_client_3.png">
                                             </span>
                                         </div>
                                         <div class="span6 il-item il-item-2 il-item-full" onclick="location.href='/viec-lam-freelance';" style="cursor: pointer;">
                                             <span class="span3" style="padding-top: 12px">
-                                                <img style="width:64px; height:64px;" src="/media/internal-link/internal_link_profile_client_2.png">
+                                                <img style="width:64px; height:64px;" src="/img/internal_link_profile_client_2.png">
                                             </span>
                                             <span class="il-title span7" style="padding-top: 0">
                                                 <a class="il-link-client" href="/viec-lam-freelance">Xem việc mới</a>
                                                 <p class="il-content">Xem các việc mới để bắt đầu làm online ngay bây giờ</p>
                                             </span>
                                             <span class="il-arrow span2" style="padding-top: 31px">
-                                                <img style="float: right" src="/media/internal-link/internal_link_profile_client_3.png">
+                                                <img style="float: right" src="/img/internal_link_profile_client_3.png">
                                             </span>
                                         </div>
                                     </div>
@@ -1213,101 +1056,19 @@
                         <div class="summary-profile contact-direct contact-mobile">
                             <h2 class="contact-title">Thông tin liên lạc</h2>
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2"><img src="/media/internal-link/email.png"></label>
+                                <label style="width: 23px" class="span2"><img src="/img/email.png"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client">
-                                    <dd><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="600d090e080d0f0e51515252535320070d01090c4e030f0d">[email&#160;protected]</a></dd>
+                                    <dd><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="600d090e080d0f0e51515252535320070d01090c4e030f0d">minhmon112233@gmail.com</a></dd>
                                 </dl>
                             </div>
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="/media/internal-link/phone_number.png"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="/img/phone_number.png"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>0983422291</dd>
                                 </dl>
                             </div>
                         </div>
-                        <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile pay-credit-get-contact" style="display:none;" id="pay-sms">
-                            <div class="load-spinner"><img src="/img/loading.gif" /></div>
-                            <div class="redirect-spinner">
-                                <img src="/img/loading.gif" />
-                                <p>Bạn sẽ được chuyển sang cổng thanh toán của Vinaphone. Vui lòng đợi trong giây lát.</p>
-                            </div>
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h2 style="padding-left: 5px">Liên hệ trực tiếp Freelancer</h2>
-                            </div>
-
-                            <div class="screen-confirm" style="overflow-y: auto;max-height: calc(100vh - 75px);">
-                                <div class="modal-body">
-                                    <div class="preview"><img width="460px" height="250px" src="/img/credit/feature-contact.jpg" alt="Việc nổi bật" title="Việc nổi bật"></div>
-                                    <div class="content">
-                                        <p>Cần liên hệ trực tiếp với Freelancer này? Bạn sẽ nhận số điện thoại và email của freelancer ngay bây giờ.</p>
-                                        <p>Chi phí: <b><span class="credit-amount">5</span> credit</b></p>
-                                    </div>
-                                    <div class="buy-credit">
-                                        <p>
-                                            Bạn hiện có <b><span class="credit-balance" data-credit="balance">0</span> CREDIT</b> -
-                                            <a href="/credit/balance">MUA THÊM CREDIT</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <a onclick="vtrack('Click contact credit', {'location' : 'popup contact freelancer', 'credit_spent' : '5'})" href="#" class="btn btn-vl-green pay-credit-confirm contact-freelancer-m contact-m ">Liên hệ ngay (5 credit)</a>
-                                </div>
-                            </div>
-
-                            <div class="screen-success">
-                                <div class="modal-body">
-                                    <div class="content">
-                                        <div class="contact-sms">
-                                            <p style="padding: 0">Tuyệt vời, từ bây giờ bạn có thể liên hệ với freelancer theo email và SĐT sau:</p>
-                                            <div class="row-fluid contact-info">
-                                                <div class="info-photo span2 offset2">
-                                                    <img src="/img/unknown.png" data-replace="avatar_url" />
-                                                </div>
-                                                <div class="info-detail span7 offset1">
-                                                    <p class="full-name"><span data-replace="fullName">Tên Freelancer</span></p>
-                                                    <p class="email"><span class="info-label">Email:</span> <span data-replace="email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e58397808089848b868097a5818a88848c8bcb868a88">[email&#160;protected]</a></span></p>
-                                                    <p class="cellphone"><span class="info-label">Điện thoại: </span> <span data-replace="telephone">0123456789</span></p>
-                                                </div>
-                                            </div>
-                                            <div class="connect-email payer">
-                                                <p style="padding: 0">Đã được gửi tới <a data-replace="email"><span class="__cf_email__" data-cfemail="a0cdc9cec8cdcfce919192929393e0c7cdc1c9cc8ec3cfcd">[email&#160;protected]</span></a></p>
-                                            </div>
-                                            <div class="suggest-create-job">
-                                                <p class="first">Freelancer đề nghị tạm ứng tiền trước khi bắt đầu dự án? Hãy <a href="<?php echo $view['router']->generate('job_new'); ?>?ref=acf_p1">đăng dự án</a> và đặt cọc qua vLance để số tiền của bạn được bảo vệ <b>100%</b>.</p>
-                                                <p class="first"><a class="btn btn-vl-green btn-large" href="/dang-du-an?ref=acf_p2">Đăng dự án</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="screen-error">
-                                <div class="modal-body">
-                                    <div class="content">
-                                        <b>
-                                            <p style="text-align: center" class="error-message">Rất tiếc, đã có lỗi xảy ra. Vui lòng liên hệ vLance để được hỗ trợ.</p>
-                                        </b>
-                                        <p style="text-align: center">Cần 5 credit để liên hệ ngay</p>
-                                    </div>
-                                    <div class="buy-credit">
-                                        <p>
-                                            Bạn hiện có <b><span class="credit-balance" data-credit="balance">0</span> CREDIT</b> -
-                                            <a href="/credit/balance">MUA THÊM CREDIT</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                        <script type="text/javascript">
-                            var form_spend_credit_contact_freelancer = "#pay-sms";
-                            var form_spend_credit_contact_freelancer_params = {
-                                "service_id": 101,
-                                "url": "/credit/spend",
-                                "balance": 0
-                            };
-                        </script>
+                        
                     </div>
                     <div class="block">
                     </div>
@@ -1513,78 +1274,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="bottom-logo">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span9">
-                                <div class="row-fluid">
-                                    <div class="vlance-logo span2">
-                                        <a href="/" title="Thuê freelancer Việt Nam nhanh và hiệu quả"></a>
-                                    </div>
-                                    <div class="copyright span8">
-                                        <p>Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp</p>
-                                        <p>© 2022 vLance.vn</p>
-                                    </div>
-                                </div>
+                <section id="footer">
+                    <div class="footer containerfooter">
+                        <div class="brand">
+                            <h1><span>F</span>reelan<span>c</span>er</h1>
+                        </div>
+                        <h2>Your Complete Web Solution</h2>
+                        <div class="social-icon">
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
                             </div>
-                            <div class="span3">
-                                <div class="footer-payment">
-                                    <div class="nlh-partner">
-                                        <ul class="">
-                                            <li>
-                                                <a rel="nofollow" class="visacrd" title="Thẻ thanh toán VisaCard" target="_blank">
-                                                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a rel="nofollow" class="mastercrd" title="Thẻ thanh toán MasterCard" target="_blank">
-                                                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a rel="nofollow" class="paypal" title="Hệ thống thanh toán trực tuyến Paypal" target="_blank">
-                                                    <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li><a rel="nofollow" class="vietcombank" title="Ngân hàng TMCP Ngoại Thương Việt Nam" target="_blank"></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                            </div>
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
+                            </div>
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
                             </div>
                         </div>
-                        <div class="row-fluid">
-                            <div class="span9">
-                                <div class="footer-rule">
-                                    <ul>
-                                        <li><a href="/page/dieu-khoan-su-dung" title="Điều khoản sử dụng">Điều khoản sử dụng |</a></li>
-                                        <li><a href="/page/dieu-khoan-su-dung-danh-cho-khach-hang" title="Điều khoản khách hàng">Điều khoản khách hàng |</a></li>
-                                        <li><a href="/page/dieu-khoan-su-dung-danh-cho-freelancer" title="Điều khoản freelancer">Điều khoản freelancer |</a></li>
-                                        <li><a href="/page/dieu-khoan-thanh-toan" title="Điều khoản thanh toán">Điều khoản thanh toán |</a></li>
-                                        <li><a href="/page/quy-che-hoat-dong" title="Quy chế hoạt động">Quy chế hoạt động |</a></li>
-                                        <li><a href="/page/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật |</a></li>
-                                        <li><a href="/page/giai-quyet-khieu-nai" title="Giải quyết khiếu nại">Giải quyết khiếu nại</a></li>
-                                    </ul>
-                                </div>
-                                <p class="address">Chủ quản: Công ty Cổ phần Magenweb Việt Nam - Giấy phép đăng ký kinh doanh số 0106119703 - Cấp ngày 11/03/2013 - Tại Sở Kế hoạch và Đầu tư Hà Nội.</p>
-                                <p class="address">Trụ sở công ty: Số 2, ngõ 86 Âu Cơ, phường Tứ Liên, quận Tây Hồ, thành phố Hà Nội</p>
-                                <p class="address">Văn phòng làm việc: Tòa nhà Ladeco, tầng 12A, số 266 Đội Cấn, phường Liễu Giai, quận Ba Đình, thành phố Hà Nội</p>
-                                <p class="address">Hỗ trợ: <a href="/cdn-cgi/l/email-protection#6a02051e18052a1c060b04090f441c04"><span class="__cf_email__" data-cfemail="731b1c07011c33051f121d10165d051d">[email&#160;protected]</span></a> - ĐT: (+84) 024.6684.1818</p>
-                            </div>
-                            <div class="dkkd">
-                                <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=46478" rel="nofollow" target="blank"><img alt="Đã đăng ký với bộ công thương" title="" data-src="/media/dkkd-vlance.png" class="lazyload" /></a>
-                            </div>
-                        </div>
+                        <p>Copyright © 2020 Arfan. All rights reserved</p>
                     </div>
-                </div>
+                </section>
             </footer>
         </div>
     </footer>
     <div class="row hidden">
-
-
-
-
-
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script type="text/javascript">
         </script>
@@ -1592,6 +1308,10 @@
     <div class="row hidden">
     </div>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"770b2a188e5591b4","version":"2022.11.3","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
 </body>
 
 </html>

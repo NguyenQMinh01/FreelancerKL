@@ -422,7 +422,7 @@
                             </li>
                             <li class="menu-item tool-sign display-desktop">
                                 <a style="width: 109px; height: 27px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'account_show_freelancer'})">
-                                    <img src="/img/vn/homepage-new/invite_friends_red.svg">
+                                    <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
                                 </a>
                             </li>
                         </ul>
@@ -436,14 +436,14 @@
                                 <div class="mail-counter">
                                 </div>
                             </div>
-                            <img src="/img/homepage-new/icon-bell.svg" style="margin-top:14px">
+                            <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg" style="margin-top:14px">
                         </div>
                         <div class="inbox-menu ver2 pull-right mesenger-ver2">
                             <div class="i32 i32-mail i32-not-notify ver2">
                                 <div class="mail-counter">
                                 </div>
                             </div>
-                            <img src="/img/homepage-new/icon-chat.svg" style="margin-top:14px">
+                            <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg" style="margin-top:14px">
                         </div>
                         <div class="account-menu pull-right">
                             <div class="avata avata_ver2">
@@ -473,6 +473,7 @@
                                     <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
                                     <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
                                     <li class="divider"></li>
+                                    
                                     <li><a href="/logout">Đăng xuất</a></li>
                                 </ul>
                             </div>
@@ -498,6 +499,11 @@
                     <li class="tf200 ">
                         <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                     </li>
+
+                    <div class="button">
+                        <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng báo giá</a>
+                    </div>   
+                    
                 </ul>
             </div>
         </div>
@@ -954,9 +960,6 @@
                                         <div class="clear"></div>
                                         <div class="no-portfolio"> Hiện tại bạn chưa có hồ sơ năng lực nào.</div>
                                     </div>
-                                        <!-- <hx:include evaljs="true" src="/block/job-working/minh-166">
-                                            <img style="margin-top: 50px" src="/img/loading/vlance-profile-page-block-center.gif" />
-                                        </hx:include> -->
                                 </div>
                             </div>
                             <div class="block-internal-link">
@@ -1032,6 +1035,7 @@
                             </dl>
                         </div>
                     </div>
+                    
                     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script type="text/javascript">
                         var form_spend_credit_contact_freelancer = "#pay-sms";
@@ -1068,6 +1072,27 @@
                                 <div class="experienced">
                                     <b>Mới đi làm</b> (Dưới 2 năm kinh nghiệm)
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="fanpage-client-view">
+                            <div class="fanpage-title">
+                                <p>Like page để nhận được việc sớm nhất</p>
+                            </div>
+                            <div id="fb-root"></div>
+                            <script>
+                                (function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id)) return;
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=197321233758025";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));
+                            </script>
+                            <div class="fb-page" data-href="https://www.facebook.com/vlance.vn" data-small-header="false" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/vlance.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vlance.vn">VLance.vn</a></blockquote>
                             </div>
                         </div>
                     </div>

@@ -666,7 +666,7 @@
                     </ul>
                 </div>
                 <div class="post-button-ver2">
-                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng dự án</a>
+                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng dự án</a>
                 </div>
             </div>
         </div>
@@ -882,7 +882,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6"><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an" title="Đăng dự án ngay">Đăng dự án ngay</a>
+                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php" title="Đăng dự án ngay">Đăng dự án ngay</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>

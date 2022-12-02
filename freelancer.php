@@ -464,8 +464,8 @@
                             <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                         </li>
                         <div class="button">
-                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng dự án</a>
-                        </div>
+                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng báo giá</a>
+                        </div>          
                     </ul>
                 </div>
             </div>
@@ -885,13 +885,13 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6"><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an" title="Đăng dự án ngay">Đăng dự án ngay</a>
+                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an" title="Đăng báo giá ngay">Đăng báo giá ngay</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
                                                 <li>
                                                     <p class="step-job">1</p>
-                                                    <span>Đăng dự án</span>
+                                                    <span>Đăng báo giá</span>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
@@ -905,7 +905,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="step-job">3</p>
-                                                    <p>Nhận sản phẩm<br />đúng yêu cầu</p>
+                                                    <p>Bàn giao sản phẩm<br />đúng yêu cầu</p>
                                                 </li>
                                             </ul>
                                         </div>
