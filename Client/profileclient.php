@@ -214,6 +214,8 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/lib/slick/slick.min.js?v=20221103.1449" defer></script>
 
+    
+
 
 
     <script type="text/javascript">
@@ -414,7 +416,7 @@
                                     </li>
                                 </ul>
                             </li>
-                         
+
                             <li class="menu-item tool-sign display-desktop">
                                 <a style="width: 109px; height: 27px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'account_show_client'})">
                                     <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
@@ -995,6 +997,124 @@
                                                 </div>
                                             </div>
                                         </hx:include>
+
+
+                                        <hx:include evaljs="true" src="/block/client-job-working/minh-nguyen-1130" class="included include_200">
+                                            <div class="row-fluid block_jobs block-suggest-freelancers block-all-jobs block-job-client" style="padding-bottom: 0">
+                                                <h2 class="suggest-freelancer-title" style="margin: 0">Tất cả công việc của Minh</h2>
+                                                <div class="row-fluid">
+                                                    <div class="row-fluid job-list job-working jobs-account">
+                                                        <h2 class="block-tilte_jobs" style="margin-top: 23px;margin-bottom: -20px">Việc đã đăng <span class="job-count-new">3</span></h2>
+                                                        <div class="slide-job-working slick-initialized slick-slider">
+                                                            <button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true" style="display: block;">Previous</button>
+                                                            <div aria-live="polite" class="slick-list draggable">
+                                                                <div class="slick-track" role="listbox" style="opacity: 1; width: 2094px; left: 0px;">
+                                                                    <div class="sublist-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 698px;">
+                                                                        <div class="job-item-client">
+                                                                            <div class="row-fluid">
+                                                                                <div class="job-comment span12">
+                                                                                    <h3 style="font-size: 16px;color: #0088CC;margin-bottom: -5px" class="title-job-client title">
+                                                                                        <a href="/viec-freelance/tuyen-ctv-freelancer-thiet-ke-banner-website-facebook" tabindex="0">TUYỂN CTV/FREELANCER THIẾT KẾ BANNER WEBSIT...</a>
+                                                                                    </h3>
+                                                                                </div>
+                                                                                <div class="span12" style="margin: 0;padding-left: 20px">
+                                                                                    <div class="fr-title span9">
+                                                                                        <span>
+                                                                                            <img style="display: inline" src="/img/location.png">
+                                                                                        </span>
+                                                                                        <span class="location">TP. Hồ Chí Minh</span>
+                                                                                    </div>
+                                                                                    <div class="price span3" style="text-align: right;padding-right: 20px">
+                                                                                        0 VNĐ </div>
+                                                                                </div>
+                                                                                <div class="span12" style="padding: 0 20px;margin: 0">
+                                                                                    <div class="feedback-job span12 block-no-review">
+                                                                                        <div class="span9">
+                                                                                            <span style="color: #999999;margin-left: -20px;">Chưa có nhận xét nào</span>
+                                                                                        </div>
+                                                                                        <div class="span3">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sublist-item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 698px;">
+                                                                        <div class="job-item-client">
+                                                                            <div class="row-fluid">
+                                                                                <div class="job-comment span12">
+                                                                                    <h3 style="font-size: 16px;color: #0088CC;margin-bottom: -5px" class="title-job-client title">
+                                                                                        <a href="/viec-freelance/tuyen-ctv-dung-edit-clip-san-pham-tiktok-reels" tabindex="-1">TUYỂN CTV DỰNG/EDIT CLIP SẢN PHẨM (TIKTOK...</a>
+                                                                                    </h3>
+                                                                                </div>
+                                                                                <div class="span12" style="margin: 0;padding-left: 20px">
+                                                                                    <div class="fr-title span9">
+                                                                                        <span>
+                                                                                            <img style="display: inline" src="/img/location.png">
+                                                                                        </span>
+                                                                                        <span class="location">TP. Hồ Chí Minh</span>
+                                                                                    </div>
+                                                                                    <div class="price span3" style="text-align: right;padding-right: 20px">
+                                                                                        5.000.000 VNĐ </div>
+                                                                                </div>
+                                                                                <div class="span12" style="padding: 0 20px;margin: 0">
+                                                                                    <div class="feedback-job span12 block-no-review">
+                                                                                        <div class="span9">
+                                                                                            <span style="color: #999999;margin-left: -20px;">Chưa có nhận xét nào</span>
+                                                                                        </div>
+                                                                                        <div class="span3">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sublist-item slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 698px;">
+                                                                        <div class="job-item-client">
+                                                                            <div class="row-fluid">
+                                                                                <div class="job-comment span12">
+                                                                                    <h3 style="font-size: 16px;color: #0088CC;margin-bottom: -5px" class="title-job-client title">
+                                                                                        <a href="/viec-freelance/can-tuyen-freelancer-viet-bai-content-seo-2" tabindex="-1">Cần Tuyển Freelancer Viết Bài Content SEO</a>
+                                                                                    </h3>
+                                                                                </div>
+                                                                                <div class="span12" style="margin: 0;padding-left: 20px">
+                                                                                    <div class="fr-title span9">
+                                                                                        <span>
+                                                                                            <img style="display: inline" src="/img/location.png">
+                                                                                        </span>
+                                                                                        <span class="location">TP. Hồ Chí Minh</span>
+                                                                                    </div>
+                                                                                    <div class="price span3" style="text-align: right;padding-right: 20px">
+                                                                                        0 VNĐ </div>
+                                                                                </div>
+                                                                                <div class="span12" style="padding: 0 20px;margin: 0">
+                                                                                    <div class="feedback-job span12 block-no-review">
+                                                                                        <div class="span9">
+                                                                                            <span style="color: #999999;margin-left: -20px;">Chưa có nhận xét nào</span>
+                                                                                        </div>
+                                                                                        <div class="span3">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button>
+                                                        </div>
+                                                    </div>
+                                                    <script type="text/javascript">
+                                                        $(document).ready(function() {
+                                                            $('.slide-job-working').slick({
+                                                                speed: 0,
+                                                                infinite: false,
+                                                            });
+                                                        });
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </hx:include>
                                     </div>
                                 </div>
                                 <div class="block-internal-link">
@@ -1068,7 +1188,7 @@
                                 </dl>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="block">
                     </div>

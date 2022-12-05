@@ -250,29 +250,6 @@
         }
     </style>
     <script src="https://www.google.com/recaptcha/api.js?hl=vi&onload=CaptchaCallback&render=explicit" async defer></script>
-    <!-- <script type="text/javascript">
-        var sitekey = '6Lf5o40aAAAAAOO9wf5vArKkHkEN6WRdq853oZcb';
-        var CaptchaCallback = function() {
-            if ($('#g-recaptcha0').length) {
-                widgetId0 = grecaptcha.render('g-recaptcha0', {'sitekey' : sitekey});
-            }
-            if ($('#g-recaptcha1').length) {
-                widgetId1 = grecaptcha.render('g-recaptcha1', {'sitekey' : sitekey});
-            }
-            if ($('#g-recaptcha2').length) {
-                widgetId2 = grecaptcha.render('g-recaptcha2', {'sitekey' : sitekey});
-            }
-            if ($('#g-recaptcha-signup0').length) {
-                captchaSignup0 = grecaptcha.render('g-recaptcha-signup0', {'sitekey' : sitekey});
-            }
-            if ($('#g-recaptcha-signup1').length) {
-                captchaSignup1 = grecaptcha.render('g-recaptcha-signup1', {'sitekey' : sitekey});
-            }
-            if ($('#g-recaptcha-signup2').length) {
-                captchaSignup2 = grecaptcha.render('g-recaptcha-signup2', {'sitekey' : sitekey});
-            }
-        };
-    </script> -->
 
 </head>
 
@@ -463,9 +440,7 @@
                         <li class="tf200 ">
                             <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                         </li>
-                        <div class="button">
-                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng báo giá</a>
-                        </div>          
+                        
                     </ul>
                 </div>
             </div>
