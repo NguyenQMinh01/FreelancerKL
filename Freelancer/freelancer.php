@@ -407,7 +407,7 @@
 
 
 
-                                        <li><a href="/freelancer/mercury">Hồ sơ cá nhân</a></li>
+                                        <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                                         <li><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
@@ -509,7 +509,7 @@
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </div>
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
-                                <li class="ver2"><a href="/freelancer/mercury">Hồ sơ cá nhân</a></li>
+                                <li class="ver2"><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
                                 <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                                 <li class="ver2"><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
@@ -1062,7 +1062,7 @@
                                 <div style="overflow: hidden">
                                     <div class="span10">
                                         <h3 class="fr-name block-title">
-                                            <a href="/viec-freelance/thiet-ke-trang-web-ban-hang-39?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
+                                            <a href="/Freelancer/detailJob.php">
                                                 Thiết kế trang web b&aacute;n h&agrave;ng </a>
                                         </h3>
                                         <div class="fr-title">
@@ -1158,7 +1158,7 @@
                                 <div style="overflow: hidden">
                                     <div class="span10">
                                         <h3 class="fr-name block-title">
-                                            <a href="/viec-lam/remote-parttime-ho-tro-phat-trien-cap-nhat-noi-dung-len-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
+                                            <a href="/Freelancer/detailJob.php">
                                                 Remote/parttime Hỗ trợ ph&aacute;t triển, cập nhật nội dung l&ecirc;n website </a>
                                             <span class="parttime-tag">Bán thời gian</span>
                                         </h3>
@@ -1247,7 +1247,7 @@
                                 <div style="overflow: hidden">
                                     <div class="span10">
                                         <h3 class="fr-name block-title">
-                                            <a href="/viec-lam/tuyen-nu-ctv-viet-bai-dich-thuat-cho-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
+                                            <a href="/Freelancer/detailJob.php">
                                                 Tuyển nữ CTV viết b&agrave;i, dịch thuật cho Website </a>
                                             <span class="parttime-tag">Bán thời gian</span>
                                             <span class="label-new">Mới</span>
@@ -1736,7 +1736,6 @@
                         });
                     });
                 </script>
-                <div class="separator2"></div>
             </div>
         </div>
 

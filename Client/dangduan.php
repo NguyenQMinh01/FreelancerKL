@@ -390,9 +390,9 @@
                                                             <li class="menu-dropdown-item-content">
                                                                 <a href="#">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                                 <ul class="content-item">
-                                                                    <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng việc theo dự án</a></li>
-                                                                    <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng việc bán thời gian</a></li>
-                                                                    <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng việc toàn thời gian</a></li>
+                                                                    <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc theo dự án</a></li>
+                                                                    <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc bán thời gian</a></li>
+                                                                    <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc toàn thời gian</a></li>
                                                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
                                                                 </ul>
                                                             </li>
@@ -437,14 +437,6 @@
                     <div class="span3 span3-b">
                         <div class="pull-right nav-account sec-account-menu ver2">
                             <div class="lang-option" style="margin-right: 15px;padding-top: 20px;padding-bottom: 0px;">
-                                <!-- <span class="see-more-option">VI <i class="fa fa-angle-down" style="font-size: 20px;font-weight: 600;margin-left: 5px;"></i>
-                            </span>
-                            <div class="option-item list-option" style="display:none">
-                            <ul>
-                            <li><a class="switch-vietnamese">Tiếng Việt</a></li>
-                            <li><a class="switch-english">English</a></li>
-                            </ul>
-                            </div> -->
                             </div>
                             <div class="inbox-menu ver2 pull-right nofity-ver2">
                                 <div class="i32 i32-mail i32-notify ver2 ">
@@ -479,7 +471,7 @@
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/khach-hang/minh-166">Hồ sơ cá nhân</a></li>
+                                        <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                                         <li><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
@@ -512,7 +504,7 @@
                             <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
                         </li>
                         <div class="button">
-                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng dự án</a>
+                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>
                     </ul>
                 </div>
@@ -615,9 +607,9 @@
                                         <li class="ver2">
                                             <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                             <ul class="accordion-inner-ver2 sub-menu">
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc theo dự án</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc bán thời gian</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc toàn thời gian</a></li>
+                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc theo dự án</a></li>
+                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc bán thời gian</a></li>
+                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc toàn thời gian</a></li>
                                                 <li class="ver2"><a href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
                                             </ul>
                                         </li>
@@ -671,7 +663,7 @@
                     </ul>
                 </div>
                 <div class="post-button-ver2">
-                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng dự án</a>
+                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                 </div>
             </div>
         </div>
@@ -685,34 +677,6 @@
             <hx:include evaljs="true" src="/message/new-message-ver2">
             </hx:include>
         </div>
-
-        <script type="text/javascript">
-            // $(function(){
-            //     $(window).scroll(function(){
-            //         var aTop = 21, mTop = 1;
-            //         if($(this).scrollTop()>=aTop){
-            //             $('.menu_scoll').addClass('menu_scoll_display');
-            //             $('.pull-right.nav-account').addClass('account-mail-menu');
-            //             $('account-mail-menu').show();
-            //             $('.upper_scoll').addClass('upper_scoll_display');
-            //         };
-            //         if($(this).scrollTop() <= (aTop)){
-            //             $('.menu_scoll').removeClass('menu_scoll_display');
-            //             $('.menu_scoll').addClass('menu_scoll');
-            //             $('.pull-right.nav-account').removeClass('account-mail-menu');
-            //             $('account-mail-menu').hide();
-            //             $('.upper_scoll').removeClass('upper_scoll_display');
-            //             $('.upper_scoll').addClass('upper_scoll');
-            //         }
-            //         if($(this).scrollTop()>=mTop){
-            //             $('.navbar-static-top.display-mobile').addClass('menu_scoll_display');
-            //         }
-            //         if($(this).scrollTop()<mTop){
-            //             $('.navbar-static-top.display-mobile').removeClass('menu_scoll_display');
-            //         }
-            //     });
-            // });
-        </script>
 
         <script type="text/javascript">
             //Menu mobile
@@ -870,14 +834,6 @@
             function eraseCookie(name) {
                 document.cookie = name + '=; Max-Age=-99999999;';
             }
-            // get cookie để phân biệt Job onsite và Job dự án
-            //if(getCookie('job_type')){
-            //    if(getCookie('job_type') == //){
-            //      $('.top_content').css('display','none')
-            //    }else{
-            //        $('.top_content').css('display','block')
-            //    }
-            //}
         </script>
 
         <!-- post -->

@@ -349,9 +349,9 @@
                                                         <li class="menu-dropdown-item-content">
                                                             <a href="#">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                             <ul class="content-item">
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng việc theo dự án</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng việc bán thời gian</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng việc toàn thời gian</a></li>
+                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc theo dự án</a></li>
+                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc bán thời gian</a></li>
+                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc toàn thời gian</a></li>
                                                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
                                                             </ul>
                                                         </li>
@@ -426,7 +426,7 @@
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/freelancer/mercury">Hồ sơ cá nhân</a></li>
+                                        <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                                         <li><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
@@ -459,7 +459,7 @@
                             <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
                         </li>
                         <div class="button">
-                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng dự án</a>
+                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>
                     </ul>
                 </div>
@@ -666,7 +666,7 @@
                     </ul>
                 </div>
                 <div class="post-button-ver2">
-                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php">Đăng dự án</a>
+                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                 </div>
             </div>
         </div>
@@ -882,7 +882,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6"><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dangduan.php" title="Đăng dự án ngay">Đăng dự án ngay</a>
+                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php" title="Đăng dự án ngay">Đăng dự án ngay</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
@@ -2122,7 +2122,6 @@
                         });
                     });
                 </script>
-                <div class="separator2"></div>
             </div>
         </div>
 

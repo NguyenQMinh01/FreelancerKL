@@ -364,16 +364,6 @@
                                         <div class="container visitor">
                                             <ul class="menu-dropdown-content">
                                                 <li class="menu-dropdown-content-item">
-                                                    <a href="/dang-dich-vu?utm_campaign=GDV1-TPN-20220627&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">
-                                                        <div class="content-item-block">
-                                                            <div class="block-text">
-                                                                <strong class="block-text-title">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></strong>
-                                                                <span class="block-text-subtitle">Để có cơ hội nhận việc không giới hạn</span>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </li>
-                                                <li class="menu-dropdown-content-item">
                                                     <a href="#">
                                                         <div class="content-item-block">
                                                             <div class="block-text">
@@ -499,15 +489,12 @@
                     <li class="tf200 ">
                         <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                     </li>
-
-                    <div class="button">
-                        <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng báo giá</a>
-                    </div>
-
                 </ul>
             </div>
         </div>
     </div>
+
+    <!--mobile -->
     <div class="navbar navbar-static-top nav-new display-mobile ver2">
         <div class="container ver2">
             <div class="list-menu ver2">

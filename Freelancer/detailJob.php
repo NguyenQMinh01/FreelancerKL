@@ -350,16 +350,6 @@
                                             <div class="container visitor">
                                                 <ul class="menu-dropdown-content">
                                                     <li class="menu-dropdown-content-item">
-                                                        <a href="/dang-dich-vu?utm_campaign=GDV1-TPN-20220627&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">
-                                                            <div class="content-item-block">
-                                                                <div class="block-text">
-                                                                    <strong class="block-text-title">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></strong>
-                                                                    <span class="block-text-subtitle">Để có cơ hội nhận việc không giới hạn</span>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </li>
-                                                    <li class="menu-dropdown-content-item">
                                                         <a href="#">
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
