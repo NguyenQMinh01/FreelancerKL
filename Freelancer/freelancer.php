@@ -214,12 +214,14 @@
                                         <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="#">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="#">Cài đặt thông báo việc mới</a></li>
-                                        <!-- <li><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li> -->
-
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
                                         <li class="divider"></li>
+<<<<<<< HEAD
                                         <li><a href="/welcome.php">Đăng xuất</a></li>
+=======
+                                        <li><a href="">Đăng xuất</a></li>
+>>>>>>> 03b216a (change)
                                     </ul>
                                 </div>
                             </div>
