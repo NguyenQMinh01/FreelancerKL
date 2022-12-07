@@ -175,7 +175,7 @@
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
                                                                     <strong class="block-text-title">Tìm & Đăng tin</strong>
-                                                                    <span class="block-text-subtitle">vLance - Nơi hội tụ các freelancer chuyên nghiệp nhất</span>
+                                                                    <span class="block-text-subtitle"> Nơi hội tụ các freelancer chuyên nghiệp nhất</span>
                                                                 </div>
                                                                 <div class="block-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
                                                             </div>
@@ -203,26 +203,10 @@
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li class="menu-dropdown-content-item">
-                                                        <a href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">
-                                                            <div class="content-item-block">
-                                                                <div class="block-text">
-                                                                    <strong class="block-text-title">vLance for Business</strong>
-                                                                    <span class="block-text-subtitle">Mang tới giải pháp lâu dài bền vững</span>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
                                     </ul>
-                                </li>
-
-                                <li class="menu-item tool-sign display-desktop">
-                                    <a style="width: 109px; height: 27px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'job_new'})">
-                                        <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
-                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -247,7 +231,7 @@
                             </div>
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
-                                    <a href="/khach-hang/minh-166">
+                                    <a href="/Client/profileclient.php">
                                         <img width="48" height="48" src="/img/unknown.png" alt="M&iacute;nh" title="M&iacute;nh" />
                                     </a>
                                 </div>
@@ -258,8 +242,8 @@
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
-                                            <span class="vip-menu-ver2">THƯỜNG</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 CREDIT</span>
+                                            <span class="vip-menu-ver2">Client</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
@@ -267,10 +251,8 @@
                                         <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
-                                        <li><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
 
                                         <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
                                         <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
                                         <li><a href="/logout">Đăng xuất</a></li>
@@ -360,8 +342,8 @@
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/khach-hang/minh-166">Id. 1250511 </a></span>
                                         <span id="animategoCredit">
-                                            <span class="vip-menu-ver2">THƯỜNG</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 CREDIT</span>
+                                            <span class="vip-menu-ver2">Client</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                 </div>
@@ -371,7 +353,6 @@
                                 <li class="ver2"><a href="/khach-hang/minh-166">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
                                 <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
-                                <li class="ver2"><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -403,7 +384,6 @@
                                                 <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc theo dự án</a></li>
                                                 <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc bán thời gian</a></li>
                                                 <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc toàn thời gian</a></li>
-                                                <li class="ver2"><a href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
                                             </ul>
                                         </li>
                                         <li class="ver2">
@@ -417,40 +397,12 @@
                                 <li class="submenu-item-ver2 accordion-chevron" style="display:block">
                                     <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
                                 </li>
-                                <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">vLance for Business</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                            <a class="ver2" href="#">vLance for Business</a>
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Trang chủ Business</a>
-                                </li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
-                        <li class="menu-mobile-item ver2 img-500k">
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown" style="margin-bottom: 0px;">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2">Ngôn ngữ: Tiếng việt<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="accordion-inner-ver2">
-                                        <li class="ver2">
-                                            <a class="switch-vietnamese" role="menuitem" tabindex="-1"><img src="/img/icon/Vietnam.svg" style="margin-right: 8px"> Tiếng việt</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a class="switch-english" role="menuitem" tabindex="-1"><img src="/img/icon/UK.svg" style="margin-right: 8px"> English</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <a style="width: 100px; height: 29px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'job_new'})">
-                                <img src="/img/vn/homepage-new/invite_friends_red.svg">
-                            </a>
+                       
                         </li>
                         <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
                     </ul>
@@ -551,49 +503,8 @@
                     $(".menu-dropdown-content-item").toggleClass('action');
                 });
 
-
-
             });
         </script>
-
-        <script>
-            $('.see-more-option').click(function() {
-                $('.list-option').slideDown("fast", "linear");
-            });
-            $(document).mouseup(function(e) {
-                var container = $('.list-option');
-                if (!container.is(e.target) && container.has(e.target).length === 0) {
-                    container.hide();
-                }
-            });
-            $('.switch-vietnamese').click(function() {
-                $('.switch-vietnamese').css('opacity', '0.3');
-                $('.switch-vietnamese').css('pointer-events', 'none');
-                $.ajax({
-                    url: "/switch-language",
-                    type: "POST",
-                    data: {
-                        lang: 'vn',
-                    },
-                }).done(function(result) {
-                    location.reload();
-                });
-            });
-            $('.switch-english').click(function() {
-                $('.switch-english').css('opacity', '0.3');
-                $('.switch-english').css('pointer-events', 'none');
-                $.ajax({
-                    url: "/switch-language",
-                    type: "POST",
-                    data: {
-                        lang: 'en',
-                    },
-                }).done(function(result) {
-                    location.reload();
-                });
-            });
-        </script>
-
         <div id="messages">
             <div class="body-messages">
             </div>
@@ -607,28 +518,6 @@
         <div class="top_content">
         </div>
 
-        <script>
-            function getCookie(name) {
-                var value = "; " + document.cookie;
-                var parts = value.split("; " + name + "=");
-                if (parts.length == 2) return parts.pop().split(";").shift();
-            }
-
-            function setCookie(name, value, days) {
-                var expires = "";
-                if (days) {
-                    var date = new Date();
-                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-                    expires = "; expires=" + date.toUTCString();
-                }
-                document.cookie = name + "=" + (value || "") + expires + "; path=/";
-            }
-
-            function eraseCookie(name) {
-                document.cookie = name + '=; Max-Age=-99999999;';
-            }
-        </script>
-
         <!-- post -->
         <div class="main_content
                 content-fix">
@@ -639,123 +528,6 @@
                 <div class="row-fluid">
                     <div class="span12 left-side">
                         <h1 class="new_job_title">Đăng tin tuyển dụng </h1>
-
-                        <!-- Khi chưa đăng nhâp -->
-                        <script type="text/javascript">
-                            var logged = 'true';
-                        </script>
-                        <div class="modal fade block-lr modal-post-job" id="login-to-post-job" style="overflow-y: auto;max-height: calc(100vh - 75px)">
-                            <div class="modal-body" style="max-height: 100%;">
-                                <button style="font-size: 40px" type="button" class="close" data-dismiss="modal">&times;</button>
-                                <div class="row-fluid">
-                                    <div class="span2">
-                                    </div>
-                                    <div class="span10">
-                                        <h4>Thông tin người đăng việc</h4>
-                                        <div class="row-fluid block-type-user">
-                                            <div class="span6">
-                                                <label class="radio checked"><input id="new_user" type="radio" name="typeofuser" value="new" checked> Tôi là người mới</label>
-                                            </div>
-                                            <div class="span6 right-check-account">
-                                                <label class="radio"><input id="old_user" type="radio" name="typeofuser" value="old"> Tôi đã có tài khoản</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row-fluid">
-                                    <div class="block-form-lr float-box-section" style="margin-left: auto;margin-right: auto;background: #fff;width: 320px; padding-top: 0px">
-                                        <div class="login-socail-network">
-                                            <a class="btn-block btn-facebook" onclick="fb_login()"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
-                                            <a class="btn-google-plus" onclick="google_login()"><img src="/img/icon/google-icon.svg">Google</a>
-                                            <a class="btn-linkedin" onclick="linkedin_login()"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
-                                        </div>
-                                        <div class="box-choice">
-                                            <img src="/img/line-2.png">
-                                            <span>Hoặc</span>
-                                            <img src="/img/line-2.png">
-                                        </div>
-                                        <div class="block-form-reg">
-                                            <form id="register-form-in-form" action="" method="post">
-                                                <div class="control-group">
-                                                    <input style="width: 100%" type="text" id="reg-fullname" name="fullname" value="" required="required" class="span4" placeholder="Họ và tên" />
-                                                    <input style="width: 100%" type="email" id="reg-username" name="email" value="" required="required" class="span4" placeholder="Email đăng nhập" />
-                                                    <input style="width: 100%" type="password" id="reg-password" name="password" required="required" class="span4" placeholder="Mật khẩu" />
-                                                    <input style="width: 100%" type="password" id="reg-re-password" name="re-password" required="required" class="span4" placeholder="Xác nhận mật khẩu" />
-                                                    <input oninput="this.value = this.value.toUpperCase()" style="width: 100%" type="text" id="reg-code-invite" name="re-code-invite" class="span4" placeholder="Mã giới thiệu (không bắt buộc)" />
-                                                    <label class="radio" style="float: left;width: 140px;margin-bottom: 16px;margin-top: 10px;">
-                                                        <input style="width: auto" type="radio" name="type" value="client" id="register_type_02">
-                                                        <p style="font-size: 14px;margin-top: 0px; margin-bottom: 0">Nhà tuyển dụng</p>
-                                                    </label>
-                                                    <label class="radio" style="float: left;width: 140px;margin-bottom: 16px;margin-top: 10px;">
-                                                        <input style="width: auto" type="radio" name="type" value="freelancer" id="register_type_01" checked>
-                                                        <p style="font-size: 14px;margin-top: 0px; margin-bottom: 0">Freelancer</p>
-                                                    </label>
-                                                </div>
-                                                <div style="margin-top: 20px;margin-bottom: 40px">
-                                                    <div id="g-recaptcha-signup2"></div>
-                                                    <p class="recaptcha-error-message-signup-job" style="display: none;color: #ff0000;font-size: 14px;margin: 0;margin-top: 30px">Vui lòng xác nhận mã Captcha.</p>
-                                                </div>
-                                                <div class="row-fluid">
-                                                    <button type="button" id="btn-submit-register" name="_submit" class="btn btn-large btn-primary btn-form-submit">
-                                                        Đăng ký </button>
-                                                </div>
-                                                <p class="term-condition" style="margin-top: 10px">Khi tạo tài khoản bạn đồng ý với <a target="_blank" href="/page/dieu-khoan-su-dung">điều khoản của vLance</a></p>
-                                            </form>
-                                            <script type="text/javascript">
-                                                var reg_form_in_job = '#register-form-in-form';
-                                                var reg_form_in_job_params = {
-                                                    "url": "/a/register_job"
-                                                };
-                                            </script>
-                                        </div>
-                                        <div class="block-form-log deactive">
-                                            <form id="login-form-in-job" action="" method="post">
-                                                <div class="row-fluid field">
-                                                    <input style="width: 100%" type="email" id="login_username" name="username" required="required" value="" class="span4 input-email" placeholder="Email đăng nhập" />
-                                                    <input style="width: 100%" type="password" id="login_password" name="password" required="required" class="span4" placeholder="Mật khẩu" />
-                                                </div>
-                                                <div style="margin-top: 20px">
-                                                    <div id="g-recaptcha2"></div>
-                                                    <p class="recaptcha-error-message-job" style="display: none;color: #ff0000;font-size: 14px;margin: 0">Vui lòng xác nhận mã Captcha.</p>
-                                                </div>
-                                                <label for="remember_me" class="checkbox">
-                                                    <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
-                                                    Ghi nhớ mật khẩu </label>
-                                                <div class="row-fluid field">
-                                                    <button type="button" id="btn-submit-login" name="_submit" class="btn btn-large btn-primary btn-form-submit">
-                                                        Đăng nhập </button>
-                                                </div>
-                                                <p class="lost-password">Bạn quên mật khẩu? <a href="/a/reset/request">Click vào đây</a></p>
-                                            </form>
-                                            <script type="text/javascript">
-                                                var login_form_in_job = '#login-form-in-job';
-                                                var login_form_in_job_params = {
-                                                    "url": "/a/login_job"
-                                                };
-                                            </script>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script>
-                            function loginFacebook() {
-                                setCookie();
-                                window.location.href = "https://www.facebook.com/dialog/oauth?client_id=197321233758025&scope=email&redirect_uri=https://www.vlance.vn/a/loginfb";
-                            }
-
-                            function setCookie() {
-                                var date = new Date();
-                                date.setTime(date.getTime() + (15 * 3600));
-                                var expires = "expires=" + date.toUTCString();
-
-                                const cookieName = "vl_fb_job";
-                                const cookieValue = window.location.href;
-                                document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
-                            }
-                        </script>
-                        <!-- -->
-
                         <!-- Các trường thuộc tính đăng tin -->
                         <div class="post-job">
                             <form id="edit-job-form" action="/j/new" method="post" enctype="multipart/form-data">
@@ -814,43 +586,7 @@
                                                             <option value="46">Thiết kế brochure</option>
                                                             <option value="47">Thiết kế infographic</option>
                                                         </optgroup>
-                                                        <optgroup label="Kế toán, Thuế &amp; Luật">
-                                                            <option value="34">Kế toán</option>
-                                                            <option value="35">Tư vấn luật</option>
-                                                            <option value="59">Hồ sơ pháp lý</option>
-                                                        </optgroup>
-                                                        <optgroup label="Viết lách &amp; dịch thuật">
-                                                            <option value="6">Viết báo &amp; tạp chí</option>
-                                                            <option value="21">Quản lý blog &amp; fanpage</option>
-                                                            <option value="22">Dịch thuật</option>
-                                                            <option value="23">Viết sách</option>
-                                                            <option value="24">Viết bài PR &amp; quảng cáo sáng tạo</option>
-                                                            <option value="48">Copywriting</option>
-                                                            <option value="49">Viết bài SEO, nội dung cho website</option>
-                                                            <option value="61">Biên tập &amp; chỉnh sửa nội dung</option>
-                                                            <option value="73">Viết bài review đánh giá sản phẩm</option>
-                                                        </optgroup>
-                                                        <optgroup label="Kiến trúc và xây dựng">
-                                                            <option value="19">Thiết kế nội thất nhà và chung cư</option>
-                                                            <option value="64">Thiết kế ngoại thất</option>
-                                                            <option value="65">Thiết kế xây dựng nhà</option>
-                                                            <option value="66">Dựng phối cảnh 3D</option>
-                                                        </optgroup>
-                                                        <optgroup label="Video">
-                                                            <option value="68">Video hoạt hình</option>
-                                                            <option value="69">TVC giới thiệu sản phẩm, công ty</option>
-                                                            <option value="70">Video review</option>
-                                                        </optgroup>
-                                                        <optgroup label="Đào tạo &amp; Khoá học">
-                                                            <option value="76">Ngoại ngữ</option>
-                                                            <option value="77">Đào tạo kỹ năng mềm</option>
-                                                            <option value="78">Gia sư</option>
-                                                        </optgroup>
-                                                        <optgroup label="Tư vấn doanh nghiệp &amp; Coaching">
-                                                            <option value="80">Cải tiến quy trình doanh nghiệp</option>
-                                                            <option value="81">Tư vấn chiến lược kinh doanh</option>
-                                                            <option value="82">Coaching</option>
-                                                        </optgroup>
+                                                      
                                                     </select>
                                                 </div>
                                             </div>
@@ -861,42 +597,12 @@
                                             <option value="" disabled="disabled">- Tên dịch vụ -</option>
                                             <option value="221">Bảo trì các dự án phần mềm</option>
                                             <option value="51">Bảo trì máy tính</option>
-                                            <option value="80">Biên soạn tài liệu / giáo trình</option>
-                                            <option value="81">Biên tập / Chỉnh sửa nội dung</option>
                                             <option value="15">Cài đặt / Cấu hình server</option>
                                             <option value="2">Cắt HTML/CSS từ PSD</option>
-                                            <option value="125">Chỉnh sửa &amp; dựng video</option>
-                                            <option value="69">Chỉnh sửa ảnh sản phẩm</option>
                                             <option value="208">Chỉnh sửa shell script hệ thống</option>
-                                            <option value="174">Chụp ảnh 360 độ</option>
-                                            <option value="17">Chụp ảnh sản phẩm</option>
-                                            <option value="18">Chụp ảnh sự kiện</option>
-                                            <option value="42">Chụp chân dung chuyên nghiệp</option>
-                                            <option value="41">Chụp hình cưới</option>
                                             <option value="182">Chuyển đổi thông tin âm thanh và video thành văn bản (transcription)</option>
                                             <option value="124">Chuyển template thành theme Wordpress</option>
                                             <option value="3">Chuyển Template thành Website</option>
-                                            <option value="152">Dạy yoga</option>
-                                            <option value="134">Dịch hợp đồng Anh - Việt</option>
-                                            <option value="135">Dịch phim tiếng Trung</option>
-                                            <option value="136">Dịch văn bản Anh - Trung</option>
-                                            <option value="21">Dịch văn bản Anh-Việt</option>
-                                            <option value="137">Dịch văn bản Đức - Việt</option>
-                                            <option value="138">Dịch văn bản Hàn - Việt</option>
-                                            <option value="139">Dịch văn bản Indonesia - Việt </option>
-                                            <option value="28">Dịch văn bản luật</option>
-                                            <option value="140">Dịch văn bản Nga - Việt</option>
-                                            <option value="141">Dịch văn bản Nhật - Anh</option>
-                                            <option value="22">Dịch văn bản Nhật-Việt</option>
-                                            <option value="23">Dịch văn bản Pháp-Việt</option>
-                                            <option value="142">Dịch văn bản Tây Ban Nha - Việt</option>
-                                            <option value="38">Dịch văn bản Trung-Việt</option>
-                                            <option value="143">Dịch văn bản Việt - Anh</option>
-                                            <option value="144">Dịch văn bản Việt - Đức</option>
-                                            <option value="145">Dịch văn bản Việt - Nhật</option>
-                                            <option value="146">Dịch văn bản Việt - Pháp</option>
-                                            <option value="147">Dịch văn bản Việt - Trung</option>
-                                            <option value="148">Dịch văn bản Ý - Việt</option>
                                             <option value="179">Diễn họa kiến trúc 3D</option>
                                             <option value="173">Diễn hoạt nhân vật hoạt hình 2D</option>
                                             <option value="177">Dựng mô hình 3D sản phẩm nội thất</option>
@@ -911,13 +617,6 @@
                                             <option value="34">Đánh máy văn bản</option>
                                             <option value="52">Đổ/nạp mực máy in</option>
                                             <option value="10">Forum seeding</option>
-                                            <option value="153">Gia sư môn Hoá học</option>
-                                            <option value="155">Gia sư môn Sinh học</option>
-                                            <option value="156">Gia sư môn Toán</option>
-                                            <option value="157">Gia sư môn Văn</option>
-                                            <option value="154">Gia sư môn Vật lý</option>
-                                            <option value="158">Gia sư Tiếng Anh</option>
-                                            <option value="159">Gia sư Tiếng Việt cho người nước ngoài</option>
                                             <option value="84">Giới thiệu / Tư vấn sản phẩm</option>
                                             <option value="49">Khắc phục sự cố mạng</option>
                                             <option value="50">Khôi phục dữ liệu</option>
@@ -940,150 +639,6 @@
                                             <option value="216">Lập trình module odoo</option>
                                             <option value="217">Lập trình phần mềm trên Excel</option>
                                             <option value="227">Lập trình web Golang</option>
-                                            <option value="181">Mô phỏng năng lượng tiêu thụ cho công trình xây dựng</option>
-                                            <option value="112">Nghiên cứu khảo sát thị trường</option>
-                                            <option value="11">Nhập dữ liệu lên website</option>
-                                            <option value="35">Nhập dữ liệu vào bảng tính</option>
-                                            <option value="161">Phân tích mã độc</option>
-                                            <option value="189">Phân tích và thiết kế báo cáo sử dụng Google Data Studio</option>
-                                            <option value="188">Phân tích và thiết kế báo cáo sử dụng Power BI</option>
-                                            <option value="195">Phân tích và thiết kế báo cáo sử dụng Power Point</option>
-                                            <option value="218">Phát triển ứng dụng web</option>
-                                            <option value="83">Phiên dịch</option>
-                                            <option value="160">Phiên dịch Anh - Việt </option>
-                                            <option value="149">Phiên dịch Thổ Nhĩ Kỳ - Việt</option>
-                                            <option value="9">Quản lý blog &amp; fanpage</option>
-                                            <option value="111">Quảng cáo facebook</option>
-                                            <option value="87">Quảng cáo Google Adwords</option>
-                                            <option value="75">Quay clip âm nhạc</option>
-                                            <option value="74">Quay clip quảng cáo</option>
-                                            <option value="123">Review đánh giá sản phẩm</option>
-                                            <option value="92">SEO website</option>
-                                            <option value="100">Soạn hợp đồng kinh doanh</option>
-                                            <option value="13">Sửa laptop</option>
-                                            <option value="210">Sửa lỗi Selinux Android</option>
-                                            <option value="48">Sửa máy in / máy photocopy</option>
-                                            <option value="12">Sửa máy tính để bàn</option>
-                                            <option value="228">Tạo mô hình Deep Learning</option>
-                                            <option value="55">Test và kiểm tra lỗi</option>
-                                            <option value="133">Thiết kế album ảnh cưới</option>
-                                            <option value="47">Thiết kế áo phông / T-shirt</option>
-                                            <option value="46">Thiết kế backdrop</option>
-                                            <option value="7">Thiết kế banner quảng cáo</option>
-                                            <option value="120">Thiết kế bao bì</option>
-                                            <option value="128">Thiết kế bìa sách</option>
-                                            <option value="205">Thiết kế billboard</option>
-                                            <option value="5">Thiết kế bộ nhận diện thương hiệu</option>
-                                            <option value="6">Thiết kế brochure</option>
-                                            <option value="63">Thiết kế business card</option>
-                                            <option value="129">Thiết kế catalogue</option>
-                                            <option value="8">Thiết kế cover và banner Facebook</option>
-                                            <option value="127">Thiết kế CV</option>
-                                            <option value="44">Thiết kế flyer</option>
-                                            <option value="59">Thiết kế giao diện Mobile App</option>
-                                            <option value="180">Thiết kế giao diện trò chơi 2D</option>
-                                            <option value="25">Thiết kế giao diện website</option>
-                                            <option value="219">Thiết kế hạ tầng chạy Odoo V9-13</option>
-                                            <option value="192">Thiết kế hệ thống điện</option>
-                                            <option value="193">Thiết kế hệ thống điều hoà không khí và thông gió - HVAC</option>
-                                            <option value="62">Thiết kế hình động / Flash</option>
-                                            <option value="130">Thiết kế hồ sơ năng lực công ty</option>
-                                            <option value="45">Thiết kế infographic</option>
-                                            <option value="131">Thiết kế landing page</option>
-                                            <option value="4">Thiết kế Logo</option>
-                                            <option value="132">Thiết kế mạch điện tử, PCB</option>
-                                            <option value="64">Thiết kế mẫu Powerpoint</option>
-                                            <option value="67">Thiết kế mô hình 3D</option>
-                                            <option value="60">Thiết kế Mockup cho Mobile App</option>
-                                            <option value="54">Thiết kế Mockup cho Website</option>
-                                            <option value="43">Thiết kế nhà cửa / nội thất văn phòng</option>
-                                            <option value="61">Thiết kế nhãn hiệu / bao bì sản phẩm</option>
-                                            <option value="172">Thiết kế nhân vật 3D</option>
-                                            <option value="122">Thiết kế nội thất</option>
-                                            <option value="206">Thiết kế POSM</option>
-                                            <option value="121">Thiết kế poster</option>
-                                            <option value="198">Thiết kế Reverse</option>
-                                            <option value="176">Thiết kế sản phẩm in 3D</option>
-                                            <option value="197">Thiết kế sticker</option>
-                                            <option value="68">Thiết kế theo yêu cầu</option>
-                                            <option value="196">Thiết kế thiệp</option>
-                                            <option value="175">Thiết kế trang sức 3D</option>
-                                            <option value="207">Thiết kế UI-UX</option>
-                                            <option value="204">Thiết kế và tư vấn thiết kế cơ khí</option>
-                                            <option value="169">Thu âm lời bình quảng cáo</option>
-                                            <option value="88">Tiếp thị qua email</option>
-                                            <option value="90">Tìm kiếm khách hàng</option>
-                                            <option value="89">Tổ chức sự kiện</option>
-                                            <option value="56">Tối ưu SEO cho trang web</option>
-                                            <option value="183">Trình diễn ánh sáng 3D Mapping</option>
-                                            <option value="36">Trợ lý từ xa</option>
-                                            <option value="14">Tư vấn / Thiết kế hệ thống mạng</option>
-                                            <option value="225">Tư vấn chương trình đào tạo</option>
-                                            <option value="30">Tư vấn đăng ký thành lập doanh nghiệp</option>
-                                            <option value="224">Tư vấn giải pháp nhân sự</option>
-                                            <option value="220">Tư vấn giải pháp phần mềm</option>
-                                            <option value="150">Tư vấn giao dịch tiền ảo - Cryptocurrency</option>
-                                            <option value="104">Tư vấn gọi vốn từ nhà đầu tư</option>
-                                            <option value="98">Tư vấn luật doanh nghiệp</option>
-                                            <option value="86">Tư vấn PR sản phẩm / dịch vụ</option>
-                                            <option value="101">Tư vấn quản trị doanh nghiệp</option>
-                                            <option value="85">Tư vấn quảng bá thương hiệu</option>
-                                            <option value="103">Tư vấn tài chính doanh nghiệp</option>
-                                            <option value="31">Tư vấn thuế doanh nghiệp</option>
-                                            <option value="223">Tư vấn tuyển dụng giáo viên nước ngoài</option>
-                                            <option value="102">Tư vấn tuyển dụng nhân sự</option>
-                                            <option value="109">Tư vấn về Growth Hacking</option>
-                                            <option value="110">Tư vấn về Lean Startup</option>
-                                            <option value="105">Tư vấn về mô hình kinh doanh</option>
-                                            <option value="168">Ứng cứu sự cố khẩn cấp về Hệ thống thông tin</option>
-                                            <option value="65">Vẽ hình minh họa</option>
-                                            <option value="191">Vẽ kịch bản phân cảnh (storyboard)</option>
-                                            <option value="66">Vẽ tay theo yêu cầu</option>
-                                            <option value="190">Vẽ tranh tường</option>
-                                            <option value="96">Việc hành chính khác</option>
-                                            <option value="113">Viết bài cho fanpage</option>
-                                            <option value="114">Viết bài cho trang vệ tinh để làm SEO</option>
-                                            <option value="118">Viết bài mới chuẩn SEO cho website tiếng Anh</option>
-                                            <option value="117">Viết bài mới chuẩn SEO cho website tiếng Việt</option>
-                                            <option value="37">Viết bài phỏng vấn / phát biểu</option>
-                                            <option value="24">Viết bài PR</option>
-                                            <option value="115">Viết bài PR báo chí</option>
-                                            <option value="116">Viết bài PR sáng tạo nhiều người đọc</option>
-                                            <option value="77">Viết bài review</option>
-                                            <option value="78">Viết báo cáo - nghiên cứu</option>
-                                            <option value="151">Viết blog Tiếng Anh</option>
-                                            <option value="171">Viết CV, hồ sơ xin việc Tiếng Anh</option>
-                                            <option value="57">Viết game di động</option>
-                                            <option value="79">Viết kịch bản</option>
-                                            <option value="40">Viết kịch bản cho video</option>
-                                            <option value="119">Viết kịch bản clip dựa trên chủ đề</option>
-                                            <option value="39">Viết mô tả sản phẩm / hướng dẫn sử dụng</option>
-                                            <option value="16">Viết Mobile App cho web có sẵn</option>
-                                            <option value="19">Viết nội dung cho blog</option>
-                                            <option value="20">Viết nội dung cho website</option>
-                                            <option value="82">Viết nội dung học thuật - đơn xin - thư giới thiệu</option>
-                                            <option value="126">Viết nội dung website</option>
-                                            <option value="199">Viết phần mềm quản lý</option>
-                                            <option value="200">Viết phần mềm quản lý bán hàng</option>
-                                            <option value="53">Viết phần mềm theo yêu cầu</option>
-                                            <option value="229">Viết tài liệu đặc tả phần mềm (SRS)</option>
-                                            <option value="194">Viết truyện ngôn tình, tiểu thuyết</option>
-                                            <option value="170">Xác minh địa điểm doanh nghiệp trên Google Maps</option>
-                                            <option value="201">Xây dựng hệ thống Crawler dữ liệu</option>
-                                            <option value="211">Xây dựng hệ thống Embedded Linux</option>
-                                            <option value="93">Xây dựng liên kết tới trang web - backlink</option>
-                                            <option value="107">Xây dựng Mobile App MVP (Minium Viable Product)</option>
-                                            <option value="222">Xây dựng model AI</option>
-                                            <option value="94">Xây dựng quy trình quản lý / CSKH</option>
-                                            <option value="212">Xây dựng Web App MVC( .net)</option>
-                                            <option value="106">Xây dựng Web App MVP (Minium Viable Product)</option>
-                                            <option value="230">Xây dựng Web thương mại điện tử Magento</option>
-                                            <option value="203">Xây dựng website thương mại điện tử</option>
-                                            <option value="202">Xây dựng website wordpress</option>
-                                            <option value="231">Xử lí tác vụ Machine Learning</option>
-                                            <option value="95">Xử lý dữ liệu</option>
-                                            <option value="186">Xử lý hậu kỳ gameshow</option>
-                                            <option value="187">Xử lý hậu kỳ phóng sự tài liệu</option>
                                         </select>
                                     </div>
                                     <script type="text/javascript">
@@ -1153,7 +708,6 @@
                                                             var required_one = false;
 
                                                             var newButton = jQuery('');
-
                                                             function add_file_input(holder, id) {
                                                                 var input_content = holder.data('prototype');
                                                                 var index = holder.data('index');
@@ -1183,10 +737,7 @@
                                                                     });
                                                                     $(this).valid();
                                                                 });
-
-
                                                             }
-
                                                             function add_remove_file_input(new_item) {
                                                                 var remove_button = jQuery('<a href="#" class="remove">x</a>');
                                                                 new_item.append(remove_button);
@@ -1317,7 +868,6 @@
                                                             function hide(id) {
                                                                 $(id).hide();
                                                             };
-                                                            var source = [".NET", "2D", "2D Animation"];
                                                         </script>
                                                     </div>
                                                 </div>
@@ -1513,11 +1063,6 @@
                                         </div>
 
                                     </div>
-                                    <div class="row-fluid" style="margin-bottom: 10px">
-                                        <div class="span12 ">
-                                            <input id='btn-submit-job-draft' type='submit' class='btn btn-black-border btn-large popup-validate span12' value='Lưu việc nháp' onclick='&quot;/j/new/draft&quot;;' />
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1526,21 +1071,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Hỗ trợ đăng tin-->
-        <div id="popup-admin">
-            <div class="message">
-                Bạn gặp khó khăn trong việc đăng tin? <br /> Freelannce sẽ giúp bạn đăng tin hấp dẫn nhất </div>
-            <div>
-                <a onclick="vtrack('Click to Page Admin Post Job', {'account': 1250511})" href="/dang-du-an/freelance-dang-du-an" class="btn btn-large btn-primary">Gửi yêu cầu trợ giúp đăng tin</a>
-            </div>
-        </div>
-
-        <script>
-            var service_other = "Dịch vụ khác (hoặc không thấy dịch vụ phù hợp)"
-            var remove = "Xóa bỏ";
-        </script>
-
     </div>
 
     <!--footer -->

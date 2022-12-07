@@ -255,7 +255,7 @@
                     <a><i><img style="width: 18px; height: 18px;" src="/img/close_icon.svg" /></i></a>
                 </div>
                 <div class="logo-submenu-mobile">
-                    <div class="logo"><a href="/">
+                    <div class="logo"><a href="#">
                             <img style="width: 65px; height: 40px; margin-top: 12px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
                 </div>
                 <div class="wrap-mobile login wrap-mobile-ver2 ver2">
@@ -385,7 +385,7 @@
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                            <a class="ver2" href="#">vLance for Business</a>
+                            <a class="ver2" href="#">for Business</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Trang chủ Business</a>
