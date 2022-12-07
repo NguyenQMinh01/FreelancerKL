@@ -110,7 +110,7 @@
             <div class="upper-section row-fluid upper_scoll">
                 <div class="container">
                     <div class="logo span2">
-                        <a href="/">
+                        <a href="/Client/profileclient.php">
                             <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a>

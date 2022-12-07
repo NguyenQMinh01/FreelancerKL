@@ -113,7 +113,7 @@
 
             <div class="container">
                 <div class="logo span2">
-                    <a href="/">
+                    <a href="/Client/profileclient.php">
                         <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                         <div class="bx bx-menu" id="menu-icon"></div>
                     </a>
@@ -140,11 +140,6 @@
                                                     <ul class="content-item-detail">
                                                         <li class="menu-dropdown-item-content">
                                                             <a href="#">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
-                                                            <ul class="content-item">
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc theo dự án</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc bán thời gian</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc toàn thời gian</a></li>
-                                                            </ul>
                                                         </li>
                                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="/freelancers" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
                                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
@@ -231,7 +226,7 @@
                         </div>
                     </li>
                     <li class="tf200 ">
-                        <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
+                        <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản khách hàng</a>
                     </li>
                     <div class="button">
                         <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
@@ -276,7 +271,7 @@
                 <a><i><img style="width: 18px; height: 18px;" src="/img/close_icon.svg" /></i></a>
             </div>
             <div class="logo-submenu-mobile">
-                <div class="logo"><a href="/">
+                <div class="logo"><a href="#">
                         <img style="width: 65px; height: 40px; margin-top: 12px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
             </div>
             <div class="wrap-mobile login wrap-mobile-ver2 ver2">
@@ -295,8 +290,8 @@
                                 <div class="credit-balance">
                                     <span><a class="id-user" href="/khach-hang/minh-166">Id. 1250511 </a></span>
                                     <span id="animategoCredit">
-                                        <span class="vip-menu-ver2">THƯỜNG</span>
-                                        <span class="credit-menu-ver2" data-credit="balance">0 CREDIT</span>
+                                        <span class="vip-menu-ver2">Client</span>
+                                        <span class="credit-menu-ver2" data-credit="balance">0$</span>
                                     </span>
                                 </div>
                             </div>
@@ -306,7 +301,6 @@
                             <li class="ver2"><a href="/khach-hang/minh-166">Hồ sơ cá nhân</a></li>
                             <li class="ver2"><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
                             <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
-                            <li class="ver2"><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
                         </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2">
@@ -346,12 +340,6 @@
                                 <ul class="accordion-inner-ver2">
                                     <li class="ver2">
                                         <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                        <ul class="accordion-inner-ver2 sub-menu">
-                                            <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc theo dự án</a></li>
-                                            <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc bán thời gian</a></li>
-                                            <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc toàn thời gian</a></li>
-                                            <li class="ver2"><a href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
-                                        </ul>
                                     </li>
                                     <li class="ver2">
                                         <a href="/freelancers">Tìm theo freelancer</a>
@@ -365,7 +353,7 @@
                                 <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
                             </li>
                             <li class="submenu-item-ver2">
-                                <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">vLance for Business</a>
+                                <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">freelancer for Business</a>
                             </li>
                         </ul>
                     </li>
@@ -383,9 +371,6 @@
                                         <a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
                                     </li>
                                     <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="/cuoc-thi-thiet-ke" onclick="vtrack('Click contest list page', {'position':'Homepage'})">Cuộc thi thiết kế</a>
-                                    </li>
-                                    <li class="ver2">
                                         <a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
                                     </li>
                                 </ul>
@@ -394,7 +379,7 @@
                                 <a class=" submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng hồ sơ năng lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="accordion-inner-ver2">
                                     <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="/a/1250511/editbasic">Hồ sơ vLance</a>
+                                        <a role="menuitem" tabindex="-1" href="/a/1250511/editbasic">Hồ sơ freelancer</a>
                                     </li>
                                     <li class="ver2">
                                         <a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a>
@@ -402,11 +387,10 @@
 
                                 </ul>
                             </li>
-                            <li class="submenu-item-ver2"><a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Đăng ký làm Agency</a></li>
                         </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                        <a class="ver2" href="#">vLance for Business</a>
+                        <a class="ver2" href="#">freelance for Business</a>
                         <ul class="submenu-list-ver2 accordion-menu-dropdown">
                             <li class="submenu-item-ver2 accordion-chevron">
                                 <a class="submenu-link-ver2 ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Trang chủ Business</a>
@@ -415,24 +399,6 @@
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2">
                         <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
-                    </li>
-                    <li class="menu-mobile-item ver2 img-500k">
-                        <ul class="submenu-list-ver2 accordion-menu-dropdown" style="margin-bottom: 0px;">
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class="submenu-link-ver2 accordion-toggle-ver2 ver2">Ngôn ngữ: Tiếng việt<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="accordion-inner-ver2">
-                                    <li class="ver2">
-                                        <a class="switch-vietnamese" role="menuitem" tabindex="-1"><img src="/img/icon/Vietnam.svg" style="margin-right: 8px"> Tiếng việt</a>
-                                    </li>
-                                    <li class="ver2">
-                                        <a class="switch-english" role="menuitem" tabindex="-1"><img src="/img/icon/UK.svg" style="margin-right: 8px"> English</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <a style="width: 100px; height: 29px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'account_show_client'})">
-                            <img src="/img/vn/homepage-new/invite_friends_red.svg">
-                        </a>
                     </li>
                     <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
                 </ul>
@@ -460,7 +426,6 @@
                 $(".overlay-left.ver2").addClass("show");
                 $("body").addClass("body-unScroll")
             });
-
             /*Đóng menu*/
             $(".overlay-left .close-button i, .overlay-right .close-button, #btn-register-mobile, #btn-login-mobile").on('click', function() {
                 $(".overlay-right, .overlay-left").removeClass("show");
@@ -529,51 +494,9 @@
             $(".menu-dropdown-content-item").hover(function() {
                 $(".menu-dropdown-content-item").toggleClass('action');
             });
-
-
-
         });
     </script>
 
-    <script>
-        $('.see-more-option').click(function() {
-            $('.list-option').slideDown("fast", "linear");
-        });
-        $(document).mouseup(function(e) {
-            var container = $('.list-option');
-            if (!container.is(e.target) && container.has(e.target).length === 0) {
-                container.hide();
-            }
-        });
-        $('.switch-vietnamese').click(function() {
-            $('.switch-vietnamese').css('opacity', '0.3');
-            $('.switch-vietnamese').css('pointer-events', 'none');
-            $.ajax({
-                url: "/switch-language",
-                type: "POST",
-                data: {
-                    lang: 'vn',
-                },
-            }).done(function(result) {
-                location.reload();
-            });
-        });
-        $('.switch-english').click(function() {
-            $('.switch-english').css('opacity', '0.3');
-            $('.switch-english').css('pointer-events', 'none');
-            $.ajax({
-                url: "/switch-language",
-                type: "POST",
-                data: {
-                    lang: 'en',
-                },
-            }).done(function(result) {
-                location.reload();
-            });
-        });
-    </script>
-
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM92T4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div id="messages">
         <div class="body-messages">
@@ -689,7 +612,6 @@
                                                 <span itemprop="name">
                                                     M&iacute;nh
                                                     <img style="margin-top:-6px;width:20px; height:20px; margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="Đã xác thực số điện thoại">
-                                                    <img style="margin-top:-6px;width:20px; height:20px; margin-left: 2px" src="/img/not_verified_id.png" data-toggle="tooltip" data-placement="top" alt="Chưa xác thực số chứng minh nhân dân" title="Chưa xác thực số chứng minh nhân dân">
                                                     <script type="text/javascript" language="javascript">
                                                         jQuery(document).ready(function() {
                                                             $(function() {
@@ -925,8 +847,90 @@
                                     <dd>0983422291</dd>
                                 </dl>
                             </div>
-                        </div>
 
+                            <div class="list-summary-profile row-fluid">
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
+                                    <dd>Tên công ty</dd>
+                                    <dd>TNHH 1 thành viên</dd>
+                                </dl>
+                            </div>
+
+                            <div class="list-summary-profile row-fluid">
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
+                                    <dd> Giới thiệu công ty</dd>
+                                    <dd>Công ty TNHH AwareSoft</dd>
+                                    <dd>là công ty được thành lập </dd>
+                                    <dd>vào ngày 19/11/2022</dd>
+                                </dl>
+                            </div>
+
+                            <div class="list-summary-profile row-fluid">
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="/img/phone_number.png"></label>
+                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
+                                    <dd>Điện thoại công ty</dd>
+                                    <dd>0983422291</dd>
+                                </dl>
+                            </div>
+
+                            <div class="list-summary-profile row-fluid">
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
+                                    <dd>Mã số thuế </dd>
+                                    <dd>8510949061</dd>
+                                </dl>
+                            </div>
+
+                            <div class="list-summary-profile row-fluid">
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
+                                    <dd>Địa chỉ công ty</dd>
+                                    <dd>39 Sơn Kỳ, phường Sơn Kỳ, quận Tân Phú, Thành phố Hồ Chí Minh</dd>
+                                </dl>
+                            </div>
+
+                            <div class="list-summary-profile row-fluid">
+                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
+                                    <dd>Đánh giá</dd>
+                                    <dd>
+                                        <div class="rate">
+                                            <input type="radio" id="star5" name="rate" value="5" />
+                                            <label for="star5" title="text">5 stars</label>
+                                            <input type="radio" id="star4" name="rate" value="4" />
+                                            <label for="star4" title="text">4 stars</label>
+                                            <input type="radio" id="star3" name="rate" value="3" />
+                                            <label for="star3" title="text">3 stars</label>
+                                            <input type="radio" id="star2" name="rate" value="2" />
+                                            <label for="star2" title="text">2 stars</label>
+                                            <input type="radio" id="star1" name="rate" value="1" />
+                                            <label for="star1" title="text">1 star</label>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </div>
+
+
+                        </div>
+                        <h2 style="padding-bottom: 15px">Tóm lược</h2>
+                            <div class="list-summary-profile row-fluid">
+                                <dl class="dl-horizontal span7">
+                                    <dt>
+                                        <a title="4.4">
+                                            4,4 </a>
+                                    </dt>
+                                    <dd>
+                                        <div class="rating-box num_star_rating" data-toggle="popover" data-placement="right" data-content="4,40" data-trigger="hover" data-original-title="" title="">
+                                            <div class="rating" style="width:88.00%"></div>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <label class="span5" style="font-weight:600;text-align: right;">
+                                    <a>
+                                        12 </a>
+                                    Đánh giá </label>
+                            </div>
                     </div>
                 </div>
             </div>
