@@ -30,7 +30,7 @@
 				<input type="text" placeholder="Email Address" required>
 			  </div>
 			  <div class="field">
-			  <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+			  <input class="form-input" type="password" placeholder="Password" required>
 				<span>
 				<i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
 				</span>
