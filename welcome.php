@@ -21,7 +21,7 @@
       <div class="nav-bar">
         <div class="brand">
           <a href="#hero">
-          <img alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+          <img style = "width: 100px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
             <div class="bx bx-menu" id="menu-icon"></div>
           </a>
           
@@ -31,13 +31,13 @@
             <div class="bar"></div>
           </div>
           <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#hero" data-after="Home">Trang chủ</a></li>
             <!-- <li><a href="#services" data-after="Service">Services</a></li>
             <li><a href="#projects" data-after="Projects">Projects</a></li> -->
-            <li><a href="#" data-after="About">Find job</a></li>
-            <li><a href="#" data-after="Contact">Hire Freelancer</a></li>
-            <li><a class="btn-login" href="http://localhost:3000/login.php" onclick="login()">Login</a></li>
-            <li><a href="#projects"  ><button type = "button" class="btn btn-primary">Post a job</button></a></li>
+            <li><a href="#" data-after="About">Tìm việc làm</a></li>
+            <li><a href="#" data-after="Contact">Thuê Freelancer</a></li>
+            <li><a class="btn-login" href="http://localhost:3000/login.php" onclick="login()">Đăng nhập</a></li>
+            <li><a href="#projects"  ><button type = "button" class="btn btn-primary">Đăng dự án</button></a></li>
           </ul>
         </div>
       </div>
@@ -52,10 +52,10 @@
     <div class="hero container">
       <div>
       
-        <h1>Hello, <span></span></h1>
-        <h1>This is Website <span></span></h1>
+        <h1>Xin Chào, <span></span></h1>
+        <h1> Website <span></span></h1>
         <h1>Freelancer <span></span></h1>
-        <a href="#projects" type="button" class="cta">Hire Freelancer</a>
+        <a href="#projects" type="button" class="cta">Thuê Freelancer</a>
       </div>
     </div>
   </section>
@@ -65,7 +65,7 @@
   <section id="services">
     <div class="services container">
       <div class="service-top">
-        <h1 class="section-title"><span>M</span>y Serv<span>i</span>ces</h1>
+        <h1 class="section-title"><span>D</span>ịch Vụ <span>C</span>ủa Tôi</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
           magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
           voluptatum explicabo!</p>
@@ -104,7 +104,7 @@
   <section id="projects">
     <div class="projects container">
       <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
+        <h1 class="section-title">Dự Án <span>Hiện Tại</span></h1>
       </div>
       <div class="all-projects">
         <div class="project-item">

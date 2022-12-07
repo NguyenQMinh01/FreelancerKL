@@ -6,7 +6,7 @@
 }
 html {
 	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	scroll-behavior: smooth;
 }
 a {
@@ -121,7 +121,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
-	color: red;
+	color: black;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -691,7 +691,7 @@ p {
 		display: inline-block;
 	}
 	#header .nav-list ul li a {
-		font-size: 1.8rem;
+		font-size: 1.3rem;
 	}
 	#header .nav-list ul a:after {
 		display: none;

@@ -67,7 +67,7 @@
             s5.parentNode.insertBefore(font5, s5);
         })();
     </script>
-   
+
     <script>
         (function() {
             var font = document.createElement('link');
@@ -117,14 +117,14 @@
                 <div class="container">
                     <div class="logo span2">
                         <a href="/">
-                        <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
-                         <div class="bx bx-menu" id="menu-icon"></div>
+                            <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                            <div class="bx bx-menu" id="menu-icon"></div>
                         </a>
                     </div>
-                    <div class="span5">
+                    <div class="span5" >
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
-                                
+
                                 <li class="menu-item ver2 second ">
                                     <a title="Tìm việc làm" href="#">Tìm việc làm<span class="caret"></span></a>
                                     <ul class="menu-dropdown-list">
@@ -143,7 +143,6 @@
                                                         </a>
                                                         <ul class="content-item-detail">
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click contest list page', {'position':'Homepage'})">Cuộc thi thiết kế</a></li>
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="3" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
                                                         </ul>
                                                     </li>
@@ -168,15 +167,12 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu-item tool-sign display-desktop">
-                                    <a style="width: 109px; height: 27px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'vlance_homepage'})">
-                                        <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
-                                    </a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
                     <div class="span3 span3-b">
+
                         <div class="pull-right nav-account sec-account-menu ver2">
                             <div class="inbox-menu ver2 pull-right nofity-ver2">
                                 <div class="i32 i32-mail i32-notify ver2 ">
@@ -205,8 +201,8 @@
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
-                                            <span class="vip-menu-ver2">THƯỜNG</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 CREDIT</span>
+                                            <span class="vip-menu-ver2">Freelancer</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
@@ -217,11 +213,7 @@
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
                                         <li class="divider"></li>
-<<<<<<< HEAD
                                         <li><a href="/welcome.php">Đăng xuất</a></li>
-=======
-                                        <li><a href="">Đăng xuất</a></li>
->>>>>>> 03b216a (change)
                                     </ul>
                                 </div>
                             </div>
@@ -236,8 +228,8 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
-                                    <li style="margin-bottom:20px"><a href="/j-s/freelancer" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
-                                    <li><a href="/s-p/freelancer">Quản lý gói dịch vụ & đơn hàng</a></li>
+                                    <li style="margin-bottom:20px"><a href="#" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
+                                    <li><a href="#">Quản lý gói dịch vụ & đơn hàng</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -245,7 +237,7 @@
                         <li class="tf200 ">
                             <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -261,8 +253,9 @@
                         </div>
                     </div>
                     <div class="menu-item-2">
-                        <h1 class="logo"><a href="/">
-                                <img style="width: 65px; height: 40px;" src="https://www.vlance.vn/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></h1>
+                        <h1 class="logo"><a>
+                                <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                                <div class="bx bx-menu" id="menu-icon"></div>
                     </div>
                     <div class="button">
                         <div class="inbox-menu ver2 pull-right nofity-ver2">
@@ -287,8 +280,10 @@
                     <a><i><img style="width: 18px; height: 18px;" src="https://www.vlance.vn/img/close_icon.svg" /></i></a>
                 </div>
                 <div class="logo-submenu-mobile">
-                    <h1 class="logo"><a href="/">
-                            <img style="width: 65px; height: 40px; margin-top: 12px;" src="https://www.vlance.vn/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></h1>
+                    <h1 class="logo"><a href="#">
+                            <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                            <div class="bx bx-menu" id="menu-icon"></div>
+                        </a></h1>
                 </div>
                 <div class="wrap-mobile login wrap-mobile-ver2 ver2">
                     <ul class="accordion-menu-dropdown nav-menu-mobile ver2">
@@ -301,7 +296,7 @@
                                 </div>
                                 <div class="account-menu-detail ver2">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Mercury </p>
+                                        <p>Minh </p>
                                     </a>
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/Freelancer/profilefreelancer.php">Id. 1251707 </a></span>
@@ -324,59 +319,15 @@
                             <ul class="submenu-list-ver2 accordion-menu-dropdown ">
                                 <li class="submenu-item-ver2 accordion-chevron">
 
-                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Quản lý cho khách hàng<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="accordion-inner-ver2">
-                                        <li class="ver2">
-                                            <a href="/j-d/client">Quản lý tin đăng</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a href="/s-s/client">Quản lý đơn hàng dịch vụ</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="submenu-item-ver2 accordion-chevron">
-
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="/j-s/freelancer">Quản lý việc nhận làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a href="/j-s/freelancer">Quản lý việc nhận làm</a>
+                                            <a href="#">Quản lý việc nhận làm</a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/s-p/freelancer">Quản lý gói dịch vụ & đơn hàng</a>
+                                            <a href="#">Quản lý gói dịch vụ & đơn hàng</a>
                                         </li>
                                     </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="accordion-chevron menu-mobile-item ver2">
-                            <a class="/*accordion-toggle-ver2*/ ver2" href="/freelancers">Thuê Freelancer</a>
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown ">
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance-client?dropdown">Nâng cấp tài khoản</a></li>
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="accordion-inner-ver2">
-                                        <li class="ver2">
-                                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                            <ul class="accordion-inner-ver2 sub-menu">
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc theo dự án</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc bán thời gian</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc toàn thời gian</a></li>
-                                                <li class="ver2"><a href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="ver2">
-                                            <a href="/freelancers">Tìm theo freelancer</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a href="/ho-so-nang-luc">Tìm theo dự án đã làm</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="submenu-item-ver2 accordion-chevron" style="display:block">
-                                    <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
-                                </li>
-                                <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">vLance for Business</a>
                                 </li>
                             </ul>
                         </li>
@@ -385,7 +336,6 @@
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
                                 <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/dang-dich-vu?utm_campaign=GDV1-TPN-20220627&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Đăng gói dịch vụ <img style="" src="https://www.vlance.vn/img/new_service.svg"></a>
                                 </li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -413,7 +363,6 @@
 
                                     </ul>
                                 </li>
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Đăng ký làm Agency</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
@@ -428,19 +377,6 @@
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
                         <li class="menu-mobile-item ver2 img-500k">
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown" style="margin-bottom: 0px;">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2">Ngôn ngữ: Tiếng việt<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="accordion-inner-ver2">
-                                        <li class="ver2">
-                                            <a class="switch-vietnamese" role="menuitem" tabindex="-1"><img src="https://www.vlance.vn/img/icon/Vietnam.svg" style="margin-right: 8px"> Tiếng việt</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a class="switch-english" role="menuitem" tabindex="-1"><img src="https://www.vlance.vn/img/icon/UK.svg" style="margin-right: 8px"> English</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
                             <a style="width: 100px; height: 29px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'vlance_homepage'})">
                                 <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
                             </a>
@@ -448,19 +384,17 @@
                         <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
                     </ul>
                 </div>
-                <div class="post-button-ver2">
-                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng dự án</a>
-                </div>
+
             </div>
         </div>
         <div class="inbox-menu ver2 pull-right nofity-ver2">
             <hx:include evaljs="true" src="https://www.vlance.vn/ji/list_jobinvite_acc_ver2">
             </hx:include>
         </div>
-        <div class="inbox-menu ver2 pull-right mesenger-ver2">
+        <!-- <div class="inbox-menu ver2 pull-right mesenger-ver2">
             <hx:include evaljs="true" src="https://www.vlance.vn/message/new-message-ver2">
             </hx:include>
-        </div>
+        </div> -->
 
         <!-- end header -->
         <script type="text/javascript">
@@ -548,8 +482,8 @@
             });
         </script>
 
-     
-        <div id="messages">
+
+        <!-- <div id="messages">
             <div class="body-messages">
             </div>
         </div>
@@ -557,7 +491,7 @@
             $(document).ready(function() {
                 setTimeout("$('#messages').hide();", 7000);
             });
-        </script>
+        </script> -->
         <div class="top_content">
         </div>
 
@@ -599,7 +533,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6"><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="#" title="Đăng báo giá ngay">Đăng báo giá ngay</a>
+                                            <a style="background-color:transparent" class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" title="Đăng báo giá ngay">Cam kết uy tín</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
@@ -633,7 +567,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6">Nhận đến <b>100 mẫu thiết kế</b> mỗi cuộc thi</h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="#" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
+                                            <a style="background-color:transparent" class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" title="Tạo cuộc thi mới">Có nhiều cuộc thi mới</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
@@ -667,7 +601,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6">Dịch vụ Marketing, Thiết kế trọn gói chỉ từ <b>200.000</b> <i>₫</i></h1>
                                         <div class="jumbotron-button">
-                                            <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-special" onclick="vtrack('Click Thuengay banner', {'position':'Homepage'})" href="#" target="_blank" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
+                                            <a style="background-color:transparent" rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-special" onclick="vtrack('Click Thuengay banner', {'position':'Homepage'})" target="_blank" title="Xem tất cả dịch vụ">Có nhiều dịch vụ</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
@@ -763,7 +697,7 @@
                         });
                     });
                 </script>
-              
+
                 <script type="text/javascript">
                     $(document).ready(function() {
                         function addblock() {
@@ -797,7 +731,7 @@
                                                     })
                                                 </script>
                                             </div>
-                                            <a style="color: #000" href="/khach-hang/grace-on" title="Grace On">
+                                            <a style="color: #000" href="#" title="Grace On">
                                                 <span>Grace On </span>
                                             </a>
                                         </div>
@@ -838,17 +772,21 @@
                                     <span class="category">Lập tr&igrave;nh web</span>
                                 </div>
                                 <div class="fr-service fr-service-desktop">
-                                    Thiết kế một website b&aacute;n h&agrave;ng to&agrave;n diện, bao gồm c&aacute;c giao diện cần thiết: listing sản phẩm, giỏ h&agrave;ng, check out, gợi &yacute; sản phẩm, scan m&atilde; code,&hellip; <a class="read_more" href="/viec-freelance/thiet-ke-trang-web-ban-hang-39?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
+                                    Thiết kế một website b&aacute;n h&agrave;ng to&agrave;n diện, bao gồm c&aacute;c giao diện cần thiết: listing sản phẩm, giỏ h&agrave;ng, check out, gợi &yacute; sản phẩm, scan m&atilde; code,&hellip;
+                                    <a class="read_more" href="#">
+                                        Xem thêm
+                                    </a>
                                 </div>
                                 <div class="fr-service fr-service-mobile">
-                                    Thiết kế một website b&aacute;n h&agrave;ng to&agrave;n diện, bao gồm c&aacute;c giao diện cần thiết:... <a class="read_more" href="/viec-freelance/thiet-ke-trang-web-ban-hang-39?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
+                                    Thiết kế một website b&aacute;n h&agrave;ng to&agrave;n diện, bao gồm c&aacute;c giao diện cần thiết:...
+                                    <a class="read_more" href="#">
+                                        Xem thêm
+                                    </a>
                                 </div>
                                 <div class="fr-profile row-fluid">
                                     <div class="skill-list span8 row-fluid">
                                         <span class="service-tag">
-                                            <a href="/viec-lam-freelance/dichvu_dung-website-ban-hang?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title='Dịch vụ: "Dựng website b&aacute;n h&agrave;ng"'>
+                                            <a href="#" title='Dịch vụ: "Dựng website b&aacute;n h&agrave;ng"'>
                                                 Dựng website b&aacute;n h&agrave;ng </a>
                                         </span>
                                         <span>
@@ -894,7 +832,7 @@
                                                     })
                                                 </script>
                                             </div>
-                                            <a style="color: #000" href="/khach-hang/thuc-nguyen-86" title="Thức Nguyễn">
+                                            <a style="color: #000" href="#" title="Thức Nguyễn">
                                                 <span>Thức Nguyễn </span>
                                             </a>
                                         </div>
@@ -935,17 +873,17 @@
                                     <span class="category">Lập tr&igrave;nh web</span>
                                 </div>
                                 <div class="fr-service fr-service-desktop">
-                                    m&igrave;nh cần 1 bạn l&agrave;m remote để ph&aacute;t triển, cập nhật nội dung l&ecirc;n website tmđt vmedi.com.vn. Chỉnh sửa, update v&agrave; ph&aacute;t triển th&ecirc;m những thứ linh tinh. <a class="read_more" href="/viec-lam/remote-parttime-ho-tro-phat-trien-cap-nhat-noi-dung-len-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
+                                    m&igrave;nh cần 1 bạn l&agrave;m remote để ph&aacute;t triển, cập nhật nội dung l&ecirc;n website tmđt vmedi.com.vn. Chỉnh sửa, update v&agrave; ph&aacute;t triển th&ecirc;m những thứ linh tinh. <a class="read_more" href="#">
                                         Xem thêm </a>
                                 </div>
                                 <div class="fr-service fr-service-mobile">
-                                    m&igrave;nh cần 1 bạn l&agrave;m remote để ph&aacute;t triển, cập nhật nội dung l&ecirc;n website tmđt... <a class="read_more" href="/viec-lam/remote-parttime-ho-tro-phat-trien-cap-nhat-noi-dung-len-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
+                                    m&igrave;nh cần 1 bạn l&agrave;m remote để ph&aacute;t triển, cập nhật nội dung l&ecirc;n website tmđt... <a class="read_more" href="#">
                                         Xem thêm </a>
                                 </div>
                                 <div class="fr-profile row-fluid">
                                     <div class="skill-list span8 row-fluid">
                                         <span class="service-tag">
-                                            <a href="/viec-lam-freelance/dichvu_xay-dung-website-thuong-mai-dien-tu?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title='Dịch vụ: "X&acirc;y dựng website thương mại điện tử"'>
+                                            <a href="#" title='Dịch vụ: "X&acirc;y dựng website thương mại điện tử"'>
                                                 X&acirc;y dựng website thương mại điện tử </a>
                                         </span>
                                         <span>
@@ -1040,19 +978,19 @@
                                                 Viết nội dung cho website </a>
                                         </span>
                                         <span>
-                                            <a href="/viec-lam-freelance/kynang_seo?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance SEO">
+                                            <a href="#" title="Việc freelance SEO">
                                                 SEO </a>
-                                            <a href="/viec-lam-freelance/kynang_copywriting?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Copywriting">
+                                            <a href="#" title="Việc freelance Copywriting">
                                                 Copywriting </a>
-                                            <a href="/viec-lam-freelance/kynang_dich-thuat?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Dịch thuật">
+                                            <a href="#" title="Việc freelance Dịch thuật">
                                                 Dịch thuật </a>
-                                            <a href="/viec-lam-freelance/kynang_tieng-anh?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Tiếng Anh">
+                                            <a href="#" title="Việc freelance Tiếng Anh">
                                                 Tiếng Anh </a>
-                                            <a href="/viec-lam-freelance/kynang_viet-bai?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Viết b&agrave;i">
+                                            <a href="#" title="Việc freelance Viết b&agrave;i">
                                                 Viết b&agrave;i </a>
-                                            <a href="/viec-lam-freelance/kynang_tieng-viet?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Tiếng Việt">
+                                            <a href="#" title="Việc freelance Tiếng Việt">
                                                 Tiếng Việt </a>
-                                            <a href="/viec-lam-freelance/kynang_blockchain?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Blockchain">
+                                            <a href="#" title="Việc freelance Blockchain">
                                                 Blockchain </a>
                                         </span>
                                     </div>
@@ -1080,7 +1018,7 @@
                     </div>
                     <div style="margin-top: 35px;padding-bottom: 80px;">
                         <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="/viec-lam-freelance?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=button">
-                            Xem tất cả <b>54.432</b> công việc </a>
+                            Xem tất cả <b>10000</b> công việc </a>
                     </div>
                 </div>
                 <div class="step-explain-section">
