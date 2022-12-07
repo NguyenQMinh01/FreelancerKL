@@ -219,7 +219,7 @@
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/logout">Đăng xuất</a></li>
+                                        <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>

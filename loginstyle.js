@@ -41,3 +41,34 @@ document.getElementById("eye").addEventListener("click", function () {
   }
 }, false);
 
+const login = async() => {
+  var email = document.getElementById('username').value;
+  var password = document.getElementById('pwd').value;
+
+  fetch('https://job.ahlupos.com/modules/job/api.php?ac=login_freelancer', {
+    method: 'POST',
+    headers: {
+       Accept: "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      username: email,
+      password: password,
+      api_key: 1
+    }), 
+  })
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    if(data.code === 1){
+      localStorage.setItem('profile',JSON.stringify(data));
+      window.location = 'http://localhost:3000/Freelancer/freelancer.php#';
+    }
+    else{
+        alert("Sai tên tài khoản hoặc mật khẩu");
+    }
+  })
+
+
+  
+}
