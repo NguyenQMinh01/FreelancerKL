@@ -1302,9 +1302,6 @@
                             });
                         });
                     </script>
-
-
-
                     <div class="review-media">
                         <div class="review-media-title">
                             <h3 class="lh2">Vinh danh trên báo chí</h3>

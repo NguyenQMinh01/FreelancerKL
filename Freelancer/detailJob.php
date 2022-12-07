@@ -274,8 +274,8 @@
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/khach-hang/minh-nguyen-1130">Id. 1229116 </a></span>
                                         <span id="animategoCredit">
-                                            <span class="vip-menu-ver2">THƯỜNG</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 CREDIT</span>
+                                            <span class="vip-menu-ver2">Freelancer</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                 </div>
@@ -329,7 +329,6 @@
                                                 <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc theo dự án</a></li>
                                                 <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc bán thời gian</a></li>
                                                 <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc toàn thời gian</a></li>
-                                                <li class="ver2"><a href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
                                             </ul>
                                         </li>
                                         <li class="ver2">
@@ -381,7 +380,6 @@
 
                                     </ul>
                                 </li>
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Đăng ký làm Agency</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
@@ -396,28 +394,12 @@
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
                         <li class="menu-mobile-item ver2 img-500k">
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown" style="margin-bottom: 0px;">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2">Ngôn ngữ: Tiếng việt<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="accordion-inner-ver2">
-                                        <li class="ver2">
-                                            <a class="switch-vietnamese" role="menuitem" tabindex="-1"><img src="/img/icon/Vietnam.svg" style="margin-right: 8px"> Tiếng việt</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a class="switch-english" role="menuitem" tabindex="-1"><img src="/img/icon/UK.svg" style="margin-right: 8px"> English</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
                             <a style="width: 100px; height: 29px" href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'job_show_freelance_job'})">
                                 <img src="/img/vn/homepage-new/invite_friends_red.svg">
                             </a>
                         </li>
                         <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
                     </ul>
-                </div>
-                <div class="post-button-ver2">
-                    <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng dự án</a>
                 </div>
             </div>
         </div>
@@ -674,7 +656,6 @@
                                                     <dd>
                                                         1 giờ, 2 phút trước </dd>
                                                     <dt>Chỉ còn</dt>
-                                                    <!-- <span class="label-tag label-large label-danger tag-info-job-new">Hết hạn nhận chào giá</span> -->
                                                     <dd>6 ngày 22 giờ</dd>
                                                     <dt>Địa điểm</dt>
                                                     <dd>
@@ -682,12 +663,6 @@
                                                     <dt>Ngân sách</dt>
                                                     <dd>
                                                         200.000đ - 2.000.000đ </dd>
-                                                    <dt>Hình thức làm việc</dt>
-                                                    <dd>
-                                                        Làm online </dd>
-                                                    <dt>Hình thức trả lương</dt>
-                                                    <dd>
-                                                        Trả theo dự án </dd>
                                                 </dl>
                                             </div>
                                         </hx:include>
@@ -857,23 +832,6 @@
                                         });
                                     </script>
                                 </div>
-                                <div class="job-view-fb-page-box">
-                                    <h3> Like page để nhận được việc sớm nhất</h3>
-                                    <div id="fb-root"></div>
-                                    <script>
-                                        (function(d, s, id) {
-                                            var js, fjs = d.getElementsByTagName(s)[0];
-                                            if (d.getElementById(id)) return;
-                                            js = d.createElement(s);
-                                            js.id = id;
-                                            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=197321233758025";
-                                            fjs.parentNode.insertBefore(js, fjs);
-                                        }(document, 'script', 'facebook-jssdk'));
-                                    </script>
-                                    <div class="fb-page" data-href="https://www.facebook.com/vlance.vn" data-small-header="false" data-hide-cover="false" data-show-facepile="true">
-                                        <blockquote cite="https://www.facebook.com/vlance.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vlance.vn">VLance.vn</a></blockquote>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="row-fluid">
@@ -942,7 +900,7 @@
                                                 <hr class="hr-line-0">
                                                 <label class="title-in-form">ĐỀ XUẤT THUYẾT PHỤC KHÁCH HÀNG<span class="text-red">*</span></label>
                                                 <div class="row-fluid">
-                                                    <label class="ques-text">1.Bạn có những kinh nghiệm và kỹ năng nào phù hợp với dự án này?<span class="text-red">*</span></label>
+                                                    <label class="ques-text">Bạn có những kinh nghiệm và kỹ năng nào phù hợp với dự án này? ,dự định thực hiện dự án này như thế nào?<span class="text-red">*</span></label>
                                                     <div class="bidtype_description">
                                                         <div class="control-group ">
                                                             <textarea id="vlance_jobbundle_bidtype_introDescription" name="vlance_jobbundle_bidtype[introDescription]" required="required" placeholder="- Tôi đã có xx năm kinh nghiệm trong lĩnh vực...
@@ -954,134 +912,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="row-fluid">
-                                                    <label class="ques-text">2.Bạn dự định thực hiện dự án này như thế nào?<span class="text-red">*</span></label>
-                                                    <div class="bidtype_introdescription">
-                                                        <div class="control-group ">
-                                                            <textarea id="vlance_jobbundle_bidtype_description" name="vlance_jobbundle_bidtype[description]" required="required" placeholder="- Đầu tiên tôi sẽ...
-- Sau đó tôi sẽ...
-- Tôi tin tưởng có thể hoàn thành đúng theo kế hoạch...
-- Hãy liên hệ với tôi qua vLance để trao đổi thêm..." class="form-textarea" data-placement="right" data-trigger="focus" data-toggle="popover" data-content="- Đầu tiên tôi sẽ...
-- Sau đó tôi sẽ...
-- Tôi tin tưởng có thể hoàn thành đúng theo kế hoạch...
-- Hãy liên hệ với tôi qua vLance để trao đổi thêm..." data-title="form.bid.description"></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row-fluid">
                                                     <div class="fileupload_wrapper">
-                                                        <div class="fileupload_wrapper">
-                                                            <a class="addupload" href="#" onclick="return false;" data-toggle="collapse" data-target="#vlance_jobbundle_bidtype_files_file_upload_container">
-                                                                Thêm tài liệu đính kèm </a>
-                                                            <div class="clear"></div>
-                                                            <div id="vlance_jobbundle_bidtype_files" class="control-group fileupload_wrapper ">
-                                                            </div>
-                                                            <script type="text/javascript">
-                                                                jQuery(document).ready(function() {
-                                                                    jQuery('button[role="confirm"]').click(function() {
-                                                                        jQuery(this).parent().parent().modal('hide');
-                                                                        jQuery("#" + jQuery(this).attr('target')).remove();
-                                                                    });
-                                                                });
-                                                            </script>
-                                                            <div id="vlance_jobbundle_bidtype_files_file_upload_container" class="collapse out">
-                                                                <div class="support_file_attach">Định dạng được hỗ trợ: png, jpg, gif, pdf, psd, xls, xlsx, doc, docx, ppt, pptx, ods, odt, zip, rar</div>
-                                                                <div class="support_file_attach">Kích thước tối đa: 10MB</div>
-                                                                <div id="vlance_jobbundle_bidtype_files_collection_holder" id="vlance_jobbundle_bidtype_files" name="vlance_jobbundle_bidtype[files]" data-prototype="&lt;div class=&quot;control-group &quot;&gt;
-        &lt;div id=&quot;vlance_jobbundle_bidtype_files___name__&quot;&gt;
-        &lt;div class=&quot;control-group &quot;&gt;
-        &lt;input type=&quot;file&quot; id=&quot;vlance_jobbundle_bidtype_files___name___file&quot;
-name=&quot;vlance_jobbundle_bidtype[files][__name__][file]&quot;
-required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/div&gt;    &lt;/div&gt;">
-                                                                </div>
-                                                                <a href="#" class="btn add_input_file" id="vlance_jobbundle_bidtype_files_job_new_file"><i class="icon-plus"></i> Thêm tài liệu</a>
-                                                            </div>
-                                                            <script type="text/javascript">
-                                                                jQuery(document).ready(function() {
-                                                                    var required_one = false;
-
-                                                                    var newButton = jQuery('');
-
-                                                                    function add_file_input(holder, id) {
-                                                                        var input_content = holder.data('prototype');
-                                                                        var index = holder.data('index');
-                                                                        var new_file = input_content.replace(/__name__label__/g, '').replace(/__name__/g, index);
-                                                                        var new_item = jQuery("<div></div>").addClass('new_file_input').append(new_file);
-                                                                        add_remove_file_input(new_item);
-
-                                                                        holder.append(new_item);
-                                                                        jQuery(id + '_' + index.toString() + '_file').on('change', function() {
-                                                                            if (this.files[0]) {
-                                                                                jQuery(this).attr('file_size', this.files[0].size);
-                                                                            }
-                                                                        });
-                                                                        holder.data('index', index + 1);
-
-                                                                        //Validate input file
-                                                                        $('.new_file_input input').change(function() {
-                                                                            $(this).rules('add', {
-                                                                                filesize: multiupload_validate["size"],
-                                                                                filetype: multiupload_validate["type"],
-                                                                                fileSizeMin: multiupload_validate_min["size"],
-                                                                                messages: {
-                                                                                    filesize: multiupload_sizeerror,
-                                                                                    filetype: multiupload_typeerror,
-                                                                                    fileSizeMin: multiupload_sizeerror_min
-                                                                                }
-                                                                            });
-                                                                            $(this).valid();
-                                                                        });
-
-
-                                                                    }
-
-                                                                    function add_remove_file_input(new_item) {
-                                                                        var remove_button = jQuery('<a href="#" class="remove">x</a>');
-                                                                        new_item.append(remove_button);
-                                                                        remove_button.on('click', function(e) {
-                                                                            e.preventDefault();
-                                                                            if (required_one) {
-                                                                                if (jQuery('.new_file_input input').length == 1) {
-                                                                                    alert('File đính kèm là bắt buộc.');
-                                                                                } else {
-                                                                                    new_item.remove();
-                                                                                }
-                                                                            } else {
-                                                                                new_item.remove();
-                                                                            }
-                                                                        })
-                                                                    }
-
-                                                                    if (jQuery('#vlance_jobbundle_bidtype_files')) {
-                                                                        jQuery('#vlance_jobbundle_bidtype_files_collection_holder').data('index', jQuery('#vlance_jobbundle_bidtype_files input').size());
-                                                                    } else {
-                                                                        jQuery('#vlance_jobbundle_bidtype_files_collection_holder').data('index', 0);
-                                                                    }
-                                                                    jQuery('#vlance_jobbundle_bidtype_files_job_new_file').click(function(e) {
-                                                                        add_file_input(jQuery('#vlance_jobbundle_bidtype_files_collection_holder'), '#vlance_jobbundle_bidtype_files');
-                                                                        e.preventDefault();
-                                                                    });
-
-                                                                    if (required_one) {
-                                                                        jQuery('#vlance_jobbundle_bidtype_files_file_upload_container').collapse('show');
-                                                                        add_file_input(jQuery('#vlance_jobbundle_bidtype_files_collection_holder'), '#vlance_jobbundle_bidtype_files');
-                                                                    }
-                                                                });
-                                                            </script>
-                                                            <script>
-                                                                var multiupload_validate = {
-                                                                    "type": ["png", "jpg", "gif", "pdf", "psd", "xls", "xlsx", "doc", "docx", "ppt", "pptx", "ods", "odt", "zip", "rar"],
-                                                                    "size": 10485760
-                                                                };
-                                                                var multiupload_sizeerror = "Kích thước file không vượt quá 10MB";
-
-                                                                var multiupload_validate_min = {
-                                                                    "type": ["png", "jpg", "gif", "pdf", "psd", "xls", "xlsx", "doc", "docx", "ppt", "pptx", "ods", "odt", "zip", "rar"],
-                                                                    "size": 1024
-                                                                };
-                                                                var multiupload_sizeerror_min = "Kích thước file không được nhỏ hơn 1KB";
-
-                                                                var multiupload_typeerror = "File không đúng định dạng ";
-                                                            </script>
+                                                        <div class="fileupload_wrapper">                                  
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1094,56 +926,15 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
                                                         </span>
                                                         <input id="bidform_telephone" name="input_telephone" disabled value="0983422291" placeholder="Số điện thoại">
                                                     </div>
-                                                    <div class="input-prepend skype span6">
-                                                        <span class="add-on"><i class="fa fa-skype block-contact-icon" aria-hidden="true"></i></span>
-                                                        <input id="bidform_skype" name="input_skype" value="" placeholder="Skype">
-                                                    </div>
                                                 </div>
 
                                                 <div class="block-submit-btn">
-                                                    <a href="#popup-credit-bid" role="button" class="btn btn-primary btn-large span12" data-toggle="modal" onclick="vtrack('Show Popup Expend Credit Bid', {'category':'Viết b&agrave;i review đ&aacute;nh gi&aacute; sản phẩm', 'job_budget':'200000'})">Gửi chào giá</a>
-
-                                                    <div id="popup-credit-bid" class="modal hide fade popup-credit-bid" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                                            <h4>Chào giá dự án [63797]</h4>
-                                                        </div>
-                                                        <div class="popup-body-credit-bid">
-                                                            <p class="message-credit-bid">Bạn cần trả <b>1 Credit</b> để chào giá dự án. <br /> Bạn có muốn chào giá dự án?</p>
-                                                            <p class="show-credit-user">
-                                                                <span style="color: #999999">Bạn hiện có: 0 CREDIT</span> - <a id="btn-buy-credit" href="/credit/balance">MUA THÊM CREDIT</a>
-                                                            </p>
-                                                            <p><i><span style="color: red;">Bạn không đủ credit</span></i></p>
-                                                            <p style="font-size: 14px;margin-top: 10px" class="introduce-buy-vip">
-                                                                Thoải mái chào giá mà không cần credit <a href="/credit/balance?bidform">NÂNG CẤP VIP NGAY</a>
-                                                            </p>
-                                                            <p style="font-size: 14px;font-style: italic" class="introduce-buy-vip">
-                                                                Gợi ý: Nhận ngay đến <b>500.000đ</b> để nâng cấp tài khoản hoặc mua credit ở <a href="/a/moi-ban-be" onclick="vtrack('Click invite', {'location':'bid-form'})">đây</a>
-                                                            </p>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button class="btn" data-dismiss="modal" aria-hidden="true">Đóng</button>
-                                                            <a class="btn btn-primary" href="/credit/balance">MUA THÊM CREDIT</a>
-                                                        </div>
-                                                    </div>
+                                                    <a href="#" role="button" class="btn btn-primary btn-large span12" onclick="vtrack('Show Popup Expend Credit Bid', {'category':'Viết b&agrave;i review đ&aacute;nh gi&aacute; sản phẩm', 'job_budget':'200000'})">Gửi chào giá</a>
                                                 </div>
-
                                             </div>
                                         </div>
                                 </div>
                                 </form>
-                                <script type="text/javascript">
-                                    var quote_min = 50000;
-                                    var quote_max = 2000000000;
-                                    var placeholder = "ví dụ";
-                                    var placeholder_pay = "500.000";
-                                    var placeholder_get = "450.000";
-                                    var placeholder_commision = "50.000";
-                                    var translations = {
-                                        'attach_empty': "Không có"
-                                    };
-                                    var vlance_commission = 10;
-                                </script>
                             </div>
                         </div>
                     </div>
@@ -1182,9 +973,7 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
                         </div>
                     </div>
                     <div class="row-fluid container list-bid-new" style="margin-bottom: 30px; width: 96%; max-width: 1200px">
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
+                        <div class="profile-job-new span12 block-bid">
                             <div class="row-fluid" style="margin-bottom:20px">
                                 <div class="span2 block-img-fl">
                                     <div class="freelancer-row-img" style="margin-top: 40px;">
@@ -1262,9 +1051,7 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
                             });
                             /* ]]> */
                         </script>
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
+                        <div class="profile-job-new span12 block-bid">
                             <div class="row-fluid" style="margin-bottom:20px">
                                 <div class="span2 block-img-fl">
                                     <div class="freelancer-row-img" style="margin-top: 40px;">
@@ -1325,405 +1112,6 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
                                                 <dt>Thu nhập</dt>
                                                 <dd>
                                                     <a href="/freelancer/huong-nguyen-thi-38" title="0 VNĐ">
-                                                        0 VNĐ </a>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script type="text/javascript" language="javascript">
-                            /* <![CDATA[ */
-                            jQuery(document).ready(function() {
-                                $(function() {
-                                    $('[data-toggle="tooltip"]').tooltip()
-                                })
-                            });
-                            /* ]]> */
-                        </script>
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
-                            <div class="row-fluid" style="margin-bottom:20px">
-                                <div class="span2 block-img-fl">
-                                    <div class="freelancer-row-img" style="margin-top: 40px;">
-                                        <div class="images">
-                                            <a href="/freelancer/2939-nguyen-thi-thuy-anh" title="Nguyễn Thị Thúy Anh">
-                                                <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/fff7e569ef6fb57d5e65bb47b52bfe3308de82481.jpg" alt="Nguyễn Thị Thúy Anh" title="Nguyễn Thị Thúy Anh">
-                                            </a>
-                                        </div>
-                                        <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
-                                    <div class="profile-job-left-bottom" style="width:100%">
-                                        <h3 class="title">
-                                            <a href="/freelancer/2939-nguyen-thi-thuy-anh" title="Nguyễn Thị Thúy Anh">
-                                                Nguyễn Thị Thúy Anh </a>
-                                            <img style="width:18px; height:18px;" src="/img/verified_id.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số chứng minh nhân dân" title="" data-original-title="Đã xác thực số chứng minh nhân dân">
-                                            <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
-                                            <span class="contact-block" style="float:right;">
-                                                <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="819740" pid="1229116" data-request="{&quot;fid&quot;:819740, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',
-                                                'location':'job view as freelancer', 
-                                                'category':'Viết bài review đánh giá sản phẩm', 
-                                                'freelancer':'Nguyễn Thị Thúy Anh', 
-                                                'freelancer_id':'819740'})">
-                                                    Liên hệ</a>
-                                            </span>
-                                        </h3>
-                                        <div class="work-title">Sinh viên truyền thông</div>
-                                        <div class="body-view">
-                                            <div class="textbody">
-                                                <div>
-                                                    1.Tôi là sinh viên ngành Truyền Thông Đa Phương Tiện
-                                                    2. Kinh nghiệm: Viết content, bài review cho trang web về ẩm thực và du lịch, viết content kịch bản cho các video, sự kiện của trường
-                                                    Kĩ năng chính của tôi là viết content, viết bài review và thiết kế
-                                                    3.... </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill">
-                                            <label>Kỹ năng:</label>
-                                            <div class="list-skill">
-                                                <a href="/freelancers/kynang_viet-review" title="Viết review"> Viết review </a>, <a href="/freelancers/kynang_thiet-ke" title="Thiết kế"> Thiết kế </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span4 profile-job-right" style="margin-top: 40px">
-                                    <div class="profile-job-right-top">
-                                        <div class="span12">
-                                            <dl class="dl-horizontal">
-                                                <dt>Đến từ</dt>
-                                                <dd>TP. Hồ Chí Minh</dd>
-                                                <dt>Ngày gia nhập</dt>
-                                                <dd>08-09-2021</dd>
-                                                <dt>Việc đã làm</dt>
-                                                <dd>
-                                                    <a href="/freelancer/2939-nguyen-thi-thuy-anh" title="0">
-                                                        0 việc </a>
-                                                </dd>
-                                                <dt>Thu nhập</dt>
-                                                <dd>
-                                                    <a href="/freelancer/2939-nguyen-thi-thuy-anh" title="0 VNĐ">
-                                                        0 VNĐ </a>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script type="text/javascript" language="javascript">
-                            /* <![CDATA[ */
-                            jQuery(document).ready(function() {
-                                $(function() {
-                                    $('[data-toggle="tooltip"]').tooltip()
-                                })
-                            });
-                            /* ]]> */
-                        </script>
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
-                            <div class="row-fluid" style="margin-bottom:20px">
-                                <div class="span2 block-img-fl">
-                                    <div class="freelancer-row-img" style="margin-top: 40px;">
-                                        <div class="images">
-                                            <a href="/freelancer/le-thi-hong-anh-9" title="Lê Thị Hồng Anh">
-                                                <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/885c8d9fbb588421385a8b1b00a7d45cebc4051c1.png" alt="Lê Thị Hồng Anh" title="Lê Thị Hồng Anh">
-                                            </a>
-                                        </div>
-                                        <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
-                                    <div class="profile-job-left-bottom" style="width:100%">
-                                        <h3 class="title">
-                                            <a href="/freelancer/le-thi-hong-anh-9" title="Lê Thị Hồng Anh">
-                                                Lê Thị Hồng Anh </a>
-                                            <img style="width:18px; height:18px; margin-left: 2px" src="/img/not_verified_id.png" data-toggle="tooltip" data-placement="top" alt="Chưa xác thực số chứng minh nhân dân" title="" data-original-title="Chưa xác thực số chứng minh nhân dân">
-                                            <img style="width:18px; height:18px; margin-left: 2px" src="/img/icon-not-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="Chưa xác thực số điện thoại" title="" data-original-title="Chưa xác thực số điện thoại">
-                                        </h3>
-                                        <div class="work-title">Viết content, review, bài quảng cáo</div>
-                                        <div class="body-view">
-                                            <div class="textbody">
-                                                <div>
-                                                    Chào bạn, tôi là cô gái có khả năng viết lách. Tôi tham gia Vlance để có cơ hội nâng cao khả năng viết của mình. Cùng hợp tác nhé. </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill">
-                                            <label>Kỹ năng:</label>
-                                            <div class="list-skill">
-                                                <a href="/freelancers/kynang_web-content" title="Web content"> Web content </a>, <a href="/freelancers/kynang_viet-review" title="Viết review"> Viết review </a>, <a href="/freelancers/kynang_viet-bai" title="Viết bài"> Viết bài </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span4 profile-job-right" style="margin-top: 40px">
-                                    <div class="profile-job-right-top">
-                                        <div class="span12">
-                                            <dl class="dl-horizontal">
-                                                <dt>Đến từ</dt>
-                                                <dd>Ninh Thuận</dd>
-                                                <dt>Ngày gia nhập</dt>
-                                                <dd>22-07-2022</dd>
-                                                <dt>Việc đã làm</dt>
-                                                <dd>
-                                                    <a href="/freelancer/le-thi-hong-anh-9" title="0">
-                                                        0 việc </a>
-                                                </dd>
-                                                <dt>Thu nhập</dt>
-                                                <dd>
-                                                    <a href="/freelancer/le-thi-hong-anh-9" title="0 VNĐ">
-                                                        0 VNĐ </a>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script type="text/javascript" language="javascript">
-                            /* <![CDATA[ */
-                            jQuery(document).ready(function() {
-                                $(function() {
-                                    $('[data-toggle="tooltip"]').tooltip()
-                                })
-                            });
-                            /* ]]> */
-                        </script>
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
-                            <div class="row-fluid" style="margin-bottom:20px">
-                                <div class="span2 block-img-fl">
-                                    <div class="freelancer-row-img" style="margin-top: 40px;">
-                                        <div class="images">
-                                            <a href="/freelancer/nha-dan-le-phuong" title="Lê Thị Lan Phương">
-                                                <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/d7f0e027b7b9624bb424707a76cd3e3ed342b9cb.jpeg1.jpg" alt="Lê Thị Lan Phương" title="Lê Thị Lan Phương">
-                                            </a>
-                                        </div>
-                                        <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
-                                    <div class="profile-job-left-bottom" style="width:100%">
-                                        <h3 class="title">
-                                            <a href="/freelancer/nha-dan-le-phuong" title="Lê Thị Lan Phương">
-                                                Lê Thị Lan Phương </a>
-                                            <img style="width:18px; height:18px;" src="/img/verified_id.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số chứng minh nhân dân" title="" data-original-title="Đã xác thực số chứng minh nhân dân">
-                                            <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
-                                            <span class="contact-block" style="float:right;">
-                                                <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="584354" pid="1229116" data-request="{&quot;fid&quot;:584354, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',
-                                                'location':'job view as freelancer', 
-                                                'category':'Quản lý blog &amp; fanpage', 
-                                                'freelancer':'Lê Thị Lan Phương', 
-                                                'freelancer_id':'584354'})">
-                                                    Liên hệ</a>
-                                            </span>
-                                        </h3>
-                                        <div class="work-title">Freelance</div>
-                                        <div class="body-view">
-                                            <div class="textbody">
-                                                <div>
-                                                    Tôi đã có có 2 năm kinh nghiệm làm quản lí fanpage cho một trang về giáo dục. Hiện tại tôi đang làm content creator trên các nền tảng mạng xã hội: Facebook, Instagram, Tiktok. Tôi tự tin với khả năng viết nội dung và sự sáng tạo của mình. Tôi có thể sử dụng... </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill">
-                                            <label>Kỹ năng:</label>
-                                            <div class="list-skill">
-                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Thiết kế Banner"> Thiết kế Banner </a>, <a href="/freelancers/kynang_copywriting" title="Copywriting"> Copywriting </a>, <a href="/freelancers/kynang_web-content" title="Web content"> Web content </a>, <a href="/freelancers/kynang_viet-bai" title="Viết bài"> Viết bài </a>, <a href="/freelancers/kynang_viet-blog-forum" title="Viết Blog/Forum"> Viết Blog/Forum </a>, <a href="/freelancers/kynang_quan-ly-fanpage" title="Quản lý fanpage"> Quản lý fanpage </a>, <a href="/freelancers/kynang_viral-content" title="Viral content"> Viral content </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span4 profile-job-right" style="margin-top: 40px">
-                                    <div class="profile-job-right-top">
-                                        <div class="span12">
-                                            <dl class="dl-horizontal">
-                                                <dt>Đến từ</dt>
-                                                <dd>Hà Nội</dd>
-                                                <dt>Ngày gia nhập</dt>
-                                                <dd>19-07-2021</dd>
-                                                <dt>Việc đã làm</dt>
-                                                <dd>
-                                                    <a href="/freelancer/nha-dan-le-phuong" title="0">
-                                                        0 việc </a>
-                                                </dd>
-                                                <dt>Thu nhập</dt>
-                                                <dd>
-                                                    <a href="/freelancer/nha-dan-le-phuong" title="0 VNĐ">
-                                                        0 VNĐ </a>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script type="text/javascript" language="javascript">
-                            /* <![CDATA[ */
-                            jQuery(document).ready(function() {
-                                $(function() {
-                                    $('[data-toggle="tooltip"]').tooltip()
-                                })
-                            });
-                            /* ]]> */
-                        </script>
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
-                            <div class="row-fluid" style="margin-bottom:20px">
-                                <div class="span2 block-img-fl">
-                                    <div class="freelancer-row-img" style="margin-top: 40px;">
-                                        <div class="images">
-                                            <a href="/freelancer/vi-regina" title="Vi">
-                                                <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/e1b30bae9a9d94412149c9cf18a513a2a65bd3ac.jpeg1.jpg" alt="Vi" title="Vi">
-                                            </a>
-                                        </div>
-                                        <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
-                                    <div class="profile-job-left-bottom" style="width:100%">
-                                        <h3 class="title">
-                                            <a href="/freelancer/vi-regina" title="Vi">
-                                                Vi </a>
-                                            <img style="width:18px; height:18px;" src="/img/verified_id.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số chứng minh nhân dân" title="" data-original-title="Đã xác thực số chứng minh nhân dân">
-                                            <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
-                                            <span class="contact-block" style="float:right;">
-                                                <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="312803" pid="1229116" data-request="{&quot;fid&quot;:312803, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',
-                                                'location':'job view as freelancer', 
-                                                'category':'Viết bài PR &amp; quảng cáo sáng tạo', 
-                                                'freelancer':'Vi', 
-                                                'freelancer_id':'312803'})">
-                                                    Liên hệ</a>
-                                            </span>
-                                        </h3>
-                                        <div class="work-title">Content Marketing</div>
-                                        <div class="body-view">
-                                            <div class="textbody">
-                                                <div>
-                                                    Xin Chào, tôi là Vi, vị trí ứng tuyển là admin website, fanpage, content marketing. Với kinh nghiệm hơn 2 năm quản lý và phát triển Social marketing. Xây dựng chiến lược nội dung dựa trên insight khách hàng, tiếp cận lượt tương tác cao, đồng thời lên ý tưởng,... </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill">
-                                            <label>Kỹ năng:</label>
-                                            <div class="list-skill">
-                                                <a href="/freelancers/kynang_seo" title="SEO"> SEO </a>, <a href="/freelancers/kynang_thiet-ke-banner" title="Thiết kế Banner"> Thiết kế Banner </a>, <a href="/freelancers/kynang_video-editing" title="Video Editing"> Video Editing </a>, <a href="/freelancers/kynang_copywriting" title="Copywriting"> Copywriting </a>, <a href="/freelancers/kynang_facebook-fanpage" title="Facebook Fanpage"> Facebook Fanpage </a>, <a href="/freelancers/kynang_microsoft-office" title="Microsoft Office"> Microsoft Office </a>, <a href="/freelancers/kynang_quang-cao-google-ads" title="Quảng cáo Google Ads"> Quảng cáo Google Ads </a>, <a href="/freelancers/kynang_quan-ly-fanpage" title="Quản lý fanpage"> Quản lý fanpage </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span4 profile-job-right" style="margin-top: 40px">
-                                    <div class="profile-job-right-top">
-                                        <div class="span12">
-                                            <dl class="dl-horizontal">
-                                                <dt>Đến từ</dt>
-                                                <dd>TP. Hồ Chí Minh</dd>
-                                                <dt>Ngày gia nhập</dt>
-                                                <dd>26-02-2019</dd>
-                                                <dt>Việc đã làm</dt>
-                                                <dd>
-                                                    <a href="/freelancer/vi-regina" title="0">
-                                                        0 việc </a>
-                                                </dd>
-                                                <dt>Thu nhập</dt>
-                                                <dd>
-                                                    <a href="/freelancer/vi-regina" title="0 VNĐ">
-                                                        0 VNĐ </a>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script type="text/javascript" language="javascript">
-                            /* <![CDATA[ */
-                            jQuery(document).ready(function() {
-                                $(function() {
-                                    $('[data-toggle="tooltip"]').tooltip()
-                                })
-                            });
-                            /* ]]> */
-                        </script>
-                        <div class="profile-job-new span12 block-bid
-             
-            ">
-                            <div class="row-fluid" style="margin-bottom:20px">
-                                <div class="span2 block-img-fl">
-                                    <div class="freelancer-row-img" style="margin-top: 40px;">
-                                        <div class="images">
-                                            <a href="/freelancer/mickey-tran-3" title="Ngoc Ngo">
-                                                <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/5fec69eda4b4d00dd7653fc8b8a79cf747849f2b.jpeg1.jpg" alt="Ngoc Ngo" title="Ngoc Ngo">
-                                            </a>
-                                        </div>
-                                        <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
-                                    <div class="profile-job-left-bottom" style="width:100%">
-                                        <h3 class="title">
-                                            <a href="/freelancer/mickey-tran-3" title="Ngoc Ngo">
-                                                Ngoc Ngo </a>
-                                            <img style="width:18px; height:18px;" src="/img/verified_id.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số chứng minh nhân dân" title="" data-original-title="Đã xác thực số chứng minh nhân dân">
-                                            <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
-                                            <span class="contact-block" style="float:right;">
-                                                <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="1172838" pid="1229116" data-request="{&quot;fid&quot;:1172838, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',
-                                                'location':'job view as freelancer', 
-                                                'category':'Làm video clip', 
-                                                'freelancer':'Ngoc Ngo', 
-                                                'freelancer_id':'1172838'})">
-                                                    Liên hệ</a>
-                                            </span>
-                                        </h3>
-                                        <div class="work-title">Video Editor</div>
-                                        <div class="body-view">
-                                            <div class="textbody">
-                                                <div>
-                                                    Skill:
-                                                    - Dựng phim (dựng được tất cả thể loại)
-                                                    - Animation 2D (có thể làm dc cho brand)
-                                                    - Motion graphic
-                                                    - Color Grading Video </div>
-                                            </div>
-                                        </div>
-                                        <div class="skill">
-                                            <label>Kỹ năng:</label>
-                                            <div class="list-skill">
-                                                <a href="/freelancers/kynang_2d-animation" title="2D Animation"> 2D Animation </a>, <a href="/freelancers/kynang_video-editing" title="Video Editing"> Video Editing </a>, <a href="/freelancers/kynang_viet-bai" title="Viết bài"> Viết bài </a>, <a href="/freelancers/kynang_video-san-pham" title="Video sản phẩm"> Video sản phẩm </a>, <a href="/freelancers/kynang_motion-graphic" title="Motion graphic"> Motion graphic </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span4 profile-job-right" style="margin-top: 40px">
-                                    <div class="profile-job-right-top">
-                                        <div class="span12">
-                                            <dl class="dl-horizontal">
-                                                <dt>Đến từ</dt>
-                                                <dd>TP. Hồ Chí Minh</dd>
-                                                <dt>Ngày gia nhập</dt>
-                                                <dd>30-07-2022</dd>
-                                                <dt>Việc đã làm</dt>
-                                                <dd>
-                                                    <a href="/freelancer/mickey-tran-3" title="0">
-                                                        0 việc </a>
-                                                </dd>
-                                                <dt>Thu nhập</dt>
-                                                <dd>
-                                                    <a href="/freelancer/mickey-tran-3" title="0 VNĐ">
                                                         0 VNĐ </a>
                                                 </dd>
                                             </dl>
@@ -1833,296 +1221,14 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
                             /* ]]> */
                         </script>
                     </div>
-                    <div id="fullchat" class="modal hide fade popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h4 id="myModalLabel">job.push_top.immediate.mes.</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                                job.push_top.immediate.fullchat_title_1. job.push_top.immediate.fullchat_title_2. </p>
-                            <br>
-                            <p id="totalCredit" style="text-align: center">
-                                job.push_top.immediate.fullchat_title_3. </p>
-                            <br>
-                            <p style="text-align: center">
-                                <span style="color: #999999">job.push_top.immediate.fullchat_title_4. 0 CREDIT</span> - <a id="btn-buy-credit" href="/credit/balance">job.push_top.immediate.fullchat_title_5.</a>
-                            </p>
-                            <p id="sys-message" style="text-align: center; color: red"><i>job.push_top.immediate.fullchat_title_6.</i></p>
-                        </div>
-                        <div class="modal-footer">
-                            <span style="margin-right: 10px;"><a href="#" data-dismiss="modal" aria-hidden="true">job.push_top.immediate.fullchat_title_7.</a></span>
-                            <span><a id="btn-buy-credit" class="btn btn-primary btn-large popup-validate" href="/credit/balance" onclick="vtrack('Click buy credit to interview')">job.push_top.immediate.fullchat_title_5.</a></span>
-                        </div>
-                    </div>
-                    <div id="form_hire_bid" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h3 id="myModalLabel">job.push_top.immediate.form_hire_bid_title_1.</h3>
-                        </div>
-                        <div class="modal-body form-hire">
-                            <form action="" method="post" class="admin_form" style="width: 100%;">
-                                <input type="hidden" id="bid-token" name="_csrf_token" value="">
-                                <div class="form-actions">
-                                    <div style="width: 100%">
-                                        <label for="reason">job.push_top.immediate.form_hire_bid_title_2.</label>
-                                        <textarea required="required" name="reason" id="reason-hire-bid"></textarea>
-                                    </div>
-                                    <div style="float: right">
-                                        <label for="banned" style="float: left; margin: 0px 5px">job.push_top.immediate.form_hire_bid_title_3.</label>
-                                        <input type="checkbox" name="banned" value="1" style="margin: 4px 5px; float: left">
-                                        <button type="submit" class="btn" style="float: left; margin: 0px 5px">
-                                            <i class="icon-remove"></i>Ẩn bid </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
                     <script type="text/javascript">
                         var job = "63797";
                         var urlChat = "/viec-freelance/credit-workroom";
                     </script>
-                    <script type="text/javascript">
-                        /* <![CDATA[ */
-                        $(document).ready(function() {
-                            jQuery("a.formmessage-call-popup").click(function() {
-                                jQuery("#formmessage form").attr("action", jQuery(this).attr("data-action"));
-                                jQuery("#formmessage h3 span").text(jQuery(this).attr("data-uname"));
-                            });
-
-                            jQuery("a.report-violations-call-popup").click(function() {
-                                jQuery("#popup-report_violations .modal-footer a.actions").attr("href", jQuery(this).attr("data-action"));
-                            });
-
-                            jQuery("a.refusal-call-popup").click(function() {
-                                jQuery("#popup-refusal .modal-footer a.actions").attr("href", jQuery(this).attr("data-action"));
-                            });
-
-                            jQuery("a.formassignment-call-popup").click(function() {
-                                var arr = jQuery.parseJSON(jQuery(this).attr("data-file"));
-                                var files = "";
-
-                                for (i = 0; i < arr.length; i++) {
-                                    files += "<li class='row-fluid upload'><span class='upload'>" + arr[i] + "<span></li>";
-                                }
-                                jQuery("#formassignment").attr("tabindex", jQuery(this).attr("data-id"));
-                                jQuery("#formassignment .modal-footer a.actions").attr("href", jQuery(this).attr("data-action"));
-                                jQuery("#formassignment .modal-body #assignment-full-name span").text(jQuery(this).attr("data-uname"));
-                                jQuery("#formassignment .modal-body #assignment-description").text(jQuery(this).attr("data-description"));
-                                jQuery("#formassignment .modal-body #assignment-city span").text(jQuery(this).attr("data-city"));
-                                jQuery("#formassignment .modal-body #assignment-price span").text(jQuery(this).attr("data-price"));
-
-                                if (files !== "") {
-                                    jQuery('#formassignment .modal-body .assigment-file .title-assigment-file').html("<strong>Tài liệu đính kèm:</storng>");
-                                };
-                                jQuery("#formassignment .modal-body .assigment-file ul").html(files);
-                            });
-
-                            $("#formmessage form .button input").click(function() {
-
-                                var validate = true;
-                                if (validate_fileinput('#file_upload_container .new_file_input') == false) {
-                                    validate_fileinput('#file_upload_container .new_file_input');
-                                    validate = false;
-                                }
-                                if (validate_fileinput('#file_upload_container .new_file_input') == true) {
-                                    $('#file_upload_container .new_file_input label.error').remove();
-                                    if ($("#formmessage #fileupload").valid()) {
-                                        $("#formmessage form .button input").submit();
-                                    }
-                                }
-
-                            });
-
-                            jQuery("a.form-hire-bid").click(function() {
-                                jQuery("#form_hire_bid form").attr("action", jQuery(this).attr("data-action"));
-                                jQuery("#bid-token").attr("value", jQuery(this).attr("data-token"));
-                                document.getElementById('reason-hire-bid').value = "";
-                            });
-                        });
-                        /* ]]> */
-                    </script>
+        
                 </hx:include>
             </div>
         </div>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                vtrack('View job', {
-                    'type': 'client',
-                    'job_id': '63797',
-                    'job_category': 'Viết bài review đánh giá sản phẩm',
-                    'job_budget': '200000',
-                    'job_city': 'Toàn Quốc'
-                });
-            });
-        </script>
-        <script>
-            var curent_route = "View job"
-        </script>
-
-        <script type="text/javascript">
-            var form_push_top_immediately = "#popup-push-top";
-            var form_push_top_immediately_params = {
-                "service_id": 150,
-                "url": "/credit/spend",
-                "balance": 0,
-                "payer_id": 1229116
-            };
-            var push_top_auto_params = {
-                "service_id": 151,
-                "url": "/credit/spend",
-                "balance": 0,
-                "payer_id": 1229116
-            };
-            var url_push_top = "/push-top-free/submit";
-            var url_get_history_job = "/history-push-top";
-            var jid = 0;
-            var jtype = null;
-            var packet = 1;
-            $("body").on('click', '.push-top-button button, .block-title .push-top-button, .push-top-notify-round-1, .push-top-job-workspace', function() {
-                $("#popup-push-top").modal("show");
-                jid = $(this).attr("job-id");
-                jtype = $(this).attr("job-type");
-                if (jtype == 0) {
-                    $("a.btn-show-job").attr("href", "/viec-lam-freelance")
-                } else if (jtype == 1) {
-                    $("a.btn-show-job").attr("href", "/cuoc-thi-thiet-ke")
-                } else if (jtype == 2) {
-                    $("a.btn-show-job").attr("href", "/viec-lam-ban-thoi-gian")
-                } else if (jtype == 3) {
-                    $("a.btn-show-job").attr("href", "/viec-lam-toan-thoi-gian")
-                }
-                var current_balance = parseInt($("#animategoCredit [data-credit=balance]").text());
-                $("#popup-confirm-push-immediate #balance").html(current_balance);
-                $("#popup-confirm-push-auto #balance").html(current_balance);
-                if (current_balance < 5) {
-                    $("#push-auto-1-day #btn-buy-credit, #push-auto-3-day #btn-buy-credit, #push-auto-7-day #btn-buy-credit").removeClass('hide');
-                    $("#push-auto-1-day #btn-push-auto, #push-auto-3-day #btn-push-auto, #push-auto-7-day #btn-push-auto").addClass('hide');
-                } else if (current_balance < 10) {
-                    $("#push-auto-3-day #btn-buy-credit, #push-auto-7-day #btn-buy-credit").removeClass('hide');
-                    $("#push-auto-3-day #btn-push-auto, #push-auto-7-day #btn-push-auto").addClass('hide');
-                } else if (current_balance < 20) {
-                    $("#push-auto-7-day #btn-buy-credit").removeClass('hide');
-                    $("#push-auto-7-day #btn-push-auto").addClass('hide');
-                }
-            });
-            $(".push-auto .select-day select").change(function() {
-                var option_button = $(this).children("option:selected").attr("data-button");
-                var option_condition = $(this).children("option:selected").attr("data-condition");
-                $(".push-auto button").text(option_button);
-                if ($(".push-auto .select-day select").val() == '1') {
-                    $("#push-auto-1-day").addClass('show');
-                    $("#push-auto-1-day").removeClass('hide');
-                    $("#push-auto-3-day").addClass('hide');
-                    $("#push-auto-3-day").removeClass('show');
-                    $("#push-auto-7-day").addClass('hide');
-                    $("#push-auto-7-day").removeClass('show');
-                    packet = 1;
-                } else if ($(".push-auto .select-day select").val() == '2') {
-                    $("#push-auto-1-day").addClass('hide');
-                    $("#push-auto-1-day").removeClass('show');
-                    $("#push-auto-3-day").addClass('show');
-                    $("#push-auto-3-day").removeClass('hide');
-                    $("#push-auto-7-day").addClass('hide');
-                    $("#push-auto-7-day").removeClass('show');
-                    packet = 2;
-                } else if ($(".push-auto .select-day select").val() == '3') {
-                    $("#push-auto-1-day").addClass('hide');
-                    $("#push-auto-1-day").removeClass('show');
-                    $("#push-auto-3-day").addClass('hide');
-                    $("#push-auto-3-day").removeClass('show');
-                    $("#push-auto-7-day").addClass('show');
-                    $("#push-auto-7-day").removeClass('hide');
-                    packet = 3;
-                }
-                $("#popup-confirm-push-auto .condition").text(option_condition);
-            });
-            $(".push-auto .button-push button").click(function() {
-                $("#popup-confirm-push-auto").modal("show");
-                $("#popup-push-top").modal("hide");
-            });
-            $(".push-immediate .button button").click(function() {
-                $("#popup-confirm-push-immediate").modal("show");
-                $("#popup-push-top").modal("hide");
-            });
-        </script>
-        <script src="/js/push_top/push_top.js"></script>
-
-
-        <script type="text/javascript">
-            //    $("#popup-push-credit-success").modal({backdrop: 'static'});
-        </script>
-        <script>
-            var curent_route = "View job"
-        </script>
-
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="text/javascript">
-            var form_spend_credit_contact_freelancer = "#pay-sms";
-            var fid = 0;
-            var pid = 0;
-            $("body").on('click', '.contact-freelancer, .contact-freelancer-bid, .contact-freelancer-bid-mobile', function() {
-                $(form_spend_credit_contact_freelancer + " .load-spinner").hide();
-                $(form_spend_credit_contact_freelancer + " .screen-confirm").show();
-                $(form_spend_credit_contact_freelancer + " .screen-success").hide();
-                $(form_spend_credit_contact_freelancer + " .screen-error").hide();
-                pid = $(this).attr("pid");
-                fid = $(this).attr("fid");
-                //        alert(fid);
-            });
-            var form_spend_credit_contact_freelancer_params = {
-                "service_id": 101,
-                "url": "/credit/spend",
-                "balance": 0,
-                "cost": 5
-            };
-        </script>
-        <script type="text/javascript">
-            /* <![CDATA[ */
-            $(document).ready(function() {
-                jQuery("a.formmessage-call-popup-client").click(function() {
-                    jQuery("#formmessage-client form").attr("action", jQuery(this).attr("data-action"));
-                    jQuery("#formmessage-client h3 span").text(jQuery(this).attr("data-uname"));
-                });
-
-                $("#formmessage-client form .button input").click(function() {
-
-                    var validate = true;
-                    if (validate_fileinput('#file_upload_container .new_file_input') == false) {
-                        validate_fileinput('#file_upload_container .new_file_input');
-                        validate = false;
-                    }
-                    if (validate_fileinput('#file_upload_container .new_file_input') == true) {
-                        $('#file_upload_container .new_file_input label.error').remove();
-                        if ($("#formmessage-client #fileupload").valid()) {
-                            $("#formmessage-client form .button input").submit();
-                        }
-                    }
-                });
-
-                if ($(window).width() > 639) {
-                    $('.block-title span').popover({
-                        trigger: "hover"
-                    });
-                }
-            });
-
-            // URL Gửi lại mail xác thực
-            var reconfirm_email_url = "/a/reconfirm_email";
-        </script>
-        <script type="text/javascript" language="javascript">
-            jQuery(document).ready(function($) {
-                $('#feedback_client #vlance_workshopbundle_feedbacktype .control-group input').rating();
-                $('#feedback_client #vlance_workshopbundle_feedbacktype .control-group input').rating('select', '5');
-            });
-
-            jQuery(document).ready(function($) {
-                $('#feedback_client #vlance_workshopbundle_feedbackfreelancertype .control-group input').rating();
-                $('#feedback_client #vlance_workshopbundle_feedbackfreelancertype .control-group input').rating('select', '5');
-            });
-        </script>
-
-
     </div>
     <div id="footer_content">
         <div class="block">
@@ -2141,129 +1247,6 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
                                 <span class="mixpanel-footer">
                                     <a href="https://mixpanel.com/f/partner" target="_blank" rel="nofollow" title="Mobile Analytics" alt="Mobile Analytics"></a>
                                 </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-links-section grey-bg">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span4 category-block">
-                                <div class="job-category span6">
-                                    <h4><a title="Việc phổ biến nhất">Việc phổ biến nhất</a></h4>
-                                    <div class="row-fluid">
-                                        <ul class="first span12">
-                                            <li><a href="/viec/lap-trinh-web">Việc làm web</a></li>
-                                            <li><a href="/viec/ung-dung-di-dong">Việc lập trình di động</a></li>
-                                            <li><a href="/viec/toi-uu-cho-cong-cu-tim-kiem-seo">Việc làm SEO</a></li>
-                                            <li><a href="/viec/cac-cong-viec-marketing-kinh-doanh">Việc marketing online</a></li>
-                                            <li><a href="/viec/dich-thuat">Việc dịch thuật</a></li>
-                                            <li><a href="/viec/cac-cong-viec-viet-lach">Việc viết lách</a></li>
-                                            <li><a href="/viec/cac-cong-viec-thiet-ke">Việc thiết kế</a></li>
-                                            <li><a href="/viec/quan-ly-blog-fanpage">Việc quản lý fanpage</a></li>
-                                            <li><a href="/viec-lam-freelance">Cuộc thi thiết kế</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="job-category span6">
-                                    <h4><a title="Được thuê nhiều nhất">Được thuê nhiều nhất</a></h4>
-                                    <div class="row-fluid">
-                                        <ul>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-marketing-kinh-doanh">Freelancer Marketing online</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-it-va-lap-trinh_chash_lap-trinh-web">Freelancer Làm web</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-it-va-lap-trinh_chash_ung-dung-di-dong">Freelancer Mobile app</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-it-va-lap-trinh_chash_toi-uu-cho-cong-cu-tim-kiem-seo">Freelancer SEO</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-thiet-ke">Freelancer Thiết kế</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-thiet-ke_chash_banner-quang-cao">Freelancer thiết kế banner</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-viet-lach">Freelancer Viết bài</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-viet-lach_chash_dich-thuat">Freelancer Dịch thuật</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-hanh-chinh_chash_nhap-du-lieu">Freelancer nhập dữ liệu</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span8 right-footer-block">
-                                <div class="sub-col footer-fl ft-right span4">
-                                    <h4><a title="Freelancer">Freelancer</a></h4>
-                                    <div class="row-fluid">
-                                        <ul class="first span12">
-                                            <li><a href="/huong-dan-freelancer-kiem-tien-tren-vlance">Hướng dẫn freelancer kiếm tiền</a></li>
-                                            <li><a href="/huong-dan-freelancer-hoan-thien-ho-so-tren-vlance">Hướng dẫn hoàn thiện hồ sơ</a></li>
-                                            <li><a href="/huong-dan-freelancer-chao-gia-du-an">Hướng dẫn chào giá dự án</a></li>
-                                            <li><a href="/huong-dan-freelancer-nhan-thanh-toan">Hướng dẫn nhận thanh toán</a></li>
-                                            <li><a href="/huong-dan-freelancer-xac-thuc-thong-tin-tai-khoan">Hướng dẫn xác thực tài khoản</a></li>
-                                            <li><a href="/huong-dan-freelancer-lien-he-khach-hang">Hướng dẫn liên hệ khách hàng</a></li>
-                                            <li><a href="/huong-dan-freelancer-mua-credit">Hướng dẫn mua credit</a></li>
-                                            <li><a href="/huong-dan-nang-cap-tai-khoan-freelancer" title="Hướng dẫn nâng cấp tài khoản freelancer">Hướng dẫn nâng cấp tài khoản freelancer</a></li>
-                                            <li><a href="/huong-dan-freelancer-tao-goi-dich-vu">Hướng dẫn tạo gói dịch vụ</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="sub-col footer-cl ft-right span3">
-                                    <h4><a title="Khách hàng">Khách hàng</a></h4>
-                                    <div class="row-fluid">
-                                        <ul class="first span12">
-                                            <li><a href="/huong-dan-thue-freelancer">Cách thuê freelancer</a></li>
-                                            <li><a href="/huong-dan-dang-viec">Hướng dẫn đăng việc</a></li>
-                                            <li><a href="/huong-dan-xac_thuc_email">Hướng dẫn xác thực email</a></li>
-                                            <li><a href="/huong-dan-chon-freelancer">Hướng dẫn chọn freelancer</a></li>
-
-                                            <li><a href="/huong-dan-quan-ly-du-an">Hướng dẫn quản lý dự án</a></li>
-                                            <li><a href="/huong-dan-lien-he-truc-tiep-freelancer">Hướng dẫn liên hệ freelancer</a></li>
-                                            <li><a href="/huong-dan-nang-cap-tai-khoan-khach-hang">Hướng dẫn nâng cấp tài khoản khách hàng</a></li>
-                                            <li><a href="/huong-dan-khach-hang-mua-goi-dich-vu">Hướng dẫn mua gói dịch vụ</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="sub-col about-us ft-right span2">
-                                    <h4><a title="Giới thiệu">Giới thiệu</a></h4>
-                                    <ul>
-                                        <li><a href="/page/gioi-thieu-ve-vlance" title="Về chúng tôi">Về chúng tôi</a></li>
-                                        <li><a href="/doi-tac" title="Nhà tài trợ">Nhà tài trợ</a></li>
-                                        <li><a href="https://kienthuc.vlance.vn/" title="Kiến thức vLance">Kiến thức vLance</a></li>
-                                        <li><a target="_blank" href="https://www.vlance.vn/blog" title="Blog vLance">Blog vLance</a></li>
-                                    </ul>
-                                </div>
-                                <div class="sub-col information ft-right span3">
-                                    <h4>Liên hệ</h4>
-                                    <ul>
-                                        <li><a href="/tro-giup" title="Trợ giúp">Trợ giúp</a></li>
-                                        <li><a href="/page/cau-hoi-thuong-gap">Câu hỏi thường gặp</a></li>
-                                        <li><a href="#" onclick="_urq.push(['Feedback_Open', 'submit/bug']);">Thông báo lỗi <i class="fa fa-bullhorn" aria-hidden="true"></i></a></li>
-                                        <li><a rel="nofollow" target="_blank" href="/page/lien-he" title="Liên hệ">Liên hệ</a></li>
-                                    </ul>
-                                    <div class="social span12">
-                                        <h4 class="row-fluid">Kết nối ngay</h4>
-                                        <div class="row-fluid">
-                                            <ul class="span12">
-                                                <li><a rel="nofollow" href="https://www.facebook.com/vlance.vn" target="_blank" class="i-facebook">
-                                                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a rel="nofollow" href="https://plus.google.com/+VlanceVn" target="_blank" class="i-google">
-                                                        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a rel="nofollow" href="https://www.linkedin.com/company/vlance-vn" target="_blank" class="i-linkedin">
-                                                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a rel="nofollow" href="https://twitter.com/vlancevn" target="_blank" class="i-twitter">
-                                                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a rel="nofollow" href="https://www.youtube.com/user/vlancevietnam" target="_blank" class="i-youtube">
-                                                        <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -2294,58 +1277,6 @@ required=&quot;required&quot; value=&quot;&quot;/&gt;    &lt;/div&gt;    &lt;/di
             </footer>
         </div>
     </div>
-    <div class="row hidden">
-
-
-
-
-
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script type="text/javascript">
-        </script>
-    </div>
-    <div class="row hidden">
-    </div>
-    </div>
-    <script>
-        (function() {
-            var js = "window['__CF$cv$params']={r:'773319cfe8a3ab59',m:'ILUAQ6Rv3wa2DsedwH5fLulCZXbDV0cUpEY7XZevsiE-1669974023-0-ATyRDtByTT5QtA0kmCfa58YWe4hdKu5IXINflElmKqf/L75AT8e+5Pjmsg6NG0WXPh6q63k4Id8k978PS/yLHXdMad1HFO/W2QwYSfolc0rGrMQ8XmUqQWoC2C9oE5muximhUgip+T56eVJAhzgBJqX25E/SO7HFadhnMf7yQM6/4sWF2iMfkQiRceJ82m40cw==',s:[0x94b5d8ce58,0x4fa479df7e],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
-            var _0xh = document.createElement('iframe');
-            _0xh.height = 1;
-            _0xh.width = 1;
-            _0xh.style.position = 'absolute';
-            _0xh.style.top = 0;
-            _0xh.style.left = 0;
-            _0xh.style.border = 'none';
-            _0xh.style.visibility = 'hidden';
-            document.body.appendChild(_0xh);
-
-            function handler() {
-                var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
-                if (_0xi) {
-                    var _0xj = _0xi.createElement('script');
-                    _0xj.nonce = '';
-                    _0xj.innerHTML = js;
-                    _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
-                }
-            }
-            if (document.readyState !== 'loading') {
-                handler();
-            } else if (window.addEventListener) {
-                document.addEventListener('DOMContentLoaded', handler);
-            } else {
-                var prev = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(e) {
-                    prev(e);
-                    if (document.readyState !== 'loading') {
-                        document.onreadystatechange = prev;
-                        handler();
-                    }
-                };
-            }
-        })();
-    </script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"773319cfe8a3ab59","version":"2022.11.3","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
 </body>
 
 </html>
