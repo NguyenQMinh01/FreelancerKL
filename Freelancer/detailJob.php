@@ -95,7 +95,7 @@
 
                 <div class="container">
                     <div class="logo span2">
-                        <a href="/">
+                        <a href="/Freelancer/freelancer.php">
                             <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a>
@@ -135,7 +135,7 @@
                                                             </div>
                                                         </a>
                                                         <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1229116/editbasic">Hồ sơ vLance</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1229116/editbasic">Hồ sơ freelancẻ</a></li>
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a></li>
                                                         </ul>
                                                     </li>
@@ -182,15 +182,13 @@
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/khach-hang/minh-nguyen-1130">Hồ sơ cá nhân</a></li>
-                                        <li><a href="/a/1229116/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
-                                        <li><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
+                                        <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
+                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
                                         <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
-                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
+                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Freelancer</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/logout">Đăng xuất</a></li>
+                                        <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -263,7 +261,7 @@
                         <li class="accordion-menu-dropdown menu-mobile-item ver2">
                             <div class="account-menu dropdown accordion-toggle-ver2 ver2">
                                 <div class="avata avata_ver2">
-                                    <a href="/khach-hang/minh-nguyen-1130">
+                                    <a href="/Freelancer/profilefreelancer.php">
                                         <img width="52" height="52" src="https://www.vlance.vn/uploads/48x48/a5604a3d8c8fbc0515fc14784a739396eed2406c.png1.jpg" alt="Minh Nguyen" title="Minh Nguyen" />
                                     </a>
                                 </div>
@@ -272,7 +270,7 @@
                                         <p>Minh Nguyen </p>
                                     </a>
                                     <div class="credit-balance">
-                                        <span><a class="id-user" href="/khach-hang/minh-nguyen-1130">Id. 1229116 </a></span>
+                                        <span><a class="id-user" href="/Freelancer/profilefreelancer.php">Id. 1229116 </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
                                             <span class="credit-menu-ver2" data-credit="balance">0$</span>
@@ -282,26 +280,13 @@
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </div>
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
-                                <li class="ver2"><a href="/khach-hang/minh-nguyen-1130">Hồ sơ cá nhân</a></li>
-                                <li class="ver2"><a href="/a/1229116/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
-                                <li class="ver2"><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
+                                <li class="ver2"><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
+                                <li class="ver2"><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                <li class="ver2"><a href="#">Cài đặt thông báo việc mới</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <ul class="submenu-list-ver2 accordion-menu-dropdown ">
-                                <li class="submenu-item-ver2 accordion-chevron">
-
-                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Quản lý cho khách hàng<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="accordion-inner-ver2">
-                                        <li class="ver2">
-                                            <a href="/j-d/client">Quản lý tin đăng</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a href="/s-s/client">Quản lý đơn hàng dịch vụ</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="submenu-item-ver2 accordion-chevron">
 
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="/j-s/freelancer">Quản lý việc nhận làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -332,10 +317,10 @@
                                             </ul>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/freelancers">Tìm theo freelancer</a>
+                                            <a href="#">Tìm theo freelancer</a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/ho-so-nang-luc">Tìm theo dự án đã làm</a>
+                                            <a href="#">Tìm theo dự án đã làm</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -343,25 +328,22 @@
                                     <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
                                 </li>
                                 <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">vLance for Business</a>
+                                    <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button"> Business</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
-                            <a class="/*accordion-toggle-ver2*/ ver2" href="/viec-lam-freelance">Tìm việc làm</a>
+                            <a class="/*accordion-toggle-ver2*/ ver2" href="#">Tìm việc làm</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
                                 <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/dang-dich-vu?utm_campaign=GDV1-TPN-20220627&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></a>
+                                    <a class="submenu-link-ver2" href="#">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></a>
                                 </li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a role="menuitem" tabindex="-1" href="/cuoc-thi-thiet-ke" onclick="vtrack('Click contest list page', {'position':'Homepage'})">Cuộc thi thiết kế</a>
                                         </li>
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
@@ -372,7 +354,7 @@
                                     <a class=" submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng hồ sơ năng lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a role="menuitem" tabindex="-1" href="/a/1229116/editbasic">Hồ sơ vLance</a>
+                                            <a role="menuitem" tabindex="-1" href="/a/1229116/editbasic">Hồ sơ freelancer</a>
                                         </li>
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a>
@@ -490,9 +472,6 @@
                 $(".menu-dropdown-content-item").hover(function() {
                     $(".menu-dropdown-content-item").toggleClass('action');
                 });
-
-
-
             });
         </script>
 
@@ -562,13 +541,13 @@
                         <div class="breadcrumbs">
                             <ul>
                                 <li>
-                                    <a href="/viec-lam-freelance" title="Việc freelancer">
+                                    <a href="#" title="Việc freelancer">
                                         <span>Việc freelancer</span>
                                     </a>
                                 </li>
                                 <li><span>›</span></li>
                                 <li>
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-viet-lach" title="Writing &amp; Translation">
+                                    <a href="#" title="Writing &amp; Translation">
                                         <span>Writing &amp; Translation</span>
                                     </a>
                                 </li>
@@ -992,7 +971,6 @@
                                         <h3 class="title">
                                             <a href="/freelancer/anh-nguyet-do" title="Anh Nguyet Do">
                                                 Anh Nguyet Do </a>
-                                            <img style="width:18px; height:18px; margin-left: 2px" src="/img/not_verified_id.png" data-toggle="tooltip" data-placement="top" alt="Chưa xác thực số chứng minh nhân dân" title="" data-original-title="Chưa xác thực số chứng minh nhân dân">
                                             <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
                                             <span class="contact-block" style="float:right;">
                                                 <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="304191" pid="1229116" data-request="{&quot;fid&quot;:304191, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',
@@ -1070,7 +1048,6 @@
                                         <h3 class="title">
                                             <a href="/freelancer/huong-nguyen-thi-38" title="Hương Nguyễn Thị">
                                                 Hương Nguyễn Thị </a>
-                                            <img style="width:18px; height:18px; margin-left: 2px" src="/img/not_verified_id.png" data-toggle="tooltip" data-placement="top" alt="Chưa xác thực số chứng minh nhân dân" title="" data-original-title="Chưa xác thực số chứng minh nhân dân">
                                             <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
                                             <span class="contact-block" style="float:right;">
                                                 <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="1219251" pid="1229116" data-request="{&quot;fid&quot;:1219251, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',
@@ -1148,7 +1125,6 @@
                                         <h3 class="title">
                                             <a href="/freelancer/huy-do-truong-quoc-1" title="Đỗ Trương Quốc Huy">
                                                 Đỗ Trương Quốc Huy </a>
-                                            <img style="width:18px; height:18px;" src="/img/verified_id.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số chứng minh nhân dân" title="" data-original-title="Đã xác thực số chứng minh nhân dân">
                                             <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" data-original-title="Đã xác thực số điện thoại">
                                             <span class="contact-block" style="float:right;">
                                                 <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#pay-sms" fid="1235552" pid="1229116" data-request="{&quot;fid&quot;:1235552, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true',

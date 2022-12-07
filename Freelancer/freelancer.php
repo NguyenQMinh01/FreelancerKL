@@ -116,7 +116,7 @@
 
                 <div class="container">
                     <div class="logo span2">
-                        <a href="/">
+                        <a href="/Freelancer/freelancer.php">
                             <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a>
@@ -391,10 +391,7 @@
             <hx:include evaljs="true" src="https://www.vlance.vn/ji/list_jobinvite_acc_ver2">
             </hx:include>
         </div>
-        <!-- <div class="inbox-menu ver2 pull-right mesenger-ver2">
-            <hx:include evaljs="true" src="https://www.vlance.vn/message/new-message-ver2">
-            </hx:include>
-        </div> -->
+
 
         <!-- end header -->
         <script type="text/javascript">
@@ -482,16 +479,6 @@
             });
         </script>
 
-
-        <!-- <div id="messages">
-            <div class="body-messages">
-            </div>
-        </div>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                setTimeout("$('#messages').hide();", 7000);
-            });
-        </script> -->
         <div class="top_content">
         </div>
 

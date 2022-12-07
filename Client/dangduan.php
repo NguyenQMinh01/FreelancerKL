@@ -55,7 +55,6 @@
             font3.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
             font4.href = 'https://www.vlance.vn/css/slider_home.min.css';
             font5.href = 'https://www.vlance.vn/css/vlance_datepicker.min.css';
-            // font6.href = 'https://www.vlance.vn/css/homepage.css?v=20221103.1449';
 
             var s1 = document.getElementsByTagName('link')[0];
             var s2 = document.getElementsByTagName('link')[0];
@@ -637,19 +636,6 @@
                                                         <input type="date" id="vlance_jobbundle_jobtype_closeAt" name="vlance_jobbundle_jobtype[closeAt]" required="required" placeholder="VD: 22/12/2022" title="" autocomplete="off" data-toggle="popover" data-placement="top" data-content="Hạn nhận báo giá, VD: 24/11/2016" data-trigger="hover" class="popovers-input span12" />
                                                         <span class="add-on"><i class="i32 i32-calendar"></i></span>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="row-fluid">
-                                            <div class="span5 offset2 job-closed-at">
-                                                <div class="control-group ">
-                                                    <label class="required" for="vlance_jobbundle_jobtype_type">Loại hình làm việc </label> <select id="vlance_jobbundle_jobtype_type" name="vlance_jobbundle_jobtype[type]" required="required" pattern="[0-9]*" placeholder="ví dụ: 14" class="row-fluid span12">
-                                                        <option value="0" selected="selected">Việc làm dự án</option>
-                                                        <option value="2">Việc bán thời gian</option>
-                                                        <option value="3">Việc toàn thời gian</option>
-                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
