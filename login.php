@@ -25,7 +25,7 @@
 			<div class="slider-tab"></div>
 		  </div>
 		  <div class="form-inner">
-			<form action="#" class="login">
+			<form action="/Freelancer/freelancer.php" class="login">
 			  <div class="field">
 				<input type="text" placeholder="Email Address" required>
 			  </div>
@@ -95,12 +95,7 @@
 	  </div>
 	<script src="loginstyle.js"></script>
 	<script src="app.js"></script>
-	<script>
-  
 
- 
-
-</script>
 	
 </body>
 </html>
