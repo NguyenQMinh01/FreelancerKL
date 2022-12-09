@@ -125,7 +125,7 @@
             <div class="upper-section row-fluid upper_scoll">
                 <div class="container">
                     <div class="logo span2">
-                        <a href="/Client/profileclient.php">
+                        <a href="/Client/client.php">
                             <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a>
@@ -239,7 +239,7 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li style="margin-bottom:20px"><a href="/j-d/client" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
                                     <li><a href="/s-s/client">Quản lý đơn hàng</a></li>
                                 </ul>
                             </div>

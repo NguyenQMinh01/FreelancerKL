@@ -220,7 +220,7 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li style="margin-bottom:20px"><a href="/j-d/client" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
                                     <li><a href="/s-s/client">Quản lý đơn hàng</a></li>
                                 </ul>
                             </div>
@@ -317,7 +317,7 @@
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Quản lý cho khách hàng<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a href="/j-d/client">Quản lý tin đăng</a>
+                                            <a href="/Client/Quanlitin.php">Quản lý tin đăng</a>
                                         </li>
                                         <li class="ver2">
                                             <a href="/s-s/client">Quản lý đơn hàng dịch vụ</a>
@@ -334,12 +334,7 @@
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                            <ul class="accordion-inner-ver2 sub-menu">
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc theo dự án</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc bán thời gian</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an">Đăng việc toàn thời gian</a></li>
-                                            </ul>
+                                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="/Client/dangduan.php">Đăng tin nhận báo giá<i class="" aria-hidden="true"></i></a>
                                         </li>
                                         <li class="ver2">
                                             <a href="/freelancers">Tìm theo freelancer</a>
