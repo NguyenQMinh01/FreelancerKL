@@ -135,16 +135,11 @@
                                                     </a>
                                                     <ul class="content-item-detail">
                                                         <li class="menu-dropdown-item-content">
-                                                            <a href="#">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
-                                                            <ul class="content-item">
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc theo dự án</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc bán thời gian</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc toàn thời gian</a></li>
-                                                                <li role="presentation"><a role="menuitem" tabindex="-1" href="/dang-cuoc-thi" onclick="vtrack('Click post contest page', {'position':'Homepage'})">Tạo cuộc thi thiết kế</a></li>
-                                                            </ul>
+                                                            <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
+
                                                         </li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/freelancers" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
+                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
+                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="menu-dropdown-content-item" style="display:block">
@@ -203,7 +198,7 @@
                                         <li><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                                         <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
+                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
                                         <li><a href="/logout">Đăng xuất</a></li>
                                     </ul>
@@ -221,14 +216,14 @@
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
                                     <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
-                                    <li><a href="/s-s/client">Quản lý đơn hàng</a></li>
+                                    <li><a href="#">Quản lý đơn hàng</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="tf200 ">
                         </li>
                         <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
+                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
                         </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
@@ -306,8 +301,8 @@
                             </div>
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Freelancer/profileclient.ph">Hồ sơ cá nhân</a></li>
-                                <li class="ver2"><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
+                                <li class="ver2"><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                <li class="ver2"><a href="#">Cài đặt thông báo việc mới</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -320,16 +315,16 @@
                                             <a href="/Client/Quanlitin.php">Quản lý tin đăng</a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/s-s/client">Quản lý đơn hàng dịch vụ</a>
+                                            <a href="#">Quản lý đơn hàng dịch vụ</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
-                            <a class="/*accordion-toggle-ver2*/ ver2" href="/freelancers">Thuê Freelancer</a>
+                            <a class="/*accordion-toggle-ver2*/ ver2" href="#">Thuê Freelancer</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown ">
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance-client?dropdown">Nâng cấp tài khoản</a></li>
+                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="3">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
@@ -340,30 +335,16 @@
                                             <a href="/freelancers">Tìm theo freelancer</a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/ho-so-nang-luc">Tìm theo dự án đã làm</a>
+                                            <a href="#">Tìm theo dự án đã làm</a>
                                         </li>
                                     </ul>
-                                </li>
-                                <li class="submenu-item-ver2 accordion-chevron" style="display:block">
-                                    <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
-                                </li>
-                                <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">vLance for Business</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                            <a class="ver2" href="#">vLance for Business</a>
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Trang chủ Business</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
-                        <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a href="/welcome">Đăng xuất</a></li>
                     </ul>
                 </div>
                 <div class="post-button-ver2">

@@ -316,9 +316,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="submenu-item-ver2 accordion-chevron" style="display:block">
-                                    <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
-                                </li>
+
                                 <li class="submenu-item-ver2">
                                     <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">freelancer for Business</a>
                                 </li>
@@ -506,7 +504,7 @@
                                 <table class="table" style="margin-top: 0">
                                     <tr class="head-title-tb display-desktop-workspace">
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;">Tên việc</th>
-                                        <th class="bid-freelancer" style="padding-top: 15px;padding-bottom: 15px;">Loại việc</th>
+                                        <th class="bid-freelancer" style="padding-top: 15px;padding-bottom: 15px;"></th>
                                         <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;">Ngân sách</th>
                                         <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Trạng thái</th>
                                         <th></th>
@@ -522,7 +520,6 @@
                                             </div>
                                         </td>
                                         <td class="num-bid display-desktop-workspace">
-                                            <p>Việc bán thời gian</p>
                                         </td>
                                         <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             <span>
@@ -623,7 +620,6 @@
                                             </div>
                                         </td>
                                         <td class="num-bid display-desktop-workspace">
-                                            <p>Việc theo dự án</p>
                                         </td>
                                         <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             <span>
@@ -651,7 +647,6 @@
                                             </div>
                                         </td>
                                         <td class="num-bid display-desktop-workspace">
-                                            <p>Việc bán thời gian</p>
                                         </td>
                                         <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             <span>
@@ -679,7 +674,6 @@
                                             </div>
                                         </td>
                                         <td class="num-bid display-desktop-workspace">
-                                            <p>Việc theo dự án</p>
                                         </td>
                                         <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             <span>
@@ -700,407 +694,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal fade popup-push-top" id="popup-push-top" role="dialog" style="display: none;">
-                <div class="load-spinner" id="load-spinner">
-                    <img src="/img/loading.gif" />
-                </div>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center push-free">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <div class="title">
-                                    Đẩy top công việc </div>
-                                <div class="balance">
-                                    Bạn hiện có: <span id='balance'>0</span> credit - Tài khoản: <b style="color: #08c;">
-                                        KHBASIC </b>
-                                </div>
-                            </div>
-                            <div class="row-fluid block-push-with-credit">
-                                <div class="span6 box-shadow push-credit push-immediate">
-                                    <div class="title">
-                                        Đẩy top tức thì </div>
-                                    <div class="button text-center">
-                                        <button class="btn btn-vl btn-vl-green btn-size" onclick="vtrack('Click button immediately push', {location: curent_route})">
-                                            Đẩy top ngay </button>
-                                    </div>
-                                    <div class="description">
-                                        <p><i class="fa fa-check-circle"></i> Tiết kiệm thời gian</p>
-                                        <p><i class="fa fa-check-circle"></i> Không giới hạn dự án được đẩy</p>
-                                    </div>
-                                    <div class="display-mobile text-center view-more">
-                                        <a href="#push-auto">Xem thêm đẩy tự động<i class="fa fa-angle-down"></i></a>
-                                    </div>
-                                </div>
-                                <div class="span6 box-shadow push-credit push-auto" id="push-auto">
-                                    <div class="title">
-                                        Đẩy top tự động </div>
-                                    <div class="row-fluid button">
-                                        <div class="span4 select-day">
-                                            <select>
-                                                <option value="1" data-button="Đẩy ngay (5 credit)" data-condition="Cần 5 credit để đẩy top tự động trong 1 ngày.">1 ngày</option>
-                                                <option value="2" data-button="Đẩy ngay (10 credit)" data-condition="Cần 10 credit để đẩy top tự động trong 3 ngày.">3 ngày</option>
-                                                <option value="3" data-button="Đẩy ngay (20 credit)" data-condition="Cần 20 credit để đẩy top tự động trong 7 ngày.">7 ngày</option>
-                                            </select>
-                                        </div>
-                                        <div class="span8 button-push">
-                                            <button class="btn btn-vl btn-vl-green btn-size" onclick="vtrack('Click button automation push', {location: curent_route})">
-                                                Đẩy ngay (5 credit) </button>
-                                        </div>
-                                    </div>
-                                    <div class="description">
-                                        <p><i class="fa fa-check-circle"></i> Liên tục đẩy 1 tiếng/lần</p>
-                                        <p><i class="fa fa-check-circle"></i> Tiếp cận hàng giờ các freelancer mới</p>
-                                        <p><i class="fa fa-check-circle"></i> Không giới hạn dự án được đẩy</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script type="text/javascript">
-                var form_push_top_immediately = "#popup-push-top";
-                var form_push_top_immediately_params = {
-                    "service_id": 150,
-                    "url": "/credit/spend",
-                    "balance": 0,
-                    "payer_id": 1250511
-                };
-                var push_top_auto_params = {
-                    "service_id": 151,
-                    "url": "/credit/spend",
-                    "balance": 0,
-                    "payer_id": 1250511
-                };
-                var url_push_top = "/push-top-free/submit";
-                var url_get_history_job = "/history-push-top";
-                var jid = 0;
-                var jtype = null;
-                var packet = 1;
-                $("body").on('click', '.push-top-button button, .block-title .push-top-button, .push-top-notify-round-1, .push-top-job-workspace', function() {
-                    $("#popup-push-top").modal("show");
-                    jid = $(this).attr("job-id");
-                    jtype = $(this).attr("job-type");
-                    if (jtype == 0) {
-                        $("a.btn-show-job").attr("href", "/viec-lam-freelance")
-                    } else if (jtype == 1) {
-                        $("a.btn-show-job").attr("href", "/cuoc-thi-thiet-ke")
-                    } else if (jtype == 2) {
-                        $("a.btn-show-job").attr("href", "/viec-lam-ban-thoi-gian")
-                    } else if (jtype == 3) {
-                        $("a.btn-show-job").attr("href", "/viec-lam-toan-thoi-gian")
-                    }
-                    var current_balance = parseInt($("#animategoCredit [data-credit=balance]").text());
-                    $("#popup-confirm-push-immediate #balance").html(current_balance);
-                    $("#popup-confirm-push-auto #balance").html(current_balance);
-                    if (current_balance < 5) {
-                        $("#push-auto-1-day #btn-buy-credit, #push-auto-3-day #btn-buy-credit, #push-auto-7-day #btn-buy-credit").removeClass('hide');
-                        $("#push-auto-1-day #btn-push-auto, #push-auto-3-day #btn-push-auto, #push-auto-7-day #btn-push-auto").addClass('hide');
-                    } else if (current_balance < 10) {
-                        $("#push-auto-3-day #btn-buy-credit, #push-auto-7-day #btn-buy-credit").removeClass('hide');
-                        $("#push-auto-3-day #btn-push-auto, #push-auto-7-day #btn-push-auto").addClass('hide');
-                    } else if (current_balance < 20) {
-                        $("#push-auto-7-day #btn-buy-credit").removeClass('hide');
-                        $("#push-auto-7-day #btn-push-auto").addClass('hide');
-                    }
-                });
-                $(".push-auto .select-day select").change(function() {
-                    var option_button = $(this).children("option:selected").attr("data-button");
-                    var option_condition = $(this).children("option:selected").attr("data-condition");
-                    $(".push-auto button").text(option_button);
-                    if ($(".push-auto .select-day select").val() == '1') {
-                        $("#push-auto-1-day").addClass('show');
-                        $("#push-auto-1-day").removeClass('hide');
-                        $("#push-auto-3-day").addClass('hide');
-                        $("#push-auto-3-day").removeClass('show');
-                        $("#push-auto-7-day").addClass('hide');
-                        $("#push-auto-7-day").removeClass('show');
-                        packet = 1;
-                    } else if ($(".push-auto .select-day select").val() == '2') {
-                        $("#push-auto-1-day").addClass('hide');
-                        $("#push-auto-1-day").removeClass('show');
-                        $("#push-auto-3-day").addClass('show');
-                        $("#push-auto-3-day").removeClass('hide');
-                        $("#push-auto-7-day").addClass('hide');
-                        $("#push-auto-7-day").removeClass('show');
-                        packet = 2;
-                    } else if ($(".push-auto .select-day select").val() == '3') {
-                        $("#push-auto-1-day").addClass('hide');
-                        $("#push-auto-1-day").removeClass('show');
-                        $("#push-auto-3-day").addClass('hide');
-                        $("#push-auto-3-day").removeClass('show');
-                        $("#push-auto-7-day").addClass('show');
-                        $("#push-auto-7-day").removeClass('hide');
-                        packet = 3;
-                    }
-                    $("#popup-confirm-push-auto .condition").text(option_condition);
-                });
-                $(".push-auto .button-push button").click(function() {
-                    $("#popup-confirm-push-auto").modal("show");
-                    $("#popup-push-top").modal("hide");
-                });
-                $(".push-immediate .button button").click(function() {
-                    $("#popup-confirm-push-immediate").modal("show");
-                    $("#popup-push-top").modal("hide");
-                });
-            </script>
-            <script src="/js/push_top/push_top.js"></script>
-            <div class="modal fade popup-push-success" id="popup-push-free-success" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center push-success">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <img src="/img/popup/success.png" />
-                                <div class="title">
-                                    Thành công! </div>
-                                <div class="last-time">
-                                    Thời gian đẩy top: <span id='time'></span>. <a class="view-history-push-top">Xem lịch sử đẩy top.</a>
-                                </div>
-                                <div class="description">
-                                    Dự án của bạn đã được đưa lên đầu trang.<br>Vui lòng đợi <b>6 tiếng</b> sau khi đẩy top. </div>
-                                <a href="#" class="btn btn-size btn-show-job" onclick="vtrack('Click view job on top list')">
-                                    Xem dự án ở đầu trang </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade popup-push-success" id="popup-push-credit-success" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <img src="/img/popup/success.png" />
-                                <div class="title">
-                                    Thành công! </div>
-                                <div class="last-time">
-                                    Thời gian đẩy top: <span id='time'></span>. <a class="view-history-push-top">Xem lịch sử đẩy top.</a>
-                                </div>
-                                <div class="description">
-                                    Dự án của bạn đã được đưa lên đầu trang. </div>
-                                <a href="#" class="btn btn-size btn-show-job" onclick="vtrack('Click view job on top list')">
-                                    Xem dự án ở đầu trang </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script type="text/javascript">
-                //    $("#popup-push-credit-success").modal({backdrop: 'static'});
-            </script>
-            <div class="modal fade popup-push-with-credit" id="popup-confirm-push-immediate" role="dialog">
-                <div class="load-spinner" id="load-spinner">
-                    <img src="/img/loading.gif" />
-                </div>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <div class="title">
-                                    Đẩy top tức thì </div>
-                                <div class="balance">
-                                    Bạn hiện có: <span id='balance'>0</span> credit - Tài khoản: <b style="color: #08c;">
-                                        KHBASIC </b>
-                                </div>
-                                <div class="condition">
-                                    Nâng cấp tài khoản để sử dụng miễn phí </div>
-                                <a id="btn-buy-credit" href="/credit/balance-client" class="btn btn-size btn-vl-green btn-push-now" onclick="vtrack('Click view upgrade client account', {'location' : 'push top'})">
-                                    Nâng cấp tài khoản </a>
-                                <button id="btn-push-immediately" class="btn btn-size btn-vl-white btn-push-now" onclick="vtrack('Click immediately push credit', {'credit_spent' : '5'})">
-                                    Đẩy top ngay (5 credit) </button>
-                                <div class="text-error" id="error"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script>
-                var curent_route = ""
-            </script>
-            <div class="modal fade popup-push-with-credit" id="popup-buy-credit" role="dialog">
-                <div class="load-spinner" id="load-spinner">
-                    <img src="/img/loading.gif" />
-                </div>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <div class="title">
-                                    Bạn không đủ credit </div>
-                                <div class="balance">
-                                    Bạn hiện có: <span id='balance'>0</span> credit - Tài khoản: <b style="color: #08c;">
-                                        THƯỜNG </b>
-                                </div>
-                                <div class="condition">
-                                    Cần 5 credit để đẩy top tức thì. </div>
-                                <a id="btn-buy-credit" href="/credit/balance" class="btn btn-size btn-vl-green btn-push-now" onclick="vtrack('Click buy credit', {location: curent_route})">
-                                    Mua thêm credit </a>
-                                <div class="text-error" id="error"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script>
-                var curent_route = ""
-            </script>
-            <div class="modal fade popup-push-with-credit" id="popup-confirm-push-auto" role="dialog">
-                <div class="load-spinner" id="load-spinner">
-                    <img src="/img/loading.gif" />
-                </div>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <div class="title">
-                                    Đẩy top tự động </div>
-                                <div class="balance">
-                                    Bạn hiện có: <span id='balance'>0</span> credit - Tài khoản: </div>
-                                <div class="condition">
-                                    Cần 5 credit để đẩy top tự động trong 1 ngày. </div>
-                                <div id="push-auto-1-day" class="show">
-                                    <a id="btn-buy-credit" href="/credit/balance" class="btn btn-size btn-vl-green btn-push-now " onclick="vtrack('Click buy credit', {location: curent_route})">
-                                        Mua thêm credit </a>
-                                    <button id="btn-push-auto" class="btn btn-size btn-vl-green btn-push-now hide" onclick="vtrack('Click confirm automation push')">
-                                        Đẩy top ngay </button>
-                                </div>
-                                <div id="push-auto-3-day" class="hide">
-                                    <a id="btn-buy-credit" href="/credit/balance" class="btn btn-size btn-vl-green btn-push-now " onclick="vtrack('Click buy credit', {location: curent_route})">
-                                        Mua thêm credit </a>
-                                    <button id="btn-push-auto" class="btn btn-size btn-vl-green btn-push-now hide" onclick="vtrack('Click confirm automation push')">
-                                        Đẩy top ngay </button>
-                                </div>
-                                <div id="push-auto-7-day" class="hide">
-                                    <a id="btn-buy-credit" href="/credit/balance" class="btn btn-size btn-vl-green btn-push-now " onclick="vtrack('Click buy credit', {location: curent_route})">
-                                        Mua thêm credit </a>
-                                    <button id="btn-push-auto" class="btn btn-size btn-vl-green btn-push-now hide" onclick="vtrack('Click confirm automation push')">
-                                        Đẩy top ngay </button>
-                                </div>
-                                <div class="text-error" id="error"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade popup-history-push-top" id="popup-history-push-top" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="row-fluid text-center push-success">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <div class="title">
-                                    Lịch sử đẩy top
-                                </div>
-                                <div class="noti">
-                                    Lưu lại các lần đẩy top của dự án này
-                                </div>
-                            </div>
-                            <div class="row-fluid detail">
-                                <ul></ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile" style="display:none;" id="pay-feature-job">
-                <div class="load-spinner"><img src="/img/loading.gif" /></div>
-                <div class="redirect-spinner">
-                    <img src="/img/loading.gif" />
-                    <p>Bạn sẽ được chuyển sang cổng thanh toán của Vinaphone. Vui lòng đợi trong giây lát.</p>
-                </div>
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2>Đăng việc nổi bật</h2>
-                </div>
-
-                <div class="screen-confirm" style="overflow-y: auto;max-height: calc(100vh - 75px);">
-                    <div class="modal-body feature-job-m">
-                        <div class="preview banner_upgrade">
-                        </div>
-                        <div class="preview"><img style="height: 180px" width="460px" height="250px" src="/img/credit/feature-job.png" alt="Việc nổi bật" title="Việc nổi bật"></div>
-                        <div class="content">
-                            <div>
-                                <p>Công việc sẽ được đăng nổi bật <b><span class="feature-job-duration">3</span> ngày</b> liên tục trên danh sách việc làm để thu hút được nhiều chào giá hơn.<br />
-                                    <i>Lưu ý: Việc đăng bí mật sẽ tự động chuyển sang công khai.</i>
-                                </p>
-                            </div>
-                            <div class="radio-feature radio-feature-m">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" id="not-suggest-upgrade-pro-1" name="feature-promote-fanpage" value="103" checked>
-                                        Đăng việc nổi bật trên vLance <i><strong> (15 credit)</strong></i>
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" id="suggest-upgrade-pro" name="feature-promote-fanpage" value="111">
-                                        Đăng việc nổi bật trên Fanpage vLance <i><strong> (15 credit)</strong></i>
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" id="not-suggest-upgrade-pro-2" name="feature-promote-fanpage" value="110">
-                                        Đăng việc nổi bật trên vLance & Fanpage vLance <i><strong> (20 credit)</strong></i>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="buy-credit" style="margin-top: 15px">
-                            <p>
-                                Bạn hiện có <b><span class="credit-balance" data-credit="balance">0</span> CREDIT</b> -
-                                Tài khoản: <b>KHBASIC</b>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <a class="btn btn-vl-green contact-freelancer-m" href="/credit/balance">Mua thêm credit</a>
-                        <a style="color: #0088CC; border: none" id="close-modal-pro" href="#" class="btn btn-vl-green contact-freelancer-m contact-white contact-m" data-dismiss="modal">Không, nhận ít chào giá thôi</a>
-                        <a onclick="vtrack('Click view upgrade client account', {'location' : 'feature job'})" style="display: none" id="suggest-link" class="btn btn-vl-green contact-freelancer-m contact-white contact-m" href="/credit/balance-client">Nâng cấp tài khoản</a>
-                        <div id="suggest-detail" style="margin-top: 10px; display: none">
-                            <p class="detail-mobile"><i style="color: #2DB964" class="fa fa-check-circle-o" aria-hidden="true"></i> Miễn phí đăng nổi bật Fanpage lên đến 3 lần mỗi tháng (Cộng dồn các tháng sau)</p>
-                            <p class="detail-mobile"><i style="color: #2DB964" class="fa fa-check-circle-o" aria-hidden="true"></i> Đăng nổi bật bất kỳ lúc nào bạn muốn</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="screen-success">
-                    <div class="modal-body">
-                        <div class="content">
-                            <p>Thật tuyệt vời. Công việc của bạn đã được đăng nổi bật.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="screen-error">
-                    <div class="modal-body">
-                        <div class="content">
-                            <p class="error-message">Rất tiếc, đã có lỗi xảy ra. Vui lòng liên hệ vLance để được hỗ trợ.</p>
-                        </div>
-                        <div class="buy-credit">
-                            <p>
-                                Bạn hiện có <b><span class="credit-balance" data-credit="balance">0</span> CREDIT</b> -
-                                <a href="/credit/balance">MUA THÊM CREDIT</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script type="text/javascript">
-                var form_spend_credit_feature_job = "#pay-feature-job";
-                var form_spend_credit_feature_job_params = {
-                    "service_id": 103,
-                    "url": "/credit/spend",
-                    "balance": 0
-                };
-            </script>
-            <script type="text/javascript">
+            </div> 
+            <!-- <script type="text/javascript">
                 $(document).ready(function() {
                     $('#suggest-upgrade-pro').click(function() {
                         $('#suggest-link').show();
@@ -1135,7 +730,7 @@
                 $(document).ready(function() {
                     vtrack('View workroom client');
                 });
-            </script>
+            </script> -->
         </div>
         <div id="footer_content">
             <div class="block">

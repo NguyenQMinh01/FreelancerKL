@@ -218,13 +218,13 @@
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
                                         <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
-                                        <li><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
+                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
 
                                         <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
+                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/logout">Đăng xuất</a></li>
+                                        <li><a href="/welcome">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -245,7 +245,7 @@
                             </div>
                         </li>
                         <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
+                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
                         </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                     <div class="menu-item-2">
-                        <div class="logo"><a href="/">
+                        <div class="logo"><a href="#">
                                 <img style="width: 65px; height: 40px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
                     </div>
                     <div class="button">
@@ -292,7 +292,7 @@
                     <a><i><img style="width: 18px; height: 18px;" src="/img/close_icon.svg" /></i></a>
                 </div>
                 <div class="logo-submenu-mobile">
-                    <div class="logo"><a href="/">
+                    <div class="logo"><a href="#">
                             <img style="width: 65px; height: 40px; margin-top: 12px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
                 </div>
                 <div class="wrap-mobile login wrap-mobile-ver2 ver2">
@@ -348,23 +348,12 @@
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                            <ul class="accordion-inner-ver2 sub-menu">
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc theo dự án</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc bán thời gian</a></li>
-                                                <li class="ver2"><a onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng việc toàn thời gian</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="ver2">
                                             <a href="/freelancers">Tìm theo freelancer</a>
                                         </li>
                                         <li class="ver2">
                                             <a href="/ho-so-nang-luc">Tìm theo dự án đã làm</a>
                                         </li>
                                     </ul>
-                                </li>
-                                <li class="submenu-item-ver2 accordion-chevron" style="display:block">
-                                    <a class="submenu-link-ver2" title="Tìm gói dịch vụ" href="/tim-dich-vu">Tìm gói dịch vụ </a>
                                 </li>
                             </ul>
                         </li>
@@ -373,7 +362,7 @@
                         </li>
                        
                         </li>
-                        <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
                     </ul>
                 </div>
                 <div class="post-button-ver2">

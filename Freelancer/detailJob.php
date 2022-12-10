@@ -104,7 +104,7 @@
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
                                 <li class="menu-item ver2 second ">
-                                    <a title="Tìm việc làm" href="/viec-lam-freelance">Tìm việc làm<span class="caret"></span></a>
+                                    <a title="Tìm việc làm" href="#">Tìm việc làm<span class="caret"></span></a>
                                     <ul class="menu-dropdown-list">
                                         <li class="menu-dropdown-item">
                                             <div class="container visitor">
@@ -120,8 +120,8 @@
                                                             </div>
                                                         </a>
                                                         <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-dropdown-content-item">
@@ -1145,7 +1145,7 @@
                                         <div class="skill">
                                             <label>Kỹ năng:</label>
                                             <div class="list-skill">
-                                                <a href="/freelancers/kynang_adobe-photoshop" title="Adobe Photoshop"> Adobe Photoshop </a>, <a href="/freelancers/kynang_thiet-ke-logo" title="Thiết kế logo"> Thiết kế logo </a>, <a href="/freelancers/kynang_video-editing" title="Video Editing"> Video Editing </a>, <a href="/freelancers/kynang_viet-blog" title="Viết Blog"> Viết Blog </a>, <a href="/freelancers/kynang_web-content" title="Web content"> Web content </a>, <a href="/freelancers/kynang_microsoft-office" title="Microsoft Office"> Microsoft Office </a>, <a href="/freelancers/kynang_viet-bai" title="Viết bài"> Viết bài </a>, <a href="/freelancers/kynang_luat-dan-su" title="Luật dân sự"> Luật dân sự </a>, <a href="/freelancers/kynang_luat-lao-dong" title="Luật lao động"> Luật lao động </a>, <a href="/freelancers/kynang_thiet-ke-logo-nhan-dien-cong-ty" title="Thiết kế logo - nhận diện công ty"> Thiết kế logo - nhận diện công ty </a>, <a href="/freelancers/kynang_truyen-thong" title="Truyền thông"> Truyền thông </a>, <a href="/freelancers/kynang_viet-hoc-thuat" title="Viết học thuật"> Viết học thuật </a>, <a href="/freelancers/kynang_viet-kich-ban" title="Viết kịch bản"> Viết kịch bản </a>, <a href="/freelancers/kynang_slideshow" title="Slideshow"> Slideshow </a>, <a href="/freelancers/kynang_thiet-ke" title="Thiết kế"> Thiết kế </a>, <a href="/freelancers/kynang_viet-kich-ban-video" title="Viết kịch bản video"> Viết kịch bản video </a>, <a href="/freelancers/kynang_excel" title="Excel"> Excel </a>
+                                                <a href="#" title="Adobe Photoshop"> Adobe Photoshop </a>, <a href="/freelancers/kynang_thiet-ke-logo" title="Thiết kế logo"> Thiết kế logo </a>, <a href="/freelancers/kynang_video-editing" title="Video Editing"> Video Editing </a>, <a href="/freelancers/kynang_viet-blog" title="Viết Blog"> Viết Blog </a>, <a href="/freelancers/kynang_web-content" title="Web content"> Web content </a>, <a href="/freelancers/kynang_microsoft-office" title="Microsoft Office"> Microsoft Office </a>, <a href="/freelancers/kynang_viet-bai" title="Viết bài"> Viết bài </a>, <a href="/freelancers/kynang_luat-dan-su" title="Luật dân sự"> Luật dân sự </a>, <a href="/freelancers/kynang_luat-lao-dong" title="Luật lao động"> Luật lao động </a>, <a href="/freelancers/kynang_thiet-ke-logo-nhan-dien-cong-ty" title="Thiết kế logo - nhận diện công ty"> Thiết kế logo - nhận diện công ty </a>, <a href="/freelancers/kynang_truyen-thong" title="Truyền thông"> Truyền thông </a>, <a href="/freelancers/kynang_viet-hoc-thuat" title="Viết học thuật"> Viết học thuật </a>, <a href="/freelancers/kynang_viet-kich-ban" title="Viết kịch bản"> Viết kịch bản </a>, <a href="/freelancers/kynang_slideshow" title="Slideshow"> Slideshow </a>, <a href="/freelancers/kynang_thiet-ke" title="Thiết kế"> Thiết kế </a>, <a href="/freelancers/kynang_viet-kich-ban-video" title="Viết kịch bản video"> Viết kịch bản video </a>, <a href="/freelancers/kynang_excel" title="Excel"> Excel </a>
                                             </div>
                                         </div>
                                     </div>

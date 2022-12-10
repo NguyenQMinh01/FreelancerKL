@@ -124,7 +124,6 @@
                     <div class="span5" >
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
-
                                 <li class="menu-item ver2 second ">
                                     <a title="Tìm việc làm" href="#">Tìm việc làm<span class="caret"></span></a>
                                     <ul class="menu-dropdown-list">
@@ -143,7 +142,7 @@
                                                         </a>
                                                         <ul class="content-item-detail">
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="3" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
                                                         </ul>
                                                     </li>
 
@@ -158,7 +157,7 @@
                                                             </div>
                                                         </a>
                                                         <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ vLance</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ freelancer</a></li>
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a></li>
                                                         </ul>
                                                     </li>
