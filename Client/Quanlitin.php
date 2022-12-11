@@ -94,8 +94,8 @@
                     <div class="span5">
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
-                                <li class="menu-item ver2 second ">
-                                    <a title="Tìm việc làm" href="/viec-lam-freelance">Tìm việc làm<span class="caret"></span></a>
+                                <li class="menu-item first ver2 ">
+                                    <a title="Thuê Freelancer" href="/freelancers">Thuê Freelancer<span class="caret"></span></a>
                                     <ul class="menu-dropdown-list">
                                         <li class="menu-dropdown-item">
                                             <div class="container visitor">
@@ -104,31 +104,29 @@
                                                         <a href="#">
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
-                                                                    <strong class="block-text-title">Tìm việc làm</strong>
-                                                                    <span class="block-text-subtitle">Hàng ngàn công việc mới được đăng mỗi ngày</span>
+                                                                    <strong class="block-text-title">Tìm & Đăng tin</strong>
+                                                                    <span class="block-text-subtitle"> Nơi hội tụ các freelancer chuyên nghiệp nhất</span>
                                                                 </div>
                                                                 <div class="block-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
                                                             </div>
                                                         </a>
                                                         <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a></li>
+                                                            <li class="menu-dropdown-item-content">
+                                                                <a href="#">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
+                                                            </li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/freelancers" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class="menu-dropdown-content-item">
-                                                        <a href="#">
+                                                    <li class="menu-dropdown-content-item" style="display:block">
+                                                        <a href="/tim-dich-vu">
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
-                                                                    <strong class="block-text-title">Đăng hồ sơ năng lực</strong>
-                                                                    <span class="block-text-subtitle">Để khách hàng có thể chủ động liên hệ với bạn</span>
+                                                                    <strong class="block-text-title">Tìm gói dịch vụ </strong>
+                                                                    <span class="block-text-subtitle">Kết nối, làm việc với chuyên gia trong từng lĩnh vực</span>
                                                                 </div>
-                                                                <div class="block-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
                                                             </div>
                                                         </a>
-                                                        <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1250511/editbasic">Hồ sơ freelancer</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a></li>
-                                                        </ul>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -173,7 +171,7 @@
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/khach-hang/minh-166">Hồ sơ cá nhân</a></li>
+                                        <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                                         <li class="divider"></li>
@@ -215,7 +213,7 @@
                     <div class="menu-item-1 ver2">
                         <div class="toggle dropdown icon-hamberger ver2">
                             <a href="#" class="">
-                                <img style="width: 24px; height: 16px;" src="/img/hambuger_icon.svg" />
+                                <img style="width: 24px; height: 16px;" src="https://www.vlance.vn/img/hambuger_icon.svg" />
                             </a>
                         </div>
                     </div>
@@ -342,7 +340,7 @@
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
-                  
+
                         <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
                     </ul>
                 </div>
@@ -611,7 +609,7 @@
                                                 <div class="title-job">
                                                     <a href="/viec-freelance/dd-2" style="color:#000000; font-weight: 600;">
                                                         [63542] Lập trình app mobile bán giày </a>
-                                                        <span class="label-contest" style="background-color:#F76D22">Mới</span>
+                                                    <span class="label-contest" style="background-color:#F76D22">Mới</span>
 
                                                 </div>
                                                 <div class="freelancer display-desktop-workspace">
@@ -694,7 +692,7 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             <!-- <script type="text/javascript">
                 $(document).ready(function() {
                     $('#suggest-upgrade-pro').click(function() {
@@ -755,40 +753,33 @@
                     </div>
 
                     <section id="footer">
-                            <div class="footer containerfooter">
-                                <div class="brand">
-                                    <h1><span>F</span>reelan<span>c</span>er</h1>
-                                </div>
-                                <h2>Your Complete Web Solution</h2>
-                                <div class="social-icon">
-                                    <div class="social-item">
-                                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-                                    </div>
-                                    <div class="social-item">
-                                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-                                    </div>
-                                    <div class="social-item">
-                                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
-                                    </div>
-                                    <div class="social-item">
-                                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-                                    </div>
-                                </div>
-                                <p>Copyright © 2020 Arfan. All rights reserved</p>
+                        <div class="footer containerfooter">
+                            <div class="brand">
+                                <h1><span>F</span>reelan<span>c</span>er</h1>
                             </div>
-                        </section>
+                            <h2>Your Complete Web Solution</h2>
+                            <div class="social-icon">
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                                </div>
+                            </div>
+                            <p>Copyright © 2020 Arfan. All rights reserved</p>
+                        </div>
+                    </section>
                 </footer>
             </div>
         </div>
-        <div class="row hidden">
-            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-            <script type="text/javascript">
-            </script>
-        </div>
-        <div class="row hidden">
-        </div>
     </div>
-    <script>
+    <!-- <script>
         (function() {
             var js = "window['__CF$cv$params']={r:'7764568a9a830455',m:'z0MQEIzBBzK6yDkKDqIBWhFLLQs1coG5YBbwy_HsFFc-1670490313-0-ASNmZCYjFtqPALJiGNjcf6RfZ4iD1vGwW8rdV0c5UmQ+X7RbF7isyu501dd0poGSm24u31Qzd51FnZ4xyZRjivvQoeBnEAZpzljb2sxnOzeYz1aAd0ZN1qMm2/tlPeKN0g==',s:[0xe204fb9f1d,0x82315cc593],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
             var _0xh = document.createElement('iframe');
@@ -825,7 +816,7 @@
                 };
             }
         })();
-    </script>
+    </script> -->
 </body>
 
 </html>

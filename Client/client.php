@@ -21,10 +21,6 @@
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
-    <link itemprop="sameAs" href="https://www.facebook.com/vlance.vn" />
-    <link itemprop="sameAs" href="https://twitter.com/vlancevn" />
-    <link itemprop="sameAs" href="https://www.linkedin.com/company/vlance-vn" />
-    <link itemprop="sameAs" href="https://plus.google.com/+VlanceVn" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
     <link href="https://www.vlance.vn/css/job-list-first-screen.css?v=20221103.1449" rel="stylesheet" type="text/css" />
 
@@ -35,36 +31,42 @@
             var font3 = document.createElement('link');
             var font4 = document.createElement('link');
             var font5 = document.createElement('link');
+            var font6 = document.createElement('link');
 
             font1.type = 'text/css';
             font2.type = 'text/css';
             font3.type = 'text/css';
             font4.type = 'text/css';
             font5.type = 'text/css';
+            font6.type = 'text/css';
 
             font1.rel = 'stylesheet';
             font2.rel = 'stylesheet';
             font3.rel = 'stylesheet';
             font4.rel = 'stylesheet';
             font5.rel = 'stylesheet';
+            font6.rel = 'stylesheet';
 
             font1.href = 'https://www.vlance.vn/css/bootstrap.min.css';
             font2.href = 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,vietnamese&display=block';
             font3.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
             font4.href = 'https://www.vlance.vn/css/slider_home.min.css';
             font5.href = 'https://www.vlance.vn/css/homepage.css?v=20221103.1449';
+            font6.href = 'https://www.vlance.vn/css/freelancer-list.css?v=20221103.1449'
 
             var s1 = document.getElementsByTagName('link')[0];
             var s2 = document.getElementsByTagName('link')[0];
             var s3 = document.getElementsByTagName('link')[0];
             var s4 = document.getElementsByTagName('link')[0];
             var s5 = document.getElementsByTagName('link')[0];
+            var s6 = document.getElementsByTagName('link')[0];
 
             s1.parentNode.insertBefore(font1, s1);
             s2.parentNode.insertBefore(font2, s2);
             s3.parentNode.insertBefore(font3, s3);
             s4.parentNode.insertBefore(font4, s4);
             s5.parentNode.insertBefore(font5, s5);
+            s6.parentNode.insertBefore(font6, s6);
         })();
     </script>
     <script>
@@ -98,14 +100,11 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/jquery.anicounter.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/lib/slick/slick.min.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js?v=20221103.1449" defer></script>
-    <script src="https://www.google.com/recaptcha/api.js?hl=vi&onload=CaptchaCallback&render=explicit" async defer></script>
-
 </head>
 
 <body class="one-column vlance_homepage ">
     <div class="main">
         <!-- header -->
-
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
                 <div class="container">
@@ -124,7 +123,7 @@
                                         <div class="container visitor">
                                             <ul class="menu-dropdown-content">
                                                 <li class="menu-dropdown-content-item">
-                                                    <a href="#">
+                                                    <a href="">
                                                         <div class="content-item-block">
                                                             <div class="block-text">
                                                                 <strong class="block-text-title">Tìm & Đăng tin</strong>
@@ -138,12 +137,12 @@
                                                             <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
 
                                                         </li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
+                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
                                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="menu-dropdown-content-item" style="display:block">
-                                                    <a href="/tim-dich-vu">
+                                                    <a href="#">
                                                         <div class="content-item-block">
                                                             <div class="block-text">
                                                                 <strong class="block-text-title">Tìm gói dịch vụ </strong>
@@ -177,7 +176,7 @@
                             </div>
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
-                                    <a href="/freelancer/Minh">
+                                    <a href="/Client/profileclient.php">
                                         <img width="48" height="48" src="https://www.vlance.vn/img/unknown.png" alt="Minh" title="Minh" />
                                     </a>
                                 </div>
@@ -195,12 +194,12 @@
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
                                         <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
-                                        <li><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
+                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/logout">Đăng xuất</a></li>
+                                        <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -219,8 +218,6 @@
                                     <li><a href="#">Quản lý đơn hàng</a></li>
                                 </ul>
                             </div>
-                        </li>
-                        <li class="tf200 ">
                         </li>
                         <li class="tf200 ">
                             <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
@@ -245,7 +242,7 @@
                         </div>
                     </div>
                     <div class="menu-item-2">
-                        <h1 class="logo"><a href="/">
+                        <h1 class="logo"><a href="/Client/client.php">
                                 <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                             </a></h1>
                     </div>
@@ -272,7 +269,7 @@
                     <a><i><img style="width: 18px; height: 18px;" src="https://www.vlance.vn/img/close_icon.svg" /></i></a>
                 </div>
                 <div class="logo-submenu-mobile">
-                    <h1 class="logo"><a href="#">
+                    <h1 class="logo"><a href="/Client/client.php">
                             <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                         </a></h1>
                 </div>
@@ -329,10 +326,10 @@
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="/Client/dangduan.php">Đăng tin nhận báo giá<i class="" aria-hidden="true"></i></a>
+                                            <a  href="/Client/dangduan.php">Đăng tin nhận báo giá<i class="" aria-hidden="true"></i></a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/freelancers">Tìm theo freelancer</a>
+                                            <a href="/Client/searchfreelancer.php">Tìm theo freelancer</a>
                                         </li>
                                         <li class="ver2">
                                             <a href="#">Tìm theo dự án đã làm</a>
@@ -444,9 +441,6 @@
                 $(".menu-dropdown-content-item").hover(function() {
                     $(".menu-dropdown-content-item").toggleClass('action');
                 });
-
-
-
             });
         </script>
         <div id="messages">
@@ -530,7 +524,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6">Nhận đến <b>100 mẫu thiết kế</b> mỗi cuộc thi</h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="/dang-cuoc-thi" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
+                                            <a class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
@@ -564,7 +558,7 @@
                                     <div class="jumbotron-new-even">
                                         <h1 class="lh8 mp-lh6">Dịch vụ Marketing, Thiết kế trọn gói chỉ từ <b>200.000</b> <i>₫</i></h1>
                                         <div class="jumbotron-button">
-                                            <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-special" onclick="vtrack('Click Thuengay banner', {'position':'Homepage'})" href="https://www.thuengay.vn/thue-dich-vu?utm_source=vlance.vn&utm_medium=referral&utm_content=homepage-serv-block" target="_blank" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
+                                            <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-special" onclick="vtrack('Click Thuengay banner', {'position':'Homepage'})" href="" target="_blank" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
@@ -615,7 +609,7 @@
                                 <div class="jumbotron-new-even">
                                     <h1><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
                                     <div class="jumbotron-button">
-                                        <a class="btn btn-vl btn-vl-small btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an" title="Đăng dự án ngay">Đăng dự án ngay</a>
+                                        <a class="btn btn-vl btn-vl-small btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php" title="Đăng dự án ngay">Đăng dự án ngay</a>
                                     </div>
                                 </div>
                             </div>
@@ -627,7 +621,7 @@
                                 <div class="jumbotron-new-even">
                                     <h1>Nhận đến <b>100 mẫu thiết kế</b> mỗi cuộc thi</h1>
                                     <div class="jumbotron-button">
-                                        <a class="btn btn-vl btn-vl-orange btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="/dang-cuoc-thi" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
+                                        <a class="btn btn-vl btn-vl-orange btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
                                     </div>
                                 </div>
                             </div>
@@ -639,7 +633,7 @@
                                 <div class="jumbotron-new-even">
                                     <h1>Dịch vụ Marketing, Thiết kế trọn gói chỉ từ <b>200.000</b> <i>₫</i></h1>
                                     <div class="jumbotron-button">
-                                        <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="https://www.thuengay.vn/thue-dich-vu?utm_source=vlance.vn&utm_medium=referral&utm_content=homepage-serv-block" target="_blink" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
+                                        <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="" target="_blink" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
                                     </div>
                                 </div>
                             </div>
@@ -670,94 +664,97 @@
                     });
                 </script>
                 <div class="list-job-homepage">
-                    <h4>Các công việc được quan tâm nhất</h4>
+                    <h4>Top 5 freelancer được đánh giá nổi trội nhất</h4>
                     <div style="text-align: left;max-width: 910px;margin-left: auto;margin-right: auto;background: #ffffff;border: 1px solid #CCCCCC;">
                         <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="fr-info span12">
-                                <div style="overflow: hidden">
-                                    <div class="span10">
-                                        <h3 class="fr-name block-title">
-                                            <a href="/viec-freelance/thiet-ke-trang-web-ban-hang-39?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                                Thiết kế trang web b&aacute;n h&agrave;ng </a>
-                                        </h3>
-                                        <div class="fr-title">
-                                            <div id="client-rating-box" class="list-job-rating">
-                                                <div class="box-rating-client" data-toggle="popover" data-placement="right" data-content="<div>Tiền đã thuê : <b>0</b> VNĐ</div><div>Việc đã đăng : <b>1</b> việc</div><div>Việc đã giao : <b>0</b> việc</div>" data-trigger="hover" data-html="true">
-                                                    <div class="rating-box-client">
-                                                        <div class="rating-client" style="width:0%"></div>
-                                                    </div>
-                                                </div>
-                                                <script type="text/javascript">
-                                                    $(document).ready(function() {
-                                                        $('.box-rating-client').popover();
+                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
+                                <div class="fr-avatar span2">
+                                    <a href="/Client/profileclient.php">
+                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
+                                    </a>
+                                </div>
+                                <div class="fr-info span10">
+                                    <div>
+                                        <h3 class="fr-name" style="float: left">
+                                            <a href="/Client/profileclient.php">M</a>
+                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
+                                            <script type="text/javascript" language="javascript">
+                                                jQuery(document).ready(function() {
+                                                    $(function() {
+                                                        $('[data-toggle="tooltip"]').tooltip()
                                                     })
-                                                </script>
+                                                });
+                                            </script>
+                                        </h3>
+                                    </div>
+                                    <div class="contact-block">
+                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
+                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="fr-title">
+                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
+                                    </div>
+                                    <div class="fr-summary row-fluid">
+                                        <div class="history span9">
+                                            <span class="location">
+                                                TP. Hồ Chí Minh </span>
+                                            <span class="separator">|</span>
+                                            <span class="category">
+                                                Lập trình web </span>
+                                            <span class="separator " style="display:inline">|</span>
+                                            <span class="history-job " style="display:inline">
+                                                <a href="/Client/profileclient.php"><strong>
+                                                        300.000.000 VNĐ </strong></a>
+                                            </span>
+                                        </div>
+                                        <div class="rating-block span3">
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:100%"></div>
                                             </div>
-                                            <a style="color: #000" href="/khach-hang/grace-on" title="Grace On">
-                                                <span>Grace On </span>
-                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="fr-summary row-fluid fr-summary-desktop">
-                                    <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
-                                        <span class="location">TP. Hồ Ch&iacute; Minh </span>
-                                        <span class="separator">|</span>
-                                        <span class="category">Lập tr&igrave;nh web </span>
-                                        <span class="separator hidejs" style="display:none">|</span>
-                                        <span class="history-job hidejs" style="display:none">15.000.000 đ - 20.000.000 đ </span>
-                                    </div>
-                                    <div class="span4 remain-job hidejs" style="display:none;min-height: initial;padding: 10px 10px 9px;text-align: right">
-                                        <div class="remain">Hạn nhận hồ sơ: 8 ngày 15 giờ </div>
-                                    </div>
-                                </div>
-                                <div class="fr-summary row-fluid fr-summary-mobile">
-                                    <div class="history">
-                                        <span class="separator hidejs" style="display:none; color: #999999;margin-right: 9px">Ngân sách dự kiến</span>
-                                        <span class="history-job hidejs" style="display:none">15.000.000 đ - 20.000.000 đ </span>
-                                    </div>
-                                    <div class="remain-job hidejs" style="display:none">
-                                        <div class="remain">
-                                            <span style="color: #999999;margin-right: 25px">Hạn nhận hồ sơ</span>
-                                            8 ngày 15 giờ
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fr-city-cate row-fluid">
-                                    <span class="location">
-                                        TP. Hồ Chí Minh </span>
-                                    <span class="separator">-</span>
-                                    <span class="category">Lập tr&igrave;nh web</span>
-                                </div>
-                                <div class="fr-service fr-service-desktop">
-                                    Thiết kế một website b&aacute;n h&agrave;ng to&agrave;n diện, bao gồm c&aacute;c giao diện cần thiết: listing sản phẩm, giỏ h&agrave;ng, check out, gợi &yacute; sản phẩm, scan m&atilde; code,&hellip; <a class="read_more" href="/viec-freelance/thiet-ke-trang-web-ban-hang-39?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
-                                </div>
-                                <div class="fr-service fr-service-mobile">
-                                    Thiết kế một website b&aacute;n h&agrave;ng to&agrave;n diện, bao gồm c&aacute;c giao diện cần thiết:... <a class="read_more" href="/viec-freelance/thiet-ke-trang-web-ban-hang-39?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
-                                </div>
-                                <div class="fr-profile row-fluid">
-                                    <div class="skill-list span8 row-fluid">
-                                        <span class="service-tag">
-                                            <a href="/viec-lam-freelance/dichvu_dung-website-ban-hang?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title='Dịch vụ: "Dựng website b&aacute;n h&agrave;ng"'>
-                                                Dựng website b&aacute;n h&agrave;ng </a>
-                                        </span>
-                                        <span>
-                                            <a href="/viec-lam-freelance/kynang_tieng-anh?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Tiếng Anh">
-                                                Tiếng Anh </a>
-                                            <a href="/viec-lam-freelance/kynang_ban-hang?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance B&aacute;n h&agrave;ng">
-                                                B&aacute;n h&agrave;ng </a>
-                                            <a href="/viec-lam-freelance/kynang_thiet-ke-giao-dien?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Thiết kế giao diện">
-                                                Thiết kế giao diện </a>
-                                            <a href="/viec-lam-freelance/kynang_code?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance code">
-                                                code </a>
-                                        </span>
-                                    </div>
-                                    <div class="span4">
-                                        <div class="number_bid">
+                                    <div class="fr-profile row-fluid">
+                                        <div class="skill-list span12 row-fluid">
                                             <span>
-                                                22 chào giá
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
+                                                    HTML5 </a>
+                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
+                                                    iOS </a>
+                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
+                                                    Javascript </a>
+                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
+                                                    PHP </a>
+                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
+                                                    Wordpress </a>
+                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
+                                                    Adobe Photoshop </a>
+                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
+                                                    Thiết kế Banner </a>
+                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
+                                                    AngularJS </a>
+                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
+                                                    PHP Laravel </a>
+                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
+                                                    Android </a>
+                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
+                                                     HTML/CSS </a>
+                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
+                                                    Thiết kế Blog </a>
+                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
+                                                    Thiết kế </a>
+                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
+                                                    React.js </a>
                                             </span>
                                         </div>
                                     </div>
@@ -765,88 +762,94 @@
                             </div>
                         </div>
                         <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="fr-info span12">
-                                <div style="overflow: hidden">
-                                    <div class="span10">
-                                        <h3 class="fr-name block-title">
-                                            <a href="/viec-lam/remote-parttime-ho-tro-phat-trien-cap-nhat-noi-dung-len-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                                Remote/parttime Hỗ trợ ph&aacute;t triển, cập nhật nội dung l&ecirc;n website </a>
-                                            <span class="parttime-tag">Bán thời gian</span>
-                                        </h3>
-                                        <div class="fr-title">
-                                            <div id="client-rating-box" class="list-job-rating">
-                                                <div class="box-rating-client" data-toggle="popover" data-placement="right" data-content="<div>Tiền đã thuê : <b>0</b> VNĐ</div><div>Việc đã đăng : <b>1</b> việc</div><div>Việc đã giao : <b>0</b> việc</div>" data-trigger="hover" data-html="true">
-                                                    <div class="rating-box-client">
-                                                        <div class="rating-client" style="width:0%"></div>
-                                                    </div>
-                                                </div>
-                                                <script type="text/javascript">
-                                                    $(document).ready(function() {
-                                                        $('.box-rating-client').popover();
+                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
+                                <div class="fr-avatar span2">
+                                    <a href="/Client/profileclient.php">
+                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
+                                    </a>
+                                </div>
+                                <div class="fr-info span10">
+                                    <div>
+                                        <h3 class="fr-name" style="float: left">
+                                            <a href="/Client/profileclient.php">M</a>
+                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
+                                            <script type="text/javascript" language="javascript">
+                                                jQuery(document).ready(function() {
+                                                    $(function() {
+                                                        $('[data-toggle="tooltip"]').tooltip()
                                                     })
-                                                </script>
+                                                });
+                                            </script>
+                                        </h3>
+                                    </div>
+                                    <div class="contact-block">
+                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
+                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="fr-title">
+                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
+                                    </div>
+                                    <div class="fr-summary row-fluid">
+                                        <div class="history span9">
+                                            <span class="location">
+                                                TP. Hồ Chí Minh </span>
+                                            <span class="separator">|</span>
+                                            <span class="category">
+                                                Lập trình web </span>
+                                            <span class="separator " style="display:inline">|</span>
+                                            <span class="history-job " style="display:inline">
+                                                <a href="/Client/profileclient.php"><strong>
+                                                        300.000.000 VNĐ </strong></a>
+                                            </span>
+                                        </div>
+                                        <div class="rating-block span3">
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:100%"></div>
                                             </div>
-                                            <a style="color: #000" href="/khach-hang/thuc-nguyen-86" title="Thức Nguyễn">
-                                                <span>Thức Nguyễn </span>
-                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="fr-summary row-fluid fr-summary-desktop">
-                                    <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
-                                        <span class="location">
-                                            TP. Hồ Ch&iacute; Minh </span>
-                                        <span class="separator">|</span>
-                                        <span class="category">
-                                            Lập tr&igrave;nh web </span>
-                                        <span class="separator hidejs" style="display:none">|</span>
-                                        <span class="history-job hidejs" style="display:none">
-                                            1.000.000 đ - 5.000.000 đ </span>
-                                    </div>
-                                    <div class="span4 remain-job hidejs" style="display:none;min-height: initial;padding: 10px 10px 9px;text-align: right">
-                                        <div class="remain">
-                                            Hạn nhận hồ sơ: 9 ngày 23 giờ </div>
-                                    </div>
-                                </div>
-                                <div class="fr-summary row-fluid fr-summary-mobile">
-                                    <div class="history">
-                                        <span class="separator hidejs" style="display:none; color: #999999;margin-right: 9px">Ngân sách dự kiến</span>
-                                        <span class="history-job hidejs" style="display:none">
-                                            1.000.000 đ - 5.000.000 đ </span>
-                                    </div>
-                                    <div class="remain-job hidejs" style="display:none">
-                                        <div class="remain">
-                                            <span style="color: #999999;margin-right: 25px">Hạn nhận hồ sơ</span> 9 ngày 23 giờ
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fr-city-cate row-fluid">
-                                    <span class="location">
-                                        TP. Hồ Chí Minh </span>
-                                    <span class="separator">-</span>
-                                    <span class="category">Lập tr&igrave;nh web</span>
-                                </div>
-                                <div class="fr-service fr-service-desktop">
-                                    m&igrave;nh cần 1 bạn l&agrave;m remote để ph&aacute;t triển, cập nhật nội dung l&ecirc;n website tmđt vmedi.com.vn. Chỉnh sửa, update v&agrave; ph&aacute;t triển th&ecirc;m những thứ linh tinh. <a class="read_more" href="/viec-lam/remote-parttime-ho-tro-phat-trien-cap-nhat-noi-dung-len-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
-                                </div>
-                                <div class="fr-service fr-service-mobile">
-                                    m&igrave;nh cần 1 bạn l&agrave;m remote để ph&aacute;t triển, cập nhật nội dung l&ecirc;n website tmđt... <a class="read_more" href="/viec-lam/remote-parttime-ho-tro-phat-trien-cap-nhat-noi-dung-len-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
-                                </div>
-                                <div class="fr-profile row-fluid">
-                                    <div class="skill-list span8 row-fluid">
-                                        <span class="service-tag">
-                                            <a href="/viec-lam-freelance/dichvu_xay-dung-website-thuong-mai-dien-tu?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title='Dịch vụ: "X&acirc;y dựng website thương mại điện tử"'>
-                                                X&acirc;y dựng website thương mại điện tử </a>
-                                        </span>
-                                        <span>
-                                        </span>
-                                    </div>
-                                    <div class="span4">
-                                        <div class="number_bid">
+                                    <div class="fr-profile row-fluid">
+                                        <div class="skill-list span12 row-fluid">
                                             <span>
-                                                19 chào giá
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
+                                                    HTML5 </a>
+                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
+                                                    iOS </a>
+                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
+                                                    Javascript </a>
+                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
+                                                    PHP </a>
+                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
+                                                    Wordpress </a>
+                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
+                                                    Adobe Photoshop </a>
+                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
+                                                    Thiết kế Banner </a>
+                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
+                                                    AngularJS </a>
+                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
+                                                    PHP Laravel </a>
+                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
+                                                    Android </a>
+                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
+                                                     HTML/CSS </a>
+                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
+                                                    Thiết kế Blog </a>
+                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
+                                                    Thiết kế </a>
+                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
+                                                    React.js </a>
                                             </span>
                                         </div>
                                     </div>
@@ -854,104 +857,284 @@
                             </div>
                         </div>
                         <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="fr-info span12">
-                                <div style="overflow: hidden">
-                                    <div class="span10">
-                                        <h3 class="fr-name block-title">
-                                            <a href="/viec-lam/tuyen-nu-ctv-viet-bai-dich-thuat-cho-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                                Tuyển nữ CTV viết b&agrave;i, dịch thuật cho Website </a>
-                                            <span class="parttime-tag">Bán thời gian</span>
-                                            <span class="label-new">Mới</span>
-                                        </h3>
-                                        <div class="fr-title">
-                                            <div id="client-rating-box" class="list-job-rating">
-                                                <div class="box-rating-client" data-toggle="popover" data-placement="right" data-content="<div>Tiền đã thuê : <b>0</b> VNĐ</div><div>Việc đã đăng : <b>1</b> việc</div><div>Việc đã giao : <b>0</b> việc</div>" data-trigger="hover" data-html="true">
-                                                    <div class="rating-box-client">
-                                                        <div class="rating-client" style="width:0%"></div>
-                                                    </div>
-                                                </div>
-                                                <script type="text/javascript">
-                                                    $(document).ready(function() {
-                                                        $('.box-rating-client').popover();
+                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
+                                <div class="fr-avatar span2">
+                                    <a href="/Client/profileclient.php">
+                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
+                                    </a>
+                                </div>
+                                <div class="fr-info span10">
+                                    <div>
+                                        <h3 class="fr-name" style="float: left">
+                                            <a href="/Client/profileclient.php">M</a>
+                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
+                                            <script type="text/javascript" language="javascript">
+                                                jQuery(document).ready(function() {
+                                                    $(function() {
+                                                        $('[data-toggle="tooltip"]').tooltip()
                                                     })
-                                                </script>
+                                                });
+                                            </script>
+                                        </h3>
+                                    </div>
+                                    <div class="contact-block">
+                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
+                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="fr-title">
+                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
+                                    </div>
+                                    <div class="fr-summary row-fluid">
+                                        <div class="history span9">
+                                            <span class="location">
+                                                TP. Hồ Chí Minh </span>
+                                            <span class="separator">|</span>
+                                            <span class="category">
+                                                Lập trình web </span>
+                                            <span class="separator " style="display:inline">|</span>
+                                            <span class="history-job " style="display:inline">
+                                                <a href="/Client/profileclient.php"><strong>
+                                                        300.000.000 VNĐ </strong></a>
+                                            </span>
+                                        </div>
+                                        <div class="rating-block span3">
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:100%"></div>
                                             </div>
-                                            <a style="color: #000" href="/khach-hang/dong-le-37" title="Dong Le">
-                                                <span>Dong Le </span>
-                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="fr-summary row-fluid fr-summary-desktop">
-                                    <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
-                                        <span class="location">
-                                            TP. Hồ Ch&iacute; Minh </span>
-                                        <span class="separator">|</span>
-                                        <span class="category">
-                                            Viết b&agrave;i SEO, nội dung cho website </span>
-                                        <span class="separator hidejs" style="display:none">|</span>
-                                        <span class="history-job hidejs" style="display:none">
-                                            200.000 đ - 300.000 đ </span>
-                                    </div>
-                                    <div class="span4 remain-job hidejs" style="display:none;min-height: initial;padding: 10px 10px 9px;text-align: right">
-                                        <div class="remain">
-                                            Hạn nhận hồ sơ: 9 ngày 4 giờ </div>
-                                    </div>
-                                </div>
-                                <div class="fr-summary row-fluid fr-summary-mobile">
-                                    <div class="history">
-                                        <span class="separator hidejs" style="display:none; color: #999999;margin-right: 9px">Ngân sách dự kiến</span>
-                                        <span class="history-job hidejs" style="display:none">
-                                            200.000 đ - 300.000 đ </span>
-                                    </div>
-                                    <div class="remain-job hidejs" style="display:none">
-                                        <div class="remain">
-                                            <span style="color: #999999;margin-right: 25px">Hạn nhận hồ sơ</span> 9 ngày 4 giờ
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="fr-city-cate row-fluid">
-                                    <span class="location">
-                                        TP. Hồ Chí Minh </span>
-                                    <span class="separator">-</span>
-                                    <span class="category">Viết b&agrave;i SEO, nội dung cho website</span>
-                                </div>
-                                <div class="fr-service fr-service-desktop">
-                                    Tuyển 1 Nữ CTV chuy&ecirc;n viết b&agrave;i cho website, dịch thuật từ b&agrave;i tiếng Anh qua tiếng việt, nếu dịch được từ Việt -&gt; Anh c&agrave;ng tốt. B&agrave;i viết chuẩn SEO c&agrave;ng tốt.
-                                    Website lĩnh vực: Blockchain, đầu tư, b&agrave;i... <a class="read_more" href="/viec-lam/tuyen-nu-ctv-viet-bai-dich-thuat-cho-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
-                                </div>
-                                <div class="fr-service fr-service-mobile">
-                                    Tuyển 1 Nữ CTV chuy&ecirc;n viết b&agrave;i cho website, dịch thuật từ b&agrave;i tiếng Anh qua... <a class="read_more" href="/viec-lam/tuyen-nu-ctv-viet-bai-dich-thuat-cho-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link">
-                                        Xem thêm </a>
-                                </div>
-                                <div class="fr-profile row-fluid">
-                                    <div class="skill-list span8 row-fluid">
-                                        <span class="service-tag">
-                                            <a href="/viec-lam-freelance/dichvu_viet-noi-dung-cho-website?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title='Dịch vụ: "Viết nội dung cho website"'>
-                                                Viết nội dung cho website </a>
-                                        </span>
-                                        <span>
-                                            <a href="/viec-lam-freelance/kynang_seo?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance SEO">
-                                                SEO </a>
-                                            <a href="/viec-lam-freelance/kynang_copywriting?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Copywriting">
-                                                Copywriting </a>
-                                            <a href="/viec-lam-freelance/kynang_dich-thuat?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Dịch thuật">
-                                                Dịch thuật </a>
-                                            <a href="/viec-lam-freelance/kynang_tieng-anh?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Tiếng Anh">
-                                                Tiếng Anh </a>
-                                            <a href="/viec-lam-freelance/kynang_viet-bai?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Viết b&agrave;i">
-                                                Viết b&agrave;i </a>
-                                            <a href="/viec-lam-freelance/kynang_tieng-viet?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Tiếng Việt">
-                                                Tiếng Việt </a>
-                                            <a href="/viec-lam-freelance/kynang_blockchain?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=link" title="Việc freelance Blockchain">
-                                                Blockchain </a>
-                                        </span>
-                                    </div>
-                                    <div class="span4">
-                                        <div class="number_bid">
+                                    <div class="fr-profile row-fluid">
+                                        <div class="skill-list span12 row-fluid">
                                             <span>
-                                                9 chào giá
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
+                                                    HTML5 </a>
+                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
+                                                    iOS </a>
+                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
+                                                    Javascript </a>
+                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
+                                                    PHP </a>
+                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
+                                                    Wordpress </a>
+                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
+                                                    Adobe Photoshop </a>
+                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
+                                                    Thiết kế Banner </a>
+                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
+                                                    AngularJS </a>
+                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
+                                                    PHP Laravel </a>
+                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
+                                                    Android </a>
+                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
+                                                     HTML/CSS </a>
+                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
+                                                    Thiết kế Blog </a>
+                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
+                                                    Thiết kế </a>
+                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
+                                                    React.js </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
+                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
+                                <div class="fr-avatar span2">
+                                    <a href="/Client/profileclient.php">
+                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
+                                    </a>
+                                </div>
+                                <div class="fr-info span10">
+                                    <div>
+                                        <h3 class="fr-name" style="float: left">
+                                            <a href="/Client/profileclient.php">M</a>
+                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
+                                            <script type="text/javascript" language="javascript">
+                                                jQuery(document).ready(function() {
+                                                    $(function() {
+                                                        $('[data-toggle="tooltip"]').tooltip()
+                                                    })
+                                                });
+                                            </script>
+                                        </h3>
+                                    </div>
+                                    <div class="contact-block">
+                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
+                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="fr-title">
+                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
+                                    </div>
+                                    <div class="fr-summary row-fluid">
+                                        <div class="history span9">
+                                            <span class="location">
+                                                TP. Hồ Chí Minh </span>
+                                            <span class="separator">|</span>
+                                            <span class="category">
+                                                Lập trình web </span>
+                                            <span class="separator " style="display:inline">|</span>
+                                            <span class="history-job " style="display:inline">
+                                                <a href="/Client/profileclient.php"><strong>
+                                                        300.000.000 VNĐ </strong></a>
+                                            </span>
+                                        </div>
+                                        <div class="rating-block span3">
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:100%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fr-profile row-fluid">
+                                        <div class="skill-list span12 row-fluid">
+                                            <span>
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
+                                                    HTML5 </a>
+                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
+                                                    iOS </a>
+                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
+                                                    Javascript </a>
+                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
+                                                    PHP </a>
+                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
+                                                    Wordpress </a>
+                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
+                                                    Adobe Photoshop </a>
+                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
+                                                    Thiết kế Banner </a>
+                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
+                                                    AngularJS </a>
+                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
+                                                    PHP Laravel </a>
+                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
+                                                    Android </a>
+                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
+                                                     HTML/CSS </a>
+                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
+                                                    Thiết kế Blog </a>
+                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
+                                                    Thiết kế </a>
+                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
+                                                    React.js </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
+                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
+                                <div class="fr-avatar span2">
+                                    <a href="/Client/profileclient.php">
+                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
+                                    </a>
+                                </div>
+                                <div class="fr-info span10">
+                                    <div>
+                                        <h3 class="fr-name" style="float: left">
+                                            <a href="/Client/profileclient.php">M</a>
+                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
+                                            <script type="text/javascript" language="javascript">
+                                                jQuery(document).ready(function() {
+                                                    $(function() {
+                                                        $('[data-toggle="tooltip"]').tooltip()
+                                                    })
+                                                });
+                                            </script>
+                                        </h3>
+                                    </div>
+                                    <div class="contact-block">
+                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
+                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="fr-title">
+                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
+                                    </div>
+                                    <div class="fr-summary row-fluid">
+                                        <div class="history span9">
+                                            <span class="location">
+                                                TP. Hồ Chí Minh </span>
+                                            <span class="separator">|</span>
+                                            <span class="category">
+                                                Lập trình web </span>
+                                            <span class="separator " style="display:inline">|</span>
+                                            <span class="history-job " style="display:inline">
+                                                <a href="/Client/profileclient.php"><strong>
+                                                        300.000.000 VNĐ </strong></a>
+                                            </span>
+                                        </div>
+                                        <div class="rating-block span3">
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:100%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fr-profile row-fluid">
+                                        <div class="skill-list span12 row-fluid">
+                                            <span>
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
+                                                    HTML5 </a>
+                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
+                                                    iOS </a>
+                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
+                                                    Javascript </a>
+                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
+                                                    PHP </a>
+                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
+                                                    Wordpress </a>
+                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
+                                                    Adobe Photoshop </a>
+                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
+                                                    Thiết kế Banner </a>
+                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
+                                                    AngularJS </a>
+                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
+                                                    PHP Laravel </a>
+                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
+                                                    Android </a>
+                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
+                                                     HTML/CSS </a>
+                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
+                                                    Thiết kế Blog </a>
+                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
+                                                    Thiết kế </a>
+                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
+                                                    React.js </a>
                                             </span>
                                         </div>
                                     </div>
@@ -971,8 +1154,8 @@
                         </script>
                     </div>
                     <div style="margin-top: 35px;padding-bottom: 80px;">
-                        <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="/viec-lam-freelance?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=button">
-                            Xem tất cả <b>54.432</b> công việc </a>
+                        <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="/Client/searchfreelancer.php">
+                            Xem tất cả <b>các</b> freelancer khác </a>
                     </div>
                 </div>
                 <div class="step-explain-section">
