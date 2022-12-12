@@ -356,9 +356,6 @@
                                             <a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
                                         </li>
                                         <li class="ver2">
-                                            <a role="menuitem" tabindex="-1" href="/cuoc-thi-thiet-ke" onclick="vtrack('Click contest list page', {'position':'Homepage'})">Cuộc thi thiết kế</a>
-                                        </li>
-                                        <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
                                         </li>
                                     </ul>
@@ -378,14 +375,6 @@
                                 <li class="submenu-item-ver2"><a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Đăng ký làm Agency</a></li>
                             </ul>
                         </li>
-                        <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                            <a class="ver2" href="#">freelancer for Business</a>
-                            <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Trang chủ Business</a>
-                                </li>
-                            </ul>
-                        </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
@@ -396,7 +385,7 @@
                                 <img src="/img/vn/homepage-new/invite_friends_red.svg">
                             </a>
                         </li>
-                        <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
                     </ul>
                 </div>
                 <div class="post-button-ver2">

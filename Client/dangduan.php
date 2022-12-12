@@ -21,10 +21,6 @@
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
-    <link itemprop="sameAs" href="https://www.facebook.com/vlance.vn" />
-    <link itemprop="sameAs" href="https://twitter.com/vlancevn" />
-    <link itemprop="sameAs" href="https://www.linkedin.com/company/vlance-vn" />
-    <link itemprop="sameAs" href="https://plus.google.com/+VlanceVn" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
     <script>
         (function() {
@@ -33,21 +29,18 @@
             var font3 = document.createElement('link');
             var font4 = document.createElement('link');
             var font5 = document.createElement('link');
-            var font6 = document.createElement('link');
 
             font1.type = 'text/css';
             font2.type = 'text/css';
             font3.type = 'text/css';
             font4.type = 'text/css';
             font5.type = 'text/css';
-            font6.type = 'text/css';
 
             font1.rel = 'stylesheet';
             font2.rel = 'stylesheet';
             font3.rel = 'stylesheet';
             font4.rel = 'stylesheet';
             font5.rel = 'stylesheet';
-            font6.rel = 'stylesheet';
 
 
             font1.href = 'https://www.vlance.vn/css/bootstrap.min.css';
@@ -61,14 +54,12 @@
             var s3 = document.getElementsByTagName('link')[0];
             var s4 = document.getElementsByTagName('link')[0];
             var s5 = document.getElementsByTagName('link')[0];
-            var s6 = document.getElementsByTagName('link')[0];
 
             s1.parentNode.insertBefore(font1, s1);
             s2.parentNode.insertBefore(font2, s2);
             s3.parentNode.insertBefore(font3, s3);
             s4.parentNode.insertBefore(font4, s4);
             s5.parentNode.insertBefore(font5, s5);
-            s6.parentNode.insertBefore(font6, s6);
         })();
     </script>
     <link href="main.css" rel="stylesheet" type="text/css" />
@@ -101,8 +92,7 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/skill/tagmanager.min.js?v=20221103.1449" defer></script>
 </head>
 
-<body class="one-column 
-        job_post job_new ">
+<body class="one-column job_post job_new ">
 
     <script>
         (function() {
@@ -114,8 +104,6 @@
             s.parentNode.insertBefore(font, s);
         })();
     </script>
-
-
     <div class="main">
 
         <div id="fb-root"></div>
@@ -603,7 +591,6 @@
                                                                     $(this).addClass('active');
                                                                 })
                                                             };
-
                                                             function test1(sa, id) {
                                                                 var t = sa.getAttribute('data-value');
                                                                 $(id).children().first().text(t);
