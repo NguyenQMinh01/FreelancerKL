@@ -21,10 +21,6 @@
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
-    <link itemprop="sameAs" href="https://www.facebook.com/vlance.vn" />
-    <link itemprop="sameAs" href="https://twitter.com/vlancevn" />
-    <link itemprop="sameAs" href="https://www.linkedin.com/company/vlance-vn" />
-    <link itemprop="sameAs" href="https://plus.google.com/+VlanceVn" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
 
     <script>
@@ -177,7 +173,7 @@
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/logout">Đăng xuất</a></li>
+                                        <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -276,8 +272,8 @@
                             </div>
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
-                                <li class="ver2"><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
+                                <li class="ver2"><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                <li class="ver2"><a href="#l">Cài đặt thông báo việc mới</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -287,10 +283,10 @@
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Quản lý cho khách hàng<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a href="/j-d/client">Quản lý tin đăng</a>
+                                            <a href="/Client/Quanlitin.php">Quản lý tin đăng</a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/s-s/client">Quản lý đơn hàng dịch vụ</a>
+                                            <a href="/Client/Quanlitin.php">Quản lý đơn hàng dịch vụ</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -307,31 +303,27 @@
                                             <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/freelancers">Tìm theo freelancer</a>
+                                            <a href="/Client/searchfreelancer.php">Tìm theo freelancer</a>
                                         </li>
                                         <li class="ver2">
-                                            <a href="/ho-so-nang-luc">Tìm theo dự án đã làm</a>
+                                            <a href="#">Tìm theo dự án đã làm</a>
                                         </li>
                                     </ul>
-                                </li>
-
-                                <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">freelancer for Business</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="/viec-lam-freelance">Tìm việc làm</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản</a></li>
+                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
+                                            <a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
                                         </li>
                                         <li class="ver2">
-                                            <a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
+                                            <a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -341,7 +333,7 @@
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
 
-                        <li class="menu-mobile-logout"><a href="/logout">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
                     </ul>
                 </div>
                 <div class="post-button-ver2">
@@ -455,7 +447,7 @@
                         <a href="/Client/Quanlitin.php" style="color:white">Tin tuyển dụng</a>
                     </div>
                     <div class="span3 manage-job-service" style="margin-left:10px;width:auto">
-                        <a href="/s-s/client" style="color:black">Đơn hàng dịch vụ</a>
+                        <a href="/Client/Quanlitin.php" style="color:black">Đơn hàng dịch vụ</a>
                     </div>
                 </div>
                 <div class="row-fluid">
@@ -466,7 +458,7 @@
                                     <div class="span3 progress-job-item" style="background: #2DB964; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
-                                            <a href="/j-d/client" style="color: #ffffff">
+                                            <a href="/Client/dangduan.php" style="color: #ffffff">
                                                 Đăng việc </a>
                                         </span>
                                         <span class="job-step-white" style="float: right;"><img src="/media/no-escrow-job/arrow-green-2x.png" style="height: 50px"></span>
@@ -474,7 +466,7 @@
                                     <div class="span3 progress-job-item">
                                         <span class="circle-number-job display-desktop-workspace">2</span>
                                         <span class="job-progress-title">
-                                            <a href="/j-o/client" style="color: #000000">
+                                            <a href="#" style="color: #000000">
                                                 Nhận hồ sơ </a>
                                         </span>
                                         <span style="float: right"><img src="/media/no-escrow-job/arrow-white-2x.png" style="height: 50px"></span>
@@ -482,7 +474,7 @@
                                     <div class="span3 progress-job-item">
                                         <span class="circle-number-job display-desktop-workspace">3</span>
                                         <span class="job-progress-title">
-                                            <a href="/j-w/client" style="color: #000000">
+                                            <a href="#" style="color: #000000">
                                                 Giao việc </a>
                                         </span>
                                         <span style="float: right"><img src="/media/no-escrow-job/arrow-white-2x.png" style="height: 50px"></span>
@@ -490,7 +482,7 @@
                                     <div class="span3 progress-job-item" style="padding-top: 13px">
                                         <span class="circle-number-job display-desktop-workspace">4</span>
                                         <span>
-                                            <a href="/j-f/client" style="color: #000000">
+                                            <a href="#" style="color: #000000">
                                                 Đánh giá </a>
                                         </span>
                                     </div>
@@ -511,7 +503,7 @@
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
-                                                    <a href="/viec-lam/lam-website-ban-giay" style="color:#000000; font-weight: 600;">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
                                                         [63948] L&agrave;m website b&aacute;n gi&agrave;y </a>
                                                     <span class="label-contest" style="background-color:#F76D22">Đang duyệt</span>
                                                 </div>
@@ -583,7 +575,6 @@
                                                                 $('#noti-step-1').hide();
                                                             }
                                                         } else {
-                                                            //
                                                         }
                                                     });
                                                 });
@@ -607,7 +598,7 @@
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
-                                                    <a href="/viec-freelance/dd-2" style="color:#000000; font-weight: 600;">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
                                                         [63542] Lập trình app mobile bán giày </a>
                                                     <span class="label-contest" style="background-color:#F76D22">Mới</span>
 
@@ -635,7 +626,7 @@
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
-                                                    <a href="/viec-lam/dd-1" style="color:#000000; font-weight: 600;">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
                                                         [63537] Dd </a>
                                                     <span class="label-contest" style="background-color: #999999">Việc bị ẩn</span>
                                                 </div>
@@ -662,7 +653,7 @@
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
-                                                    <a href="/viec-freelance/sa" style="color:#000000; font-weight: 600;">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
                                                         [63526] Sa </a>
                                                     <span class="label-contest" style="background-color: #999999">Việc bị ẩn</span>
                                                 </div>
