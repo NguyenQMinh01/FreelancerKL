@@ -321,7 +321,7 @@
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Thuê Freelancer</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown ">
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="3">Nâng cấp tài khoản</a></li>
+                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
@@ -1174,7 +1174,7 @@
                         <div class="container row-fluid">
                             <div class="quotes-left span6">
                                 <h4 class="lh7">Kết nối <span>nhanh chóng,</span> </br><span>Rút ngắn thời gian </span>tìm nhân sự</h4>
-                                <p class="lh3">vLance kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
+                                <p class="lh3">freelancer kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
                             </div>
                             <div class="image-right span6">
                                 <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2-lam-viec.png" title="link_img_vnen.home_page.title_2" alt="link_img_vnen.home_page.title_2">

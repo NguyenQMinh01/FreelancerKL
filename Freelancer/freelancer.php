@@ -21,10 +21,6 @@
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
-    <link itemprop="sameAs" href="https://www.facebook.com/vlance.vn" />
-    <link itemprop="sameAs" href="https://twitter.com/vlancevn" />
-    <link itemprop="sameAs" href="https://www.linkedin.com/company/vlance-vn" />
-    <link itemprop="sameAs" href="https://plus.google.com/+VlanceVn" />
     <link href="https://www.vlance.vn/css/job-list-first-screen.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
 
@@ -103,14 +99,9 @@
 
 </head>
 
-<body class="one-column 
-        vlance_homepage ">
-
-
+<body class="one-column vlance_homepage ">
     <div class="main">
-
         <!-- header -->
-
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
 
@@ -157,8 +148,8 @@
                                                             </div>
                                                         </a>
                                                         <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ freelancer</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Hồ sơ freelancer</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Sản phẩm đã làm</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
@@ -210,7 +201,7 @@
                                         <li><a href="#">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="#">Cài đặt thông báo việc mới</a></li>
                                         <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản Freelancer</a></li>
+                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Freelancer</a></li>
                                         <li class="divider"></li>
                                         <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
@@ -638,7 +629,7 @@
                                 <div class="jumbotron-new-even">
                                     <h1><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
                                     <div class="jumbotron-button">
-                                        <a class="btn btn-vl btn-vl-small btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/dang-du-an" title="Đăng dự án ngay">Đăng dự án ngay</a>
+                                        <a class="btn btn-vl btn-vl-small btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="" title="Đăng dự án ngay">Đăng báo giá ngay</a>
                                     </div>
                                 </div>
                             </div>
@@ -650,7 +641,7 @@
                                 <div class="jumbotron-new-even">
                                     <h1>Nhận đến <b>100 mẫu thiết kế</b> mỗi cuộc thi</h1>
                                     <div class="jumbotron-button">
-                                        <a class="btn btn-vl btn-vl-orange btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="/dang-cuoc-thi" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
+                                        <a class="btn btn-vl btn-vl-orange btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="#" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
                                     </div>
                                 </div>
                             </div>
@@ -662,7 +653,7 @@
                                 <div class="jumbotron-new-even">
                                     <h1>Dịch vụ Marketing, Thiết kế trọn gói chỉ từ <b>200.000</b> <i>₫</i></h1>
                                     <div class="jumbotron-button">
-                                        <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="https://www.thuengay.vn/thue-dich-vu?utm_source=vlance.vn&utm_medium=referral&utm_content=homepage-serv-block" target="_blink" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
+                                        <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-small" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="" target="_blink" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
                                     </div>
                                 </div>
                             </div>
@@ -990,20 +981,10 @@
                                 </div>
                             </div>
                         </div>
-                        <script>
-                            $(document).ready(function() {
-                                if ($(window).width() > 639) {
-                                    $('.block-title span').popover({
-                                        trigger: "hover"
-                                    });
-                                }
-                                $('.hidejs').show();
-                                $('.vlance-popover').popover();
-                            });
-                        </script>
+                  
                     </div>
                     <div style="margin-top: 35px;padding-bottom: 80px;">
-                        <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="/viec-lam-freelance?utm_source=homepage&utm_medium=job-list-block&utm_campaign=20210420_homepage_job-list-block&utm_content=button">
+                        <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="#">
                             Xem tất cả <b>10000</b> công việc </a>
                     </div>
                 </div>
@@ -1023,7 +1004,7 @@
                         <div class="container row-fluid">
                             <div class="quotes-left span6">
                                 <h4 class="lh7">Kết nối <span>nhanh chóng,</span> </br><span>Rút ngắn thời gian </span>tìm nhân sự</h4>
-                                <p class="lh3">vLance kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
+                                <p class="lh3">freelancer kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
                             </div>
                             <div class="image-right span6">
                                 <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2-lam-viec.png" title="link_img_vnen.home_page.title_2" alt="link_img_vnen.home_page.title_2">
@@ -1038,7 +1019,7 @@
                             <div class="quotes-right span6">
                                 <h4 class="lh7"><span>Đa dạng </span>mô hình làm việc<br>Đáp ứng <span>mọi nhu cầu<span></h4>
                                 <p class="lh3">Freelancer tạo gói dịch vụ, khách hàng trực tiếp đặt hàng và chọn mua. Chủ động bán gói dịch vụ gia tăng thu nhập, chủ động đặt mua hoàn thiện công việc nhanh chóng.<br>
-                                    <a href="/tim-dich-vu?utm_campaign=GDV1-BLK-20220808&utm_source=homepage&utm_medium=pop-up&utm_content=button">Tìm gói dịch vụ &#8594;</a>
+                                    <a href="#">Tìm gói dịch vụ &#8594;</a>
                                 </p>
                             </div>
                         </div>
@@ -1064,11 +1045,11 @@
                         <div class="job-row row-fluid">
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-1 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-thiet-ke_chash_thiet-ke-website" title="Đăng dự án, nhận chào giá">
+                                    <a href="#" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1083,7 +1064,7 @@
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1094,11 +1075,11 @@
                             </div>
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-3 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_lap-trinh-web" title="Đăng dự án, nhận chào giá">
+                                    <a href="#" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1109,11 +1090,11 @@
                             </div>
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-4 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-thiet-ke_chash_lam-video-clip" title="Đăng dự án, nhận chào giá">
+                                    <a href="#" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1126,11 +1107,11 @@
                         <div class="job-row row-fluid">
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-5 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_toi-uu-cho-cong-cu-tim-kiem-seo" title="Đăng dự án, nhận chào giá">
+                                    <a href="3" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1141,11 +1122,11 @@
                             </div>
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-6 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-viet-lach_chash_viet-noi-dung-cho-website" title="Đăng dự án, nhận chào giá">
+                                    <a href="#" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1156,11 +1137,11 @@
                             </div>
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-7 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-thiet-ke_chash_thiet-ke-logo" title="Đăng dự án, nhận chào giá">
+                                    <a href="#" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1171,11 +1152,11 @@
                             </div>
                             <div class="job-item span3">
                                 <div class="job-item-show job-show-8 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ung-dung-di-dong" title="Đăng dự án, nhận chào giá">
+                                    <a href="#" title="Đăng dự án, nhận chào giá">
                                         <div class="job-item-overlay-upper tf200">
                                         </div>
                                         <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Đăng dự án</span>
+                                            <span class="btn btn-top-job">Xem chi tiết</span>
                                             <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
                                         </div>
                                     </a>
@@ -1337,7 +1318,7 @@
                         <div class="span5 count-job">
                             <p>
                                 <span>
-                                    <a href="/freelancers">
+                                    <a href="/Client/searchfreelancer.php">
                                         1.243.397 </a>
                                 </span>
                             </p>
@@ -1346,7 +1327,7 @@
                         <div class="span5 count-client">
                             <p>
                                 <span>
-                                    <a href="/viec-lam-freelance">
+                                    <a href="#">
                                         54.432 </a>
                                 </span>
                             </p>
@@ -1355,7 +1336,7 @@
                     </div>
                     <div class="separator-statistics"></div>
                 </div>
-                <script>
+                <!-- <script>
                     jQuery(function($) {
                         jQuery('.home-statistics-section .span4 span a').anicounter({
                             number: 1243397,
@@ -1375,7 +1356,7 @@
                             'type': 'freelancer'
                         });
                     });
-                </script>
+                </script> -->
             </div>
         </div>
 
@@ -1407,7 +1388,6 @@
         <!-- end footer -->
 
     </div>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d7af64ba201fc1","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
 </body>
 
 </html>

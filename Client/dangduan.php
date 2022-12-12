@@ -696,7 +696,7 @@
                                 <div class="form-cread-job-btn">
                                     <div class="row-fluid" style="margin-bottom: 10px">
                                         <div class="span12 ">
-                                            <input id='btn-submit-job' type='submit' class='btn btn-vl-yellow btn-large popup-validate span12' value='Đăng tin' onclick='this.form.action= &quot;/j/new&quot;;' />
+                                            <input id='btn-submit-job' type='submit' class='btn btn-vl-yellow btn-large popup-validate span12' value='Đăng tin' onclick='this.form.action= &quot;/Client/Clientdetailjob.php&quot;;' />
                                         </div>
 
                                     </div>
