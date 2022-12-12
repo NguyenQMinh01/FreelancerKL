@@ -1064,12 +1064,6 @@
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_asp">
-                                                        <i class="span1 "></i>
-                                                        <div>ASP </div>
-                                                    </a>
-                                                </li>
-                                                <li class="sub-item ">
                                                     <a href="/freelancers/kynang_aws">
                                                         <i class="span1 "></i>
                                                         <div>AWS </div>
@@ -1289,14 +1283,8 @@
                                                             Thiết kế logo </a>
                                                         <a href="/freelancers/kynang_thiet-ke-web" title="Freelancer Thiết kế web">
                                                             Thiết kế web </a>
-                                                        <a href="/freelancers/kynang_nhan-dien-thuong-hieu" title="Freelancer Nhận diện thương hiệu">
-                                                            Nhận diện thương hiệu </a>
-                                                        <a href="/freelancers/kynang_thiet-ke-bia-thu" title="Freelancer Thiết kế bìa thư">
-                                                            Thiết kế bìa thư </a>
                                                         <a href="/freelancers/kynang_thiet-ke-giao-dien" title="Freelancer Thiết kế giao diện">
                                                             Thiết kế giao diện </a>
-                                                        <a href="/freelancers/kynang_thiet-ke-logo-nhan-dien-cong-ty" title="Freelancer Thiết kế logo - nhận diện công ty">
-                                                            Thiết kế logo - nhận diện công ty </a>
                                                         <a href="/freelancers/kynang_thiet-ke-photoshop" title="Freelancer Thiết kế Photoshop">
                                                             Thiết kế Photoshop </a>
                                                         <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
@@ -1307,8 +1295,6 @@
                                                             Thiết kế profile </a>
                                                         <a href="/freelancers/kynang_figma" title="Freelancer Figma">
                                                             Figma </a>
-                                                        <a href="/freelancers/kynang_landing-page" title="Freelancer Landing page">
-                                                            Landing page </a>
                                                         <a href="/freelancers/kynang_thiet-ke-do-hoa-2d" title="Freelancer Thiết kế 2d">
                                                             Thiết kế 2d </a>
                                                     </span>
@@ -1627,26 +1613,16 @@
                                                             Python </a>
                                                         <a href="/freelancers/kynang_khai-thac-du-lieu" title="Freelancer Khai thác dữ liệu">
                                                             Khai thác dữ liệu </a>
-                                                        <a href="/freelancers/kynang_lap-ma-photoshop" title="Freelancer Lập mã Photoshop">
-                                                            Lập mã Photoshop </a>
-                                                        <a href="/freelancers/kynang_lap-trinh-action-script" title="Freelancer Lập trình action-script">
-                                                            Lập trình action-script </a>
-                                                        <a href="/freelancers/kynang_quan-li-du-an" title="Freelancer Quản lí dự án">
-                                                            Quản lí dự án </a>
                                                         <a href="/freelancers/kynang_tu-dong-hoa" title="Freelancer Tự động hóa">
                                                             Tự động hóa </a>
                                                         <a href="/freelancers/kynang_xu-li-du-lieu" title="Freelancer Xử lí dữ liệu">
                                                             Xử lí dữ liệu </a>
-                                                        <a href="/freelancers/kynang_opencv" title="Freelancer OpenCV">
-                                                            OpenCV </a>
                                                         <a href="/freelancers/kynang_testing" title="Freelancer Testing">
                                                             Testing </a>
                                                         <a href="/freelancers/kynang_big-data" title="Freelancer Big Data">
                                                             Big Data </a>
                                                         <a href="/freelancers/kynang_blockchain" title="Freelancer Blockchain">
                                                             Blockchain </a>
-                                                        <a href="/freelancers/kynang_django" title="Freelancer Django">
-                                                            Django </a>
                                                     </span>
                                                 </div>
                                             </div>
@@ -1799,12 +1775,6 @@
                                                             Viết Blog </a>
                                                         <a href="/freelancers/kynang_web-content" title="Freelancer Web content">
                                                             Web content </a>
-                                                        <a href="/freelancers/kynang_facebook-fanpage" title="Freelancer Facebook Fanpage">
-                                                            Facebook Fanpage </a>
-                                                        <a href="/freelancers/kynang_viet-review" title="Freelancer Viết review">
-                                                            Viết review </a>
-                                                        <a href="/freelancers/kynang_viet-bai" title="Freelancer Viết bài">
-                                                            Viết bài </a>
                                                         <a href="/freelancers/kynang_lap-trinh-web" title="Freelancer Lập trình web">
                                                             Lập trình web </a>
                                                         <a href="/freelancers/kynang_viet-hoc-thuat" title="Freelancer Viết học thuật">
@@ -1813,8 +1783,6 @@
                                                             Quản lý fanpage </a>
                                                         <a href="/freelancers/kynang_cap-nhap-noi-dung" title="Freelancer Cập nhập nội dung">
                                                             Cập nhập nội dung </a>
-                                                        <a href="/freelancers/kynang_viral-content" title="Freelancer Viral content">
-                                                            Viral content </a>
                                                     </span>
                                                 </div>
                                             </div>
@@ -1903,14 +1871,10 @@
                                                             SEO </a>
                                                         <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
                                                             Wordpress </a>
-                                                        <a href="/freelancers/kynang_woocommerce" title="Freelancer Woocommerce">
-                                                            Woocommerce </a>
                                                         <a href="/freelancers/kynang_ai" title="Freelancer AI">
                                                             AI </a>
                                                         <a href="/freelancers/kynang_figma" title="Freelancer Figma">
                                                             Figma </a>
-                                                        <a href="/freelancers/kynang_gdn" title="Freelancer GDN">
-                                                            GDN </a>
                                                     </span>
                                                 </div>
                                             </div>
@@ -1985,16 +1949,10 @@
                                             <div class="fr-profile row-fluid">
                                                 <div class="skill-list span12 row-fluid">
                                                     <span>
-                                                        <a href="/freelancers/kynang_seo" title="Freelancer SEO">
-                                                            SEO </a>
                                                         <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
                                                             Wordpress </a>
                                                         <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
                                                             Thiết kế Banner </a>
-                                                        <a href="/freelancers/kynang_thiet-ke-brochure" title="Freelancer Thiết kế brochure">
-                                                            Thiết kế brochure </a>
-                                                        <a href="/freelancers/kynang_copywriting" title="Freelancer Copywriting">
-                                                            Copywriting </a>
                                                         <a href="/freelancers/kynang_dich-thuat" title="Freelancer Dịch thuật">
                                                             Dịch thuật </a>
                                                         <a href="/freelancers/kynang_editing" title="Freelancer Editing">
@@ -2003,40 +1961,16 @@
                                                             Viết Blog </a>
                                                         <a href="/freelancers/kynang_web-content" title="Freelancer Web content">
                                                             Web content </a>
-                                                        <a href="/freelancers/kynang_forum-seeding" title="Freelancer Forum seeding">
-                                                            Forum seeding </a>
                                                         <a href="/freelancers/kynang_internet-marketing" title="Freelancer Internet marketing">
                                                             Internet marketing </a>
                                                         <a href="/freelancers/kynang_social-networking" title="Freelancer Social Networking">
                                                             Social Networking </a>
-                                                        <a href="/freelancers/kynang_viet-review" title="Freelancer Viết review">
-                                                            Viết review </a>
-                                                        <a href="/freelancers/kynang_viet-bai" title="Freelancer Viết bài">
-                                                            Viết bài </a>
                                                         <a href="/freelancers/kynang_thiet-ke-bang-hieu" title="Freelancer Thiết kế bảng hiệu">
                                                             Thiết kế bảng hiệu </a>
                                                         <a href="/freelancers/kynang_thiet-ke-web" title="Freelancer Thiết kế web">
                                                             Thiết kế web </a>
                                                         <a href="/freelancers/kynang_lap-trinh-web" title="Freelancer Lập trình web">
                                                             Lập trình web </a>
-                                                        <a href="/freelancers/kynang_bien-tap" title="Freelancer Biên tập">
-                                                            Biên tập </a>
-                                                        <a href="/freelancers/kynang_bien-tap-vien-noi-dung-web" title="Freelancer Biên tập viên nội dung web">
-                                                            Biên tập viên nội dung web </a>
-                                                        <a href="/freelancers/kynang_bien-tap-sach" title="Freelancer Biên tập sách">
-                                                            Biên tập sách </a>
-                                                        <a href="/freelancers/kynang_dich-bai-viet" title="Freelancer Dịch bài viết">
-                                                            Dịch bài viết </a>
-                                                        <a href="/freelancers/kynang_marketing-lan-truyen" title="Freelancer Marketing lan truyền">
-                                                            Marketing lan truyền </a>
-                                                        <a href="/freelancers/kynang_marketing-lien-ket" title="Freelancer Marketing liên kết">
-                                                            Marketing liên kết </a>
-                                                        <a href="/freelancers/kynang_thiet-ke-bao-bi-cong-nghiep" title="Freelancer Thiết kế bao bì công nghiệp">
-                                                            Thiết kế bao bì công nghiệp </a>
-                                                        <a href="/freelancers/kynang_thiet-ke-bia-thu" title="Freelancer Thiết kế bìa thư">
-                                                            Thiết kế bìa thư </a>
-                                                        <a href="/freelancers/kynang_thiet-ke-bieu-tuong" title="Freelancer Thiết kế biểu tượng">
-                                                            Thiết kế biểu tượng </a>
                                                         <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
                                                             Thiết kế Blog </a>
                                                         <a href="/freelancers/kynang_viet-blog-forum" title="Freelancer Viết Blog/Forum">
