@@ -9,6 +9,7 @@
     <meta name="author" content="vLance.vn" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Nội dung review sản phẩm ngắn d&agrave;nh cho tiktok | freelancer.vn</title>
+    <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
     <meta property="og:site_name" content="vLance.vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
