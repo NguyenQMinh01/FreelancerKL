@@ -50,7 +50,7 @@
   
   <section id="hero">
     <div class="hero container">
-      <div>
+      <div></div>
       
         <h1>Xin Chào, <span></span></h1>
         <h1> Website <span></span></h1>

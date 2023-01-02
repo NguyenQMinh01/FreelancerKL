@@ -6,14 +6,14 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
+    <meta name="author" content="" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Khách hàng M&iacute;nh (Lập tr&igrave;nh web) | freelancer.vn</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
-    <meta property="og:site_name" content="vLance.vn" />
+    <meta property="og:site_name" content="vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" name="title" content="Khách hàng M&iacute;nh (Lập tr&igrave;nh web) | vLance.vn" />
+    <meta property="og:title" name="title" content="Khách hàng M&iacute;nh (Lập tr&igrave;nh web) " />
     <meta property="og:image" content="https://www.vlance.vn/uploads/300x300/5137679a253a06555c594a9df5f13502041e06931.png" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
