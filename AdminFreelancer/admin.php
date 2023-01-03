@@ -29,7 +29,8 @@
                     <ul class="nav pcoded-inner-navbar">
                         <li class="nav-item pcoded-menu-caption"> <label>Danh mục</label> </li>
                         <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
-                        <li data-username="Profile Page" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
+                        <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
+                        <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Details job</span></a> </li>
                         <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
                     </ul>
                 </div>
@@ -54,7 +55,7 @@
             <ul class="navbar-nav ml-auto">
                 <li> <label> <i class="icon feather icon-moon" id="theme-indicator"></i> <input type="checkbox" id="theme-switch" class="d-none"> </label> </li>
                 <li>
-                    <div class="dropdown"> <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown" aria-expanded="false"><i class="icon feather icon-bell"></i></a>
+                    <div class="dropdown"> <a class="" href="javascript:" data-toggle="dropdown" aria-expanded="false"><i class="icon feather icon-bell"></i></a>
                         <div class="dropdown-menu dropdown-menu-right notification">
                             <div class="noti-head">
                                 <h6 class="d-inline-block m-b-0">Notifications</h6>
@@ -97,7 +98,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="dropdown drp-user"> <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="icon feather icon-settings"></i> </a>
+                    <div class="dropdown drp-user"> <a href="javascript:" class="   " data-toggle="dropdown" aria-expanded="false"> <i class="icon feather icon-settings"></i> </a>
                         <div class="dropdown-menu dropdown-menu-right profile-notification">
                             <div class="pro-head"> <img src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image"> <span> test </span> <a href="/auth-signin.html" class="dud-logout" title="Logout"> <i class="feather icon-log-out"></i> </a> </div>
                             <ul class="pro-body">
