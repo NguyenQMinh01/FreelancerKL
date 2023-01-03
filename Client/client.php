@@ -136,9 +136,8 @@
                                                     <ul class="content-item-detail">
                                                         <li class="menu-dropdown-item-content">
                                                             <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
-
                                                         </li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
+                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php">Tìm theo freelancer</a></li>
                                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                     </ul>
                                                 </li>

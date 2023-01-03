@@ -92,7 +92,7 @@
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
                                 <li class="menu-item first ver2 ">
-                                    <a title="Thuê Freelancer" href="/freelancers">Thuê Freelancer<span class="caret"></span></a>
+                                    <a title="Thuê Freelancer" href="/Client/searchfreelancer.php">Thuê Freelancer<span class="caret"></span></a>
                                     <ul class="menu-dropdown-list">
                                         <li class="menu-dropdown-item">
                                             <div class="container visitor">
@@ -111,12 +111,12 @@
                                                             <li class="menu-dropdown-item-content">
                                                                 <a href="#">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                             </li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/freelancers" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-dropdown-content-item" style="display:block">
-                                                        <a href="/tim-dich-vu">
+                                                        <a href="#">
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
                                                                     <strong class="block-text-title">Tìm gói dịch vụ </strong>
@@ -169,10 +169,10 @@
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
                                         <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
-                                        <li><a href="/a/1250511/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="/options/general">Cài đặt thông báo việc mới</a></li>
+                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
                                         <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a></li>
+                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
                                         <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
@@ -190,12 +190,12 @@
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
                                     <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
-                                    <li><a href="/s-s/client">Quản lý đơn hàng</a></li>
+                                    <li><a href="#">Quản lý đơn hàng</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
+                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
                         </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
