@@ -9,8 +9,6 @@
     <meta name="author" content="AppSeed">
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,13 +20,13 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/animation/css/animate.min.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/style.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
-    <link href="https://preview.tabler.io/dist/css/tabler.min.css?1668288743" rel="stylesheet">
+    <!-- <link href="https://preview.tabler.io/dist/css/tabler.min.css?1668288743" rel="stylesheet"> -->
     <link href="https://preview.tabler.io/dist/css/demo.min.css?1668288743" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <script src="https://preview.tabler.io/dist/js/demo-theme.min.js?1668288743"></script>
+    <!-- <script src="https://preview.tabler.io/dist/js/demo-theme.min.js?1668288743"></script> -->
     <nav class="pcoded-navbar">
         <div class="navbar-wrapper">
             <div class="navbar-brand header-logo"> <a href="#" class="b-brand">
@@ -155,10 +153,10 @@
                                 </svg>
                             </th>
                             <th>Title</th>
-                            <th>Client</th>
-                            <th>Created</th>
-                            <th>Status</th>
-                            <th>Price</th>
+                            <th>Người đăng</th>
+                            <th>Ngày đăng</th>
+                            <th>Trạng Thái</th>
+                            <th>Ngân sách</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -182,7 +180,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr1')">
@@ -195,7 +193,7 @@
                         <tr id="tr2">
                             <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
                             <td><span class="text-muted">001402</span></td>
-                            <td><a href="invoice.html" class="text-reset" tabindex="-1">UX Wireframes</a></td>
+                            <td><a href="listjob.php" class="text-reset" tabindex="-1">UX Wireframes</a></td>
                             <td>
                                 <span class="flag flag-country-gb"></span>
                                 Adobe
@@ -211,7 +209,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr2')">
@@ -240,7 +238,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr3')">
@@ -253,7 +251,7 @@
                         <tr id="tr4">
                             <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
                             <td><span class="text-muted">001404</span></td>
-                            <td><a href="invoice.html" class="text-reset" tabindex="-1">Landing Page</a></td>
+                            <td><a href="listjob.php" class="text-reset" tabindex="-1">Landing Page</a></td>
                             <td>
                                 <span class="flag flag-country-br"></span>
                                 Salesforce
@@ -269,7 +267,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr4')">
@@ -298,7 +296,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr5')">
@@ -311,7 +309,7 @@
                         <tr id="tr6">
                             <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
                             <td><span class="text-muted">001406</span></td>
-                            <td><a href="invoice.html" class="text-reset" tabindex="-1">Sales Presentation</a></td>
+                            <td><a href="listjob.php" class="text-reset" tabindex="-1">Sales Presentation</a></td>
                             <td>
                                 <span class="flag flag-country-br"></span>
                                 Tabdaq
@@ -327,7 +325,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr6')">
@@ -340,7 +338,7 @@
                         <tr id="tr7">
                             <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
                             <td><span class="text-muted">001407</span></td>
-                            <td><a href="invoice.html" class="text-reset" tabindex="-1">Logo &amp; Print</a></td>
+                            <td><a href="listjob.php" class="text-reset" tabindex="-1">Logo &amp; Print</a></td>
                             <td>
                                 <span class="flag flag-country-us"></span>
                                 Apple
@@ -356,7 +354,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr7')">
@@ -369,7 +367,7 @@
                         <tr id="tr8">
                             <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
                             <td><span class="text-muted">001408</span></td>
-                            <td><a href="invoice.html" class="text-reset" tabindex="-1">Icons</a></td>
+                            <td><a href="listjob.php" class="text-reset" tabindex="-1">Icons</a></td>
                             <td>
                                 <span class="flag flag-country-pl"></span>
                                 Tookapic
@@ -385,7 +383,7 @@
                                 <span class="dropdown">
                                     <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown" aria-expanded="false">Actions</button>
                                     <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="#">
+                                        <a class="dropdown-item" href="listjob.php">
                                             Xem chi tiết
                                         </a>
                                         <a class="dropdown-item" href="#" onclick="hide('#tr8')">
@@ -397,9 +395,9 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-footer d-flex align-items-center" style="margin-right: 230px;">
+            <div class="card-footer d-flex align-items-center" >
                 <p class="m-0 text-muted">Showing <span>1</span> to <span>8</span> of <span>16</span> job</p>
-                <ul class="pagination m-0 ms-auto">
+                <ul class="pagination m-0 ms-auto" style="padding-left: 30%;">
                     <li class="page-item disabled">
                         <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
