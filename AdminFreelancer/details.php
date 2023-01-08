@@ -175,14 +175,14 @@
                             </ul>
                         </div>
                         <div class="author-single"><span>Minh</span></div>
-                        <!-- <div class="single-apply-jobs">
+                        <div class="single-apply-jobs">
                             <div class="row align-items-center">
                                 <div class="col-md-5"><a class="btn btn-default mr-15" href="#">Xóa job</a><a class="btn btn-border" href="#">Bỏ vào hàng chờ</a></div>
-                                <div class="col-md-7 text-lg-end social-share">
+                                <!-- <div class="col-md-7 text-lg-end social-share">
                                     <h6 class="color-text-paragraph-2 d-inline-block d-baseline mr-10">Share this</h6><a class="mr-5 d-inline-block d-middle" href="#"><img alt="jobBox" src="assets/imgs/template/icons/share-fb.svg"></a><a class="mr-5 d-inline-block d-middle" href="#"><img alt="jobBox" src="assets/imgs/template/icons/share-tw.svg"></a><a class="mr-5 d-inline-block d-middle" href="#"><img alt="jobBox" src="assets/imgs/template/icons/share-red.svg"></a><a class="d-inline-block d-middle" href="#"><img alt="jobBox" src="assets/imgs/template/icons/share-whatsapp.svg"></a>
-                                </div>
+                                </div> -->
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 pl-40 pl-lg-15 mt-lg-30">
                         <div class="sidebar-border">
@@ -215,7 +215,7 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
-    <script src="assets/js/main.js?v=4.1"></script><a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
 
 </body>
 

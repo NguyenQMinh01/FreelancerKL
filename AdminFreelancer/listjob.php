@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/style.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
     <!-- <link href="https://preview.tabler.io/dist/css/tabler.min.css?1668288743" rel="stylesheet"> -->
+    <link href="http://wp.alithemes.com/html/jobbox/demos/assets/css/style.css?version=4.1" rel="stylesheet">
+
     <link href="https://preview.tabler.io/dist/css/demo.min.css?1668288743" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -432,6 +434,8 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
+
     <script>
         function hide(id) {
             $(id).hide();
