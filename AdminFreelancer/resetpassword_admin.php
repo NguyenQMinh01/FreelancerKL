@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-    <title>Datta Able - Reset password</title>
+    <title>Reset password</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -42,7 +42,7 @@
                     <div class="mb-4">
                         <i class="feather icon-mail auth-icon"></i>
                     </div>
-                    <h3 class="mb-4">Reset Password</h3>
+                    <h3 class="mb-4">Reset Password Admin</h3>
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Email">
                     </div>
