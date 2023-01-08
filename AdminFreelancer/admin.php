@@ -33,7 +33,7 @@
                         <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
                         <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
                         <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Details job</span></a> </li>
-                        <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
+                        <li data-username="Disabled Menu" class="nav-item"><a href="loginadmin.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
                     </ul>
                 </div>
                 <div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.5); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 898px;"></div>
@@ -102,10 +102,10 @@
                 <li>
                     <div class="dropdown drp-user"> <a href="javascript:" class="   " data-toggle="dropdown" aria-expanded="false"> <i class="icon feather icon-settings"></i> </a>
                         <div class="dropdown-menu dropdown-menu-right profile-notification">
-                            <div class="pro-head"> <img src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image"> <span> test </span> <a href="/auth-signin.html" class="dud-logout" title="Logout"> <i class="feather icon-log-out"></i> </a> </div>
+                            <div class="pro-head"> <img src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image"> <span> test </span> <a href="loginadmin.php" class="dud-logout" title="Logout"> <i class="feather icon-log-out"></i> </a> </div>
                             <ul class="pro-body">
                                 <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
-                                <li><a href="#" class="dropdown-item"> <i class="feather icon-lock"></i> Logout</a> </li>
+                                <li><a href="loginadmin.php" class="dropdown-item"> <i class="feather icon-lock"></i> Logout</a> </li>
                             </ul>
                         </div>
                     </div>
