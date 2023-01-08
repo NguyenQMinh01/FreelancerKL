@@ -36,8 +36,8 @@
                 <div class="navbar-content scroll-div" style="overflow: hidden; width: 100%; height: calc(-70px + 100vh);">
                     <ul class="nav pcoded-inner-navbar">
                         <li class="nav-item pcoded-menu-caption"> <label>Danh mục</label> </li>
-                        <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="admin.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
-                        <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
+                        <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item"> <a href="admin.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
+                        <li data-username="List job" class="nav-item active "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
                         <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Details job</span></a> </li>
                         <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
                     </ul>
