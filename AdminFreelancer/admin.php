@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/animation/css/animate.min.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/style.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
-    <link href="http://wp.alithemes.com/html/jobbox/demos/assets/css/style.css?version=4.1" rel="stylesheet">
-
+    
 </head>
 <body>
     <nav class="pcoded-navbar">
@@ -33,7 +32,7 @@
                         <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
                         <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
                         <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Details job</span></a> </li>
-                        <li data-username="Disabled Menu" class="nav-item"><a href="loginadmin.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
+                        <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
                     </ul>
                 </div>
                 <div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.5); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 898px;"></div>
@@ -102,10 +101,10 @@
                 <li>
                     <div class="dropdown drp-user"> <a href="javascript:" class="   " data-toggle="dropdown" aria-expanded="false"> <i class="icon feather icon-settings"></i> </a>
                         <div class="dropdown-menu dropdown-menu-right profile-notification">
-                            <div class="pro-head"> <img src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image"> <span> test </span> <a href="loginadmin.php" class="dud-logout" title="Logout"> <i class="feather icon-log-out"></i> </a> </div>
+                            <div class="pro-head"> <img src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image"> <span> test </span> <a href="/auth-signin.html" class="dud-logout" title="Logout"> <i class="feather icon-log-out"></i> </a> </div>
                             <ul class="pro-body">
                                 <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
-                                <li><a href="loginadmin.php" class="dropdown-item"> <i class="feather icon-lock"></i> Logout</a> </li>
+                                <li><a href="#" class="dropdown-item"> <i class="feather icon-lock"></i> Logout</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -181,63 +180,9 @@
                                         </div>
                                         <div class="card-block px-0 py-3">
                                             <div class="table-responsive">
-                                                <table class="table table-hover">
+                                                <table class="table table-hover tablelist">
                                                     <tbody>
-                                                        <tr class="unread">
-                                                            <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" alt="activity-user"> </td>
-                                                            <td>
-                                                                <h6 class="mb-1">Minh id:1</h6>
-                                                                <p class="m-0">Thiết kế website bằng php và design web với figma có 1 năm kinh nghiệm</p>
-                                                            </td>
-                                                            <td>
-                                                                <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>11 MAY 12:56</h6>
-                                                            </td>
-                                                            <td><a href="#" class="label theme-bg text-white f-12">Approve</a><a href="#" class="label theme-bg2 text-white f-12">Reject</a> </td>
-                                                        </tr>
-                                                        <tr class="unread">
-                                                            <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-2.jpg" alt="activity-user"> </td>
-                                                            <td>
-                                                                <h6 class="mb-1">Minh id:1</h6>
-                                                                <p class="m-0">Làm web site bán giày</p>
-                                                            </td>
-                                                            <td>
-                                                                <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>11 MAY 10:35</h6>
-                                                            </td>
-                                                            <td><a href="#" class="label theme-bg text-white f-12">Approve</a><a href="#" class="label theme-bg2 text-white f-12">Reject</a> </td>
-                                                        </tr>
-                                                        <tr class="unread">
-                                                            <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-3.jpg" alt="activity-user"> </td>
-                                                            <td>
-                                                                <h6 class="mb-1">Minh id:1</h6>
-                                                                <p class="m-0">Lập trình app mobile bán giày</p>
-                                                            </td>
-                                                            <td>
-                                                                <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>9 MAY 17:38</h6>
-                                                            </td>
-                                                            <td><a href="#" class="label theme-bg text-white f-12">Approve</a><a href="#" class="label theme-bg2 text-white f-12">Reject</a> </td>
-                                                        </tr>
-                                                        <tr class="unread">
-                                                            <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" alt="activity-user"> </td>
-                                                            <td>
-                                                                <h6 class="mb-1">Minh id:1</h6>
-                                                                <p class="m-0">Nội dung review sản phẩm ngắn dành cho tiktok và sáng tạo content viết blog cho tiktok </p>
-                                                            </td>
-                                                            <td>
-                                                                <h6 class="text-muted f-w-300"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>19 MAY 12:56</h6>
-                                                            </td>
-                                                            <td><a href="#" class="label theme-bg text-white f-12">Approve</a><a href="#" class="label theme-bg2 text-white f-12">Reject</a> </td>
-                                                        </tr>
-                                                        <tr class="unread">
-                                                            <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-2.jpg" alt="activity-user"> </td>
-                                                            <td>
-                                                                <h6 class="mb-1">Minh id:1</h6>
-                                                                <p class="m-0">sadhahgscgvsvcy ysdysdgyshcyuscu ysdgyssydcvdysvcysvcysvcy</p>
-                                                            </td>
-                                                            <td>
-                                                                <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>21 July 12:56</h6>
-                                                            </td>
-                                                            <td><a href="#" class="label theme-bg text-white f-12">Approve</a><a href="#" class="label theme-bg2 text-white f-12">Reject</a> </td>
-                                                        </tr>
+                                                        
                                                     </tbody>
                                                 </table>
                                                 <div class="noti-footer" style="display:flex; justify-content:center;"> <a href="javascript:">show all</a> </div>
@@ -325,14 +270,43 @@
                 </div>
             </div>
         </div>
-
     </div>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
-    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
+    <script>
+        $(document).ready(function(){
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_job_pending',
+                success: function(res) {
+                    var s= "";
+                    JSON.parse(res).map((v,i) => {
+                        let day = new Date(v.create_date).toLocaleDateString("en-US");
+                        s+=`<tr class="unread " data-id="${v.id_job}">
+                            <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" alt="activity-user"> </td>
+                            <td>
+                                <h6 class="mb-1">${v.username}</h6>
+                                <p class="m-0">${v.description}</p>
+                            </td>
+                            <td>
+                                <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>${day}</h6>
+                            </td>
+                            <td><a href="#" data-id="${v.id_job}" class="label theme-bg text-white f-12 approve">Approve</a><a href="#" data-id="${v.id_job}" class="label theme-bg2 text-white f-12 reject">Reject</a> </td>
+                        </tr>`;
+                    });
+                    $(".tablelist tbody").html(s);
+                },
+                async: true
+            });
 
-
+            $(".tablelist").on("click","a.approve",function(e){
+                e.preventDefault();
+               var id = $(this).attr("data-id");
+               alert(id);
+               $(this).closest("tr").remove();
+            });
+        });
+    </script>
 </body>
 </html>
