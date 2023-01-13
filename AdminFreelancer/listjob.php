@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
     <!-- <link href="https://preview.tabler.io/dist/css/tabler.min.css?1668288743" rel="stylesheet"> -->
     <link href="http://wp.alithemes.com/html/jobbox/demos/assets/css/style.css?version=4.1" rel="stylesheet">
-
+    
+  
     <link href="https://preview.tabler.io/dist/css/demo.min.css?1668288743" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -126,33 +127,17 @@
             <div class="card-header">
                 <h3 class="card-title">Danh sách tin/job đã được duyệt</h3>
             </div>
-            <div class="card-body border-bottom py-3">
-                <div class="d-flex">
-                    <div class="text-muted">
-                        Show
-                        <div class="mx-2 d-inline-block">
-                            <input type="text" class="form-control form-control-sm" value="8" size="3" aria-label="Invoices count">
-                        </div>
-                        job
-                    </div>
-                    <div class="ms-auto text-muted" style="margin-right: 230px;">
-                        Search:
-                        <div class="ms-2 d-inline-block">
-                            <input type="text" class="form-control form-control-sm" aria-label="Search invoice">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div class="table-responsive">
                 <table class="table card-table table-vcenter text-nowrap datatable">
-                    <thead>
+                     <thead>
                         <tr>
-                            <th class="w-1"><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select all invoices"></th>
+                          
                             <th class="w-1">No.
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-sm icon-thick" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                     <polyline points="6 15 12 9 18 15"></polyline>
-                                </svg>
+                                </svg>  
                             </th>
                             <th>Title</th>
                             <th>Người đăng</th>
@@ -162,268 +147,14 @@
                             <th></th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr id="tr1">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001401</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">Design Works</a></td>
-                            <td>
-                                <span class="flag flag-country-us"></span>
-                                Carlson Limited
-                            </td>
-                            <td>
-                                15 Dec 2017
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$887</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr1')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr2">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001402</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">UX Wireframes</a></td>
-                            <td>
-                                <span class="flag flag-country-gb"></span>
-                                Adobe
-                            </td>
-                            <td>
-                                12 Apr 2017
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$1200</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr2')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr3">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001403</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">New Dashboard</a></td>
-                            <td>
-                                <span class="flag flag-country-de"></span>
-                                Bluewolf
-                            </td>
-                            <td>
-                                23 Oct 2017
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$534</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr3')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr4">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001404</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">Landing Page</a></td>
-                            <td>
-                                <span class="flag flag-country-br"></span>
-                                Salesforce
-                            </td>
-                            <td>
-                                2 Sep 2017
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$1500</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr4')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr5">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001405</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">Marketing Templates</a></td>
-                            <td>
-                                <span class="flag flag-country-pl"></span>
-                                Printic
-                            </td>
-                            <td>
-                                29 Jan 2018
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$648</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr5')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr6">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001406</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">Sales Presentation</a></td>
-                            <td>
-                                <span class="flag flag-country-br"></span>
-                                Tabdaq
-                            </td>
-                            <td>
-                                4 Feb 2018
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$300</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr6')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr7">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001407</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">Logo &amp; Print</a></td>
-                            <td>
-                                <span class="flag flag-country-us"></span>
-                                Apple
-                            </td>
-                            <td>
-                                22 Mar 2018
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$2500</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr7')">
-                                            Xóa
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                        </tr>
-                        <tr id="tr8">
-                            <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
-                            <td><span class="text-muted">001408</span></td>
-                            <td><a href="details.php" class="text-reset" tabindex="-1">Icons</a></td>
-                            <td>
-                                <span class="flag flag-country-pl"></span>
-                                Tookapic
-                            </td>
-                            <td>
-                                13 May 2018
-                            </td>
-                            <td>
-                                <span class="badge bg-success me-1"></span> Đã duyệt
-                            </td>
-                            <td>$940</td>
-                            <td>
-                                <span class="dropdown">
-                                    <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown" aria-expanded="false">Actions</button>
-                                    <div class="dropdown-menu dropdown-menu-end">
-                                        <a class="dropdown-item" href="details.php">
-                                            Xem chi tiết
-                                        </a>
-                                        <a class="dropdown-item" href="#" onclick="hide('#tr8')">
-                                            Xóa
-                                        </a>
-                                </span>
-                            </td>
-                        </tr>
-                    </tbody>
+                    <!--<tbody>
+
+
+                    </tbody> -->
                 </table>
             </div>
-            <div class="card-footer d-flex align-items-center" >
-                <p class="m-0 text-muted">Showing <span>1</span> to <span>8</span> of <span>16</span> job</p>
-                <ul class="pagination m-0 ms-auto" style="padding-left: 30%;">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <polyline points="15 6 9 12 15 18"></polyline>
-                            </svg>
-                            prev
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">
-                            next
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <polyline points="9 6 15 12 9 18"></polyline>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+           
+               
             </div>
         </div>
     </div>
@@ -434,12 +165,36 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+  
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
 
     <script>
         function hide(id) {
             $(id).hide();
         };
+        $(document).ready(function() {
+            $('.datatable').DataTable( {
+                "ajax": "https://job.ahlupos.com/modules/job/api.php?ac=list_job",
+                "columns": [
+                    { "data": "id_job" },
+                    { "data": "title" },
+                    { "data": "fullname" },
+                    { "data": "create_date" },
+                    { "data": "status" },
+                    { "data": "budget" },
+                    { "targets": -1, "data": null,"defaultContent": "<button class= 'btn btn-success'>View Details</button>" }
+                ]
+        
+            } );
+            $('.datatable').on('click', 'button', function (e) {
+                e.preventDefault;
+                var rows = $(this).closest('tr').data();
+               
+            });
+           
+        });
     </script>
 </body>
 

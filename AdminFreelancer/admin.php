@@ -303,8 +303,47 @@
             $(".tablelist").on("click","a.approve",function(e){
                 e.preventDefault();
                var id = $(this).attr("data-id");
-               alert(id);
-               $(this).closest("tr").remove();
+               var data = {
+                    id_job: id,
+                    type: "approve"
+                }
+                var me = $(this).closest("tr");
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_job',
+                    data: data,
+                    method:'POST',
+                    success: function(res){
+                        let a = JSON.parse(res);
+                        if(a.code==1){
+                            me.remove();
+                            alert("Đã duyệt dự án");
+                        }
+                    },
+                    async: true
+                });
+               
+            });
+            $(".tablelist").on("click","a.reject",function(e){
+                e.preventDefault();
+               var id = $(this).attr("data-id");
+               var data = {
+                    id_job: id,
+                    type: "reject"
+                }
+                var me = $(this).closest("tr");
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_job',
+                    data: data,
+                    method:'POST',
+                    success: function(res){
+                        let a = JSON.parse(res);
+                        if(a.code==1){
+                            me.remove();
+                            alert("Đã hủy dự án");
+                        }
+                    },
+                    async: true
+                });
             });
         });
     </script>
