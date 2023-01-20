@@ -105,7 +105,6 @@
         <!-- header -->
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
-
                 <div class="container">
                     <div class="logo span2">
                         <a href="/Freelancer/freelancer.php">
@@ -113,7 +112,7 @@
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a>
                     </div>
-                    <div class="span5" >
+                    <div class="span5">
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
                                 <li class="menu-item ver2 second ">
@@ -158,7 +157,6 @@
                                         </li>
                                     </ul>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -383,7 +381,6 @@
             </hx:include>
         </div>
 
-
         <!-- end header -->
         <script type="text/javascript">
             //Menu mobile
@@ -502,9 +499,7 @@
             </style>
             <div class="homepage-new">
                 <div class="carousel slide display-desktop">
-
                     <div class="carousel-inner">
-
                         <div class="item">
                             <header class="jumbotron-new carousel-subhead_1">
                                 <div class="container">
@@ -982,7 +977,7 @@
                                 </div>
                             </div>
                         </div>
-                  
+
                     </div>
                     <div style="margin-top: 35px;padding-bottom: 80px;">
                         <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="#">
@@ -1243,7 +1238,9 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
+
                     <script type="text/javascript">
                         $(document).ready(function() {
                             $('.slide-reviews').slick({
@@ -1270,6 +1267,193 @@
                             });
                         });
                     </script>
+
+
+                    <div class="top-profiles">
+                        <div class="pf-hd">
+                            <h3>Top Profiles</h3>
+                            <i class="la la-ellipsis-v"></i>
+                        </div>
+                        <div class="profiles-slider slick-initialized slick-slider"><span class="slick-previous slick-arrow" style="display: inline;"></span>
+                            <div class="slick-list draggable">
+                                <div class="slick-track" style="opacity: 1; width: 2415px; transform: translate3d(-644px, 0px, 0px);">
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user1.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user2.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user3.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide" data-slick-index="0" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user1.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 153px;" tabindex="0">
+                                        <img src="images/resources/user2.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="0">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="0"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="0">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="0">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 153px;" tabindex="0">
+                                        <img src="images/resources/user3.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="0">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="0"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="0">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="0">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 153px;" tabindex="0">
+                                        <img src="images/resources/user1.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="0">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="0"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="0">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="0">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide" data-slick-index="4" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user2.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide" data-slick-index="5" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user3.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user1.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user2.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user3.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user1.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="10" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user2.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                    <div class="user-profy slick-slide slick-cloned" data-slick-index="11" aria-hidden="true" style="width: 153px;" tabindex="-1">
+                                        <img src="images/resources/user3.png" alt="">
+                                        <h3>John Doe</h3>
+                                        <span>Graphic Designer</span>
+                                        <ul>
+                                            <li><a href="#" title="" class="followw" tabindex="-1">Follow</a></li>
+                                            <li><a href="#" title="" class="envlp" tabindex="-1"><img src="images/envelop.png" alt=""></a></li>
+                                            <li><a href="#" title="" class="hire" tabindex="-1">hire</a></li>
+                                        </ul>
+                                        <a href="#" title="" tabindex="-1">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <span class="slick-nexti slick-arrow" style="display: inline;"></span>
+                        </div>
+                    </div>
+
+                    
                     <div class="review-media">
                         <div class="review-media-title">
                             <h3 class="lh2">Vinh danh trên báo chí</h3>

@@ -24,6 +24,7 @@
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
     <link href="https://www.vlance.vn/css/job-list-first-screen.css?v=20221103.1449" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="changedesign.css" />
 
     <script>
         (function() {
@@ -326,7 +327,7 @@
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a  href="/Client/dangduan.php">Đăng tin nhận báo giá<i class="" aria-hidden="true"></i></a>
+                                            <a href="/Client/dangduan.php">Đăng tin nhận báo giá<i class="" aria-hidden="true"></i></a>
                                         </li>
                                         <li class="ver2">
                                             <a href="/Client/searchfreelancer.php">Tìm theo freelancer</a>
@@ -640,6 +641,8 @@
                         </header>
                     </div>
                 </div>
+
+
                 <script type="text/javascript">
                     $(document).ready(function() {
                         $('.slide-top-homepage.display-mobile').slick({
@@ -663,9 +666,150 @@
                         setTimeout(addblock, 1000);
                     });
                 </script>
+
+
+
+
+
                 <div class="list-job-homepage">
-                    <h4>Top 5 freelancer được đánh giá nổi trội nhất</h4>
-                    <div style="text-align: left;max-width: 910px;margin-left: auto;margin-right: auto;background: #ffffff;border: 1px solid #CCCCCC;">
+                    <div class="v1_637">
+                        <div class="v1_638">
+                            <div class="v1_639">
+                                <div class="v1_640">
+                                    <div class="v1_641"></div>
+                                    <div class="v1_642"></div><span class="v1_643">Software Engineer</span>
+                                </div>
+                                <div class="v1_644">
+                                    <div class="v1_645"></div>
+                                    <div class="v1_646"></div><span class="v1_647">Marketing</span>
+                                </div>
+                                <div class="v1_648">
+                                    <div class="v1_649"></div>
+                                    <div class="v1_650"></div><span class="v1_651">UX/UI
+                                        Design</span>
+                                </div>
+                            </div>
+                            <div class="v1_652">
+                                <div class="v1_653">
+                                    <div class="v1_654"></div>
+                                    <div class="v1_655"></div><span class="v1_656">UX/UI
+                                        Design</span>
+                                </div>
+                                <div class="v1_657">
+                                    <div class="v1_658"></div>
+                                    <div class="v1_659"></div><span class="v1_660">Software Engineer</span>
+                                </div>
+                                <div class="v1_661">
+                                    <div class="v1_662"></div>
+                                    <div class="v1_663"></div><span class="v1_664">Marketing</span>
+                                </div>
+                            </div>
+                            <div class="v1_665">
+                                <div class="v1_666">
+                                    <div class="v1_667"></div>
+                                    <div class="v1_668"></div><span class="v1_669">Software
+                                        Engineer</span>
+                                </div>
+                                <div class="v1_670">
+                                    <div class="v1_671"></div>
+                                    <div class="v1_672"></div><span class="v1_673">Marketing</span>
+                                </div>
+                                <div class="v1_674">
+                                    <div class="v1_675"></div>
+                                    <div class="v1_676"></div><span class="v1_677">UX/UI
+                                        Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi</span>
+                        <span class="v1_679">Duyệt danh mục công việc</span>
+                    </div>
+
+                    <div class="v1_568">
+                        <div class="v1_569">
+                            <div class="v1_570"></div>
+                            <div class="v1_571"></div>
+                            <div class="v1_572">
+                                <div class="v1_573"></div>
+                                <div class="v1_574">
+                                    <div class="v1_575">
+                                        <div class="v1_576"></div>
+                                        <div class="v1_577"></div>
+                                        <div class="v1_578"></div>
+                                        <div class="v1_579"></div>
+                                        <div class="v1_580"></div>
+                                        <div class="v1_581"></div>
+                                    </div>
+                                    <div class="v1_582">
+                                        <div class="v1_583"></div>
+                                        <div class="v1_584"></div>
+                                        <div class="v1_585"></div>
+                                        <div class="v1_586"></div>
+                                        <div class="v1_587"></div>
+                                        <div class="v1_588"></div>
+                                    </div>
+                                    <div class="v1_589">
+                                        <div class="v1_590"></div>
+                                        <div class="v1_591"></div>
+                                        <div class="v1_592"></div>
+                                        <div class="v1_593"></div>
+                                        <div class="v1_594"></div>
+                                        <div class="v1_595"></div>
+                                    </div>
+                                    <div class="v1_596">
+                                        <div class="v1_597"></div>
+                                        <div class="v1_598"></div>
+                                        <div class="v1_599"></div>
+                                        <div class="v1_600"></div>
+                                        <div class="v1_601"></div>
+                                        <div class="v1_602"></div>
+                                    </div>
+                                </div>
+                                <div class="v1_603">
+                                    <div class="v1_604">
+                                        <div class="v1_605"></div>
+                                        <div class="v1_606"></div>
+                                        <div class="v1_607"></div>
+                                        <div class="v1_608"></div>
+                                        <div class="v1_609"></div>
+                                        <div class="v1_610"></div>
+                                    </div>
+                                    <div class="v1_611">
+                                        <div class="v1_612"></div>
+                                        <div class="v1_613"></div>
+                                        <div class="v1_614"></div>
+                                        <div class="v1_615"></div>
+                                        <div class="v1_616"></div>
+                                        <div class="v1_617"></div>
+                                    </div>
+                                    <div class="v1_618">
+                                        <div class="v1_619"></div>
+                                        <div class="v1_620"></div>
+                                        <div class="v1_621"></div>
+                                        <div class="v1_622"></div>
+                                        <div class="v1_623"></div>
+                                        <div class="v1_624"></div>
+                                    </div>
+                                    <div class="v1_625">
+                                        <div class="v1_626"></div>
+                                        <div class="v1_627"></div>
+                                        <div class="v1_628"></div>
+                                        <div class="v1_629"></div>
+                                        <div class="v1_630"></div>
+                                        <div class="v1_631"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="v1_632"></div>
+                        </div>
+                        <div class="v1_633"><span class="v1_634">Đăng dự án miễn phí </span><span class="v1_635">Bạn sẽ có cơ hội nhận tiền thưởng lên đến 50 triệu khi giới thiệu ứng viên chất lượng cho chúng tôi. Chương trình không giới hạn số lượng giới thiệu cho từng vị trí,
+                                cũng như không giới hạn tổng số tiền thưởng bạn có thể nhận được từ việc giới thiệu ứng viên.
+                                Khám phá cơ hội việc làm ngay bây giờ.</span>
+                            <div class="name"></div>
+                        </div>
+                    </div>
+                    <h4>Top 3 freelancer được đánh giá nổi trội nhất</h4>
+                    <!-- <div style="text-align: left;max-width: 910px;margin-left: auto;margin-right: auto;background: #ffffff;border: 1px solid #CCCCCC;">
                         <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
                             <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
                                 <div class="fr-avatar span2">
@@ -748,7 +892,7 @@
                                                 <a href="/freelancers/kynang_android" title="Freelancer Android">
                                                     Android </a>
                                                 <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                     HTML/CSS </a>
+                                                    HTML/CSS </a>
                                                 <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
                                                     Thiết kế Blog </a>
                                                 <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
@@ -843,7 +987,7 @@
                                                 <a href="/freelancers/kynang_android" title="Freelancer Android">
                                                     Android </a>
                                                 <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                     HTML/CSS </a>
+                                                    HTML/CSS </a>
                                                 <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
                                                     Thiết kế Blog </a>
                                                 <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
@@ -938,7 +1082,7 @@
                                                 <a href="/freelancers/kynang_android" title="Freelancer Android">
                                                     Android </a>
                                                 <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                     HTML/CSS </a>
+                                                    HTML/CSS </a>
                                                 <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
                                                     Thiết kế Blog </a>
                                                 <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
@@ -1033,7 +1177,7 @@
                                                 <a href="/freelancers/kynang_android" title="Freelancer Android">
                                                     Android </a>
                                                 <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                     HTML/CSS </a>
+                                                    HTML/CSS </a>
                                                 <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
                                                     Thiết kế Blog </a>
                                                 <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
@@ -1128,7 +1272,7 @@
                                                 <a href="/freelancers/kynang_android" title="Freelancer Android">
                                                     Android </a>
                                                 <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                     HTML/CSS </a>
+                                                    HTML/CSS </a>
                                                 <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
                                                     Thiết kế Blog </a>
                                                 <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
@@ -1152,784 +1296,864 @@
                                 $('.vlance-popover').popover();
                             });
                         </script>
+                    </div> -->
+                    <div class="v1_513">
+                        <div class="v1_514"><span class="v1_515">Developers</span><span class="v1_516">Designers</span><span class="v1_517">Product
+                                Managers</span><span class="v1_518">Finance Experts</span><span class="v1_519">Project Managers</span></div>
+                        <div class="name"></div>
+                        <div class="v1_521">
+                            <div class="v1_522">
+                                <div class="v1_523"></div><span class="v1_524">Minh </span><span class="v1_525">Developer </span>
+                                <div class="v1_526"></div><span class="v1_527">Justin is
+                                    a technical professional with a passion for learning
+                                    and 15+ years of experience leading teams to build
+                                    enterprise-grade distributed applications that solve
+                                    real-world problems. </span>
+
+
+                                <div class="v1_528">
+                                    <div class="fr-profile row-fluid" style="margin-top: -40px; display: flex; justify-content: center; weight: 30px;">
+                                        <div class="skill-list span12 row-fluid">
+                                            <span style="weight: 90px;">
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    PHP </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content:space-between">
+                                        <button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 50px;">Xem profile</button>
+                                        <button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 50px;">Liên hệ</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="v1_537">
+                                <div class="v1_538"></div><span class="v1_539">Minh</span><span class="v1_540">Developer
+                                </span>
+                                <div class="v1_541"></div><span class="v1_542">Justin is a technical professional
+                                    with a passion for learning and 15+ years of
+                                    experience leading teams to build enterprise-grade
+                                    distributed applications that solve real-world
+                                    problems. </span>
+                                <div class="v1_543">
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+
+                                </div>
+
+                            </div>
+                            <div class="v1_552">
+                                <div class="v1_553"></div><span class="v1_554">Minh </span><span class="v1_555">Developer
+                                </span>
+                                <div class="v1_556"></div><span class="v1_557">Justin is a technical professional
+                                    with a passion for learning and 15+ years of
+                                    experience leading teams to build enterprise-grade
+                                    distributed applications that solve real-world
+                                    problems. </span>
+                                <div class="v1_558">
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                </div>
+                                <div class="v1_564">
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div style="margin-top: 35px;padding-bottom: 80px;">
+                    <div style="margin-top: 35px;padding-bottom: 90px;">
                         <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="/Client/searchfreelancer.php">
                             Xem tất cả <b>các</b> freelancer khác </a>
                     </div>
-                </div>
-                <div class="step-explain-section">
-                    <div class="step-detail detail-image">
-                        <div class="container row-fluid">
-                            <div class="image-left span6">
-                                <img src="https://www.vlance.vn/img/vn/homepage-new/buoc-1-tiep-can-chuyen-gia.png" title="link_img_vnen.home_page.title_1" alt="link_img_vnen.home_page.title_1">
-                            </div>
-                            <div class="quotes-right span6">
-                                <h4 class="lh7">Đăng dự án <span>không mất phí</span>,</br>Tiếp cận ngay <span>chuyên gia</span></h4>
-                                <p class="lh3">Bạn sẽ nhanh chóng nhận được chào giá từ cộng đồng <span>+400.000</span> Freelancer/Cộng tác viên. Chủ động phỏng vấn các ứng viên thông qua hệ thống tin nhắn trực tuyến để tìm người phù hợp nhất với yêu cầu của bạn.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-detail detail-quotes">
-                        <div class="container row-fluid">
-                            <div class="quotes-left span6">
-                                <h4 class="lh7">Kết nối <span>nhanh chóng,</span> </br><span>Rút ngắn thời gian </span>tìm nhân sự</h4>
-                                <p class="lh3">freelancer kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
-                            </div>
-                            <div class="image-right span6">
-                                <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2-lam-viec.png" title="link_img_vnen.home_page.title_2" alt="link_img_vnen.home_page.title_2">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-detail detail-image">
-                        <div class="container row-fluid">
-                            <div class="image-left span6">
-                                <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2.5-goi-dich-vu.png" title="Thông tin gói dịch vụ" alt="Thông tin gói dịch vụ">
-                            </div>
-                            <div class="quotes-right span6">
-                                <h4 class="lh7"><span>Đa dạng </span>mô hình làm việc<br>Đáp ứng <span>mọi nhu cầu<span></h4>
-                                <p class="lh3">Freelancer tạo gói dịch vụ, khách hàng trực tiếp đặt hàng và chọn mua. Chủ động bán gói dịch vụ gia tăng thu nhập, chủ động đặt mua hoàn thiện công việc nhanh chóng.<br>
-                                    <a href="/tim-dich-vu?utm_campaign=GDV1-BLK-20220808&utm_source=homepage&utm_medium=pop-up&utm_content=button">Tìm gói dịch vụ &#8594;</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-detail detail-quotes">
-                        <div class="container row-fluid">
-                            <div class="quotes-left span6">
-                                <h4 class="lh7"><span>99,82% khách hàng hài lòng,</span></br><span>Bảo mật thông tin</span> cá nhân an toàn</h4>
-                                <p class="lh3">Khách hàng có thể đánh giá Freelancer sau khi hoàn thành việc. Điều này có ảnh hưởng đến sự uy tín của Freelancer. Thông tin cá nhân và công việc của bạn luôn được bảo mật theo chính sách bảo mật của vLance.</p>
-                            </div>
-                            <div class="image-right span6">
-                                <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-3-thanh-toan.png" title="link_img_vnen.home_page.title_3" alt="link_img_vnen.home_page.title_3">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="separator5"></div>
-                <div class="list-job-homepage">
-                    <h4>Hồ sơ năng lực nổi bật nhất</h4>
-                    <div class="row-fluid container portfolio-listing-page" style="width: 1240px">
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/nguoc-photography-logo/2494?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/835540292a5611c409cacefd2043df5221b58ec51.jpg" alt="Ngược Photography logo" title="Ngược Photography logo" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/nguoc-photography-logo/2494?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Ngược Photography logo</a>
-                                    <a href="/freelancer/dotranle-baochau" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/6f44d0b56b14acf92cc15dca7f54783eede021df1.jpg" />
-                                        Dotranle Baochau </a>
+                    <div class="step-explain-section">
+                        <div class="step-detail detail-image">
+                            <div class="container row-fluid">
+                                <div class="image-left span6">
+                                    <img src="https://www.vlance.vn/img/vn/homepage-new/buoc-1-tiep-can-chuyen-gia.png" title="link_img_vnen.home_page.title_1" alt="link_img_vnen.home_page.title_1">
                                 </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">6.9k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-2494">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">15 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-2494" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 15 người khác </span>
-
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-2494').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 2494,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-2494').hide();
-                                                            $('#dislike-p-2494').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-2494').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 2494,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-2494').show();
-                                                            $('#dislike-p-2494').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
+                                <div class="quotes-right span6">
+                                    <h4 class="lh7">Đăng dự án <span>không mất phí</span>,</br>Tiếp cận ngay <span>chuyên gia</span></h4>
+                                    <p class="lh3">Bạn sẽ nhanh chóng nhận được chào giá từ cộng đồng <span>+400.000</span> Freelancer/Cộng tác viên. Chủ động phỏng vấn các ứng viên thông qua hệ thống tin nhắn trực tuyến để tìm người phù hợp nhất với yêu cầu của bạn.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/bia-sach-2/12144?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/82556808df2d08011c182d2a1f4ebab8acfc8ca21.jpg" alt="Bìa sách" title="Bìa sách" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/bia-sach-2/12144?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Bìa sách</a>
-                                    <a href="/freelancer/ngo-ngoc-long" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/165174b84bcb974601a2c8728b3a5080093468411.jpg" />
-                                        Ngô Ngọc Long </a>
+                        <div class="step-detail detail-quotes">
+                            <div class="container row-fluid">
+                                <div class="quotes-left span6">
+                                    <h4 class="lh7">Kết nối <span>nhanh chóng,</span> </br><span>Rút ngắn thời gian </span>tìm nhân sự</h4>
+                                    <p class="lh3">freelancer kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
                                 </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">7.5k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-12144">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">13 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-12144" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 13 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-12144').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 12144,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-12144').hide();
-                                                            $('#dislike-p-12144').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-12144').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 12144,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-12144').show();
-                                                            $('#dislike-p-12144').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
+                                <div class="image-right span6">
+                                    <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2-lam-viec.png" title="link_img_vnen.home_page.title_2" alt="link_img_vnen.home_page.title_2">
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/logo-doris-shop-thoi-trang-nu/38470?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/68edef92a449e3a6e24924ed75c1373bca7ada5a1.jpg" alt="Logo DORIS - Shop Thời trang nữ" title="Logo DORIS - Shop Thời trang nữ" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/logo-doris-shop-thoi-trang-nu/38470?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Logo DORIS - Shop Thời trang nữ</a>
-                                    <a href="/freelancer/tuan-nguyen-anh-15" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/dbebd733609071d9992be4ee58f9b3b24f7749ed1.png" />
-                                        NGUYỄN ANH TUẤN </a>
+                        <div class="step-detail detail-image">
+                            <div class="container row-fluid">
+                                <div class="image-left span6">
+                                    <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2.5-goi-dich-vu.png" title="Thông tin gói dịch vụ" alt="Thông tin gói dịch vụ">
                                 </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">7.8k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-38470">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">11 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-38470" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 11 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-38470').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 38470,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-38470').hide();
-                                                            $('#dislike-p-38470').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-38470').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 38470,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-38470').show();
-                                                            $('#dislike-p-38470').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
+                                <div class="quotes-right span6">
+                                    <h4 class="lh7"><span>Đa dạng </span>mô hình làm việc<br>Đáp ứng <span>mọi nhu cầu<span></h4>
+                                    <p class="lh3">Freelancer tạo gói dịch vụ, khách hàng trực tiếp đặt hàng và chọn mua. Chủ động bán gói dịch vụ gia tăng thu nhập, chủ động đặt mua hoàn thiện công việc nhanh chóng.<br>
+                                        <a href="/tim-dich-vu?utm_campaign=GDV1-BLK-20220808&utm_source=homepage&utm_medium=pop-up&utm_content=button">Tìm gói dịch vụ &#8594;</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/logo-apricot-hotel/3362?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/850e7aa004926477b4032d3cc946de35eef51bb21.jpg" alt="Logo Apricot Hotel" title="Logo Apricot Hotel" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/logo-apricot-hotel/3362?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Logo Apricot Hotel</a>
-                                    <a href="/freelancer/nguyen-thuy-duong-9" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b4cd6844420d3401fc47ed978e7bb934b82cc0e31.jpg" />
-                                        Nguyễn Thuỳ Dương </a>
+                        <div class="step-detail detail-quotes">
+                            <div class="container row-fluid">
+                                <div class="quotes-left span6">
+                                    <h4 class="lh7"><span>99,82% khách hàng hài lòng,</span></br><span>Bảo mật thông tin</span> cá nhân an toàn</h4>
+                                    <p class="lh3">Khách hàng có thể đánh giá Freelancer sau khi hoàn thành việc. Điều này có ảnh hưởng đến sự uy tín của Freelancer. Thông tin cá nhân và công việc của bạn luôn được bảo mật theo chính sách bảo mật của vLance.</p>
                                 </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">4.4k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-3362">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">8 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-3362" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 8 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-3362').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 3362,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-3362').hide();
-                                                            $('#dislike-p-3362').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-3362').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 3362,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-3362').show();
-                                                            $('#dislike-p-3362').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/thiet-ke-bia-sach-hoa-hoc/15764?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/a9e0f0d04920dd9d3e59fbd8a95ecf5d827745151.jpg" alt="Thiết kế bìa sách Hóa học" title="Thiết kế bìa sách Hóa học" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/thiet-ke-bia-sach-hoa-hoc/15764?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Thiết kế bìa sách Hóa học</a>
-                                    <a href="/freelancer/cuong-hoang-minh" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/2a0128aa737d0d9b59cfa2689b389861c6a9773c.JPG1.jpg" />
-                                        Cương Hoàng Minh </a>
-                                </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">5.3k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-15764">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">6 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-15764" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 6 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-15764').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 15764,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-15764').hide();
-                                                            $('#dislike-p-15764').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-15764').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 15764,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-15764').show();
-                                                            $('#dislike-p-15764').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/nang-vang-logo/60293?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/a49cdb48faa2d508f23b9685840206254b4fa6891.png" alt="Nắng vàng Logo" title="Nắng vàng Logo" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/nang-vang-logo/60293?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Nắng vàng Logo</a>
-                                    <a href="/freelancer/doan-dang-4" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
-                                        Phước Đoàn </a>
-                                </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">2.5k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-60293">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">6 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-60293" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 6 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-60293').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 60293,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-60293').hide();
-                                                            $('#dislike-p-60293').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-60293').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 60293,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-60293').show();
-                                                            $('#dislike-p-60293').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/winn-order-logo-1/60301?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/5b12c78868e6466588c7418ab85e22ddc746d5921.png" alt="Winn Order logo" title="Winn Order logo" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/winn-order-logo-1/60301?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Winn Order logo</a>
-                                    <a href="/freelancer/doan-dang-4" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
-                                        Phước Đoàn </a>
-                                </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">780</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-60301">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">5 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-60301" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 5 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-60301').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 60301,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-60301').hide();
-                                                            $('#dislike-p-60301').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-60301').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 60301,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-60301').show();
-                                                            $('#dislike-p-60301').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio">
-                            <div class="p-img">
-                                <a class="portfolio-link" href="/ho-so-nang-luc/dicy-socks-logo/60289?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                    <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/19cbf4027c43a11ec03b813f1c6942c8639c40a81.png" alt="DICY socks logo" title="DICY socks logo" />
-                                </a>
-                            </div>
-                            <div class="p-about-m" style="text-align: left;">
-                                <div class="p-t-t">
-                                    <a href="/ho-so-nang-luc/dicy-socks-logo/60289?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">DICY socks logo</a>
-                                    <a href="/freelancer/doan-dang-4" class="p-author">
-                                        <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
-                                        Phước Đoàn </a>
-                                </div>
-                                <div class="p-ac">
-                                    <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">9.3k</span>
-                                    <span title="Lượt thích" class="p-like-at" id="like-p-60289">
-                                        <img src="https://www.vlance.vn/img/portfolio/like.svg">4 </span>
-                                    <span title="Lượt thích" class="p-like-at" id="dislike-p-60289" style="display: none">
-                                        <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 4 người khác </span>
-                                    <script>
-                                        $(document).ready(function() {
-                                            $('#like-p-60289').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 60289,
-                                                        'isLiked': 0
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-60289').hide();
-                                                            $('#dislike-p-60289').show();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-
-                                            $('#dislike-p-60289').click(function() {
-                                                $.ajax({
-                                                    url: '/portfolio/like_portfolio_action',
-                                                    type: 'POST',
-                                                    data: {
-                                                        'id': 60289,
-                                                        'isLiked': 1
-                                                    }
-                                                }).success(function(result) {
-                                                    if (result.error !== 'undefined') {
-                                                        if (result.error == 0) {
-                                                            $('#like-p-60289').show();
-                                                            $('#dislike-p-60289').hide();
-                                                        }
-                                                    }
-                                                }).fail(function(result) {});
-                                            });
-                                        });
-                                    </script>
+                                <div class="image-right span6">
+                                    <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-3-thanh-toan.png" title="link_img_vnen.home_page.title_3" alt="link_img_vnen.home_page.title_3">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div style="margin-top: 7px;padding-bottom: 90px;">
-                        <a style="padding: 10px 24px;background: #2DB964;border-radius: 5px;color: #ffffff;" href="/ho-so-nang-luc?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=button">
-                            Xem tất cả <b>43.676</b> hồ sơ năng lực </a>
-                    </div>
-                </div>
-                <div class="separator5"></div>
-                <div class="separator5"></div>
-                <div class="reviews-section">
-                    <h3 class="review-client-title">Khách hàng hài lòng về chất lượng dịch vụ</h3>
-                    <div class="review-clients container">
-                        <div class="row-fluid slide-reviews">
-                            <div class="slide-reviews-client">
-                                <div class="client-item">
-                                    <div class="review-avatar">
-                                        <span class="review-avatar-01"></span>
+                    <div class="separator5"></div>
+                    <div class="list-job-homepage">
+                        <h4>Hồ sơ năng lực nổi bật nhất</h4>
+                        <div class="row-fluid container portfolio-listing-page" style="width: 1240px">
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/nguoc-photography-logo/2494?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/835540292a5611c409cacefd2043df5221b58ec51.jpg" alt="Ngược Photography logo" title="Ngược Photography logo" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/nguoc-photography-logo/2494?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Ngược Photography logo</a>
+                                        <a href="/freelancer/dotranle-baochau" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/6f44d0b56b14acf92cc15dca7f54783eede021df1.jpg" />
+                                            Dotranle Baochau </a>
                                     </div>
-                                    <div class="review-title">
-                                        <h4 class="name-client">Nguyễn Quang Minh</h4>
-                                        <p>Khách hàng</p>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">6.9k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-2494">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">15 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-2494" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 15 người khác </span>
+
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-2494').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 2494,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-2494').hide();
+                                                                $('#dislike-p-2494').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-2494').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 2494,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-2494').show();
+                                                                $('#dislike-p-2494').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
                                     </div>
-                                    <div class="review-quote">
-                                        <p>“Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
-                                        <div class="feedback-star">
-                                            <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/bia-sach-2/12144?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/82556808df2d08011c182d2a1f4ebab8acfc8ca21.jpg" alt="Bìa sách" title="Bìa sách" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/bia-sach-2/12144?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Bìa sách</a>
+                                        <a href="/freelancer/ngo-ngoc-long" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/165174b84bcb974601a2c8728b3a5080093468411.jpg" />
+                                            Ngô Ngọc Long </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">7.5k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-12144">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">13 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-12144" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 13 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-12144').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 12144,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-12144').hide();
+                                                                $('#dislike-p-12144').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-12144').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 12144,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-12144').show();
+                                                                $('#dislike-p-12144').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/logo-doris-shop-thoi-trang-nu/38470?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/68edef92a449e3a6e24924ed75c1373bca7ada5a1.jpg" alt="Logo DORIS - Shop Thời trang nữ" title="Logo DORIS - Shop Thời trang nữ" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/logo-doris-shop-thoi-trang-nu/38470?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Logo DORIS - Shop Thời trang nữ</a>
+                                        <a href="/freelancer/tuan-nguyen-anh-15" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/dbebd733609071d9992be4ee58f9b3b24f7749ed1.png" />
+                                            NGUYỄN ANH TUẤN </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">7.8k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-38470">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">11 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-38470" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 11 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-38470').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 38470,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-38470').hide();
+                                                                $('#dislike-p-38470').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-38470').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 38470,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-38470').show();
+                                                                $('#dislike-p-38470').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/logo-apricot-hotel/3362?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/850e7aa004926477b4032d3cc946de35eef51bb21.jpg" alt="Logo Apricot Hotel" title="Logo Apricot Hotel" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/logo-apricot-hotel/3362?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Logo Apricot Hotel</a>
+                                        <a href="/freelancer/nguyen-thuy-duong-9" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b4cd6844420d3401fc47ed978e7bb934b82cc0e31.jpg" />
+                                            Nguyễn Thuỳ Dương </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">4.4k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-3362">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">8 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-3362" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 8 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-3362').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 3362,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-3362').hide();
+                                                                $('#dislike-p-3362').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-3362').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 3362,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-3362').show();
+                                                                $('#dislike-p-3362').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/thiet-ke-bia-sach-hoa-hoc/15764?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/a9e0f0d04920dd9d3e59fbd8a95ecf5d827745151.jpg" alt="Thiết kế bìa sách Hóa học" title="Thiết kế bìa sách Hóa học" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/thiet-ke-bia-sach-hoa-hoc/15764?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Thiết kế bìa sách Hóa học</a>
+                                        <a href="/freelancer/cuong-hoang-minh" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/2a0128aa737d0d9b59cfa2689b389861c6a9773c.JPG1.jpg" />
+                                            Cương Hoàng Minh </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">5.3k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-15764">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">6 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-15764" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 6 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-15764').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 15764,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-15764').hide();
+                                                                $('#dislike-p-15764').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-15764').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 15764,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-15764').show();
+                                                                $('#dislike-p-15764').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/nang-vang-logo/60293?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/a49cdb48faa2d508f23b9685840206254b4fa6891.png" alt="Nắng vàng Logo" title="Nắng vàng Logo" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/nang-vang-logo/60293?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Nắng vàng Logo</a>
+                                        <a href="/freelancer/doan-dang-4" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
+                                            Phước Đoàn </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">2.5k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-60293">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">6 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-60293" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 6 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-60293').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 60293,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-60293').hide();
+                                                                $('#dislike-p-60293').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-60293').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 60293,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-60293').show();
+                                                                $('#dislike-p-60293').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/winn-order-logo-1/60301?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/5b12c78868e6466588c7418ab85e22ddc746d5921.png" alt="Winn Order logo" title="Winn Order logo" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/winn-order-logo-1/60301?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Winn Order logo</a>
+                                        <a href="/freelancer/doan-dang-4" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
+                                            Phước Đoàn </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">780</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-60301">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">5 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-60301" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 5 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-60301').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 60301,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-60301').hide();
+                                                                $('#dislike-p-60301').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-60301').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 60301,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-60301').show();
+                                                                $('#dislike-p-60301').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio">
+                                <div class="p-img">
+                                    <a class="portfolio-link" href="/ho-so-nang-luc/dicy-socks-logo/60289?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
+                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/19cbf4027c43a11ec03b813f1c6942c8639c40a81.png" alt="DICY socks logo" title="DICY socks logo" />
+                                    </a>
+                                </div>
+                                <div class="p-about-m" style="text-align: left;">
+                                    <div class="p-t-t">
+                                        <a href="/ho-so-nang-luc/dicy-socks-logo/60289?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">DICY socks logo</a>
+                                        <a href="/freelancer/doan-dang-4" class="p-author">
+                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
+                                            Phước Đoàn </a>
+                                    </div>
+                                    <div class="p-ac">
+                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">9.3k</span>
+                                        <span title="Lượt thích" class="p-like-at" id="like-p-60289">
+                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">4 </span>
+                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-60289" style="display: none">
+                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 4 người khác </span>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $('#like-p-60289').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 60289,
+                                                            'isLiked': 0
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-60289').hide();
+                                                                $('#dislike-p-60289').show();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+
+                                                $('#dislike-p-60289').click(function() {
+                                                    $.ajax({
+                                                        url: '/portfolio/like_portfolio_action',
+                                                        type: 'POST',
+                                                        data: {
+                                                            'id': 60289,
+                                                            'isLiked': 1
+                                                        }
+                                                    }).success(function(result) {
+                                                        if (result.error !== 'undefined') {
+                                                            if (result.error == 0) {
+                                                                $('#like-p-60289').show();
+                                                                $('#dislike-p-60289').hide();
+                                                            }
+                                                        }
+                                                    }).fail(function(result) {});
+                                                });
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 7px;padding-bottom: 90px;">
+                            <a style="padding: 10px 24px;background: #2DB964;border-radius: 5px;color: #ffffff;" href="/ho-so-nang-luc?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=button">
+                                Xem tất cả <b>43.676</b> hồ sơ năng lực </a>
+                        </div>
+                    </div>
+                    <div class="separator5"></div>
+                    <div class="separator5"></div>
+                    <div class="reviews-section">
+                        <h3 class="review-client-title">Khách hàng hài lòng về chất lượng dịch vụ</h3>
+                        <div class="review-clients container">
+                            <div class="row-fluid slide-reviews">
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-01"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Nguyễn Quang Minh</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>“Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
+                                            <div class="feedback-star">
+                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-02"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Nguyễn Trần Bảo Trân</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>Freelancer làm việc nhiệt tình và chiều ý khách. Xu hướng cập nhập nhanh. Giao tiếp lễ phép lịch sự. Quá trình làm việc rất suôn sẻ và cảm thấy dễ chịu. Mong em có nhiều đơn hàng.</p>
+                                            <div class="feedback-star">
+                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-03"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Hồ Nguyễn Quốc Huy</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>“Nhiệt tình, trách nhiệm, đáp ứng deadline công việc. Freelancer sẵn sàng chỉnh sửa theo các yêu cầu của khách hàng, đồng thời có thể đưa ra nhiều option để khách hàng lựa chọn. Một freelancer có thể hợp tác lâu dài.”</p>
+                                            <div class="feedback-star">
+                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-04"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Admin</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>“Hoàng Anh là freelancer rất tích cực trong công việc và giao tiếp, nhanh nhẹn và thông minh. Sẵn sàng hợp tác với bạn khi có dự án mới.”</p>
+                                            <div class="feedback-star">
+                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide-reviews-client">
-                                <div class="client-item">
-                                    <div class="review-avatar">
-                                        <span class="review-avatar-02"></span>
+                        </div>
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $('.slide-reviews').slick({
+                                    centerMode: true,
+                                    centerPadding: '0px',
+                                    slidesToShow: 3,
+                                    responsive: [{
+                                            breakpoint: 976,
+                                            settings: {
+                                                centerMode: true,
+                                                centerPadding: '0px',
+                                                slidesToShow: 2
+                                            }
+                                        },
+                                        {
+                                            breakpoint: 639,
+                                            settings: {
+                                                centerPadding: '0px',
+                                                slidesToShow: 1,
+                                                slidesToScroll: 1
+                                            }
+                                        }
+                                    ]
+                                });
+                            });
+                        </script>
+
+
+
+                        <div class="review-media">
+                            <div class="review-media-title">
+                                <h3 class="lh2">Vinh danh trên báo chí</h3>
+                            </div>
+                            <div class="container row-fluid">
+                                <div class="stats-col-left stats-col-left-new span12">
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://dantri.com.vn/kinh-doanh/nguoi-viet-khoi-nghiep-gan-10-trieu-usd-da-duoc-dau-tu-988768.htm" target="_blank"><i class="cat-dantri"></i></a>
                                     </div>
-                                    <div class="review-title">
-                                        <h4 class="name-client">Nguyễn Trần Bảo Trân</h4>
-                                        <p>Khách hàng</p>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://ictnews.vn/khoi-nghiep/goc-doanh-nghiep/vlance-thuc-day-thi-truong-freelance-viet-nam-chuyen-nghiep-hon-116351.ict" target="_blank"><i class="cat-ict"></i></a>
                                     </div>
-                                    <div class="review-quote">
-                                        <p>Freelancer làm việc nhiệt tình và chiều ý khách. Xu hướng cập nhập nhanh. Giao tiếp lễ phép lịch sự. Quá trình làm việc rất suôn sẻ và cảm thấy dễ chịu. Mong em có nhiều đơn hàng.</p>
-                                        <div class="feedback-star">
-                                            <img src="https://www.vlance.vn/img/homepage-new/star3.png">
-                                        </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://songmoi.vn/kinh-te-thi-truong/san-giao-dich-%E2%80%9Ccuu-canh%E2%80%9D-cho-nghe-tu-do" target="_blank"><i class="cat-kt"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://seatimes.com.vn/startup-weekend-hanoi-2014-vinh-danh-du-an-cong-dong-freelancer-n89808.html" target="_blank"><i class="cat-seatime"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://english.vietnamnet.vn/fms/society/98323/freelancers-look-at-work-from-a-fresh-perspective.html" target="_blank"><i class="cat-vietnamnet"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="https://www.dealstreetasia.com/stories/exclusive-vlance-targets-vns-largest-freelance-service/" target="_blank"><i class="cat-tech"></i></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide-reviews-client">
-                                <div class="client-item">
-                                    <div class="review-avatar">
-                                        <span class="review-avatar-03"></span>
-                                    </div>
-                                    <div class="review-title">
-                                        <h4 class="name-client">Hồ Nguyễn Quốc Huy</h4>
-                                        <p>Khách hàng</p>
-                                    </div>
-                                    <div class="review-quote">
-                                        <p>“Nhiệt tình, trách nhiệm, đáp ứng deadline công việc. Freelancer sẵn sàng chỉnh sửa theo các yêu cầu của khách hàng, đồng thời có thể đưa ra nhiều option để khách hàng lựa chọn. Một freelancer có thể hợp tác lâu dài.”</p>
-                                        <div class="feedback-star">
-                                            <img src="https://www.vlance.vn/img/homepage-new/star3.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-reviews-client">
-                                <div class="client-item">
-                                    <div class="review-avatar">
-                                        <span class="review-avatar-04"></span>
-                                    </div>
-                                    <div class="review-title">
-                                        <h4 class="name-client">Admin</h4>
-                                        <p>Khách hàng</p>
-                                    </div>
-                                    <div class="review-quote">
-                                        <p>“Hoàng Anh là freelancer rất tích cực trong công việc và giao tiếp, nhanh nhẹn và thông minh. Sẵn sàng hợp tác với bạn khi có dự án mới.”</p>
-                                        <div class="feedback-star">
-                                            <img src="https://www.vlance.vn/img/homepage-new/star3.png">
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="professional-apply-section layzy" data-background="/img/homepage-new/bg_homepage_03.jpg">
+                        <div class="container">
+                            <h3 class="title lh8 mp-lh6">
+                                Bạn có trên <span>3 năm kinh nghiệm</span> Và muốn tìm việc để <span>tăng thu nhập?</span> </h3>
+                            <div class="professional-apply-button">
+                                <a class="btn btn-vl btn-vl-special btn-vl-green" title="link_img_vnen.home_page.title_4" href="/a/register/freelancer">Đăng ký làm chuyên gia</a>
                             </div>
                         </div>
                     </div>
                     <script type="text/javascript">
                         $(document).ready(function() {
-                            $('.slide-reviews').slick({
-                                centerMode: true,
-                                centerPadding: '0px',
-                                slidesToShow: 3,
-                                responsive: [{
-                                        breakpoint: 976,
-                                        settings: {
-                                            centerMode: true,
-                                            centerPadding: '0px',
-                                            slidesToShow: 2
-                                        }
-                                    },
-                                    {
-                                        breakpoint: 639,
-                                        settings: {
-                                            centerPadding: '0px',
-                                            slidesToShow: 1,
-                                            slidesToScroll: 1
-                                        }
-                                    }
-                                ]
+                            if ($(".account-menu").length) {
+                                $(".professional-apply-section").css('display', 'none');
+                            }
+                        });
+                    </script>
+                    <div class="landing-statistics-section">
+                        <div class="container">
+                            <div class="span5 count-job">
+                                <p>
+                                    <span>
+                                        <a href="/freelancers">
+                                            1.243.397 </a>
+                                    </span>
+                                </p>
+                                <p class="text">Freelancers</p>
+                            </div>
+                            <div class="span5 count-client">
+                                <p>
+                                    <span>
+                                        <a href="/viec-lam-freelance">
+                                            54.432 </a>
+                                    </span>
+                                </p>
+                                <p class="text">Dự án đã đăng</p>
+                            </div>
+                        </div>
+                        <div class="separator-statistics"></div>
+                    </div>
+                    <script>
+                        jQuery(function($) {
+                            jQuery('.home-statistics-section .span4 span a').anicounter({
+                                number: 1243397,
+                                step: 15
+                            });
+                            $('.home-statistics-section .span3 span a').anicounter({
+                                number: 54432,
+                                step: 4
+                            });
+                            $('.home-statistics-section .span5.last span a').anicounter({
+                                number: 407047656891,
+                                suffix: ' <span>VNĐ</span>'
+                            });
+                        });
+                        $(document).ready(function() {
+                            vtrack('View homepage', {
+                                'type': 'freelancer'
                             });
                         });
                     </script>
-
-
-
-                    <div class="review-media">
-                        <div class="review-media-title">
-                            <h3 class="lh2">Vinh danh trên báo chí</h3>
-                        </div>
-                        <div class="container row-fluid">
-                            <div class="stats-col-left stats-col-left-new span12">
-                                <div class="stats-col stats-row row-fluid">
-                                    <a rel="nofollow" href="http://dantri.com.vn/kinh-doanh/nguoi-viet-khoi-nghiep-gan-10-trieu-usd-da-duoc-dau-tu-988768.htm" target="_blank"><i class="cat-dantri"></i></a>
-                                </div>
-                                <div class="stats-col stats-row row-fluid">
-                                    <a rel="nofollow" href="http://ictnews.vn/khoi-nghiep/goc-doanh-nghiep/vlance-thuc-day-thi-truong-freelance-viet-nam-chuyen-nghiep-hon-116351.ict" target="_blank"><i class="cat-ict"></i></a>
-                                </div>
-                                <div class="stats-col stats-row row-fluid">
-                                    <a rel="nofollow" href="http://songmoi.vn/kinh-te-thi-truong/san-giao-dich-%E2%80%9Ccuu-canh%E2%80%9D-cho-nghe-tu-do" target="_blank"><i class="cat-kt"></i></a>
-                                </div>
-                                <div class="stats-col stats-row row-fluid">
-                                    <a rel="nofollow" href="http://seatimes.com.vn/startup-weekend-hanoi-2014-vinh-danh-du-an-cong-dong-freelancer-n89808.html" target="_blank"><i class="cat-seatime"></i></a>
-                                </div>
-                                <div class="stats-col stats-row row-fluid">
-                                    <a rel="nofollow" href="http://english.vietnamnet.vn/fms/society/98323/freelancers-look-at-work-from-a-fresh-perspective.html" target="_blank"><i class="cat-vietnamnet"></i></a>
-                                </div>
-                                <div class="stats-col stats-row row-fluid">
-                                    <a rel="nofollow" href="https://www.dealstreetasia.com/stories/exclusive-vlance-targets-vns-largest-freelance-service/" target="_blank"><i class="cat-tech"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="professional-apply-section layzy" data-background="/img/homepage-new/bg_homepage_03.jpg">
-                    <div class="container">
-                        <h3 class="title lh8 mp-lh6">
-                            Bạn có trên <span>3 năm kinh nghiệm</span> Và muốn tìm việc để <span>tăng thu nhập?</span> </h3>
-                        <div class="professional-apply-button">
-                            <a class="btn btn-vl btn-vl-special btn-vl-green" title="link_img_vnen.home_page.title_4" href="/a/register/freelancer">Đăng ký làm chuyên gia</a>
-                        </div>
-                    </div>
-                </div>
-                <script type="text/javascript">
-                    $(document).ready(function() {
-                        if ($(".account-menu").length) {
-                            $(".professional-apply-section").css('display', 'none');
-                        }
-                    });
-                </script>
-                <div class="landing-statistics-section">
-                    <div class="container">
-                        <div class="span5 count-job">
-                            <p>
-                                <span>
-                                    <a href="/freelancers">
-                                        1.243.397 </a>
-                                </span>
-                            </p>
-                            <p class="text">Freelancers</p>
-                        </div>
-                        <div class="span5 count-client">
-                            <p>
-                                <span>
-                                    <a href="/viec-lam-freelance">
-                                        54.432 </a>
-                                </span>
-                            </p>
-                            <p class="text">Dự án đã đăng</p>
-                        </div>
-                    </div>
-                    <div class="separator-statistics"></div>
-                </div>
-                <script>
-                    jQuery(function($) {
-                        jQuery('.home-statistics-section .span4 span a').anicounter({
-                            number: 1243397,
-                            step: 15
-                        });
-                        $('.home-statistics-section .span3 span a').anicounter({
-                            number: 54432,
-                            step: 4
-                        });
-                        $('.home-statistics-section .span5.last span a').anicounter({
-                            number: 407047656891,
-                            suffix: ' <span>VNĐ</span>'
-                        });
-                    });
-                    $(document).ready(function() {
-                        vtrack('View homepage', {
-                            'type': 'freelancer'
-                        });
-                    });
-                </script>
             </div>
+
+            <!-- footer -->
+
+            <section id="footer">
+                <div class="footer containerfooter">
+                    <div class="brand">
+                        <h1><span>F</span>reelan<span>c</span>er</h1>
+                    </div>
+                    <h2>Your Complete Web Solution</h2>
+                    <div class="social-icon">
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                        </div>
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                        </div>
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
+                        </div>
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                        </div>
+                    </div>
+                    <p>Copyright © 2020 Arfan. All rights reserved</p>
+                </div>
+            </section>
+            <!-- end footer -->
+
         </div>
-
-        <!-- footer -->
-
-        <section id="footer">
-            <div class="footer containerfooter">
-                <div class="brand">
-                    <h1><span>F</span>reelan<span>c</span>er</h1>
-                </div>
-                <h2>Your Complete Web Solution</h2>
-                <div class="social-icon">
-                    <div class="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-                    </div>
-                    <div class="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-                    </div>
-                    <div class="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
-                    </div>
-                    <div class="social-item">
-                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-                    </div>
-                </div>
-                <p>Copyright © 2020 Arfan. All rights reserved</p>
-            </div>
-        </section>
-        <!-- end footer -->
-
-    </div>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d7af64ba201fc1","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d7af64ba201fc1","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
 </body>
 
 </html>

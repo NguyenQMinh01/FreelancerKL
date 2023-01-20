@@ -109,7 +109,7 @@
         <div class="upper-section row-fluid upper_scoll">
             <div class="container">
                 <div class="logo span2">
-                    <a href="/Client/profileclient.php">
+                    <a href="/Client/client.php">
                         <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                         <div class="bx bx-menu" id="menu-icon"></div>
                     </a>
@@ -118,7 +118,7 @@
                     <div class="menu-inner">
                         <ul class="menu-inner-list">
                             <li class="menu-item first ver2 ">
-                                <a title="Thuê Freelancer" href="/freelancers">Thuê Freelancer<span class="caret"></span></a>
+                                <a title="Thuê Freelancer" href="/Client/searchfreelancer.php">Thuê Freelancer<span class="caret"></span></a>
                                 <ul class="menu-dropdown-list">
                                     <li class="menu-dropdown-item">
                                         <div class="container visitor">
