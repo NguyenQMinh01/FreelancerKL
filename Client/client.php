@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" style=" max-width: 100%;
+    overflow-x: hidden;">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -104,7 +105,8 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js?v=20221103.1449" defer></script>
 </head>
 
-<body class="one-column vlance_homepage ">
+<body class="one-column vlance_homepage " style=" max-width: 100%;
+    overflow-x: hidden;">
     <div class="main">
         <!-- header -->
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
@@ -722,7 +724,7 @@
                             </div>
                         </div>
                         <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi</span>
-                        <span class="v1_679">Duyệt danh mục công việc</span>
+                        <span class="v1_679">Danh mục công việc</span>
                     </div>
 
                     <div class="v1_568">
@@ -809,501 +811,13 @@
                         </div>
                     </div>
                     <h4>Top 3 freelancer được đánh giá nổi trội nhất</h4>
-                    <!-- <div style="text-align: left;max-width: 910px;margin-left: auto;margin-right: auto;background: #ffffff;border: 1px solid #CCCCCC;">
-                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
-                                <div class="fr-avatar span2">
-                                    <a href="/Client/profileclient.php">
-                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
-                                    </a>
-                                </div>
-                                <div class="fr-info span10">
-                                    <div>
-                                        <h3 class="fr-name" style="float: left">
-                                            <a href="/Client/profileclient.php">M</a>
-                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
-                                            <script type="text/javascript" language="javascript">
-                                                jQuery(document).ready(function() {
-                                                    $(function() {
-                                                        $('[data-toggle="tooltip"]').tooltip()
-                                                    })
-                                                });
-                                            </script>
-                                        </h3>
-                                    </div>
-                                    <div class="contact-block">
-                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
-                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="fr-title">
-                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
-                                    </div>
-                                    <div class="fr-summary row-fluid">
-                                        <div class="history span9">
-                                            <span class="location">
-                                                TP. Hồ Chí Minh </span>
-                                            <span class="separator">|</span>
-                                            <span class="category">
-                                                Lập trình web </span>
-                                            <span class="separator " style="display:inline">|</span>
-                                            <span class="history-job " style="display:inline">
-                                                <a href="/Client/profileclient.php"><strong>
-                                                        300.000.000 VNĐ </strong></a>
-                                            </span>
-                                        </div>
-                                        <div class="rating-block span3">
-                                            <div class="rating-box">
-                                                <div class="rating" style="width:100%"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fr-profile row-fluid">
-                                        <div class="skill-list span12 row-fluid">
-                                            <span>
-                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
-                                                    .NET </a>
-                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
-                                                    Bootstrap </a>
-                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
-                                                    C# </a>
-                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
-                                                    CSS3 </a>
-                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
-                                                    HTML </a>
-                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
-                                                    HTML5 </a>
-                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
-                                                    iOS </a>
-                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
-                                                    Javascript </a>
-                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
-                                                    PHP </a>
-                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
-                                                    Wordpress </a>
-                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
-                                                    Adobe Photoshop </a>
-                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
-                                                    Thiết kế Banner </a>
-                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
-                                                    AngularJS </a>
-                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
-                                                    PHP Laravel </a>
-                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
-                                                    Android </a>
-                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                    HTML/CSS </a>
-                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
-                                                    Thiết kế Blog </a>
-                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
-                                                    Thiết kế </a>
-                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
-                                                    React.js </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
-                                <div class="fr-avatar span2">
-                                    <a href="/Client/profileclient.php">
-                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
-                                    </a>
-                                </div>
-                                <div class="fr-info span10">
-                                    <div>
-                                        <h3 class="fr-name" style="float: left">
-                                            <a href="/Client/profileclient.php">M</a>
-                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
-                                            <script type="text/javascript" language="javascript">
-                                                jQuery(document).ready(function() {
-                                                    $(function() {
-                                                        $('[data-toggle="tooltip"]').tooltip()
-                                                    })
-                                                });
-                                            </script>
-                                        </h3>
-                                    </div>
-                                    <div class="contact-block">
-                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
-                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="fr-title">
-                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
-                                    </div>
-                                    <div class="fr-summary row-fluid">
-                                        <div class="history span9">
-                                            <span class="location">
-                                                TP. Hồ Chí Minh </span>
-                                            <span class="separator">|</span>
-                                            <span class="category">
-                                                Lập trình web </span>
-                                            <span class="separator " style="display:inline">|</span>
-                                            <span class="history-job " style="display:inline">
-                                                <a href="/Client/profileclient.php"><strong>
-                                                        300.000.000 VNĐ </strong></a>
-                                            </span>
-                                        </div>
-                                        <div class="rating-block span3">
-                                            <div class="rating-box">
-                                                <div class="rating" style="width:100%"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fr-profile row-fluid">
-                                        <div class="skill-list span12 row-fluid">
-                                            <span>
-                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
-                                                    .NET </a>
-                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
-                                                    Bootstrap </a>
-                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
-                                                    C# </a>
-                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
-                                                    CSS3 </a>
-                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
-                                                    HTML </a>
-                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
-                                                    HTML5 </a>
-                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
-                                                    iOS </a>
-                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
-                                                    Javascript </a>
-                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
-                                                    PHP </a>
-                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
-                                                    Wordpress </a>
-                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
-                                                    Adobe Photoshop </a>
-                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
-                                                    Thiết kế Banner </a>
-                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
-                                                    AngularJS </a>
-                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
-                                                    PHP Laravel </a>
-                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
-                                                    Android </a>
-                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                    HTML/CSS </a>
-                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
-                                                    Thiết kế Blog </a>
-                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
-                                                    Thiết kế </a>
-                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
-                                                    React.js </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
-                                <div class="fr-avatar span2">
-                                    <a href="/Client/profileclient.php">
-                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
-                                    </a>
-                                </div>
-                                <div class="fr-info span10">
-                                    <div>
-                                        <h3 class="fr-name" style="float: left">
-                                            <a href="/Client/profileclient.php">M</a>
-                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
-                                            <script type="text/javascript" language="javascript">
-                                                jQuery(document).ready(function() {
-                                                    $(function() {
-                                                        $('[data-toggle="tooltip"]').tooltip()
-                                                    })
-                                                });
-                                            </script>
-                                        </h3>
-                                    </div>
-                                    <div class="contact-block">
-                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
-                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="fr-title">
-                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
-                                    </div>
-                                    <div class="fr-summary row-fluid">
-                                        <div class="history span9">
-                                            <span class="location">
-                                                TP. Hồ Chí Minh </span>
-                                            <span class="separator">|</span>
-                                            <span class="category">
-                                                Lập trình web </span>
-                                            <span class="separator " style="display:inline">|</span>
-                                            <span class="history-job " style="display:inline">
-                                                <a href="/Client/profileclient.php"><strong>
-                                                        300.000.000 VNĐ </strong></a>
-                                            </span>
-                                        </div>
-                                        <div class="rating-block span3">
-                                            <div class="rating-box">
-                                                <div class="rating" style="width:100%"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fr-profile row-fluid">
-                                        <div class="skill-list span12 row-fluid">
-                                            <span>
-                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
-                                                    .NET </a>
-                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
-                                                    Bootstrap </a>
-                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
-                                                    C# </a>
-                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
-                                                    CSS3 </a>
-                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
-                                                    HTML </a>
-                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
-                                                    HTML5 </a>
-                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
-                                                    iOS </a>
-                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
-                                                    Javascript </a>
-                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
-                                                    PHP </a>
-                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
-                                                    Wordpress </a>
-                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
-                                                    Adobe Photoshop </a>
-                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
-                                                    Thiết kế Banner </a>
-                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
-                                                    AngularJS </a>
-                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
-                                                    PHP Laravel </a>
-                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
-                                                    Android </a>
-                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                    HTML/CSS </a>
-                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
-                                                    Thiết kế Blog </a>
-                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
-                                                    Thiết kế </a>
-                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
-                                                    React.js </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
-                                <div class="fr-avatar span2">
-                                    <a href="/Client/profileclient.php">
-                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
-                                    </a>
-                                </div>
-                                <div class="fr-info span10">
-                                    <div>
-                                        <h3 class="fr-name" style="float: left">
-                                            <a href="/Client/profileclient.php">M</a>
-                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
-                                            <script type="text/javascript" language="javascript">
-                                                jQuery(document).ready(function() {
-                                                    $(function() {
-                                                        $('[data-toggle="tooltip"]').tooltip()
-                                                    })
-                                                });
-                                            </script>
-                                        </h3>
-                                    </div>
-                                    <div class="contact-block">
-                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
-                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="fr-title">
-                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
-                                    </div>
-                                    <div class="fr-summary row-fluid">
-                                        <div class="history span9">
-                                            <span class="location">
-                                                TP. Hồ Chí Minh </span>
-                                            <span class="separator">|</span>
-                                            <span class="category">
-                                                Lập trình web </span>
-                                            <span class="separator " style="display:inline">|</span>
-                                            <span class="history-job " style="display:inline">
-                                                <a href="/Client/profileclient.php"><strong>
-                                                        300.000.000 VNĐ </strong></a>
-                                            </span>
-                                        </div>
-                                        <div class="rating-block span3">
-                                            <div class="rating-box">
-                                                <div class="rating" style="width:100%"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fr-profile row-fluid">
-                                        <div class="skill-list span12 row-fluid">
-                                            <span>
-                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
-                                                    .NET </a>
-                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
-                                                    Bootstrap </a>
-                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
-                                                    C# </a>
-                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
-                                                    CSS3 </a>
-                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
-                                                    HTML </a>
-                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
-                                                    HTML5 </a>
-                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
-                                                    iOS </a>
-                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
-                                                    Javascript </a>
-                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
-                                                    PHP </a>
-                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
-                                                    Wordpress </a>
-                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
-                                                    Adobe Photoshop </a>
-                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
-                                                    Thiết kế Banner </a>
-                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
-                                                    AngularJS </a>
-                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
-                                                    PHP Laravel </a>
-                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
-                                                    Android </a>
-                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                    HTML/CSS </a>
-                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
-                                                    Thiết kế Blog </a>
-                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
-                                                    Thiết kế </a>
-                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
-                                                    React.js </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
-                            <div class="row-fluid row-result freelancer-profile  " fid="32410" data-id="1229116-32410">
-                                <div class="fr-avatar span2">
-                                    <a href="/Client/profileclient.php">
-                                        <img src="https://www.vlance.vn/uploads/99x99/07e4a017088cb965426f122f2b8318c199615b7e1.jpg" alt="M" title="M">
-                                    </a>
-                                </div>
-                                <div class="fr-info span10">
-                                    <div>
-                                        <h3 class="fr-name" style="float: left">
-                                            <a href="/Client/profileclient.php">M</a>
-                                            <span data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="" id="svg-verify-contact" data-original-title="Đã xác thực số điện thoại"></span>
-                                            <script type="text/javascript" language="javascript">
-                                                jQuery(document).ready(function() {
-                                                    $(function() {
-                                                        $('[data-toggle="tooltip"]').tooltip()
-                                                    })
-                                                });
-                                            </script>
-                                        </h3>
-                                    </div>
-                                    <div class="contact-block">
-                                        <a class="btn btn-primary contact-freelancer" style="display:inline" data-toggle="modal" href="#pay-sms" fid="32410" pid="1229116" data-request="{&quot;fid&quot;:32410, &quot;pid&quot;:1229116}" onclick="vtrack('Click contact', {'authenticated':'true','location': 'freelancer list', 'position':'2', 'category':'Lập trình web', 'freelancer':'Vy Nguyễn Khánh Hùng', 'freelancer_id':'32410'})">
-                                            <i class="fa fa-phone fa-lg"></i> Liên hệ trực tiếp </a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="fr-title">
-                                        <span>Thiết kế website, Web-app, Smartphone app - Mona Media</span>
-                                    </div>
-                                    <div class="fr-summary row-fluid">
-                                        <div class="history span9">
-                                            <span class="location">
-                                                TP. Hồ Chí Minh </span>
-                                            <span class="separator">|</span>
-                                            <span class="category">
-                                                Lập trình web </span>
-                                            <span class="separator " style="display:inline">|</span>
-                                            <span class="history-job " style="display:inline">
-                                                <a href="/Client/profileclient.php"><strong>
-                                                        300.000.000 VNĐ </strong></a>
-                                            </span>
-                                        </div>
-                                        <div class="rating-block span3">
-                                            <div class="rating-box">
-                                                <div class="rating" style="width:100%"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fr-profile row-fluid">
-                                        <div class="skill-list span12 row-fluid">
-                                            <span>
-                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
-                                                    .NET </a>
-                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
-                                                    Bootstrap </a>
-                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
-                                                    C# </a>
-                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
-                                                    CSS3 </a>
-                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
-                                                    HTML </a>
-                                                <a href="/freelancers/kynang_html5" title="Freelancer HTML5">
-                                                    HTML5 </a>
-                                                <a href="/freelancers/kynang_ios" title="Freelancer iOS">
-                                                    iOS </a>
-                                                <a href="/freelancers/kynang_javascript" title="Freelancer Javascript">
-                                                    Javascript </a>
-                                                <a href="/freelancers/kynang_php" title="Freelancer PHP">
-                                                    PHP </a>
-                                                <a href="/freelancers/kynang_wordpress" title="Freelancer Wordpress">
-                                                    Wordpress </a>
-                                                <a href="/freelancers/kynang_adobe-photoshop" title="Freelancer Adobe Photoshop">
-                                                    Adobe Photoshop </a>
-                                                <a href="/freelancers/kynang_thiet-ke-banner" title="Freelancer Thiết kế Banner">
-                                                    Thiết kế Banner </a>
-                                                <a href="/freelancers/kynang_angularjs" title="Freelancer AngularJS">
-                                                    AngularJS </a>
-                                                <a href="/freelancers/kynang_laravel" title="Freelancer Laravel">
-                                                    PHP Laravel </a>
-                                                <a href="/freelancers/kynang_android" title="Freelancer Android">
-                                                    Android </a>
-                                                <a href="/freelancers/kynang_cat-html-css" title="Freelancer Cắt HTML/CSS">
-                                                    HTML/CSS </a>
-                                                <a href="/freelancers/kynang_thiet-ke-blog" title="Freelancer Thiết kế Blog">
-                                                    Thiết kế Blog </a>
-                                                <a href="/freelancers/kynang_thiet-ke" title="Freelancer Thiết kế">
-                                                    Thiết kế </a>
-                                                <a href="/freelancers/kynang_react-js" title="Freelancer React.js">
-                                                    React.js </a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <script>
-                            $(document).ready(function() {
-                                if ($(window).width() > 639) {
-                                    $('.block-title span').popover({
-                                        trigger: "hover"
-                                    });
-                                }
-                                $('.hidejs').show();
-                                $('.vlance-popover').popover();
-                            });
-                        </script>
-                    </div> -->
                     <div class="v1_513">
                         <div class="v1_514"><span class="v1_515">Developers</span><span class="v1_516">Designers</span><span class="v1_517">Product
                                 Managers</span><span class="v1_518">Finance Experts</span><span class="v1_519">Project Managers</span></div>
                         <div class="name"></div>
                         <div class="v1_521">
                             <div class="v1_522">
-                                <div class="v1_523"></div><span class="v1_524">Minh </span><span class="v1_525">Developer </span>
+                                <span class="v1_524">Minh </span><span class="v1_525">Developer </span>
                                 <div class="v1_526"></div><span class="v1_527">Justin is
                                     a technical professional with a passion for learning
                                     and 15+ years of experience leading teams to build
@@ -1331,8 +845,8 @@
                                         </div>
                                     </div>
                                     <div style="display: flex; justify-content:space-between">
-                                        <button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 50px;">Xem profile</button>
-                                        <button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 50px;">Liên hệ</button>
+                                    <a href ="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
+                                        <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
                                     </div>
 
                                 </div>
@@ -1345,12 +859,29 @@
                                     experience leading teams to build enterprise-grade
                                     distributed applications that solve real-world
                                     problems. </span>
-                                <div class="v1_543">
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                    <div class="name"></div>
+                                <div class="v1_528">
+                                    <div class="fr-profile row-fluid" style="margin-top: -40px; display: flex; justify-content: center; weight: 30px;">
+                                        <div class="skill-list span12 row-fluid">
+                                            <span style="weight: 90px;">
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    PHP </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content:space-between">
+                                        <a href ="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
+                                        <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
+                                    </div>
 
                                 </div>
 
@@ -1363,16 +894,30 @@
                                     experience leading teams to build enterprise-grade
                                     distributed applications that solve real-world
                                     problems. </span>
-                                <div class="v1_558">
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                    <div class="name"></div>
-                                </div>
-                                <div class="v1_564">
-                                    <div class="name"></div>
-                                    <div class="name"></div>
+                                <div class="v1_528">
+                                    <div class="fr-profile row-fluid" style="margin-top: -40px; display: flex; justify-content: center; weight: 30px;">
+                                        <div class="skill-list span12 row-fluid">
+                                            <span style="weight: 90px;">
+                                                <a href="/freelancers/kynang_net" title="Freelancer .NET">
+                                                    .NET </a>
+                                                <a href="/freelancers/kynang_bootstrap" title="Freelancer Bootstrap">
+                                                    Bootstrap </a>
+                                                <a href="/freelancers/kynang_c" title="Freelancer C#">
+                                                    C# </a>
+                                                <a href="/freelancers/kynang_css3" title="Freelancer CSS3">
+                                                    CSS3 </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    HTML </a>
+                                                <a href="/freelancers/kynang_html" title="Freelancer HTML">
+                                                    PHP </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content:space-between">
+                                    <a href ="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button>
+                                    <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -1383,552 +928,29 @@
                             Xem tất cả <b>các</b> freelancer khác </a>
                     </div>
                     <div class="step-explain-section">
-                        <div class="step-detail detail-image">
-                            <div class="container row-fluid">
-                                <div class="image-left span6">
-                                    <img src="https://www.vlance.vn/img/vn/homepage-new/buoc-1-tiep-can-chuyen-gia.png" title="link_img_vnen.home_page.title_1" alt="link_img_vnen.home_page.title_1">
-                                </div>
-                                <div class="quotes-right span6">
-                                    <h4 class="lh7">Đăng dự án <span>không mất phí</span>,</br>Tiếp cận ngay <span>chuyên gia</span></h4>
-                                    <p class="lh3">Bạn sẽ nhanh chóng nhận được chào giá từ cộng đồng <span>+400.000</span> Freelancer/Cộng tác viên. Chủ động phỏng vấn các ứng viên thông qua hệ thống tin nhắn trực tuyến để tìm người phù hợp nhất với yêu cầu của bạn.</p>
-                                </div>
+                        <div class="v1_248">
+                            <span class="v1_249">Làm theo các bước sau</span>
+                            <div class="name"></div>
+                            <div class="v1_251"><span class="v1_252">Đăng dự án</span><span class="v1_253">Nó là miễn phí và dễ dàng để đăng một công việc. Chỉ cần điền tiêu đề,
+                                 mô tả và ngân sách và giá thầu cạnh tranh sẽ đến trong vòng vài phút.</span><span class="v1_254">Chọn freelancers</span><span class="v1_255">Không có công việc nào là quá lớn hay quá nhỏ. Chúng tôi có các dịch giả tự do cho các công việc thuộc mọi quy mô hoặc ngân sách,
+                                     với hơn 1800 kỹ năng.
+                                    </span><span class="v1_256">Thanh toán an toàn</span><span class="v1_257">Chỉ thanh toán cho công việc khi nó đã được hoàn thành và bạn hài lòng 100% với chất lượng bằng cách sử dụng hệ thống thanh toán quan trọng của chúng tôi.</span>
+                                <div class="v1_258"></div>
+                                <div class="v1_259"></div>
+                                <div class="v1_260"></div><span class="v1_261">03</span>
+                                <div class="v1_262"></div><span class="v1_263">04</span><span class="v1_264">Chúng tôi ở đây để giúp đỡ</span><span class="v1_265">Đội ngũ tuyển dụng tài năng của chúng tôi có thể giúp bạn tìm được người làm việc tự do tốt nhất cho công việc và các cộng sự kỹ thuật của chúng tôi.
+                                    technical co-pilots.</span>
+                                <div class="v1_266"></div>
+                                <div class="v1_267"></div>
+                                <div class="v1_1000"></div>
+                                <div class="v1_268"></div><span class="v1_269">01</span><span class="v1_270">02</span>
                             </div>
-                        </div>
-                        <div class="step-detail detail-quotes">
-                            <div class="container row-fluid">
-                                <div class="quotes-left span6">
-                                    <h4 class="lh7">Kết nối <span>nhanh chóng,</span> </br><span>Rút ngắn thời gian </span>tìm nhân sự</h4>
-                                    <p class="lh3">freelancer kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
-                                </div>
-                                <div class="image-right span6">
-                                    <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2-lam-viec.png" title="link_img_vnen.home_page.title_2" alt="link_img_vnen.home_page.title_2">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="step-detail detail-image">
-                            <div class="container row-fluid">
-                                <div class="image-left span6">
-                                    <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2.5-goi-dich-vu.png" title="Thông tin gói dịch vụ" alt="Thông tin gói dịch vụ">
-                                </div>
-                                <div class="quotes-right span6">
-                                    <h4 class="lh7"><span>Đa dạng </span>mô hình làm việc<br>Đáp ứng <span>mọi nhu cầu<span></h4>
-                                    <p class="lh3">Freelancer tạo gói dịch vụ, khách hàng trực tiếp đặt hàng và chọn mua. Chủ động bán gói dịch vụ gia tăng thu nhập, chủ động đặt mua hoàn thiện công việc nhanh chóng.<br>
-                                        <a href="/tim-dich-vu?utm_campaign=GDV1-BLK-20220808&utm_source=homepage&utm_medium=pop-up&utm_content=button">Tìm gói dịch vụ &#8594;</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="step-detail detail-quotes">
-                            <div class="container row-fluid">
-                                <div class="quotes-left span6">
-                                    <h4 class="lh7"><span>99,82% khách hàng hài lòng,</span></br><span>Bảo mật thông tin</span> cá nhân an toàn</h4>
-                                    <p class="lh3">Khách hàng có thể đánh giá Freelancer sau khi hoàn thành việc. Điều này có ảnh hưởng đến sự uy tín của Freelancer. Thông tin cá nhân và công việc của bạn luôn được bảo mật theo chính sách bảo mật của vLance.</p>
-                                </div>
-                                <div class="image-right span6">
-                                    <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-3-thanh-toan.png" title="link_img_vnen.home_page.title_3" alt="link_img_vnen.home_page.title_3">
-                                </div>
+                            <div class="v1_271">
+                                <div class="v1_276"></div>
                             </div>
                         </div>
                     </div>
                     <div class="separator5"></div>
-                    <div class="list-job-homepage">
-                        <h4>Hồ sơ năng lực nổi bật nhất</h4>
-                        <div class="row-fluid container portfolio-listing-page" style="width: 1240px">
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/nguoc-photography-logo/2494?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/835540292a5611c409cacefd2043df5221b58ec51.jpg" alt="Ngược Photography logo" title="Ngược Photography logo" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/nguoc-photography-logo/2494?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Ngược Photography logo</a>
-                                        <a href="/freelancer/dotranle-baochau" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/6f44d0b56b14acf92cc15dca7f54783eede021df1.jpg" />
-                                            Dotranle Baochau </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">6.9k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-2494">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">15 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-2494" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 15 người khác </span>
-
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-2494').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 2494,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-2494').hide();
-                                                                $('#dislike-p-2494').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-2494').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 2494,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-2494').show();
-                                                                $('#dislike-p-2494').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/bia-sach-2/12144?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/82556808df2d08011c182d2a1f4ebab8acfc8ca21.jpg" alt="Bìa sách" title="Bìa sách" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/bia-sach-2/12144?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Bìa sách</a>
-                                        <a href="/freelancer/ngo-ngoc-long" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/165174b84bcb974601a2c8728b3a5080093468411.jpg" />
-                                            Ngô Ngọc Long </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">7.5k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-12144">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">13 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-12144" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 13 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-12144').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 12144,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-12144').hide();
-                                                                $('#dislike-p-12144').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-12144').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 12144,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-12144').show();
-                                                                $('#dislike-p-12144').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/logo-doris-shop-thoi-trang-nu/38470?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/68edef92a449e3a6e24924ed75c1373bca7ada5a1.jpg" alt="Logo DORIS - Shop Thời trang nữ" title="Logo DORIS - Shop Thời trang nữ" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/logo-doris-shop-thoi-trang-nu/38470?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Logo DORIS - Shop Thời trang nữ</a>
-                                        <a href="/freelancer/tuan-nguyen-anh-15" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/dbebd733609071d9992be4ee58f9b3b24f7749ed1.png" />
-                                            NGUYỄN ANH TUẤN </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">7.8k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-38470">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">11 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-38470" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 11 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-38470').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 38470,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-38470').hide();
-                                                                $('#dislike-p-38470').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-38470').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 38470,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-38470').show();
-                                                                $('#dislike-p-38470').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/logo-apricot-hotel/3362?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/850e7aa004926477b4032d3cc946de35eef51bb21.jpg" alt="Logo Apricot Hotel" title="Logo Apricot Hotel" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/logo-apricot-hotel/3362?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Logo Apricot Hotel</a>
-                                        <a href="/freelancer/nguyen-thuy-duong-9" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b4cd6844420d3401fc47ed978e7bb934b82cc0e31.jpg" />
-                                            Nguyễn Thuỳ Dương </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">4.4k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-3362">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">8 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-3362" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 8 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-3362').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 3362,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-3362').hide();
-                                                                $('#dislike-p-3362').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-3362').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 3362,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-3362').show();
-                                                                $('#dislike-p-3362').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/thiet-ke-bia-sach-hoa-hoc/15764?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/a9e0f0d04920dd9d3e59fbd8a95ecf5d827745151.jpg" alt="Thiết kế bìa sách Hóa học" title="Thiết kế bìa sách Hóa học" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/thiet-ke-bia-sach-hoa-hoc/15764?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Thiết kế bìa sách Hóa học</a>
-                                        <a href="/freelancer/cuong-hoang-minh" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/2a0128aa737d0d9b59cfa2689b389861c6a9773c.JPG1.jpg" />
-                                            Cương Hoàng Minh </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">5.3k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-15764">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">6 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-15764" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 6 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-15764').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 15764,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-15764').hide();
-                                                                $('#dislike-p-15764').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-15764').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 15764,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-15764').show();
-                                                                $('#dislike-p-15764').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/nang-vang-logo/60293?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/a49cdb48faa2d508f23b9685840206254b4fa6891.png" alt="Nắng vàng Logo" title="Nắng vàng Logo" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/nang-vang-logo/60293?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Nắng vàng Logo</a>
-                                        <a href="/freelancer/doan-dang-4" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
-                                            Phước Đoàn </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">2.5k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-60293">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">6 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-60293" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 6 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-60293').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 60293,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-60293').hide();
-                                                                $('#dislike-p-60293').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-60293').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 60293,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-60293').show();
-                                                                $('#dislike-p-60293').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/winn-order-logo-1/60301?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/5b12c78868e6466588c7418ab85e22ddc746d5921.png" alt="Winn Order logo" title="Winn Order logo" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/winn-order-logo-1/60301?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">Winn Order logo</a>
-                                        <a href="/freelancer/doan-dang-4" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
-                                            Phước Đoàn </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">780</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-60301">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">5 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-60301" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 5 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-60301').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 60301,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-60301').hide();
-                                                                $('#dislike-p-60301').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-60301').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 60301,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-60301').show();
-                                                                $('#dislike-p-60301').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portfolio">
-                                <div class="p-img">
-                                    <a class="portfolio-link" href="/ho-so-nang-luc/dicy-socks-logo/60289?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link">
-                                        <img class="lazyload" src="https://www.vlance.vn/uploads/670x377/19cbf4027c43a11ec03b813f1c6942c8639c40a81.png" alt="DICY socks logo" title="DICY socks logo" />
-                                    </a>
-                                </div>
-                                <div class="p-about-m" style="text-align: left;">
-                                    <div class="p-t-t">
-                                        <a href="/ho-so-nang-luc/dicy-socks-logo/60289?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=link" class="p-title">DICY socks logo</a>
-                                        <a href="/freelancer/doan-dang-4" class="p-author">
-                                            <img style="border-radius: 50%" width="16" src="https://www.vlance.vn/uploads/16x16/b901d848013ab0ff2d8212de5ef9e7ae1b4a3e3f1.png" />
-                                            Phước Đoàn </a>
-                                    </div>
-                                    <div class="p-ac">
-                                        <span class="p-ac-v" title="Lượt xem"><img src="https://www.vlance.vn/img/portfolio/num_views.svg">9.3k</span>
-                                        <span title="Lượt thích" class="p-like-at" id="like-p-60289">
-                                            <img src="https://www.vlance.vn/img/portfolio/like.svg">4 </span>
-                                        <span title="Lượt thích" class="p-like-at" id="dislike-p-60289" style="display: none">
-                                            <img src="https://www.vlance.vn/img/portfolio/liked.svg">Bạn và 4 người khác </span>
-                                        <script>
-                                            $(document).ready(function() {
-                                                $('#like-p-60289').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 60289,
-                                                            'isLiked': 0
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-60289').hide();
-                                                                $('#dislike-p-60289').show();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-
-                                                $('#dislike-p-60289').click(function() {
-                                                    $.ajax({
-                                                        url: '/portfolio/like_portfolio_action',
-                                                        type: 'POST',
-                                                        data: {
-                                                            'id': 60289,
-                                                            'isLiked': 1
-                                                        }
-                                                    }).success(function(result) {
-                                                        if (result.error !== 'undefined') {
-                                                            if (result.error == 0) {
-                                                                $('#like-p-60289').show();
-                                                                $('#dislike-p-60289').hide();
-                                                            }
-                                                        }
-                                                    }).fail(function(result) {});
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="margin-top: 7px;padding-bottom: 90px;">
-                            <a style="padding: 10px 24px;background: #2DB964;border-radius: 5px;color: #ffffff;" href="/ho-so-nang-luc?utm_medium=portfolio-list-block&utm_campaign=20210524_homepage_portfolio-list-block&utm_content=button">
-                                Xem tất cả <b>43.676</b> hồ sơ năng lực </a>
-                        </div>
-                    </div>
                     <div class="separator5"></div>
                     <div class="separator5"></div>
                     <div class="reviews-section">
@@ -1945,7 +967,7 @@
                                             <p>Khách hàng</p>
                                         </div>
                                         <div class="review-quote">
-                                            <p>“Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
+                                            <p>"Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
                                             <div class="feedback-star">
                                                 <img src="https://www.vlance.vn/img/homepage-new/star3.png">
                                             </div>
