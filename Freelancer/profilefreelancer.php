@@ -6,18 +6,17 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
+    <meta name="author" content="freelancer.vn" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Freelancer Lập tr&igrave;nh web - M&iacute;nh | freelancer.vn</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
-    <meta property="og:site_name" content="vLance.vn" />
+    <meta property="og:site_name" content="freelancer.vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="Freelancer Lập tr&igrave;nh web - M&iacute;nh | vLance.vn" />
     <meta property="og:image" content="https://www.vlance.vn/uploads/300x300/5137679a253a06555c594a9df5f13502041e06931.png" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:url" content="https://www.vlance.vn/freelancer/minh-166" />
     <meta property="og:description" itemprop="description" name="description" content="Freelancer M&iacute;nh c&oacute; kinh nghiệm trong lĩnh vực Lập tr&igrave;nh web đến từ H&agrave; Nội. t&ocirc;i l&agrave; freelancer" />
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />

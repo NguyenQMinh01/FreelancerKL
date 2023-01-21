@@ -668,11 +668,6 @@
                         setTimeout(addblock, 1000);
                     });
                 </script>
-
-
-
-
-
                 <div class="list-job-homepage">
                     <div class="v1_637">
                         <div class="v1_638">
@@ -726,6 +721,7 @@
                         <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi</span>
                         <span class="v1_679">Danh mục công việc</span>
                     </div>
+                    <div class="separator5" style = "margin-top: 30px;"></div>
 
                     <div class="v1_568">
                         <div class="v1_569">
@@ -810,6 +806,8 @@
                             <div class="name"></div>
                         </div>
                     </div>
+                    <div class="separator5"></div>
+
                     <h4>Top 3 freelancer được đánh giá nổi trội nhất</h4>
                     <div class="v1_513">
                         <div class="v1_514"><span class="v1_515">Developers</span><span class="v1_516">Designers</span><span class="v1_517">Product
@@ -845,10 +843,9 @@
                                         </div>
                                     </div>
                                     <div style="display: flex; justify-content:space-between">
-                                    <a href ="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
+                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
                                         <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="v1_537">
@@ -879,7 +876,7 @@
                                         </div>
                                     </div>
                                     <div style="display: flex; justify-content:space-between">
-                                        <a href ="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
+                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
                                         <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
                                     </div>
 
@@ -914,8 +911,8 @@
                                         </div>
                                     </div>
                                     <div style="display: flex; justify-content:space-between">
-                                    <a href ="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button>
-                                    <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
+                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button>
+                                            <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
                                     </div>
 
                                 </div>
@@ -927,14 +924,15 @@
                         <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="/Client/searchfreelancer.php">
                             Xem tất cả <b>các</b> freelancer khác </a>
                     </div>
+                    <div class="separator5"></div>
                     <div class="step-explain-section">
                         <div class="v1_248">
                             <span class="v1_249">Làm theo các bước sau</span>
                             <div class="name"></div>
                             <div class="v1_251"><span class="v1_252">Đăng dự án</span><span class="v1_253">Nó là miễn phí và dễ dàng để đăng một công việc. Chỉ cần điền tiêu đề,
-                                 mô tả và ngân sách và giá thầu cạnh tranh sẽ đến trong vòng vài phút.</span><span class="v1_254">Chọn freelancers</span><span class="v1_255">Không có công việc nào là quá lớn hay quá nhỏ. Chúng tôi có các dịch giả tự do cho các công việc thuộc mọi quy mô hoặc ngân sách,
-                                     với hơn 1800 kỹ năng.
-                                    </span><span class="v1_256">Thanh toán an toàn</span><span class="v1_257">Chỉ thanh toán cho công việc khi nó đã được hoàn thành và bạn hài lòng 100% với chất lượng bằng cách sử dụng hệ thống thanh toán quan trọng của chúng tôi.</span>
+                                    mô tả và ngân sách và giá thầu cạnh tranh sẽ đến trong vòng vài phút.</span><span class="v1_254">Chọn freelancers</span><span class="v1_255">Không có công việc nào là quá lớn hay quá nhỏ. Chúng tôi có các dịch giả tự do cho các công việc thuộc mọi quy mô hoặc ngân sách,
+                                    với hơn 1800 kỹ năng.
+                                </span><span class="v1_256">Thanh toán an toàn</span><span class="v1_257">Chỉ thanh toán cho công việc khi nó đã được hoàn thành và bạn hài lòng 100% với chất lượng bằng cách sử dụng hệ thống thanh toán quan trọng của chúng tôi.</span>
                                 <div class="v1_258"></div>
                                 <div class="v1_259"></div>
                                 <div class="v1_260"></div><span class="v1_261">03</span>
@@ -950,8 +948,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="separator5"></div>
-                    <div class="separator5"></div>
                     <div class="separator5"></div>
                     <div class="reviews-section">
                         <h3 class="review-client-title">Khách hàng hài lòng về chất lượng dịch vụ</h3>

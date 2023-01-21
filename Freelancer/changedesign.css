@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 body {
   font-size: 14px;
 }
@@ -28,7 +26,7 @@ body {
 .v1_22 {
   width: 507px;
   height: 507px;
-  background: url("../images/v1_22.png");
+  background: url("./images/v1_22.png");
   opacity: 1;
   position: absolute;
   top: 2659px;
@@ -38,7 +36,7 @@ body {
 .v1_23 {
   width: 580px;
   height: 677px;
-  background: url("../images/v1_23.png");
+  background: url("./images/v1_23.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -61,7 +59,7 @@ body {
 .v1_25 {
   width: 537px;
   height: 537px;
-  background: url("../images/v1_25.png");
+  background: url("./images/v1_25.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -71,7 +69,7 @@ body {
 .v1_26 {
   width: 772px;
   height: 725px;
-  background: url("../images/v1_26.png");
+  background: url("./images/v1_26.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -94,7 +92,7 @@ body {
 .v1_28 {
   width: 692px;
   height: 692px;
-  background: url("../images/v1_28.png");
+  background: url("./images/v1_28.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -104,7 +102,7 @@ body {
 .v1_29 {
   width: 60px;
   height: 98px;
-  background: url("../images/v1_29.png");
+  background: url("./images/v1_29.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -119,7 +117,7 @@ body {
 .v1_30 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_30.png");
+  background: url("./images/v1_30.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -193,7 +191,7 @@ body {
 .v1_37 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_37.png");
+  background: url("./images/v1_37.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -267,7 +265,7 @@ body {
 .v1_44 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_44.png");
+  background: url("./images/v1_44.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -341,7 +339,7 @@ body {
 .v1_51 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_51.png");
+  background: url("./images/v1_51.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -415,7 +413,7 @@ body {
 .v1_58 {
   width: 60px;
   height: 98px;
-  background: url("../images/v1_58.png");
+  background: url("./images/v1_58.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -430,7 +428,7 @@ body {
 .v1_59 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_59.png");
+  background: url("./images/v1_59.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -504,7 +502,7 @@ body {
 .v1_66 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_66.png");
+  background: url("./images/v1_66.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -578,7 +576,7 @@ body {
 .v1_73 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_73.png");
+  background: url("./images/v1_73.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -652,7 +650,7 @@ body {
 .v1_80 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_80.png");
+  background: url("./images/v1_80.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -726,7 +724,7 @@ body {
 .v1_87 {
   width: 100%;
   height: 548px;
-  background: url("../images/v1_87.png");
+  background: url("./images/v1_87.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -828,7 +826,7 @@ body {
 .v1_101 {
   width: 45px;
   height: 45px;
-  background: url("../images/v1_101.png");
+  background: url("./images/v1_101.png");
   opacity: 1;
   position: absolute;
   top: 246px;
@@ -838,7 +836,7 @@ body {
 .v1_102 {
   width: 170px;
   height: 35px;
-  background: url("../images/v1_102.png");
+  background: url("./images/v1_102.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -852,7 +850,7 @@ body {
 .v1_103 {
   width: 35px;
   height: 35px;
-  background: url("../images/v1_103.png");
+  background: url("./images/v1_103.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -865,7 +863,7 @@ body {
 .v1_104 {
   width: 35px;
   height: 35px;
-  background: url("../images/v1_104.png");
+  background: url("./images/v1_104.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -878,7 +876,7 @@ body {
 .v1_105 {
   width: 35px;
   height: 35px;
-  background: url("../images/v1_105.png");
+  background: url("./images/v1_105.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -891,7 +889,7 @@ body {
 .v1_106 {
   width: 35px;
   height: 35px;
-  background: url("../images/v1_106.png");
+  background: url("./images/v1_106.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -952,7 +950,7 @@ body {
 .v1_111 {
   width: 230px;
   height: 176px;
-  background: url("../images/v1_111.png");
+  background: url("./images/v1_111.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1038,7 +1036,7 @@ body {
 .v1_118 {
   width: 204px;
   height: 207px;
-  background: url("../images/v1_118.png");
+  background: url("./images/v1_118.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1136,7 +1134,7 @@ body {
 .v1_126 {
   width: 154px;
   height: 269px;
-  background: url("../images/v1_126.png");
+  background: url("./images/v1_126.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1270,7 +1268,7 @@ body {
 .v1_137 {
   width: 72px;
   height: 94px;
-  background: url("../images/v1_137.png");
+  background: url("./images/v1_137.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1332,7 +1330,7 @@ body {
 .v1_142 {
   width: 100%;
   height: 300px;
-  background: url("../images/v1_142.png");
+  background: url("./images/v1_142.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1345,7 +1343,7 @@ body {
 .v1_143 {
   width: 100%;
   height: 300px;
-  background: url("../images/v1_143.png");
+  background: url("./images/v1_143.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1383,7 +1381,7 @@ body {
 .v1_164 {
   width: 505px;
   height: 183px;
-  background: url("../images/v1_164.png");
+  background: url("./images/v1_164.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1396,7 +1394,7 @@ body {
 }
 .v1_165 {
   width: 490px;
-  color: url("../images/v1_165.png");
+  color: url("./images/v1_165.png");
   position: absolute;
   top: 0px;
   left: 8px;
@@ -1409,7 +1407,7 @@ body {
 .v1_166 {
   width: 506px;
   height: 40px;
-  background: url("../images/v1_166.png");
+  background: url("./images/v1_166.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1422,7 +1420,7 @@ body {
 .v1_167 {
   width: 500px;
   height: 40px;
-  background: url("../images/v1_167.png");
+  background: url("./images/v1_167.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1452,7 +1450,7 @@ body {
 .v1_169 {
   width: 100px;
   height: 40px;
-  background: url("../images/v1_169.png");
+  background: url("./images/v1_169.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1494,7 +1492,7 @@ body {
 .v1_173 {
   width: 100%;
   height: 660px;
-  background: url("../images/v1_173.png");
+  background: url("./images/v1_173.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1517,7 +1515,7 @@ body {
 .v1_175 {
   width: 54px;
   height: 10px;
-  background: url("../images/v1_175.png");
+  background: url("./images/v1_175.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1531,7 +1529,7 @@ body {
 .v1_176 {
   width: 10px;
   height: 10px;
-  background: url("../images/v1_176.png");
+  background: url("./images/v1_176.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -1551,7 +1549,7 @@ body {
 .v1_178 {
   width: 10px;
   height: 10px;
-  background: url("../images/v1_178.png");
+  background: url("./images/v1_178.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -1573,7 +1571,7 @@ body {
 .v1_180 {
   width: 100%;
   height: 438px;
-  background: url("../images/v1_180.png");
+  background: url("./images/v1_180.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1587,7 +1585,7 @@ body {
 .v1_181 {
   width: 368px;
   height: 438px;
-  background: url("../images/v1_181.png");
+  background: url("./images/v1_181.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1641,7 +1639,7 @@ body {
 .v1_195 {
   width: 103px;
   height: 103px;
-  background: url("../images/v1_195.png");
+  background: url("./images/v1_195.png");
   opacity: 1;
   position: absolute;
   top: 27px;
@@ -1663,7 +1661,7 @@ body {
 .v1_197 {
   width: 160px;
   height: 28px;
-  background: url("../images/v1_197.png");
+  background: url("./images/v1_197.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1677,7 +1675,7 @@ body {
 .v1_198 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_198.png");
+  background: url("./images/v1_198.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1690,7 +1688,7 @@ body {
 .v1_199 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_199.png");
+  background: url("./images/v1_199.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1703,7 +1701,7 @@ body {
 .v1_200 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_200.png");
+  background: url("./images/v1_200.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1716,7 +1714,7 @@ body {
 .v1_201 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_201.png");
+  background: url("./images/v1_201.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1729,7 +1727,7 @@ body {
 .v1_202 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_202.png");
+  background: url("./images/v1_202.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1742,7 +1740,7 @@ body {
 .v1_203 {
   width: 368px;
   height: 438px;
-  background: url("../images/v1_203.png");
+  background: url("./images/v1_203.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1796,7 +1794,7 @@ body {
 .v1_217 {
   width: 103px;
   height: 103px;
-  background: url("../images/v1_217.png");
+  background: url("./images/v1_217.png");
   opacity: 1;
   position: absolute;
   top: 27px;
@@ -1818,7 +1816,7 @@ body {
 .v1_219 {
   width: 160px;
   height: 28px;
-  background: url("../images/v1_219.png");
+  background: url("./images/v1_219.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1832,7 +1830,7 @@ body {
 .v1_220 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_220.png");
+  background: url("./images/v1_220.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1845,7 +1843,7 @@ body {
 .v1_221 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_221.png");
+  background: url("./images/v1_221.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1858,7 +1856,7 @@ body {
 .v1_222 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_222.png");
+  background: url("./images/v1_222.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1871,7 +1869,7 @@ body {
 .v1_223 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_223.png");
+  background: url("./images/v1_223.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1884,7 +1882,7 @@ body {
 .v1_224 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_224.png");
+  background: url("./images/v1_224.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1897,7 +1895,7 @@ body {
 .v1_225 {
   width: 368px;
   height: 438px;
-  background: url("../images/v1_225.png");
+  background: url("./images/v1_225.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1951,7 +1949,7 @@ body {
 .v1_239 {
   width: 103px;
   height: 103px;
-  background: url("../images/v1_239.png");
+  background: url("./images/v1_239.png");
   opacity: 1;
   position: absolute;
   top: 27px;
@@ -1973,7 +1971,7 @@ body {
 .v1_241 {
   width: 160px;
   height: 28px;
-  background: url("../images/v1_241.png");
+  background: url("./images/v1_241.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1987,7 +1985,7 @@ body {
 .v1_242 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_242.png");
+  background: url("./images/v1_242.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2000,7 +1998,7 @@ body {
 .v1_243 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_243.png");
+  background: url("./images/v1_243.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2013,7 +2011,7 @@ body {
 .v1_244 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_244.png");
+  background: url("./images/v1_244.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2026,7 +2024,7 @@ body {
 .v1_245 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_245.png");
+  background: url("./images/v1_245.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2039,7 +2037,7 @@ body {
 .v1_246 {
   width: 28px;
   height: 28px;
-  background: url("../images/v1_246.png");
+  background: url("./images/v1_246.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2051,7 +2049,7 @@ body {
 }
 .v1_247 {
   width: 481px;
-  color: url("../images/v1_247.png");
+  color: url("./images/v1_247.png");
   position: absolute;
   top: 0px;
   left: 360px;
@@ -2062,25 +2060,24 @@ body {
   text-align: left;
 }
 .v1_248 {
-  width: 100%;
   height: 748px;
-  background: url("../images/v1_248.png");
+  background: url("./images/v1_248.png");
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 4803px;
-  left: 72px;
-  overflow: hidden;
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  left: 20%;
 }
 .v1_249 {
-  width: 507px;
-  color: url("../images/v1_249.png");
+  width: 807px;
+  color: url("./images/v1_249.png");
   position: absolute;
-  top: 6px;
+  top: 25px;
   left: 675px;
-  font-family: DM Sans;
+  font-family: Sans-serif;
   font-weight: Bold;
   font-size: 40px;
   opacity: 1;
@@ -2092,7 +2089,7 @@ body {
 .v1_251 {
   width: 580px;
   height: 489px;
-  background: url("../images/v1_251.png");
+  background: url("./images/v1_251.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2177,7 +2174,7 @@ body {
 .v1_258 {
   width: 45px;
   height: 45px;
-  background: url("../images/v1_258.png");
+  background: url("./images/v1_258.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -2187,7 +2184,7 @@ body {
 .v1_259 {
   width: 45px;
   height: 45px;
-  background: url("../images/v1_259.png");
+  background: url("./images/v1_259.png");
   opacity: 1;
   position: absolute;
   top: 135px;
@@ -2197,7 +2194,7 @@ body {
 .v1_260 {
   width: 45px;
   height: 45px;
-  background: url("../images/v1_260.png");
+  background: url("./images/v1_260.png");
   opacity: 1;
   position: absolute;
   top: 270px;
@@ -2219,7 +2216,7 @@ body {
 .v1_262 {
   width: 45px;
   height: 45px;
-  background: url("../images/v1_262.png");
+  background: url("./images/v1_262.png");
   opacity: 1;
   position: absolute;
   top: 405px;
@@ -2263,31 +2260,38 @@ body {
   text-align: justified;
 }
 .v1_266 {
-  width: 70px;
-  background: url("../images/v1_266.png");
+  width: 35px;
+  background: url("./images/v1_266.png");
   opacity: 1;
   position: absolute;
-  top: 55px;
-  left: 22px;
+  top: 2px;
+  left: 2px;
   border: 2px solid rgba(0,147,208,1);
+  border-radius: 20px;
+  height: 35px;
 }
 .v1_267 {
-  width: 70px;
-  background: url("../images/v1_267.png");
+  width: 35px;
+  background: url("./images/v1_267.png");
   opacity: 1;
   position: absolute;
-  top: 190px;
-  left: 22px;
+  top: 138px;
+  left: 0px;
   border: 2px solid rgba(0,147,208,1);
+  height: 35px;
+  border-radius: 20px;
 }
 .v1_268 {
-  width: 70px;
-  background: url("../images/v1_268.png");
+  width: 35px;
+  background: url("./images/v1_268.png");
   opacity: 1;
   position: absolute;
-  top: 325px;
-  left: 22px;
+  top: 272px;
+  left: 3px;
   border: 2px solid rgba(0,147,208,1);
+  height: 35px;
+  border-radius: 20px;
+
 }
 .v1_269 {
   width: 16px;
@@ -2316,7 +2320,7 @@ body {
 .v1_271 {
   width: 681px;
   height: 627px;
-  background: url("../images/v1_271.png");
+  background: url("./images/v1_271.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2335,7 +2339,10 @@ body {
 .v1_276 {
   width: 488px;
   height: 483px;
-  background: url("../images/v1_276.png");
+  background: url("./images/v1_276.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   opacity: 1;
   position: absolute;
   top: 85px;
@@ -2345,7 +2352,7 @@ body {
 .v1_277 {
   width: 60px;
   height: 98px;
-  background: url("../images/v1_277.png");
+  background: url("./images/v1_277.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2360,7 +2367,7 @@ body {
 .v1_278 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_278.png");
+  background: url("./images/v1_278.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2434,7 +2441,7 @@ body {
 .v1_285 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_285.png");
+  background: url("./images/v1_285.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2508,7 +2515,7 @@ body {
 .v1_292 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_292.png");
+  background: url("./images/v1_292.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2582,7 +2589,7 @@ body {
 .v1_299 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_299.png");
+  background: url("./images/v1_299.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2652,11 +2659,12 @@ body {
   top: 0px;
   left: 99px;
   border-radius: 50%;
+  
 }
 .v1_306 {
   width: 60px;
   height: 98px;
-  background: url("../images/v1_306.png");
+  background: url("./images/v1_306.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2671,7 +2679,7 @@ body {
 .v1_307 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_307.png");
+  background: url("./images/v1_307.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2745,7 +2753,7 @@ body {
 .v1_314 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_314.png");
+  background: url("./images/v1_314.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2819,7 +2827,7 @@ body {
 .v1_321 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_321.png");
+  background: url("./images/v1_321.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2893,7 +2901,7 @@ body {
 .v1_328 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_328.png");
+  background: url("./images/v1_328.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2967,22 +2975,21 @@ body {
 .v1_335 {
   width: 100%;
   height: 742px;
-  background: url("../images/v1_335.png");
+  background: url("./images/v1_335.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 3911px;
-  left: 100px;
-  overflow: hidden;
+  position: relative;
+  left: -10px;
+  
 }
 .v1_336 {
-  width: 387px;
-  color: url("../images/v1_336.png");
+  width: 887px;
+  color: url("./images/v1_336.png");
   position: absolute;
   top: 0px;
-  left: 407px;
+  left: 357px;
   font-family: DM Sans;
   font-weight: Bold;
   font-size: 45px;
@@ -2992,7 +2999,7 @@ body {
 .v1_337 {
   width: 100%;
   height: 250px;
-  background: url("../images/v1_337.png");
+  background: url("./images/v1_337.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3006,7 +3013,7 @@ body {
 .v1_338 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_338.png");
+  background: url("./images/v1_338.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3014,7 +3021,10 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  
 }
 .v1_339 {
   width: 270px;
@@ -3045,7 +3055,7 @@ body {
 .v1_341 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_341.png");
+  background: url("./images/v1_341.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3088,7 +3098,7 @@ body {
 .v1_346 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_346.png");
+  background: url("./images/v1_346.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3101,7 +3111,7 @@ body {
 .v1_347 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_347.png");
+  background: url("./images/v1_347.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3126,7 +3136,7 @@ body {
 .v1_349 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_349.png");
+  background: url("./images/v1_349.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3134,7 +3144,8 @@ body {
   position: absolute;
   top: 0px;
   left: 310px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_350 {
   width: 270px;
@@ -3165,7 +3176,7 @@ body {
 .v1_352 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_352.png");
+  background: url("./images/v1_352.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3208,7 +3219,7 @@ body {
 .v1_357 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_357.png");
+  background: url("./images/v1_357.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3221,7 +3232,7 @@ body {
 .v1_358 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_358.png");
+  background: url("./images/v1_358.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3246,7 +3257,7 @@ body {
 .v1_360 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_360.png");
+  background: url("./images/v1_360.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3254,7 +3265,8 @@ body {
   position: absolute;
   top: 0px;
   left: 620px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_361 {
   width: 270px;
@@ -3285,7 +3297,7 @@ body {
 .v1_363 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_363.png");
+  background: url("./images/v1_363.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3328,7 +3340,7 @@ body {
 .v1_368 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_368.png");
+  background: url("./images/v1_368.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3341,7 +3353,7 @@ body {
 .v1_369 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_369.png");
+  background: url("./images/v1_369.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3366,7 +3378,7 @@ body {
 .v1_371 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_371.png");
+  background: url("./images/v1_371.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3374,7 +3386,8 @@ body {
   position: absolute;
   top: 0px;
   left: 930px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_372 {
   width: 270px;
@@ -3405,7 +3418,7 @@ body {
 .v1_374 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_374.png");
+  background: url("./images/v1_374.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3448,7 +3461,7 @@ body {
 .v1_379 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_379.png");
+  background: url("./images/v1_379.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3461,7 +3474,7 @@ body {
 .v1_380 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_380.png");
+  background: url("./images/v1_380.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3486,7 +3499,7 @@ body {
 .v1_382 {
   width: 100%;
   height: 250px;
-  background: url("../images/v1_382.png");
+  background: url("./images/v1_382.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3500,7 +3513,7 @@ body {
 .v1_383 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_383.png");
+  background: url("./images/v1_383.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3508,7 +3521,8 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_384 {
   width: 270px;
@@ -3539,7 +3553,7 @@ body {
 .v1_386 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_386.png");
+  background: url("./images/v1_386.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3582,7 +3596,7 @@ body {
 .v1_391 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_391.png");
+  background: url("./images/v1_391.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3595,7 +3609,7 @@ body {
 .v1_392 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_392.png");
+  background: url("./images/v1_392.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3620,7 +3634,7 @@ body {
 .v1_394 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_394.png");
+  background: url("./images/v1_394.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3628,7 +3642,8 @@ body {
   position: absolute;
   top: 0px;
   left: 310px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_395 {
   width: 270px;
@@ -3659,7 +3674,7 @@ body {
 .v1_397 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_397.png");
+  background: url("./images/v1_397.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3702,7 +3717,7 @@ body {
 .v1_402 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_402.png");
+  background: url("./images/v1_402.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3715,7 +3730,7 @@ body {
 .v1_403 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_403.png");
+  background: url("./images/v1_403.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3740,7 +3755,7 @@ body {
 .v1_405 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_405.png");
+  background: url("./images/v1_405.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3748,7 +3763,8 @@ body {
   position: absolute;
   top: 0px;
   left: 620px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_406 {
   width: 270px;
@@ -3779,7 +3795,7 @@ body {
 .v1_408 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_408.png");
+  background: url("./images/v1_408.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3822,7 +3838,7 @@ body {
 .v1_413 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_413.png");
+  background: url("./images/v1_413.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3835,7 +3851,7 @@ body {
 .v1_414 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_414.png");
+  background: url("./images/v1_414.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3860,7 +3876,7 @@ body {
 .v1_416 {
   width: 270px;
   height: 250px;
-  background: url("../images/v1_416.png");
+  background: url("./images/v1_416.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3868,7 +3884,8 @@ body {
   position: absolute;
   top: 0px;
   left: 930px;
-  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .v1_417 {
   width: 270px;
@@ -3899,7 +3916,7 @@ body {
 .v1_419 {
   width: 40px;
   height: 40px;
-  background: url("../images/v1_419.png");
+  background: url("./images/v1_419.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3942,7 +3959,7 @@ body {
 .v1_424 {
   width: 11px;
   height: 13px;
-  background: url("../images/v1_424.png");
+  background: url("./images/v1_424.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3955,7 +3972,7 @@ body {
 .v1_425 {
   width: 17px;
   height: 17px;
-  background: url("../images/v1_425.png");
+  background: url("./images/v1_425.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3983,7 +4000,7 @@ body {
 .v1_428 {
   width: 100%;
   height: 686px;
-  background: url("../images/v1_428.png");
+  background: url("./images/v1_428.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3996,7 +4013,7 @@ body {
 .v1_429 {
   width: 66px;
   height: 106px;
-  background: url("../images/v1_429.png");
+  background: url("./images/v1_429.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4011,7 +4028,7 @@ body {
 .v1_430 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_430.png");
+  background: url("./images/v1_430.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4085,7 +4102,7 @@ body {
 .v1_437 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_437.png");
+  background: url("./images/v1_437.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4159,7 +4176,7 @@ body {
 .v1_444 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_444.png");
+  background: url("./images/v1_444.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4233,7 +4250,7 @@ body {
 .v1_451 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_451.png");
+  background: url("./images/v1_451.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4306,7 +4323,7 @@ body {
 }
 .v1_458 {
   width: 577px;
-  color: url("../images/v1_458.png");
+  color: url("./images/v1_458.png");
   position: absolute;
   top: 33px;
   left: 3px;
@@ -4331,7 +4348,7 @@ body {
 .v1_460 {
   width: 194px;
   height: 130px;
-  background: url("../images/v1_460.png");
+  background: url("./images/v1_460.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4345,7 +4362,7 @@ body {
 .v1_461 {
   width: 194px;
   height: 58px;
-  background: url("../images/v1_461.png");
+  background: url("./images/v1_461.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4359,7 +4376,7 @@ body {
 .v1_462 {
   width: 174px;
   height: 22px;
-  background: url("../images/v1_462.png");
+  background: url("./images/v1_462.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4372,7 +4389,7 @@ body {
 .v1_463 {
   width: 22px;
   height: 22px;
-  background: url("../images/v1_463.png");
+  background: url("./images/v1_463.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -4394,7 +4411,7 @@ body {
 .v1_465 {
   width: 194px;
   height: 22px;
-  background: url("../images/v1_465.png");
+  background: url("./images/v1_465.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4407,7 +4424,7 @@ body {
 .v1_466 {
   width: 22px;
   height: 22px;
-  background: url("../images/v1_466.png");
+  background: url("./images/v1_466.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -4429,7 +4446,7 @@ body {
 .v1_468 {
   width: 191px;
   height: 22px;
-  background: url("../images/v1_468.png");
+  background: url("./images/v1_468.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4442,7 +4459,7 @@ body {
 .v1_469 {
   width: 22px;
   height: 22px;
-  background: url("../images/v1_469.png");
+  background: url("./images/v1_469.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -4464,7 +4481,7 @@ body {
 .v1_471 {
   width: 180px;
   height: 22px;
-  background: url("../images/v1_471.png");
+  background: url("./images/v1_471.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4477,7 +4494,7 @@ body {
 .v1_472 {
   width: 22px;
   height: 22px;
-  background: url("../images/v1_472.png");
+  background: url("./images/v1_472.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -4502,7 +4519,7 @@ body {
 .v1_475 {
   width: 165px;
   height: 165px;
-  background: url("../images/v1_475.png");
+  background: url("./images/v1_475.png");
   opacity: 1;
   position: absolute;
   top: 521px;
@@ -4512,7 +4529,7 @@ body {
 .v1_476 {
   width: 205px;
   height: 165px;
-  background: url("../images/v1_476.png");
+  background: url("./images/v1_476.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4535,7 +4552,7 @@ body {
 .v1_478 {
   width: 66px;
   height: 106px;
-  background: url("../images/v1_478.png");
+  background: url("./images/v1_478.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4550,7 +4567,7 @@ body {
 .v1_479 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_479.png");
+  background: url("./images/v1_479.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4624,7 +4641,7 @@ body {
 .v1_486 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_486.png");
+  background: url("./images/v1_486.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4698,7 +4715,7 @@ body {
 .v1_493 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_493.png");
+  background: url("./images/v1_493.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4772,7 +4789,7 @@ body {
 .v1_500 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_500.png");
+  background: url("./images/v1_500.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4846,7 +4863,7 @@ body {
 .v1_507 {
   width: 440px;
   height: 530px;
-  background: url("../images/v1_507.png");
+  background: url("./images/v1_507.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4863,7 +4880,7 @@ body {
 .v1_508 {
   width: 300px;
   height: 267px;
-  background: url("../images/v1_508.png");
+  background: url("./images/v1_508.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4891,7 +4908,7 @@ body {
 .v1_510 {
   width: 300px;
   height: 208px;
-  background: url("../images/v1_510.png");
+  background: url("./images/v1_510.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4908,7 +4925,7 @@ body {
 .v1_511 {
   width: 165px;
   height: 21px;
-  background: url("../images/v1_511.png");
+  background: url("./images/v1_511.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4933,7 +4950,7 @@ body {
 .v1_513 {
   width: 100%;
   height: 705px;
-  background: url("../images/v1_513.png");
+  background: url("./images/v1_513.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4946,7 +4963,7 @@ body {
 .v1_514 {
   width: 100%;
   height: 27px;
-  background: url("../images/v1_514.png");
+  background: url("./images/v1_514.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5023,7 +5040,7 @@ body {
 .v1_521 {
   width: 100%;
   height: 529px;
-  background: url("../images/v1_521.png");
+  background: url("./images/v1_521.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5037,7 +5054,7 @@ body {
 .v1_522 {
   width: 365px;
   height: 529px;
-  background: url("../images/v1_522.png");
+  background: url("./images/v1_522.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5085,7 +5102,7 @@ body {
 .v1_526 {
   width: 365px;
   height: 210px;
-  background: url("../images/v1_526.png");
+  background: url("./images/v1_526.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5110,7 +5127,7 @@ body {
 .v1_528 {
   width: 269px;
   height: 18px;
-  background: url("../images/v1_528.png");
+  background: url("./images/v1_528.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5139,7 +5156,7 @@ body {
 .v1_534 {
   width: 315px;
   height: 40px;
-  background: url("../images/v1_534.png");
+  background: url("./images/v1_534.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5159,7 +5176,7 @@ body {
 .v1_537 {
   width: 365px;
   height: 529px;
-  background: url("../images/v1_537.png");
+  background: url("./images/v1_537.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5207,7 +5224,7 @@ body {
 .v1_541 {
   width: 365px;
   height: 210px;
-  background: url("../images/v1_541.png");
+  background: url("./images/v1_541.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5232,7 +5249,7 @@ body {
 .v1_543 {
   width: 269px;
   height: 18px;
-  background: url("../images/v1_543.png");
+  background: url("./images/v1_543.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5261,7 +5278,7 @@ body {
 .v1_549 {
   width: 315px;
   height: 40px;
-  background: url("../images/v1_549.png");
+  background: url("./images/v1_549.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5281,7 +5298,7 @@ body {
 .v1_552 {
   width: 365px;
   height: 529px;
-  background: url("../images/v1_552.png");
+  background: url("./images/v1_552.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5329,7 +5346,7 @@ body {
 .v1_556 {
   width: 365px;
   height: 210px;
-  background: url("../images/v1_556.png");
+  background: url("./images/v1_556.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5354,7 +5371,7 @@ body {
 .v1_558 {
   width: 269px;
   height: 18px;
-  background: url("../images/v1_558.png");
+  background: url("./images/v1_558.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5383,7 +5400,7 @@ body {
 .v1_564 {
   width: 315px;
   height: 40px;
-  background: url("../images/v1_564.png");
+  background: url("./images/v1_564.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5402,7 +5419,7 @@ body {
 }
 .v1_567 {
   width: 527px;
-  color: url("../images/v1_567.png");
+  color: url("./images/v1_567.png");
   position: absolute;
   top: 0px;
   left: 336px;
@@ -5413,23 +5430,22 @@ body {
   text-align: left;
 }
 .v1_568 {
-  width: 100%;
   height: 560px;
-  background: url("../images/v1_568.png");
+  background: url("./images/v1_568.png");
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
-  margin: 100px;
+  margin: 200px;
   opacity: 1;
-  position: absolute;
-  top: 1510px;
-  left: 162px;
-  overflow: hidden;
+  position: relative;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .v1_569 {
   width: 500px;
   height: 560px;
-  background: url("../images/v1_569.png");
+  background: url("./images/v1_569.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5466,7 +5482,7 @@ body {
 .v1_572 {
   width: 432px;
   height: 454px;
-  background: url("../images/v1_572.png");
+  background: url("./images/v1_572.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5494,7 +5510,7 @@ body {
 .v1_574 {
   width: 66px;
   height: 106px;
-  background: url("../images/v1_574.png");
+  background: url("./images/v1_574.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5509,7 +5525,7 @@ body {
 .v1_575 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_575.png");
+  background: url("./images/v1_575.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5583,7 +5599,7 @@ body {
 .v1_582 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_582.png");
+  background: url("./images/v1_582.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5657,7 +5673,7 @@ body {
 .v1_589 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_589.png");
+  background: url("./images/v1_589.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5731,7 +5747,7 @@ body {
 .v1_596 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_596.png");
+  background: url("./images/v1_596.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5805,7 +5821,7 @@ body {
 .v1_603 {
   width: 66px;
   height: 106px;
-  background: url("../images/v1_603.png");
+  background: url("./images/v1_603.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5820,7 +5836,7 @@ body {
 .v1_604 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_604.png");
+  background: url("./images/v1_604.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5894,7 +5910,7 @@ body {
 .v1_611 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_611.png");
+  background: url("./images/v1_611.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5968,7 +5984,7 @@ body {
 .v1_618 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_618.png");
+  background: url("./images/v1_618.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6042,7 +6058,7 @@ body {
 .v1_625 {
   width: 6px;
   height: 106px;
-  background: url("../images/v1_625.png");
+  background: url("./images/v1_625.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6116,7 +6132,7 @@ body {
 .v1_632 {
   width: 499px;
   height: 528px;
-  background: url("../images/v1_632.png");
+  background: url("./images/v1_632.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6129,7 +6145,7 @@ body {
 .v1_633 {
   width: 476px;
   height: 353px;
-  background: url("../images/v1_633.png");
+  background: url("./images/v1_633.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6142,11 +6158,11 @@ body {
 }
 .v1_634 {
   width: 476px;
-  color: url("../images/v1_634.png");
-  position: absolute;
-  top: 0px;
+  color: url("./images/v1_634.png");
+  position: relative;
+  top: 20px;
   left: 0px;
-  font-family: DM Sans;
+  font-family: sans-serif;
   font-weight: Bold;
   font-size: 45px;
   opacity: 1;
@@ -6158,7 +6174,7 @@ body {
   position: absolute;
   top: 123px;
   left: 0px;
-  font-family: DM Sans;
+  font-family: sans-serif;
   font-weight: Regular;
   font-size: 16px;
   opacity: 0.6000000238418579;
@@ -6168,36 +6184,29 @@ body {
   color: #fff;
 }
 .v1_637 {
-  width: 100%;
   height: 447px;
-  background: url("../images/v1_637.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 913px;
-  left: 100px;
-  overflow: hidden;
+  position: relative;
+  top: 13px;
+  display: flex;
+  justify-content: center;
 }
 .v1_638 {
-  width: 100%;
-  height: 320px;
-  background: url("../images/v1_638.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 70%;
+  height: 420px;
+  background: url("./images/v1_638.png");
   margin: 40px;
   opacity: 1;
   position: absolute;
-  top: 127px;
-  left: 0px;
-  overflow: hidden;
+  top: 27px;
+  display: flex;
+  justify-content: center;
+  left: 20%;
 }
 .v1_639 {
   width: 100%;
   height: 80px;
-  background: url("../images/v1_639.png");
+  background: url("./images/v1_639.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6211,7 +6220,7 @@ body {
 .v1_640 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_640.png");
+  background: url("./images/v1_640.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6222,14 +6231,13 @@ body {
   overflow: hidden;
 }
 .v1_641 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_641.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_641.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
   top: 0px;
   left: 0px;
   border: 1px solid rgba(0,147,208,1);
@@ -6237,12 +6245,11 @@ body {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  overflow: hidden;
 }
 .v1_642 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_642.png");
+  background: url("./images/v1_642.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6267,7 +6274,7 @@ body {
 .v1_644 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_644.png");
+  background: url("./images/v1_644.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6278,9 +6285,9 @@ body {
   overflow: hidden;
 }
 .v1_645 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_645.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_645.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6298,7 +6305,7 @@ body {
 .v1_646 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_646.png");
+  background: url("./images/v1_646.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6323,7 +6330,7 @@ body {
 .v1_648 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_648.png");
+  background: url("./images/v1_648.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6334,13 +6341,13 @@ body {
   overflow: hidden;
 }
 .v1_649 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_649.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_649.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
+  opacity: 2;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -6354,7 +6361,7 @@ body {
 .v1_650 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_650.png");
+  background: url("./images/v1_650.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6379,7 +6386,7 @@ body {
 .v1_652 {
   width: 100%;
   height: 80px;
-  background: url("../images/v1_652.png");
+  background: url("./images/v1_652.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6393,7 +6400,7 @@ body {
 .v1_653 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_653.png");
+  background: url("./images/v1_653.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6404,9 +6411,9 @@ body {
   overflow: hidden;
 }
 .v1_654 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_654.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_654.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6424,7 +6431,7 @@ body {
 .v1_655 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_655.png");
+  background: url("./images/v1_655.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6449,7 +6456,7 @@ body {
 .v1_657 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_657.png");
+  background: url("./images/v1_657.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6460,9 +6467,9 @@ body {
   overflow: hidden;
 }
 .v1_658 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_658.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_658.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6480,7 +6487,7 @@ body {
 .v1_659 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_659.png");
+  background: url("./images/v1_659.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6505,7 +6512,7 @@ body {
 .v1_661 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_661.png");
+  background: url("./images/v1_661.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6516,9 +6523,9 @@ body {
   overflow: hidden;
 }
 .v1_662 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_662.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_662.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6536,7 +6543,7 @@ body {
 .v1_663 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_663.png");
+  background: url("./images/v1_663.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6561,7 +6568,7 @@ body {
 .v1_665 {
   width: 100%;
   height: 80px;
-  background: url("../images/v1_665.png");
+  background: url("./images/v1_665.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6575,7 +6582,7 @@ body {
 .v1_666 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_666.png");
+  background: url("./images/v1_666.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6586,9 +6593,9 @@ body {
   overflow: hidden;
 }
 .v1_667 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_667.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_667.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6606,7 +6613,7 @@ body {
 .v1_668 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_668.png");
+  background: url("./images/v1_668.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6631,7 +6638,7 @@ body {
 .v1_670 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_670.png");
+  background: url("./images/v1_670.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6642,9 +6649,9 @@ body {
   overflow: hidden;
 }
 .v1_671 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_671.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_671.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6662,7 +6669,7 @@ body {
 .v1_672 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_672.png");
+  background: url("./images/v1_672.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6687,7 +6694,7 @@ body {
 .v1_674 {
   width: 365px;
   height: 80px;
-  background: url("../images/v1_674.png");
+  background: url("./images/v1_674.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6698,9 +6705,9 @@ body {
   overflow: hidden;
 }
 .v1_675 {
-  width: 365px;
-  height: 80px;
-  background: url("../images/v1_675.png");
+  width: 360px;
+  height: 70px;
+  background: url("./images/v1_675.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6718,7 +6725,7 @@ body {
 .v1_676 {
   width: 50px;
   height: 50px;
-  background: url("../images/v1_676.png");
+  background: url("./images/v1_676.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6745,19 +6752,17 @@ body {
   color: rgba(0,0,0,1);
   position: absolute;
   top: 66px;
-  left: 26px;
   font-family: DM Sans;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 .v1_679 {
   width: 485px;
-  color: url("../images/v1_679.png");
+  color: url("./images/v1_679.png");
   position: absolute;
   top: 0px;
-  left: 357px;
   font-family: DM Sans;
   font-weight: Bold;
   font-size: 40px;
@@ -6767,7 +6772,7 @@ body {
 .v1_680 {
   width: 100%;
   height: 938px;
-  background: url("../images/v1_680.png");
+  background: url("./images/v1_680.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6800,7 +6805,7 @@ body {
 .v1_683 {
   width: 391px;
   height: 391px;
-  background: url("../images/v1_683.png");
+  background: url("./images/v1_683.png");
   opacity: 1;
   position: absolute;
   top: 343px;
@@ -6816,7 +6821,7 @@ body {
 .v1_686 {
   width: 493px;
   height: 599px;
-  background: url("../images/v1_686.png");
+  background: url("./images/v1_686.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6875,7 +6880,7 @@ body {
 .v1_692 {
   width: 138px;
   height: 34px;
-  background: url("../images/v1_692.png");
+  background: url("./images/v1_692.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6892,7 +6897,7 @@ body {
 .v1_694 {
   width: 26px;
   height: 24px;
-  background: url("../images/v1_694.png");
+  background: url("./images/v1_694.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6905,7 +6910,7 @@ body {
 .v1_695 {
   width: 34px;
   height: 34px;
-  background: url("../images/v1_695.png");
+  background: url("./images/v1_695.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -6950,7 +6955,7 @@ body {
 }
 .v1_700 {
   width: 649px;
-  color: url("../images/v1_700.png");
+  color: url("./images/v1_700.png");
   position: absolute;
   top: 270px;
   left: 98px;
@@ -7027,7 +7032,7 @@ body {
 .v1_708 {
   width: 139px;
   height: 21px;
-  background: url("../images/v1_708.png");
+  background: url("./images/v1_708.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -7062,7 +7067,7 @@ body {
 .v1_711 {
   width: 93px;
   height: 21px;
-  background: url("../images/v1_711.png");
+  background: url("./images/v1_711.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -7094,3 +7099,46 @@ body {
   top: 7px;
   left: 29px;
 }
+
+
+.v1_999 {
+  width: 100px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 200px;
+  overflow: hidden;
+  left: 88px;
+  background: #0093D0;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.v1_998 {
+  width: 300px;
+  height: 45px;
+  opacity: 1;
+  position: absolute;
+  top: 100%;
+  overflow: hidden;
+  left: 40%;
+  background: #0093D0;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.v1_1000 {
+  width: 35px;
+  background: url("./images/v1_268.png");
+  opacity: 1;
+  position: absolute;
+  top: 407px;
+  left: 3px;
+  border: 2px solid rgba(0,147,208,1);
+  height: 35px;
+  border-radius: 20px;
+
+}
+
