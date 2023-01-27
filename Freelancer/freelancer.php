@@ -24,6 +24,8 @@
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
     <link href="https://www.vlance.vn/css/job-list-first-screen.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
+    <link rel="stylesheet" type="text/css" href="changedesign.css" />
+
 
     <script>
         (function() {
@@ -105,7 +107,6 @@
         <!-- header -->
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
-
                 <div class="container">
                     <div class="logo span2">
                         <a href="/Freelancer/freelancer.php">
@@ -113,7 +114,7 @@
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a>
                     </div>
-                    <div class="span5" >
+                    <div class="span5">
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
                                 <li class="menu-item ver2 second ">
@@ -158,7 +159,6 @@
                                         </li>
                                     </ul>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -383,7 +383,6 @@
             </hx:include>
         </div>
 
-
         <!-- end header -->
         <script type="text/javascript">
             //Menu mobile
@@ -502,9 +501,7 @@
             </style>
             <div class="homepage-new">
                 <div class="carousel slide display-desktop">
-
                     <div class="carousel-inner">
-
                         <div class="item">
                             <header class="jumbotron-new carousel-subhead_1">
                                 <div class="container">
@@ -686,6 +683,143 @@
                     });
                 </script>
                 <div class="list-job-homepage">
+                    <div class="v1_637">
+                        <div class="v1_638">
+                            <div class="v1_639">
+                                <div class="v1_640">
+                                    <div class="v1_641"></div>
+                                    <div class="v1_642"></div><span class="v1_643">Software Engineer</span>
+                                </div>
+                                <div class="v1_644">
+                                    <div class="v1_645"></div>
+                                    <div class="v1_646"></div><span class="v1_647">Marketing</span>
+                                </div>
+                                <div class="v1_648">
+                                    <div class="v1_649"></div>
+                                    <div class="v1_650"></div><span class="v1_651">UX/UI
+                                        Design</span>
+                                </div>
+                            </div>
+                            <div class="v1_652">
+                                <div class="v1_653">
+                                    <div class="v1_654"></div>
+                                    <div class="v1_655"></div><span class="v1_656">UX/UI
+                                        Design</span>
+                                </div>
+                                <div class="v1_657">
+                                    <div class="v1_658"></div>
+                                    <div class="v1_659"></div><span class="v1_660">Software Engineer</span>
+                                </div>
+                                <div class="v1_661">
+                                    <div class="v1_662"></div>
+                                    <div class="v1_663"></div><span class="v1_664">Marketing</span>
+                                </div>
+                            </div>
+                            <div class="v1_665">
+                                <div class="v1_666">
+                                    <div class="v1_667"></div>
+                                    <div class="v1_668"></div><span class="v1_669">Software
+                                        Engineer</span>
+                                </div>
+                                <div class="v1_670">
+                                    <div class="v1_671"></div>
+                                    <div class="v1_672"></div><span class="v1_673">Marketing</span>
+                                </div>
+                                <div class="v1_674">
+                                    <div class="v1_675"></div>
+                                    <div class="v1_676"></div><span class="v1_677">UX/UI
+                                        Design</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi</span>
+                        <span class="v1_679">Danh mục công việc</span>
+                    </div>
+                    <div class="separator5" style = "margin-top: 30px;"></div>
+                    <div class="v1_568">
+                        <div class="v1_569">
+                            <div class="v1_570"></div>
+                            <div class="v1_571"></div>
+                            <div class="v1_572">
+                                <div class="v1_573"></div>
+                                <div class="v1_574">
+                                    <div class="v1_575">
+                                        <div class="v1_576"></div>
+                                        <div class="v1_577"></div>
+                                        <div class="v1_578"></div>
+                                        <div class="v1_579"></div>
+                                        <div class="v1_580"></div>
+                                        <div class="v1_581"></div>
+                                    </div>
+                                    <div class="v1_582">
+                                        <div class="v1_583"></div>
+                                        <div class="v1_584"></div>
+                                        <div class="v1_585"></div>
+                                        <div class="v1_586"></div>
+                                        <div class="v1_587"></div>
+                                        <div class="v1_588"></div>
+                                    </div>
+                                    <div class="v1_589">
+                                        <div class="v1_590"></div>
+                                        <div class="v1_591"></div>
+                                        <div class="v1_592"></div>
+                                        <div class="v1_593"></div>
+                                        <div class="v1_594"></div>
+                                        <div class="v1_595"></div>
+                                    </div>
+                                    <div class="v1_596">
+                                        <div class="v1_597"></div>
+                                        <div class="v1_598"></div>
+                                        <div class="v1_599"></div>
+                                        <div class="v1_600"></div>
+                                        <div class="v1_601"></div>
+                                        <div class="v1_602"></div>
+                                    </div>
+                                </div>
+                                <div class="v1_603">
+                                    <div class="v1_604">
+                                        <div class="v1_605"></div>
+                                        <div class="v1_606"></div>
+                                        <div class="v1_607"></div>
+                                        <div class="v1_608"></div>
+                                        <div class="v1_609"></div>
+                                        <div class="v1_610"></div>
+                                    </div>
+                                    <div class="v1_611">
+                                        <div class="v1_612"></div>
+                                        <div class="v1_613"></div>
+                                        <div class="v1_614"></div>
+                                        <div class="v1_615"></div>
+                                        <div class="v1_616"></div>
+                                        <div class="v1_617"></div>
+                                    </div>
+                                    <div class="v1_618">
+                                        <div class="v1_619"></div>
+                                        <div class="v1_620"></div>
+                                        <div class="v1_621"></div>
+                                        <div class="v1_622"></div>
+                                        <div class="v1_623"></div>
+                                        <div class="v1_624"></div>
+                                    </div>
+                                    <div class="v1_625">
+                                        <div class="v1_626"></div>
+                                        <div class="v1_627"></div>
+                                        <div class="v1_628"></div>
+                                        <div class="v1_629"></div>
+                                        <div class="v1_630"></div>
+                                        <div class="v1_631"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="v1_632"></div>
+                        </div>
+                        <div class="v1_633"><span class="v1_634">Đăng dự án miễn phí </span><span class="v1_635">Bạn sẽ có cơ hội nhận tiền thưởng lên đến 50 triệu khi giới thiệu ứng viên chất lượng cho chúng tôi. Chương trình không giới hạn số lượng giới thiệu cho từng vị trí,
+                                cũng như không giới hạn tổng số tiền thưởng bạn có thể nhận được từ việc giới thiệu ứng viên.
+                                Khám phá cơ hội việc làm ngay bây giờ.</span>
+                            <div class="name"></div>
+                        </div>
+                    </div>
+                    <div class="separator5"></div>
                     <h4>Các công việc được quan tâm nhất</h4>
                     <div style="text-align: left;max-width: 910px;margin-left: auto;margin-right: auto;background: #ffffff;border: 1px solid #CCCCCC;">
                         <div style="overflow: hidden" class="row-fluid vlance-hompage-listjob row-result ">
@@ -982,190 +1116,142 @@
                                 </div>
                             </div>
                         </div>
-                  
                     </div>
                     <div style="margin-top: 35px;padding-bottom: 80px;">
                         <a style="padding: 10px 24px;background: #0088CC;border-radius: 5px;color: #ffffff;" href="#">
                             Xem tất cả <b>10000</b> công việc </a>
                     </div>
                 </div>
-                <div class="step-explain-section">
-                    <div class="step-detail detail-image">
-                        <div class="container row-fluid">
-                            <div class="image-left span6">
-                                <img src="https://www.vlance.vn/img/vn/homepage-new/buoc-1-tiep-can-chuyen-gia.png" title="link_img_vnen.home_page.title_1" alt="link_img_vnen.home_page.title_1">
-                            </div>
-                            <div class="quotes-right span6">
-                                <h4 class="lh7">Đăng dự án <span>không mất phí</span>,</br>Tiếp cận ngay <span>chuyên gia</span></h4>
-                                <p class="lh3">Bạn sẽ nhanh chóng nhận được chào giá từ cộng đồng <span>+400.000</span> Freelancer/Cộng tác viên. Chủ động phỏng vấn các ứng viên thông qua hệ thống tin nhắn trực tuyến để tìm người phù hợp nhất với yêu cầu của bạn.</p>
-                            </div>
+                <div class="separator5"></div>
+                <div class="step-explain-section" style="background-color:#ffffff">
+                    <div class="v1_248">
+                        <span class="v1_249">Làm theo các bước sau</span>
+                        <div class="name"></div>
+                        <div class="v1_251"><span class="v1_252">Đăng dự án</span><span class="v1_253">Nó là miễn phí và dễ dàng để đăng một công việc. Chỉ cần điền tiêu đề,
+                                mô tả và ngân sách và giá thầu cạnh tranh sẽ đến trong vòng vài phút.</span><span class="v1_254">Chọn freelancers</span><span class="v1_255">Không có công việc nào là quá lớn hay quá nhỏ. Chúng tôi có các dịch giả tự do cho các công việc thuộc mọi quy mô hoặc ngân sách,
+                                với hơn 1800 kỹ năng.
+                            </span><span class="v1_256">Thanh toán an toàn</span><span class="v1_257">Chỉ thanh toán cho công việc khi nó đã được hoàn thành và bạn hài lòng 100% với chất lượng bằng cách sử dụng hệ thống thanh toán quan trọng của chúng tôi.</span>
+                            <div class="v1_258"></div>
+                            <div class="v1_259"></div>
+                            <div class="v1_260"></div><span class="v1_261">03</span>
+                            <div class="v1_262"></div><span class="v1_263">04</span><span class="v1_264">Chúng tôi ở đây để giúp đỡ</span><span class="v1_265">Đội ngũ tuyển dụng tài năng của chúng tôi có thể giúp bạn tìm được người làm việc tự do tốt nhất cho công việc và các cộng sự kỹ thuật của chúng tôi.
+                                technical co-pilots.</span>
+                            <div class="v1_266"></div>
+                            <div class="v1_267"></div>
+                            <div class="v1_1000"></div>
+                            <div class="v1_268"></div><span class="v1_269">01</span><span class="v1_270">02</span>
                         </div>
-                    </div>
-                    <div class="step-detail detail-quotes">
-                        <div class="container row-fluid">
-                            <div class="quotes-left span6">
-                                <h4 class="lh7">Kết nối <span>nhanh chóng,</span> </br><span>Rút ngắn thời gian </span>tìm nhân sự</h4>
-                                <p class="lh3">freelancer kết nối bạn với Freelancer/Cộng tác viên trên lãnh thổ Việt Nam và quốc tế. Công việc của bạn sẽ nhanh chóng được giải quyết với chất lượng cao.</p>
-                            </div>
-                            <div class="image-right span6">
-                                <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2-lam-viec.png" title="link_img_vnen.home_page.title_2" alt="link_img_vnen.home_page.title_2">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-detail detail-image">
-                        <div class="container row-fluid">
-                            <div class="image-left span6">
-                                <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-2.5-goi-dich-vu.png" title="Thông tin gói dịch vụ" alt="Thông tin gói dịch vụ">
-                            </div>
-                            <div class="quotes-right span6">
-                                <h4 class="lh7"><span>Đa dạng </span>mô hình làm việc<br>Đáp ứng <span>mọi nhu cầu<span></h4>
-                                <p class="lh3">Freelancer tạo gói dịch vụ, khách hàng trực tiếp đặt hàng và chọn mua. Chủ động bán gói dịch vụ gia tăng thu nhập, chủ động đặt mua hoàn thiện công việc nhanh chóng.<br>
-                                    <a href="#">Tìm gói dịch vụ &#8594;</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="step-detail detail-quotes">
-                        <div class="container row-fluid">
-                            <div class="quotes-left span6">
-                                <h4 class="lh7"><span>99,82% khách hàng hài lòng,</span></br><span>Bảo mật thông tin</span> cá nhân an toàn</h4>
-                                <p class="lh3">Khách hàng có thể đánh giá Freelancer sau khi hoàn thành việc. Điều này có ảnh hưởng đến sự uy tín của Freelancer. Thông tin cá nhân và công việc của bạn luôn được bảo mật theo chính sách bảo mật của vLance.</p>
-                            </div>
-                            <div class="image-right span6">
-                                <img class="lazyload" data-src="https://www.vlance.vn/img/homepage-new/buoc-3-thanh-toan.png" title="link_img_vnen.home_page.title_3" alt="link_img_vnen.home_page.title_3">
-                            </div>
+                        <div class="v1_271">
+                            <div class="v1_276"></div>
                         </div>
                     </div>
                 </div>
                 <div class="separator5"></div>
-
-                <div class="separator5"></div>
                 <div class="top-jobs-section">
-                    <h4 class="top-job-title lh4">Công việc được thuê nhiều nhất</h4>
+                    <h4 class="top-job-title lh4"></h4>
                     <div class="job-list container">
-                        <div class="job-row row-fluid">
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-1 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="#" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
+                        <div class="v1_335"><span class="v1_336">Công việc được thuê nhiều nhất</span>
+                            <div class="v1_337">
+                                <div class="v1_338">
+                                    <div class="v1_339"></div><span class="v1_340">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_341"></div><span class="v1_342">UX/UI
+                                        Design</span><span class="v1_343">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_346"></div>
+                                    <div class="v1_347"></div><span class="v1_348">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                    <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
-                                <div class="item-title">
-                                    <p>Thiết kế website</p>
+                                <div class="v1_349">
+                                    <div class="v1_350"></div><span class="v1_351">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_352"></div><span class="v1_353">UX/UI
+                                        Design</span><span class="v1_354">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_357"></div>
+                                    <div class="v1_358"></div><span class="v1_359">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
-                            </div>
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-2 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-viet-lach_chash_dich-thuat" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
+                                <div class="v1_360">
+                                    <div class="v1_361"></div><span class="v1_362">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_363"></div><span class="v1_364">UX/UI
+                                        Design</span><span class="v1_365">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_368"></div>
+                                    <div class="v1_369"></div><span class="v1_370">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
-                                <div class="item-title">
-                                    <p>Dịch thuật</p>
-                                </div>
-                            </div>
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-3 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="#" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item-title">
-                                    <p>Lập trình website</p>
-                                </div>
-                            </div>
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-4 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="#" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item-title">
-                                    <p>Làm video clip</p>
+                                <div class="v1_371">
+                                    <div class="v1_372"></div><span class="v1_373">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_374"></div><span class="v1_375">UX/UI
+                                        Design</span><span class="v1_376">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_379"></div>
+                                    <div class="v1_380"></div><span class="v1_381">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="job-row row-fluid">
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-5 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="3" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
+                            <div class="v1_382">
+                                <div class="v1_383">
+                                    <div class="v1_384"></div><span class="v1_385">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_386"></div><span class="v1_387">UX/UI
+                                        Design</span><span class="v1_388">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_391"></div>
+                                    <div class="v1_392"></div><span class="v1_393">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
-                                <div class="item-title">
-                                    <p>Tối ưu hóa công cụ tìm kiếm seo</p>
+                                <div class="v1_394">
+                                    <div class="v1_395"></div><span class="v1_396">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_397"></div><span class="v1_398">UX/UI
+                                        Design</span><span class="v1_399">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_402"></div>
+                                    <div class="v1_403"></div><span class="v1_404">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
-                            </div>
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-6 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="#" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
+                                <div class="v1_405">
+                                    <div class="v1_406"></div><span class="v1_407">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_408"></div><span class="v1_409">UX/UI
+                                        Design</span><span class="v1_410">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_413"></div>
+                                    <div class="v1_414"></div><span class="v1_415">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
-                                <div class="item-title">
-                                    <p>Viết nội dung website</p>
-                                </div>
-                            </div>
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-7 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="#" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item-title">
-                                    <p>Thiết kế logo</p>
-                                </div>
-                            </div>
-                            <div class="job-item span3">
-                                <div class="job-item-show job-show-8 layzy" data-background="/img/vn/homepage-new/sprite-service-pack.png">
-                                    <a href="#" title="Đăng dự án, nhận chào giá">
-                                        <div class="job-item-overlay-upper tf200">
-                                        </div>
-                                        <div class="job-item-overlay-inner tf200">
-                                            <span class="btn btn-top-job">Xem chi tiết</span>
-                                            <span class="job-item-price">Giá tham khảo 1.000.000 VNĐ</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item-title">
-                                    <p>Ứng dụng di động</p>
+                                <div class="v1_416">
+                                    <div class="v1_417"></div><span class="v1_418">04/01/2023 - 04/07-2023</span>
+                                    <div class="v1_419"></div><span class="v1_420">UX/UI
+                                        Design</span><span class="v1_421">Viet Nam</span>
+                                    <div class="name"></div>
+                                    <div class="name"></div>
+                                    <div class="v1_424"></div>
+                                    <div class="v1_425"></div><span class="v1_426">Free and easy to post a job
+                                        Free and easy to post a job
+                                        Free and easy to post a job</span>
+                                        <a href = "detailJob.php"><button class="v1_999">Xem chi tiết</button></a>
                                 </div>
                             </div>
+                            <button class="v1_998">Xem tất cả các công việc</button>
                         </div>
                     </div>
                 </div>
@@ -1243,7 +1329,9 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
+
                     <script type="text/javascript">
                         $(document).ready(function() {
                             $('.slide-reviews').slick({
@@ -1270,6 +1358,9 @@
                             });
                         });
                     </script>
+
+
+
                     <div class="review-media">
                         <div class="review-media-title">
                             <h3 class="lh2">Vinh danh trên báo chí</h3>
