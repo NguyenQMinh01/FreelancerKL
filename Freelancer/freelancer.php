@@ -102,7 +102,8 @@
 
 </head>
 
-<body class="one-column vlance_homepage ">
+<body class="one-column vlance_homepage " style=" max-width: 100%;
+    overflow-x: hidden;">
     <div class="main">
         <!-- header -->
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
