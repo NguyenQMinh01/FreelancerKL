@@ -180,18 +180,18 @@
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
                                     <a href="/Client/profileclient.php">
-                                        <img width="48" height="48" src="https://www.vlance.vn/img/unknown.png" alt="Minh" title="Minh" />
+                                        <img class="imgavt" width="48" height="48" src="https://www.vlance.vn/img/unknown.png" />
                                     </a>
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh</p> <span class="id-user">Id. 1251707</span>
+                                        <p class="fullname">Minh</p> <span class="id-user">Id. 1251707</span>
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Client</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
@@ -202,7 +202,7 @@
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/welcome.php">Đăng xuất</a></li>
+                                        <li><a class="logout">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -344,7 +344,7 @@
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
-                        <li class="menu-mobile-logout"><a href="/welcome">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a class="logout" href="/welcome">Đăng xuất</a></li>
                     </ul>
                 </div>
                 <div class="post-button-ver2">
@@ -1172,6 +1172,30 @@
 
         </div>
         <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d7af64ba201fc1","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+        <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+        <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if(!x){
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt",a.fullname);
+                
+                $('.logout').on('click',function(){
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+
+            })
+        </script>
 </body>
 
 </html>

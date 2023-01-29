@@ -492,7 +492,7 @@
                         </div>
                         <div class="row-fluid">
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
-                                <table class="table" style="margin-top: 0">
+                                <table class="table datatable" style="margin-top: 0">
                                     <tr class="head-title-tb display-desktop-workspace">
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;">Tên việc</th>
                                         <th class="bid-freelancer" style="padding-top: 15px;padding-bottom: 15px;"></th>
@@ -809,6 +809,31 @@
             }
         })();
     </script> -->
+    <script>
+        function hide(id) {
+            $(id).hide();
+        };
+        $(document).ready(function() {
+            $('.datatable').DataTable( {
+                "ajax": "https://job.ahlupos.com/modules/job/api.php?ac=list_job",
+                "columns": [
+                    { "data": "id_job" },
+                    { "data": "title" },
+                    { "data": "fullname" },
+                    { "data": "create_date" },
+                    { "data": "status" },
+                    { "data": "budget" },
+                    { "targets": -1, "data": null,"defaultContent": "<button class= 'btn btn-success'>View Details</button>" }
+                ]
+            } );
+            $('.datatable').on('click', 'button', function (e) {
+                e.preventDefault;
+               // var rows = $(this).closest('tr').data();
+               
+            });
+           
+        });
+    </script>
 </body>
 
 </html>

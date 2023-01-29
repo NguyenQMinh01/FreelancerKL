@@ -186,7 +186,6 @@
                     { "data": "budget" },
                     { "targets": -1, "data": null,"defaultContent": "<button class= 'btn btn-success'>View Details</button>" }
                 ]
-        
             } );
             $('.datatable').on('click', 'button', function (e) {
                 e.preventDefault;
