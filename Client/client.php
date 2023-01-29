@@ -185,23 +185,19 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p class="fullname">Minh</p> <span class="id-user">Id. 1251707</span>
+                                        <p class="fullname"></p> <span class="id-user"></span>
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Client</span>
-                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
                                         <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
-                                        <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
-                                        <li class="divider"></li>
                                         <li><a class="logout">Đăng xuất</a></li>
                                     </ul>
                                 </div>
@@ -282,18 +278,18 @@
                             <div class="account-menu dropdown accordion-toggle-ver2 ver2">
                                 <div class="avata avata_ver2">
                                     <a href="/Freelancer/profileclient.php">
-                                        <img width="52" height="52" src="https://www.vlance.vn/img/unknown.png" alt="Minh" title="Minh" />
+                                        <img width="52" height="52" src="https://www.vlance.vn/img/unknown.png" />
                                     </a>
                                 </div>
                                 <div class="account-menu-detail ver2">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh </p>
+                                        <p class="fullname"></p>
                                     </a>
                                     <div class="credit-balance">
-                                        <span><a class="id-user" href="/Freelancer/profileclient.ph">Id. 1251707 </a></span>
+                                        <span><a class="id-user" href="/Freelancer/profileclient.php"> </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Cient</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
                                         </span>
                                     </div>
                                 </div>
@@ -302,7 +298,7 @@
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Freelancer/profileclient.ph">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                <li class="ver2"><a href="#">Cài đặt thông báo việc mới</a></li>
+                               
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">

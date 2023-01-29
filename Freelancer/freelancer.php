@@ -188,23 +188,20 @@
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p class="fullname">Minh</p> <span class="id-user">Id. 1251707</span>
+                                        <p class="fullname"></p> <span class="id-user"></span>
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
                                         <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
-                                        <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Freelancer</a></li>
-                                        <li class="divider"></li>
+                                        
                                         <li><a class="logout" >Đăng xuất</a></li>
                                     </ul>
                                 </div>
@@ -227,7 +224,7 @@
                         </li>
 
                         <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
+                            <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" >Nâng cấp tài khoản Freelancer</a>
                         </li>
 
                     </ul>
@@ -288,13 +285,13 @@
                                 </div>
                                 <div class="account-menu-detail ver2">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh </p>
+                                        <p class="fullname"> </p>
                                     </a>
                                     <div class="credit-balance">
-                                        <span><a class="id-user" href="/Freelancer/profilefreelancer.php">Id. 1251707 </a></span>
+                                        <span><a class="id-user" href="/Freelancer/profilefreelancer.php"> </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">THƯỜNG</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 CREDIT</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
                                         </span>
                                     </div>
                                 </div>
@@ -303,8 +300,7 @@
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
-                                <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
-                                <li class="ver2"><a href="/promotion-code" target="_blank">Quản lý mã khuyến mại</a></li>
+                               
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">

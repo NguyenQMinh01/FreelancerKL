@@ -23,9 +23,12 @@
 				<input type="radio" name="slide" id="login" checked>
 				<input type="radio" name="slide" id="signup">
 				<label for="login" class="slide login">Login</label>
-				<label for="signup" class="slide signup">Signup</label>
+				<label for="signup" class="slide signup">Signup</label>	
 				<div class="slider-tab"></div>
 			</div>
+
+			<div class="message"><label class="error" style="color: red;">Mật khẩu không trùng khớp</label></div>
+			<div class="message1"><label style="color: red;">Tài khoản đã tồn tại</label></div>
 			<div class="form-inner">
 				<form class="login" method="post">
 					<div class="field">
@@ -79,33 +82,44 @@
 					<div class="signup-link">Not a member? <a href="">Signup now</a></div>
 				</form>
 				<form action="#" class="signup">
-					<div class="field">
-						<input type="text" placeholder="Email Address" required>
+				<div class="field">
+						<input id='fullnameR' type="text" placeholder="Full name" required>
 					</div>
 					<div class="field">
-						<input type="password" placeholder="Password" required>
+						<input id='usernameR' type="text" placeholder="Username" required>
 					</div>
 					<div class="field">
-						<input type="password" placeholder="Confirm password" required>
+						<input id='emailR' type="text" placeholder="Email Address" required>
+					</div>
+					<div class="field">
+						<input id='phoneR' type="text" placeholder="Phone Number" required>
+					</div>
+					<div class="field">
+						<input id='passR' type="password" placeholder="Password" required>
+					</div>
+					<div class="field">
+						<input id="repassR" type="password" placeholder="Confirm password" required>
 					</div>
 					<fieldset>
 						<legend>You want to do:</legend>
 						<div style="display: flex; justify-content:space-between; ">
 							<span>
-								<input type="radio" id="contactChoice1" name="contact" value="freelancer" , style="display:flex;" />
+								<input class="chooseR" type="radio" id="contactChoice1" name="contact" value="freelancer" , style="display:flex;" />
 								<label for="contactChoice1">Freelancer</label>
 							</span>
 							<span>
-								<input type="radio" id="contactChoice2" name="contact" value="client" , style="display:flex;" />
+								<input class="chooseR" type="radio" id="contactChoice2" name="contact" value="client" , style="display:flex;" />
 								<label for="contactChoice2">Client</label>
 							</span>
 						</div>
 					</fieldset>
-
 					<div class="field btn">
+						<button class="btnregister" type="button">Signup</button>
+					</div>
+					<!-- <div class="field btn">
 						<div class="btn-layer"></div>
 						<input type="submit" value="Signup">
-					</div>
+					</div> -->
 				</form>
 			</div>
 		</div>
@@ -124,7 +138,10 @@
 	<script src="app.js"></script>
 	<script>
 		 $(document).ready(function() {
+			$('.message').hide();
+			$('.message1').hide();
 			let choose;
+			let chooseR;
             $('.choose').on('click', function () {
 				choose = this.value;
   				// if(this.value=="freelancer")  {
@@ -134,6 +151,12 @@
 				// 	$('form.login').attr("action","/Client/client.php");
 				// }           
             });
+
+			$('.chooseR').on('click', function () {
+				chooseR = this.value;      
+            });
+
+
 			$('.btnlogin').on('click',function(){
 				let username = $('#username').val();
 				let pwd = $('#pwd').val();
@@ -185,6 +208,94 @@
 				}
 			})
            
+
+			$('.btnregister').on('click',function(){
+				let username = $('#usernameR').val();
+				let email = $('#emailR').val();
+				let fullname = $('#fullnameR').val();
+				let phone = $('#phoneR').val();
+				let pwd = $('#passR').val();
+				let rpwd = $('#repassR').val();
+				
+				let datacheck = {
+					email : email,
+        			username: username
+				}
+				let account = {
+					fullname: fullname,
+					username: username,
+					email: email,
+					password: pwd,
+					phone: phone,
+					role: '',
+					"api_key":1
+				}
+				$.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=checkaccount',
+                    data: datacheck,
+                    method:'POST',
+                    success: function(res){
+                        let a = JSON.parse(res);
+						//alert(JSON.stringify(a));
+						//code 1 tồn tại tk
+                        if(a.code==1){		
+							$('.message').show();				
+							$('.error').text("Tài khoản đã tồn tại");
+							$('.signup').trigger("reset");
+							return;
+                        }
+						else if(!username||!email||!fullname||!phone||!pwd||!rpwd){
+							$('.message').show();				
+							$('.error').text("Không được để trống");
+							return;
+						}
+						else if(pwd!=rpwd){	
+							$('.message').show();
+							$('.error').text("Mật khẩu không khớp");
+							$('#passR').val('');
+							$('#repassR').val('');
+							return;
+						}
+						else if(!chooseR){
+							$('.message').show();				
+							$('.error').text("Vui lòng chọn loại tài khoản");
+							return;
+						}
+						else if(chooseR=='freelancer'){
+							account['role'] = 'freelancer';
+							$.ajax({
+								url: 'https://job.ahlupos.com/modules/job/api.php?ac=register',
+								data: account,
+								method:'POST',
+								success: function(res){
+									alert('Đăng ký tài khoản thành công');
+									window.location.href = "http://localhost:3000/login.php";
+									
+								},
+								async: true
+							});
+						}
+						else{
+							account['role'] = 'client';
+							$.ajax({
+								url: 'https://job.ahlupos.com/modules/job/api.php?ac=register',
+								data: account,
+								method:'POST',
+								success: function(res){
+									alert('Đăng ký tài khoản thành công');
+									window.location.href = "http://localhost:3000/login.php";
+								},
+								async: true
+							});
+						}
+                    },
+                    async: true
+            	});
+
+				
+				
+				
+			})
         });
 	</script>
 
