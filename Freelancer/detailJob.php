@@ -640,18 +640,8 @@
                                                     </div>
                                                 </div>
                                                 <hr class="hr-line-0">
-                                                <div class="row-fluid">
-                                                    <label class="title-in-form">THÔNG TIN LIÊN HỆ CỦA BẠN</label>
-                                                    <div class="input-prepend telephone span6">
-                                                        <span class="add-on verified">
-                                                            <i class="fa fa-phone block-contact-icon verified" aria-hidden="true"></i>
-                                                        </span>
-                                                        <input id="bidform_telephone" name="input_telephone" disabled value="0983422291" placeholder="Số điện thoại">
-                                                    </div>
-                                                </div>
-
                                                 <div class="block-submit-btn">
-                                                    <a href="#" role="button" class="btn btn-primary btn-large span12" onclick="vtrack('Show Popup Expend Credit Bid', {'category':'Viết b&agrave;i review đ&aacute;nh gi&aacute; sản phẩm', 'job_budget':'200000'})">Gửi chào giá</a>
+                                                    <a href="#" role="button" class="btn btn-primary btn-large span12 sendproposal">Gửi chào giá</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -668,11 +658,8 @@
                 <hx:include evaljs="true" src="/j/63797/bid" class="included include_200">
                     <div class="row-fluid">
                         <div class="information-bidding row-fluid information-bidding-job-new row-fluid">
-                            <div class="span3 client-bidding-left-new">
-                                <span class="bid-counter">
-                                    Chào giá: <span class="value">
-                                        8 </span>
-                                </span>
+                            <div class="span3 client-bidding-left-new totalproposal">
+                               
                             </div>
                             <div class="span7 offset1 client-bidding-between-new">
                                 <span class="bid-lowest-new">
@@ -1015,12 +1002,14 @@
         let data = {
             id_job:id
         }
+        //get detail job
         $.ajax({
             url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job',
             data: data,
             method:'POST',
             success: function(res) {
                 var s = "";
+                var p = "";
                 let a = JSON.parse(res);         
                 a.data.map((v,i)=>{
                     let money = v.budget.toLocaleString('vi', {style : 'currency', currency : 'VND'});
@@ -1116,15 +1105,47 @@
                                 </div>
                             </div>`;
                         
+                    p+=` <span class="bid-counter">
+                                    Chào giá: <span class="value">
+                                        ${v.total_proposal} </span>
+                                </span>`;
                     
                 })
                
                 $(".detailjob").html(s);
+                $(".totalproposal").html(p);
             },
             async: true
         });
-        
-
+        //send proposal
+        $('.sendproposal').on('click',function(e){
+            e.preventDefault();
+            let detail = $("#vlance_jobbundle_bidtype_introDescription").val();
+            let completed_date = $("#vlance_jobbundle_jobtype_closeAt").val();
+            let amount = $("#vlance_jobbundle_bidtype_amount").val();
+            var data = {
+                id_freelancer: a.id_user,
+                id_job: id,
+                detail: detail,
+                payment_amount: amount,
+                completion_date: completed_date
+            }
+            
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=send_proposal',
+                data: data,
+                method:'POST',
+                success: function(res){
+                    if(res.data.code == 1){
+                        alert(res.data.success);
+                    }
+                    else{
+                        alert(res.data.error);
+                    }
+                },
+                async: true
+            });
+        })
 
     });
 
