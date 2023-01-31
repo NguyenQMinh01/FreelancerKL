@@ -132,8 +132,7 @@
                                                             </div>
                                                         </a>
                                                         <ul class="content-item-detail">
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Hồ sơ freelancẻ</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sản phẩm đã làm</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Hồ sơ freelancer</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
@@ -223,7 +222,7 @@
                     </div>
                     <div class="menu-item-2">
                         <div class="logo"><a href="#">
-                                <img style="width: 65px; height: 40px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
+                                <img style="width: 65px; height: 40px;" src="/img/Logo-vlance.svg" alt=" Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
                     </div>
                     <div class="button">
                         <div class="inbox-menu ver2 pull-right nofity-ver2">
@@ -249,7 +248,7 @@
                 </div>
                 <div class="logo-submenu-mobile">
                     <div class="logo"><a href="#">
-                            <img style="width: 65px; height: 40px; margin-top: 12px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
+                            <img style="width: 65px; height: 40px; margin-top: 12px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
                 </div>
                 <div class="wrap-mobile login wrap-mobile-ver2 ver2">
                     <ul class="accordion-menu-dropdown nav-menu-mobile ver2">
@@ -456,6 +455,23 @@
                                     <div class="clear"></div>
                                 </div>
                                 <div class="row-fluid body-view">
+<<<<<<< HEAD
+=======
+                                    <div class="row-fluid">
+                                        <div class="service-need-hire">
+                                            <div class="service-title">
+                                                Dịch vụ cần thuê:
+                                                <a href="#">
+                                                    <b>
+                                                        Review đ&aacute;nh gi&aacute; sản phẩm </b>
+                                                </a>
+                                            </div>
+                                            <div class="service-suggest">
+                                                Bạn có thể cung cấp dịch vụ này? <a href="#"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+>>>>>>> eee6e05 (fix bug)
                                     <div class="span10 description ">
                                         <div class="row-fluid body-view">
                                             <p>M&igrave;nh đang l&ecirc;n kế hoạch x&acirc;y k&ecirc;nh review sản phẩm tr&ecirc;n k&ecirc;nh tiktok, s&aacute;ng tạo xoay quanh c&aacute;c vấn đề về t&igrave;nh trạng da dầu, mụn ẩn, lcl v&agrave; tổng khoảng 10 sp xoay quanh nội dung đ&oacute; để b&aacute;n h&agrave;ng tr&ecirc;n tiktok shop, M&igrave;nh cần bạn c&oacute; k&ecirc;nh nghiệm v&agrave; s&aacute;ng tạo nội dung ngắn tr&ecirc;n tiktok.</p>
