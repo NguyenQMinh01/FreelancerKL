@@ -1029,7 +1029,7 @@
                                     <div class="row-fluid body-view">
                                         <div class="span10 skill">
                                             <span>Kỹ năng: </span>
-                                            <span> ${v.skill_request}</span>
+                                            <span> ${v.skill_request?v.skill_request:"Không yêu cầu"}</span>
                                         </div>
                                     </div>
                                     <div class="clear"></div>
