@@ -175,6 +175,10 @@
             $(id).hide();
         };
         $(document).ready(function() {
+            var x = localStorage.getItem('admin');
+            if (!x) {
+                document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
+            }
             $('.datatable').DataTable( {
                 "ajax": "https://job.ahlupos.com/modules/job/api.php?ac=list_job",
                 "columns": [

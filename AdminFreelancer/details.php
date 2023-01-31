@@ -216,7 +216,15 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
-
+    <script>
+         $(document).ready(function(){
+            var x = localStorage.getItem('admin');
+            if (!x) {
+                document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
+            }
+            
+        })
+    </script>
 </body>
 
 </html>

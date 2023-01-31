@@ -277,6 +277,11 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
     <script>
         $(document).ready(function(){
+            var x = localStorage.getItem('admin');
+            if (!x) {
+                document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
+            }
+
             $.ajax({
                 url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_job_pending',
                 success: function(res) {

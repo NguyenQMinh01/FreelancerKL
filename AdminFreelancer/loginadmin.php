@@ -40,10 +40,10 @@
                     </div>
                     <h3 class="mb-4">Login Admin</h3>
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input id='username' type="text" class="form-control" placeholder="Username">
                     </div>
                     <div class="input-group mb-4">
-                        <input type="password" class="form-control" placeholder="password">
+                        <input id='pwd' type="password" class="form-control" placeholder="password">
                     </div>
                     <!-- <div class="form-group text-left">
                         <div class="checkbox checkbox-fill d-inline">
@@ -51,7 +51,7 @@
                             <label for="checkbox-fill-a1" class="cr"> Save Details</label>
                         </div>
                     </div> -->
-                    <button class="btn btn-primary shadow-2 mb-4">Login</button>
+                    <button class="btn btn-primary shadow-2 mb-4 btnlogin">Login</button>
                     <p class="mb-2 text-muted">Forgot password? <a href="resetpassword_admin.php">Reset</a></p>
                     <p class="mb-0 text-muted">Don't have an account? <a href="signupadmin.php">Signup</a></p>
                 </div>
@@ -62,7 +62,42 @@
     <!-- Required Js -->
     <script src="https://lite.codedthemes.com/datta-able/bootstrap/assets/js/vendor-all.min.js"></script>
     <script src="https://lite.codedthemes.com/datta-able/bootstrap/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
 
+    <script>
+         $(document).ready(function() {
+            $('.btnlogin').on('click',function(){
+                let username = $('#username').val();
+				let pwd = $('#pwd').val();
+                var data = {
+					username : username,
+					password : pwd,
+					"api_key": 1
+                }
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=login_admin',
+                    data: data,
+                    method:'POST',
+                    success: function(res){
+                        let a = JSON.parse(res);
+						
+                        if(a.code==1){						
+                            localStorage.setItem('admin',JSON.stringify(a));
+      						window.location = 'http://localhost:3000/AdminFreelancer/admin.php#';
+                        }
+						else{
+							alert("sai tên đăng nhập hoặc mật khẩu");
+						}
+                    },
+                    async: true
+                });
+            })
+         })
+    </script>
 
 
 </body>
