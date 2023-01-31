@@ -1136,11 +1136,12 @@
                 data: data,
                 method:'POST',
                 success: function(res){
-                    if(res.data.code == 1){
-                        alert(res.data.success);
+                    let a = JSON.parse(res);
+                    if(a.code == 1){
+                        alert(a.success);
                     }
                     else{
-                        alert(res.data.error);
+                        alert(a.error);
                     }
                 },
                 async: true
