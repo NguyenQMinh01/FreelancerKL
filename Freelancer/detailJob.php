@@ -163,18 +163,18 @@
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
                                     <a href="/Freelancer/profilefreelancer.php">
-                                        <img width="48" height="48" src="https://www.vlance.vn/uploads/48x48/a5604a3d8c8fbc0515fc14784a739396eed2406c.png1.jpg" alt="Minh Nguyen" title="Minh Nguyen" />
+                                        <img width="48" height="48" src="https://www.vlance.vn/uploads/48x48/a5604a3d8c8fbc0515fc14784a739396eed2406c.png1.jpg" />
                                     </a>
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
+                                        <p class="fullname">Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
@@ -185,7 +185,7 @@
                                         <li class="divider"></li>
                                         <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Freelancer</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="/welcome.php">Đăng xuất</a></li>
+                                        <li><a class="logout">Đăng xuất</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -201,14 +201,12 @@
                                 <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="#" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
-                                    <li><a href="#">Quản lý gói dịch vụ & đơn hàng</a></li>
+                                    
                                 </ul>
                             </div>
                         </li>
 
-                        <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Freelancer</a>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
@@ -264,13 +262,13 @@
                                 </div>
                                 <div class="account-menu-detail ver2">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh Nguyen </p>
+                                        <p class="fullname">Minh Nguyen </p>
                                     </a>
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/Freelancer/profilefreelancer.php">Id. 1229116 </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                 </div>
@@ -303,7 +301,7 @@
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
                                 <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="#">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></a>
+                                    <a class="submenu-link-ver2" href="#">Đăng gói dịch vụ <img  src="/img/new_service.svg"></a>
                                 </li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -333,7 +331,7 @@
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
-                        <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a class="logout">Đăng xuất</a></li>
                     </ul>
                 </div>
             </div>
@@ -440,38 +438,7 @@
         </script>
         <div class="top_content
                     content-fix">
-            <div class="block">
-                <div class="progress-job-wrapper">
-                    <div class="progress-job">
-                        <ul>
-                            <li class="first done">
-                                <div class="number">
-                                    <div class="first">1</div>
-                                </div>
-                                <div class="tally">Nhận chào giá</div><i></i>
-                            </li>
-                            <li class="done">
-                                <div class="number">
-                                    <div class="done">2</div>
-                                </div>
-                                <div class="tally">Chọn freelancer</div><i></i>
-                            </li>
-                            <li class="done">
-                                <div class="number">
-                                    <div class="done">3</div>
-                                </div>
-                                <div class="tally">Cam kết &amp; Làm việc</div><i></i>
-                            </li>
-                            <li class="last done">
-                                <div class="number">
-                                    <div class="done">4</div>
-                                </div>
-                                <div class="tally">Đánh giá &amp; Thanh toán</div><i class="active"></i>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+           
         </div>
         <div class="main_content">
             <script type='text/javascript'>
@@ -480,68 +447,15 @@
             <div class="content-section container width-full-m detail fl-view ">
                 <div class="row-fluid">
                     <div class="span12">
-                        <div style="display: none;">
-                            <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a href="/viec-lam-freelance" itemprop="item">
-                                        <span itemprop="name">Việc freelancer</span>
-                                    </a>
-                                    <meta itemprop="position" content="1">
-                                </li>
-                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-viet-lach_chash_review-danh-gia-san-pham" itemprop="item">
-                                        <span itemprop="name">Write a Product Review</span>
-                                    </a>
-                                    <meta itemprop="position" content="2">
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="breadcrumbs">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Việc freelancer">
-                                        <span>Việc freelancer</span>
-                                    </a>
-                                </li>
-                                <li><span>›</span></li>
-                                <li>
-                                    <a href="#" title="Writing &amp; Translation">
-                                        <span>Writing &amp; Translation</span>
-                                    </a>
-                                </li>
-                                <li><span>›</span></li>
-                                <li>
-                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-viet-lach_chash_review-danh-gia-san-pham" title="Write a Product Review">
-                                        <span>Write a Product Review</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                        </div>
-                        <div class="row-fluid">
+                        <div class="row-fluid detailjob">
                             <div class="span7 news-detail">
                                 <div class="row-fluid ">
                                     <h1 class="title block-title">
-                                        Nội dung review sản phẩm ngắn d&agrave;nh cho tiktok <span class="label-tag label-large label-new">Mới</span>
+                                        Nội dung review sản phẩm ngắn d&agrave;nh cho tiktok
                                     </h1>
                                     <div class="clear"></div>
                                 </div>
                                 <div class="row-fluid body-view">
-                                    <div class="row-fluid">
-                                        <div class="service-need-hire">
-                                            <div class="service-title">
-                                                Dịch vụ cần thuê:
-                                                <a href="#">
-                                                    <b>
-                                                        Review đ&aacute;nh gi&aacute; sản phẩm </b>
-                                                </a>
-                                            </div>
-                                            <div class="service-suggest">
-                                                Bạn có thể cung cấp dịch vụ này? <a href="#">Thêm vào hồ sơ làm việc</a>.
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="span10 description ">
                                         <div class="row-fluid body-view">
                                             <p>M&igrave;nh đang l&ecirc;n kế hoạch x&acirc;y k&ecirc;nh review sản phẩm tr&ecirc;n k&ecirc;nh tiktok, s&aacute;ng tạo xoay quanh c&aacute;c vấn đề về t&igrave;nh trạng da dầu, mụn ẩn, lcl v&agrave; tổng khoảng 10 sp xoay quanh nội dung đ&oacute; để b&aacute;n h&agrave;ng tr&ecirc;n tiktok shop, M&igrave;nh cần bạn c&oacute; k&ecirc;nh nghiệm v&agrave; s&aacute;ng tạo nội dung ngắn tr&ecirc;n tiktok.</p>
@@ -604,67 +518,7 @@
                                             </div>
                                         </hx:include>
                                     </div>
-                                    <div class="row-fluid">
-                                        <hx:include evaljs="true" src="https://www.vlance.vn/block/client_information/noi-dung-review-san-pham-ngan-danh-cho-tiktok" class="included include_200">
-                                            <h2>Thông tin khách hàng</h2>
-                                            <div class="info-employment">
-                                                <div class="info-employment-top row-fluid">
-                                                    <div class="span4">
-                                                        <a href="/Freelancer/profilefreelancer.php" title="Nguyễn Minh">
-                                                            <img src="https://www.vlance.vn/uploads/75x75/e2f5b8bb956993c3d6c2a1e675d85522853d88801.jpg" alt="Nguyễn Minh" title="Nguyễn Minh">
-                                                        </a>
-                                                    </div>
-                                                    <div class="span8">
-                                                        <h3 class="title">
-                                                            <a href="/Freelancer/profilefreelancer.php" title="Nguyễn Minh">
-                                                                Nguyễn Minh </a>
-                                                            <a style="padding: unset;" class="contact-client-new verify-in-msg-wr" href="#pay-credit-contact-client" data-toggle="modal" data-request="{&quot;cid&quot;:1176639, &quot;pid&quot;:1229116}">
-                                                                <img style="width:18px; height:18px;margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="Đã xác thực số điện thoại">
-                                                            </a>
-                                                        </h3>
-                                                        <div class="work-title"></div>
-                                                        <div id="client-rating-box">
-                                                            <div class="box-rating-client" data-toggle="popover" data-placement="right" data-content="<div>Tiền đã thuê : <b>0</b> VNĐ</div> <div>Việc đã đăng : <b>16</b> việc </div><div>Việc đã giao : <b>0</b> việc</div>" data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                                <div class="rating-box-client">
-                                                                    <div class="rating-client" style="width:0%"></div>
-                                                                </div>
-                                                            </div>
-                                                            <script type="text/javascript">
-                                                                $(document).ready(function() {
-                                                                    $('.box-rating-client').popover();
-                                                                })
-                                                            </script>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="info-employment-bottom row-fluid">
-                                                    <dl class="dl-horizontal">
-                                                        <dt>Đến từ</dt>
-                                                        <dd>Dong Nai</dd>
-                                                        <dt>Tham gia</dt>
-                                                        <dd>04/08/2022</dd>
-                                                        <dt>Đã đăng</dt>
-                                                        <dd><a href="/Freelancer/profilefreelancer.php" title="16">
-                                                                16 việc </a>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                            </div>
-                                        </hx:include>
-                                    </div>
-                                    <div class="row-fluid">
-                                        <div class="span12 contact-client">
-                                            <a class="btn btn-vl-green contact-client-new" data-toggle="modal" href="#pay-credit-contact-client" data-request='{"cid":1176639, "pid":1229116}' data-display-track="show-contact-client-button" onclick="vtrack('Click contact client', {
-                                                        'authenticated':true,
-                                                        'category':'Việc KD v&agrave; marketing kh&aacute;c',
-                                                        'client':'thanh thanh',
-                                                        'client_id':'1176639',
-                                                        'job_open':true,
-                                                        'viewer_bidded':false,
-                                                        'level':0                                                });">
-                                                Liên hệ trực tiếp </a>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile pay-credit-get-contact" style="display:none;" id="pay-credit-contact-client">
                                         <div class="load-spinner"><img src="/img/loading.gif" /></div>
                                         <div class="modal-header">
@@ -687,7 +541,7 @@
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
-                                                <a href="/credit/balance" class="btn btn-vl-green contact-freelancer-m contact-m" onclick="vtrack('Click view upgrade account', {'location' : 'contact client'})">Nâng cấp tài khoản</a>
+                                                <a class="btn btn-vl-green contact-freelancer-m contact-m" onclick="vtrack('Click view upgrade account', {'location' : 'contact client'})">Nâng cấp tài khoản</a>
                                                 <a href="#" class="btn btn-vl-green pay-credit-confirm contact-freelancer-m contact-m contact-white" onclick="vtrack('Click contact client credit', {
                                         'location':'pop-up contact client',
                                         'authenticated':'true', 
@@ -1133,5 +987,147 @@
         </div>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        var x = localStorage.getItem('profile');
+        if (!x) {
+            document.location.href = "http://localhost:3000/login.php";
+        }
+        let a = JSON.parse(x);
+
+        $('.fullname').text(a.fullname);
+        $('.id-user').text("ID. " + a.id_user);
+        $('.wallet').text(a.walllet + " $");
+        $('.imgavt').attr("alt", a.fullname);
+
+        $('.logout').on('click', function() {
+            document.location.href = "http://localhost:3000/welcome.php";
+            localStorage.removeItem('profile');
+        })
+
+        let id = localStorage.getItem('id');
+        let data = {
+            id_job:id
+        }
+        $.ajax({
+            url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job',
+            data: data,
+            method:'POST',
+            success: function(res) {
+                var s = "";
+                let a = JSON.parse(res);         
+                a.data.map((v,i)=>{
+                    let money = v.budget.toLocaleString('vi', {style : 'currency', currency : 'VND'});
+                    s +=`<div class="span7 news-detail">
+                                <div class="row-fluid ">
+                                    <h1 class="title block-title">
+                                        ${v.title}
+                                    </h1>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="row-fluid body-view">
+                                    <div class="span10 description ">
+                                        <div class="row-fluid body-view">
+                                            ${v.description}
+                                        </div>
+                                    </div>
+                                    <div class="row-fluid body-view">
+                                        <div class="span10 skill">
+                                            <span>Kỹ năng: </span>
+                                            <span> ${v.skill_request}</span>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="j-r-p">
+                                    <div class="row-fluid fb-like fb-j-like" data-href="https://www.vlance.vn/viec-freelance/noi-dung-review-san-pham-ngan-danh-cho-tiktok" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                                    <div class="j-report">
+                                        <img src="https://www.vlance.vn/img/portfolio/warning_amber_24px.svg">
+                                        <a href="#" class="report-job-form">Phản ánh công việc này</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="span4 job-information offset1">
+                                <div class="job-information-inner">
+                                    <div class="row-fluid">
+                                        <hx:include evaljs="true" src="https://www.vlance.vn/block/job_information/noi-dung-review-san-pham-ngan-danh-cho-tiktok" class="included include_200">
+                                            <h2>Thông tin dự án</h2>
+                                            <div class="description-job">
+                                                <dl class="dl-horizontal">
+                                                    <dt>ID dự án</dt>
+                                                    <dd>${v.id_job}</dd>
+                                                    <dt>Ngày đăng</dt>
+                                                    <dd>
+                                                        ${v.create_date?v.create_date:"0"} </dd>
+                                                   
+                                                    <dt>Địa điểm</dt>
+                                                    <dd>
+                                                        Toàn Quốc </dd>
+                                                    <dt>Ngân sách</dt>
+                                                    <dd>
+                                                        ${money}</dd>
+                                                </dl>
+                                            </div>
+                                        </hx:include>
+                                    </div>
+                                    
+                                    <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile pay-credit-get-contact" style="display:none;" id="pay-credit-contact-client">
+                                        <div class="load-spinner"><img src="/img/loading.gif" /></div>
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h2 class="text-center">Liên hệ trực tiếp khách hàng</h2>
+                                        </div>
+
+                                        <div class="screen-confirm">
+                                            <div class="modal-body screen-confirm-center">
+                                                <div class="preview"><img width="460px" height="250px" src="/img/credit/feature-contact.jpg" alt="Liên hệ khách hàng" title="Liên hệ khách hàng"></div>
+                                                <div class="content">
+                                                    <p style="padding: 0">Cần liên hệ trực tiếp với Khách hàng này? Bạn sẽ nhận số điện thoại và email của khách hàng ngay bây giờ.</p>
+                                                    <p style="padding: 0">Chi phí: <b><span class="credit-amount">5$</span></b></p>
+                                                </div>
+                                                <div class="buy-credit">
+                                                    <p>
+                                                        Bạn hiện có: <b><span class="credit-balance" data-credit="balance">0</span> $</b> -
+                                                        Tài khoản: <b>123</b>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn btn-vl-green contact-freelancer-m contact-m" onclick="vtrack('Click view upgrade account', {'location' : 'contact client'})">Nâng cấp tài khoản</a>
+                                                <a href="#" class="btn btn-vl-green pay-credit-confirm contact-freelancer-m contact-m contact-white" onclick="vtrack('Click contact client credit', {
+                                        'location':'pop-up contact client',
+                                        'authenticated':'true', 
+                                        'payer':'Minh Nguyen', 
+                                        'payer_id':'1229116',
+                                        'payer_category':'Lập trình web',
+                                        'payer_city':'TP. Hồ Chí Minh',
+                                        })">
+                                                    Liên hệ ngay (5 Credit)
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`;
+                        
+                    
+                })
+               
+                $(".detailjob").html(s);
+            },
+            async: true
+        });
+        
+
+
+    });
+
+    </script>
 
 </html>
