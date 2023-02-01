@@ -267,11 +267,7 @@
                                         <span><a class="id-user" href="/Freelancer/profilefreelancer.php">Id. 1229116 </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-<<<<<<< HEAD
-                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
-=======
                                             <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                         </span>
                                     </div>
                                 </div>
@@ -445,9 +441,6 @@
             <div class="content-section container width-full-m detail fl-view ">
                 <div class="row-fluid">
                     <div class="span12">
-<<<<<<< HEAD
-                        <div class="row-fluid detailjob">
-=======
                         <div style="display: none;">
                             <ol itemscope itemtype="http://schema.org/BreadcrumbList">
                                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -488,7 +481,6 @@
                         <div>
                         </div>
                         <div class="row-fluid">
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                             <div class="span7 news-detail">
                                 <div class="row-fluid ">
                                     <h1 class="title block-title">
@@ -497,8 +489,6 @@
                                     <div class="clear"></div>
                                 </div>
                                 <div class="row-fluid body-view">
-<<<<<<< HEAD
-=======
                                     <div class="row-fluid">
                                         <div class="service-need-hire">
                                             <div class="service-title">
@@ -513,7 +503,6 @@
                                             </div>
                                         </div>
                                     </div>
->>>>>>> eee6e05 (fix bug)
                                     <div class="span10 description ">
                                         <div class="row-fluid body-view">
                                             <p>M&igrave;nh đang l&ecirc;n kế hoạch x&acirc;y k&ecirc;nh review sản phẩm tr&ecirc;n k&ecirc;nh tiktok, s&aacute;ng tạo xoay quanh c&aacute;c vấn đề về t&igrave;nh trạng da dầu, mụn ẩn, lcl v&agrave; tổng khoảng 10 sp xoay quanh nội dung đ&oacute; để b&aacute;n h&agrave;ng tr&ecirc;n tiktok shop, M&igrave;nh cần bạn c&oacute; k&ecirc;nh nghiệm v&agrave; s&aacute;ng tạo nội dung ngắn tr&ecirc;n tiktok.</p>
@@ -576,9 +565,6 @@
                                             </div>
                                         </hx:include>
                                     </div>
-<<<<<<< HEAD
-                                    
-=======
                                     <div class="row-fluid">
                                         <hx:include evaljs="true" src="" class="included include_200">
                                             <h2>Thông tin khách hàng</h2>
@@ -637,7 +623,6 @@
                                                 Liên hệ trực tiếp </a>
                                         </div>
                                     </div>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                     <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile pay-credit-get-contact" style="display:none;" id="pay-credit-contact-client">
                                         <div class="load-spinner"><img src="/img/loading.gif" /></div>
                                         <div class="modal-header">
@@ -660,10 +645,6 @@
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
-<<<<<<< HEAD
-                                                <a class="btn btn-vl-green contact-freelancer-m contact-m" onclick="vtrack('Click view upgrade account', {'location' : 'contact client'})">Nâng cấp tài khoản</a>
-=======
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                                 <a href="#" class="btn btn-vl-green pay-credit-confirm contact-freelancer-m contact-m contact-white" onclick="vtrack('Click contact client credit', {
                                         'location':'pop-up contact client',
                                         'authenticated':'true', 
@@ -763,11 +744,7 @@
                                                 </div>
                                                 <hr class="hr-line-0">
                                                 <div class="block-submit-btn">
-<<<<<<< HEAD
                                                     <a href="#" role="button" class="btn btn-primary btn-large span12 sendproposal">Gửi chào giá</a>
-=======
-                                                    <a href="#" role="button" class="btn  btn-vl-blue btn-large span12" onclick="vtrack('Show Popup Expend Credit Bid', {'category':'Viết b&agrave;i review đ&aacute;nh gi&aacute; sản phẩm', 'job_budget':'200000'})">Gửi chào giá</a>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                                 </div>
                                             </div>
                                         </div>
@@ -784,16 +761,11 @@
                 <hx:include evaljs="true" src="/j/63797/bid" class="included include_200">
                     <div class="row-fluid">
                         <div class="information-bidding row-fluid information-bidding-job-new row-fluid">
-<<<<<<< HEAD
-                            <div class="span3 client-bidding-left-new totalproposal">
-                               
-=======
                             <div class="span3 client-bidding-left-new">
                                 <span class="bid-counter">
                                     Chào giá: <span class="value">
                                         3 </span>
                                 </span>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                             </div>
                             <div class="span7 offset1 client-bidding-between-new">
                                 <span class="bid-lowest-new">

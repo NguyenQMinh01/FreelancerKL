@@ -327,13 +327,8 @@
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/Freelancer/profilefreelancer.php"> </a></span>
                                         <span id="animategoCredit">
-<<<<<<< HEAD
-                                            <span class="vip-menu-ver2">THƯỜNG</span>
-                                            <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
-=======
                                             <span class="vip-menu-ver2">Freelancer</span>
                                             <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                         </span>
                                     </div>
                                 </div>
@@ -342,11 +337,7 @@
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
-<<<<<<< HEAD
-
-=======
                                 <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -400,12 +391,7 @@
                                         lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-<<<<<<< HEAD
-                                            <a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ
-                                                vLance</a>
-=======
                                             <a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ freelancer</a>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                         </li>
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a>
@@ -1284,8 +1270,6 @@
 
                 <div class="separator5"></div>
 
-<<<<<<< HEAD
-=======
                     </div>
 
                     <script type="text/javascript">
@@ -1342,7 +1326,6 @@
                         </div>
                     </div>
                 </div>
->>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                 <div class="professional-apply-section layzy" data-background="/img/homepage-new/bg_homepage_03.jpg">
                     <div class="container">
                         <h3 class="title lh8 mp-lh6">
