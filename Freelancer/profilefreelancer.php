@@ -13,7 +13,7 @@
     <meta property="og:site_name" content="freelancer.vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" name="title" content="Freelancer Lập tr&igrave;nh web - M&iacute;nh | vLance.vn" />
+    <meta property="og:title" name="title" content="Freelancer Lập tr&igrave;nh web - M&iacute;nh | freelancer.vn" />
     <meta property="og:image" content="https://www.vlance.vn/uploads/300x300/5137679a253a06555c594a9df5f13502041e06931.png" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
@@ -61,27 +61,6 @@
             s3.parentNode.insertBefore(font3, s3);
             s4.parentNode.insertBefore(font4, s4);
             s5.parentNode.insertBefore(font5, s5);
-        })();
-    </script>
-
-    <script>
-        (function() {
-            var font = document.createElement('link');
-            font.type = 'text/css';
-            font.rel = 'stylesheet';
-            font.href = 'https://www.vlance.vn/css/lightbox.min.css?v=20221103.1449';
-            var s = document.getElementsByTagName('link')[0];
-            s.parentNode.insertBefore(font, s);
-        })();
-    </script>
-    <script>
-        (function() {
-            var font = document.createElement('link');
-            font.type = 'text/css';
-            font.rel = 'stylesheet';
-            font.href = 'https://www.vlance.vn/lib/slick/vlance_slick.css?v=20221103.1449';
-            var s = document.getElementsByTagName('link')[0];
-            s.parentNode.insertBefore(font, s);
         })();
     </script>
     <link href="https://www.vlance.vn/css/header_homepage_new_ver2.css?v=20221103.1449" rel="stylesheet" type="text/css" />
@@ -236,47 +215,50 @@
                 <div class="menu-item-1 ver2">
                     <div class="toggle dropdown icon-hamberger ver2">
                         <a href="#" class="">
-                            <img style="width: 24px; height: 16px;" src="/img/hambuger_icon.svg" />
+                            <img style="width: 24px; height: 16px;" src="https://www.vlance.vn/img/hambuger_icon.svg" />
                         </a>
                     </div>
                 </div>
                 <div class="menu-item-2">
-                    <div class="logo"><a href="#">
-                            <img style="width: 65px; height: 40px;" src="/img/Logo-vlance.svg" alt="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vLance.vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
-                </div>
+                        <h1 class="logo"><a>
+                                <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                                <div class="bx bx-menu" id="menu-icon"></div>
+                    </div>
                 <div class="button">
                     <div class="inbox-menu ver2 pull-right nofity-ver2">
                         <div class="i32 i32-mail i32-notify ver2 ">
                             <div class="mail-counter">
                             </div>
                         </div>
-                        <img src="/img/homepage-new/icon-bell.svg">
+                        <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg">
                     </div>
                     <div class="inbox-menu ver2 pull-right mesenger-ver2">
                         <div class="i32 i32-mail i32-not-notify ver2">
                             <div class="mail-counter">
                             </div>
                         </div>
-                        <img src="/img/homepage-new/icon-chat.svg">
+                        <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg">
                     </div>
                 </div>
             </div>
         </div>
         <div class="overlay-block overlay-left login ver2" style="height: 800px;display: none">
-            <div class="close-button">
-                <a><i><img style="width: 18px; height: 18px;" src="/img/close_icon.svg" /></i></a>
-            </div>
-            <div class="logo-submenu-mobile">
-                <div class="logo"><a href="/Freelancer/freelancer.php">
-                        <img style="width: 65px; height: 40px; margin-top: 12px;" src="/img/Logo-vlance.svg" alt="vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" title="vn - Thuê Freelancer Việt Nam nhanh và hiệu quả" /></a></div>
-            </div>
+        <div class="close-button">
+                    <a><i><img style="width: 18px; height: 18px;" src="https://www.vlance.vn/img/close_icon.svg" /></i></a>
+                </div>
+                <div class="logo-submenu-mobile">
+                    <h1 class="logo"><a href="#">
+                            <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                            <div class="bx bx-menu" id="menu-icon"></div>
+                        </a></h1>
+                </div>
             <div class="wrap-mobile login wrap-mobile-ver2 ver2">
                 <ul class="accordion-menu-dropdown nav-menu-mobile ver2">
                     <li class="accordion-menu-dropdown menu-mobile-item ver2">
                         <div class="account-menu dropdown accordion-toggle-ver2 ver2">
                             <div class="avata avata_ver2">
-                                <a href="/freelancer/minh-166">
-                                    <img width="52" height="52" src="https://www.vlance.vn/uploads/48x48/5137679a253a06555c594a9df5f13502041e06931.png" alt="M&iacute;nh" title="M&iacute;nh" />
+                                <a href="/Freelancer/profilefreelancer.php">
+                                    <img width="52" height="52" src="" alt="M&iacute;nh" title="M&iacute;nh" />
                                 </a>
                             </div>
                             <div class="account-menu-detail ver2">
@@ -287,7 +269,7 @@
                                     <span><a class="id-user" href="#">Id. 1250511 </a></span>
                                     <span id="animategoCredit">
                                         <span class="vip-menu-ver2">Freelancer</span>
-                                        <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                        <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
                                     </span>
                                 </div>
                             </div>
@@ -302,26 +284,13 @@
                     <li class="accordion-chevron menu-mobile-item ver2">
                         <ul class="submenu-list-ver2 accordion-menu-dropdown ">
                             <li class="submenu-item-ver2 accordion-chevron">
-
-                                <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Quản lý cho khách hàng<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="/Freelancer/quanliviec.php">Quản lý việc nhận làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="accordion-inner-ver2">
                                     <li class="ver2">
-                                        <a href="#">Quản lý tin đăng</a>
+                                        <a href="/Freelancer/quanliviec.php">Quản lý việc nhận làm</a>
                                     </li>
                                     <li class="ver2">
-                                        <a href="#">Quản lý đơn hàng dịch vụ</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="submenu-item-ver2 accordion-chevron">
-
-                                <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="#">Quản lý việc nhận làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="accordion-inner-ver2">
-                                    <li class="ver2">
-                                        <a href="#">Quản lý việc nhận làm</a>
-                                    </li>
-                                    <li class="ver2">
-                                        <a href="#">Quản lý gói dịch vụ & đơn hàng</a>
+                                        <a href="/Freelancer/quanliviec.php">Quản lý gói dịch vụ & đơn hàng</a>
                                     </li>
                                 </ul>
                             </li>
@@ -331,9 +300,6 @@
                         <a class="/*accordion-toggle-ver2*/ ver2" href="#">Tìm việc làm</a>
                         <ul class="submenu-list-ver2 accordion-menu-dropdown">
                             <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản</a></li>
-                            <li class="submenu-item-ver2">
-                                <a class="submenu-link-ver2" href="#">Đăng gói dịch vụ <img style="" src="/img/new_service.svg"></a>
-                            </li>
                             <li class="submenu-item-ver2 accordion-chevron">
                                 <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="accordion-inner-ver2">
@@ -349,10 +315,10 @@
                                 <a class=" submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng hồ sơ năng lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="accordion-inner-ver2">
                                     <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="#">Hồ sơ freelancer</a>
+                                        <a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Hồ sơ freelancer</a>
                                     </li>
                                     <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="#">Sản phẩm đã làm</a>
+                                        <a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Sản phẩm đã làm</a>
                                     </li>
 
                                 </ul>

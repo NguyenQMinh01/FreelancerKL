@@ -524,37 +524,12 @@
                                     </li>
                                 </ol>
                             </div>
-                            <!-- <div class="breadcrumbs">
-                                <ul>
-                                    <li>
-                                        <a href="/viec-lam-ban-thoi-gian" title="Việc freelancer">
-                                            <span>Việc bán thời gian</span>
-                                        </a>
-                                    </li>
-                                    <li><span>›</span></li>
-                                    <li>
-                                        <a href="/viec-lam-ban-thoi-gian/cpath_cac-cong-viec-it-va-lap-trinh" title="IT and programming">
-                                            <span>IT and programming</span>
-                                        </a>
-                                    </li>
-                                    <li><span>›</span></li>
-                                    <li>
-                                        <a href="/viec-lam-ban-thoi-gian/cpath_cac-cong-viec-it-va-lap-trinh_chash_lap-trinh-web" title="Web Programming">
-                                            <span>Web Programming</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div> -->
                         </div>
                         <div>
                         </div>
                         <div class="row-fluid">
                             <h1 class="title block-title">
                                 L&agrave;m website b&aacute;n gi&agrave;y <span class="label-tag label-large label-new">Đang duyệt</span>
-                                <!-- <span class="edit-link">
-                                    <a href="/j/63948/edit" class="edit-link" title="Chỉnh sửa">
-                                        Chỉnh sửa </a>
-                                </span> -->
                             </h1>
                         </div>
                         <div class="row-fluid page-tabs">
@@ -638,18 +613,13 @@
                                                             <div class="rating-client" style="width:0%"></div>
                                                         </div>
                                                     </div>
-                                                    <script type="text/javascript">
-                                                        $(document).ready(function() {
-                                                            $('.box-rating-client').popover();
-                                                        })
-                                                    </script>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="info-employment-bottom row-fluid">
                                             <dl class="dl-horizontal">
                                                 <dt>Đến từ</dt>
-                                                <dd>Ha Noi</dd>
+                                                <dd>TP HCM</dd>
                                                 <dt>Tham gia</dt>
                                                 <dd>19/11/2022</dd>
                                                 <dt>Đã đăng</dt>
@@ -665,145 +635,185 @@
                     </div>
                 </div>
             </div>
-            <div class="detail-bottom span12" style="margin-left: 17%; width: 66%;">
-                <div class="row-fluid">
-                    <div class="information-bidding row-fluid">
-                        <div class="span2 client-bidding-left">
-                            <span class="bid-counter">
-                                Chào giá: <span class="value">
-                                    2 </span>
-                            </span>
-                        </div>
-                        <div class="span6 client-bidding-between">
-                            <span class="bid-lowest">
-                                Thấp nhất: <span class="value">0 VNĐ</span>
-                            </span>
-                            <span>|</span>
-                            <span class="bid-average">
-                                Trung bình: <span class="value">0 VNĐ</span>
-                            </span>
-                            <span>|</span>
-                            <span class="bid-highest">
-                                Cao nhất: <span class="value">0 VNĐ</span>
-                            </span>
-                        </div>
-                        <div class="span3 client-bidding-right">
-                            <span class="duration-average">
-                                Trung bình: <span class="value">0 ngày</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row-fluid">
-                    <div class="profile-job span12">
+            <div class="row-fluid">
+                <div class="client-view-bid span12">
+                    <hx:include evaljs="true" src="/j/64877/bid" class="included include_200">
                         <div class="row-fluid">
-                            <div class="span2">
-                                <div class="freelancer-row-img">
-                                    <div class="images">
-                                        <a href="/Freelancer/profilefreelancer.php" title="Minh">
-                                            <img src="https://www.vlance.vn/uploads/100x100/f218a4e76256be56a7d934cd93a617e836e09bd91.jpg" alt="Minh" title="Minh">
-                                        </a>
-                                    </div>
-                                    <div class="rating-box" data-original-title="" title="">
-                                        <div class="rating" style="width:0%"></div>
-                                    </div>
+                            <div class="information-bidding row-fluid information-bidding-job-new row-fluid">
+                                <div class="span3 client-bidding-left-new">
+                                    <span class="bid-counter">
+                                        Chào giá: <span class="value">
+                                            4 </span>
+                                    </span>
                                 </div>
-                            </div>
-                            <div class="span6 profile-job-left bid-freelancer">
-                                <div class="profile-job-left-bottom">
-                                    <h3 class="title">
-                                        <a href="/Freelancer/profilefreelancer.php" title="Minh">
-                                            Minh </a>
-                                        <span class="contact-block" style="margin-left: 33%;">
-                                            <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#">
-                                                xét duyệt</a>
-                                        </span>
-                                    </h3>
-                                    <div class="work-title">Có 4 năm kinh nghiệm trong lĩnh vực tester về mobile app và website</div>
-
+                                <div class="span7 offset1 client-bidding-between-new">
+                                    <span class="bid-lowest-new">
+                                        Thấp nhất: <span class="value">300.000 VNĐ</span>
+                                    </span>
+                                    <span class="client-bidding-between-boder">|</span>
+                                    <span class="bid-average">
+                                        Trung bình: <span class="value">425.000 VNĐ</span>
+                                    </span>
+                                    <span class="client-bidding-between-boder">|</span>
+                                    <span class="bid-highest-new">
+                                        Cao nhất: <span class="value">600.000 VNĐ</span>
+                                    </span>
                                 </div>
-                            </div>
-                            <div class="span4 profile-job-right">
-                                <div class="profile-job-right-top">
-                                    <div class="span12">
-                                        <dl class="dl-horizontal">
-                                            <dt>Đến từ</dt>
-                                            <dd>Hà Nội</dd>
-                                            <dt>Ngày gia nhập</dt>
-                                            <dd>17-10-2018</dd>
-                                            <dt>Việc đã làm</dt>
-                                            <dd>
-                                                <a href="/freelancer/trang-tran-95" title="0">
-                                                    0 việc </a>
-                                            </dd>
-                                            <dt>Thu nhập</dt>
-                                            <dd>
-                                                <a href="/freelancer/trang-tran-95" title="0 VNĐ">
-                                                    0 VNĐ </a>
-                                            </dd>
-                                        </dl>
-                                    </div>
+                                <div class="span2 client-bidding-right-new">
+                                    <span class="duration-average">
+                                        Trung bình: <span class="value">3 ngày</span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="profile-job span12">
-                        <div class="row-fluid">
-                            <div class="span2">
-                                <div class="freelancer-row-img">
-                                    <div class="images">
-                                        <a href="/Freelancer/profilefreelancer.php" title="Minh">
-                                            <img src="https://www.vlance.vn/uploads/100x100/fe01bc9c6cb1c6b4a13487878746edb554b2ac1c1.jpg" alt="Minh" title="Minh">
-                                        </a>
+                        <div class="row-fluid container list-bid-new" style="margin-bottom: 30px; width: 96%; max-width: 1200px">
+                            <div class="profile-job-new span12 block-bid">
+                                <div class="row-fluid" style="margin-bottom:20px">
+                                    <div class="span2 block-img-fl">
+                                        <div class="freelancer-row-img" style="margin-top: 40px;">
+                                            <div class="images">
+                                                <a href="/Freelancer/profilefreelancer.ph" title="Nguyễn Minh">
+                                                    <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/8927da604869e8e39546f5a861b4545a1a98c5091.jpg" alt="Nguyễn Minh" title="Nguyễn Minh">
+                                                </a>
+                                            </div>
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:0%"></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="rating-box" data-toggle="popover" data-placement="right" data-content="5,0" data-trigger="hover" data-original-title="" title="">
-                                        <div class="rating" style="width:100.0%"></div>
+                                    <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
+                                        <div class="profile-job-left-bottom" style="width:100%">
+                                            <h3 class="title">
+                                                <a href="/Freelancer/profilefreelancer.php" title="Nguyễn Minh">
+                                                    Nguyễn Minh </a>
+                                                <span class="contact-block" style="float:right;">
+                                                    <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#">
+                                                        Duyệt chào giá</a>
+                                                </span>
+                                            </h3>
+                                            <div class="work-title">Edit video</div>
+                                            <div class="body-view">
+                                                <div class="textbody">
+                                                    <div>
+                                                        Tôi tên: Nguyễn Minh
+                                                        Yêu thích công việc tự do
+                                                        Thành thạo: Premiere, capcut,Photoshop, Illustrator, youtube, chứng khoán
+                                                        Công việc làm được: Edit video, Thiết kế Logo, tem nhãn dán. Vẽ các file Vector in ấn, hỗ trợ đầu tư chứng khoán
+                                                        + Thời gian rãnh... </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill">
+                                                <label>Kỹ năng:</label>
+                                                <div class="list-skill">
+                                                    <a href="#" title="Thiết kế logo"> Thiết kế logo,
+                                                    </a>
+                                                    <a href="#" title="Video Editing"> Video Editing,
+                                                    </a>
+                                                    <a href="#" title="Dịch vụ video"> Dịch vụ video,
+                                                    </a>
+                                                    <a href="#" title="Kỹ thuật Video"> Kỹ thuật Video,
+                                                    </a>
+                                                    <a href="#" title="Thiết kế"> Thiết kế
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="span6 profile-job-left bid-freelancer">
-                                <div class="profile-job-left-bottom">
-                                    <h3 class="title">
-                                        <a href="/Freelancer/profilefreelancer.php" title="Minh">
-                                            Minh </a>
-                                        <span class="contact-block" style="float:right;">
-                                            <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#">
-                                                xét duyệt</a>
-                                        </span>
-                                    </h3>
-                                    <div class="work-title">Designer</div>
-                                    <div class="skill">
-                                        <label>Kỹ năng:</label>
-                                        <div class="list-skill">
-                                            <a href="/freelancers/kynang_thiet-ke-bang-hieu" title="Thiết kế bảng hiệu"> Thiết kế bảng hiệu</a>, <a href="/freelancers/kynang_phalcon-php-framework" title="Phalcon (PHP framework)"> Phalcon (PHP framework)</a>
+                                    <div class="span4 profile-job-right" style="margin-top: 40px">
+                                        <div class="profile-job-right-top">
+                                            <div class="span12">
+                                                <dl class="dl-horizontal">
+                                                    <dt>Đến từ</dt>
+                                                    <dd>TP HCM</dd>
+                                                    <dt>Ngày gia nhập</dt>
+                                                    <dd>14-10-2015</dd>
+                                                    <dt>Việc đã làm</dt>
+                                                    <dd>
+                                                        <a href="/Freelancer/profilefreelancer.php" title="0">
+                                                            1 việc </a>
+                                                    </dd>
+                                                    <dt>Thu nhập</dt>
+                                                    <dd>
+                                                        <a href="/Freelancer/profilefreelancer.php" title="0 VNĐ">
+                                                            100 VNĐ </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="span4 profile-job-right">
-                                <div class="profile-job-right-top">
-                                    <div class="span12">
-                                        <dl class="dl-horizontal">
-                                            <dt>Đến từ</dt>
-                                            <dd>Hà Nội</dd>
-                                            <dt>Ngày gia nhập</dt>
-                                            <dd>25-06-2019</dd>
-                                            <dt>Việc đã làm</dt>
-                                            <dd>
-                                                <a href="/freelancer/freelancer-03" title="2">
-                                                    2 việc </a>
-                                            </dd>
-                                            <dt>Thu nhập</dt>
-                                            <dd>
-                                                <a href="/freelancer/freelancer-03" title="280.000 VNĐ">
-                                                    280.000 VNĐ </a>
-                                            </dd>
-                                        </dl>
+                            <div class="profile-job-new span12 block-bid">
+                                <div class="row-fluid" style="margin-bottom:20px">
+                                    <div class="span2 block-img-fl">
+                                        <div class="freelancer-row-img" style="margin-top: 40px;">
+                                            <div class="images">
+                                                <a href="/freelancer/phung-dieu-linh-3" title="Nguyễn Minh">
+                                                    <img style="border-radius: 50%" src="https://www.vlance.vn/uploads/100x100/5d9e3ff756a7fdb0d87e040e32b0a690d99d7c851.jpg" alt="Nguyễn Minh" title="Nguyễn Minh">
+                                                </a>
+                                            </div>
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:0%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
+                                        <div class="profile-job-left-bottom" style="width:100%">
+                                            <h3 class="title">
+                                                <a href="/Freelancer/profilefreelancer.php" title="Nguyễn Minh">
+                                                     Nguyễn Minh</a>
+                                                <span class="contact-block" style="float:right;">
+                                                    <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#">
+                                                        Duyệt chào giá</a>
+                                                </span>
+                                            </h3>
+                                            <div class="work-title">Marketer, Copywriter</div>
+                                            <div class="body-view">
+                                                <div class="textbody">
+                                                    <div>
+                                                        Mình là sinh viên trường Đại học HUFI
+                                                        Kinh nghiệm làm việc &lt;5 năm. </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill">
+                                                <label>Kỹ năng:</label>
+                                                <div class="list-skill">
+                                                    <a href="#" title="Copywriting"> Copywriting,
+                                                    </a>
+                                                    <a href="#" title="Editing"> Editing,
+                                                    </a>
+                                                    <a href="#" title="Web content"> Web content
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span4 profile-job-right" style="margin-top: 40px">
+                                        <div class="profile-job-right-top">
+                                            <div class="span12">
+                                                <dl class="dl-horizontal">
+                                                    <dt>Đến từ</dt>
+                                                    <dd>TP HCM</dd>
+                                                    <dt>Ngày gia nhập</dt>
+                                                    <dd>30-12-2022</dd>
+                                                    <dt>Việc đã làm</dt>
+                                                    <dd>
+                                                        <a href="/Freelancer/profilefreelancer.php" title="0">
+                                                            0 việc </a>
+                                                    </dd>
+                                                    <dt>Thu nhập</dt>
+                                                    <dd>
+                                                        <a href="/Freelancer/profilefreelancer.php" title="0 VNĐ">
+                                                            20000 VNĐ </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </hx:include>
                 </div>
             </div>
 

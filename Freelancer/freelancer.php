@@ -327,8 +327,13 @@
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/Freelancer/profilefreelancer.php"> </a></span>
                                         <span id="animategoCredit">
+<<<<<<< HEAD
                                             <span class="vip-menu-ver2">THƯỜNG</span>
                                             <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
+=======
+                                            <span class="vip-menu-ver2">Freelancer</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
+>>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                         </span>
                                     </div>
                                 </div>
@@ -337,7 +342,11 @@
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
+<<<<<<< HEAD
 
+=======
+                                <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
+>>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -391,8 +400,12 @@
                                         lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
+<<<<<<< HEAD
                                             <a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ
                                                 vLance</a>
+=======
+                                            <a role="menuitem" tabindex="-1" href="/a/1251707/editbasic">Hồ sơ freelancer</a>
+>>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                                         </li>
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/ho-so-nang-luc">Sản phẩm đã làm</a>
@@ -403,7 +416,7 @@
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                            <a class="ver2" href="#">vLance for Business</a>
+                            <a class="ver2" href="#">freelancer for Business</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 ver2"
@@ -1271,6 +1284,65 @@
 
                 <div class="separator5"></div>
 
+<<<<<<< HEAD
+=======
+                    </div>
+
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $('.slide-reviews').slick({
+                                centerMode: true,
+                                centerPadding: '0px',
+                                slidesToShow: 3,
+                                responsive: [{
+                                        breakpoint: 976,
+                                        settings: {
+                                            centerMode: true,
+                                            centerPadding: '0px',
+                                            slidesToShow: 2
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 639,
+                                        settings: {
+                                            centerPadding: '0px',
+                                            slidesToShow: 1,
+                                            slidesToScroll: 1
+                                        }
+                                    }
+                                ]
+                            });
+                        });
+                    </script>
+                    <div class="review-media">
+                        <div class="review-media-title">
+                            <h3 class="lh2">Vinh danh trên báo chí</h3>
+                        </div>
+                        <div class="container row-fluid">
+                            <div class="stats-col-left stats-col-left-new span12">
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://dantri.com.vn/kinh-doanh/nguoi-viet-khoi-nghiep-gan-10-trieu-usd-da-duoc-dau-tu-988768.htm" target="_blank"><i class="cat-dantri"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://ictnews.vn/khoi-nghiep/goc-doanh-nghiep/vlance-thuc-day-thi-truong-freelance-viet-nam-chuyen-nghiep-hon-116351.ict" target="_blank"><i class="cat-ict"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://songmoi.vn/kinh-te-thi-truong/san-giao-dich-%E2%80%9Ccuu-canh%E2%80%9D-cho-nghe-tu-do" target="_blank"><i class="cat-kt"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://seatimes.com.vn/startup-weekend-hanoi-2014-vinh-danh-du-an-cong-dong-freelancer-n89808.html" target="_blank"><i class="cat-seatime"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://english.vietnamnet.vn/fms/society/98323/freelancers-look-at-work-from-a-fresh-perspective.html" target="_blank"><i class="cat-vietnamnet"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="https://www.dealstreetasia.com/stories/exclusive-vlance-targets-vns-largest-freelance-service/" target="_blank"><i class="cat-tech"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+>>>>>>> 2389e9d ([fixGUI] fix gui profilefreelan add quanliviec)
                 <div class="professional-apply-section layzy" data-background="/img/homepage-new/bg_homepage_03.jpg">
                     <div class="container">
                         <h3 class="title lh8 mp-lh6">
@@ -1312,27 +1384,6 @@
                     </div>
                     <div class="separator-statistics"></div>
                 </div>
-                <!-- <script>
-                    jQuery(function($) {
-                        jQuery('.home-statistics-section .span4 span a').anicounter({
-                            number: 1243397,
-                            step: 15
-                        });
-                        $('.home-statistics-section .span3 span a').anicounter({
-                            number: 54432,
-                            step: 4
-                        });
-                        $('.home-statistics-section .span5.last span a').anicounter({
-                            number: 407047656891,
-                            suffix: ' <span>VNĐ</span>'
-                        });
-                    });
-                    $(document).ready(function() {
-                        vtrack('View homepage', {
-                            'type': 'freelancer'
-                        });
-                    });
-                </script> -->
             </div>
         </div>
 
