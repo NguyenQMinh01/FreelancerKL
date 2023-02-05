@@ -227,7 +227,9 @@
                                 <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản
-                                            lý việc nhận làm</a></li>
+                                            lý việc đang báo giá</a></li>
+                                    <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                    <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -315,11 +317,10 @@
                                         lý việc nhận làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a href="#">Quản lý việc nhận làm</a>
+                                            <a href="/Freelancer/quanliviec.php">Quản lý việc đang báo giá</a>
                                         </li>
-                                        <li class="ver2">
-                                            <a href="#">Quản lý gói dịch vụ & đơn hàng</a>
-                                        </li>
+                                        <li class="ver2"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                        <li class="ver2"><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -336,10 +337,6 @@
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/viec-lam-freelance" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc
                                                 online</a>
-                                        </li>
-                                        <li class="ver2">
-                                            <a role="menuitem" tabindex="-1" href="/cuoc-thi-thiet-ke" onclick="vtrack('Click contest list page', {'position':'Homepage'})">Cuộc
-                                                thi thiết kế</a>
                                         </li>
                                         <li class="ver2">
                                             <a role="menuitem" tabindex="-1" href="/viec-lam-toan-thoi-gian" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc
@@ -365,10 +362,6 @@
                         <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
                             <a class="ver2" href="#">freelancer for Business</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                                <li class="submenu-item-ver2 accordion-chevron">
-                                    <a class="submenu-link-ver2 ver2" href="/doanh-nghiep?utm_campaign=VBcam1-TOPN-20220607&utm_source=vl-homepage&utm_medium=top-nav&utm_content=button">Trang
-                                        chủ Business</a>
-                                </li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -379,7 +372,7 @@
                                 <img src="https://www.vlance.vn/img/vn/homepage-new/invite_friends_red.svg">
                             </a>
                         </li>
-                        <li class="menu-mobile-logout"><a class="logout" href="/logout">Đăng xuất</a></li>
+                        <li class="menu-mobile-logout"><a class="logout" href="/welcome.php">Đăng xuất</a></li>
                     </ul>
                 </div>
 
@@ -489,31 +482,6 @@
 
         <div class="main_content
                 content-fix">
-            <style>
-                .review-avatar-01 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1600px;
-                }
-
-                .review-avatar-02 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1200px;
-                }
-
-                .review-avatar-03 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1400px;
-                }
-
-                .review-avatar-04 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1800px;
-                }
-            </style>
             <div class="homepage-new">
                 <div class="carousel slide display-desktop">
                     <div class="carousel-inner">
@@ -562,7 +530,7 @@
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
-                                            <li>
+                                                <li>
                                                     <p class="step-job">1</p>
                                                     <span>Đăng báo giá</span>
                                                 </li>
@@ -598,7 +566,7 @@
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
-                                            <li>
+                                                <li>
                                                     <p class="step-job">1</p>
                                                     <span>Đăng báo giá</span>
                                                 </li>
@@ -704,55 +672,68 @@
                     <div class="v1_637">
                         <div class="v1_638">
                             <div class="v1_639">
-                                <div class="v1_640">
-                                    <div class="v1_641"></div>
-                                    <div class="v1_642"></div><span class="v1_643">Software Engineer</span>
-                                </div>
-                                <div class="v1_644">
-                                    <div class="v1_645"></div>
-                                    <div class="v1_646"></div><span class="v1_647">Marketing</span>
-                                </div>
-                                <div class="v1_648">
-                                    <div class="v1_649"></div>
-                                    <div class="v1_650"></div><span class="v1_651">UX/UI
-                                        Design</span>
-                                </div>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_640">
+                                        <div class="v1_641"></div>
+                                        <div class="v1_642"></div><span class="v1_643">Software Engineer</span>
+                                    </div>
+                                </a>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_644">
+                                        <div class="v1_645"></div>
+                                        <div class="v1_646"></div><span class="v1_647">App developer</span>
+                                    </div>
+                                </a>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_648">
+                                        <div class="v1_649"></div>
+                                        <div class="v1_650"></div><span class="v1_651">UX/UI
+                                            Design</span>
+                                    </div>
+                                </a>
                             </div>
                             <div class="v1_652">
-                                <div class="v1_653">
-                                    <div class="v1_654"></div>
-                                    <div class="v1_655"></div><span class="v1_656">UX/UI
-                                        Design</span>
-                                </div>
-                                <div class="v1_657">
-                                    <div class="v1_658"></div>
-                                    <div class="v1_659"></div><span class="v1_660">Software Engineer</span>
-                                </div>
-                                <div class="v1_661">
-                                    <div class="v1_662"></div>
-                                    <div class="v1_663"></div><span class="v1_664">Marketing</span>
-                                </div>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_653">
+                                        <div class="v1_654"></div>
+                                        <div class="v1_655"></div><span class="v1_656">Testing,QC</span>
+                                    </div>
+                                </a>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_657">
+                                        <div class="v1_658"></div>
+                                        <div class="v1_659"></div><span class="v1_660">lập trình di động</span>
+                                    </div>
+                                </a>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_661">
+                                        <div class="v1_662"></div>
+                                        <div class="v1_663"></div><span class="v1_664">HTML/CSS/JS/ReactJS</span>
+                                    </div>
+                                </a>
                             </div>
                             <div class="v1_665">
-                                <div class="v1_666">
-                                    <div class="v1_667"></div>
-                                    <div class="v1_668"></div><span class="v1_669">Software
-                                        Engineer</span>
-                                </div>
-                                <div class="v1_670">
-                                    <div class="v1_671"></div>
-                                    <div class="v1_672"></div><span class="v1_673">Marketing</span>
-                                </div>
-                                <div class="v1_674">
-                                    <div class="v1_675"></div>
-                                    <div class="v1_676"></div><span class="v1_677">UX/UI
-                                        Design</span>
-                                </div>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_666">
+                                        <div class="v1_667"></div>
+                                        <div class="v1_668"></div><span class="v1_669">PHP Lavarel</span>
+                                    </div>
+                                </a>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_670">
+                                        <div class="v1_671"></div>
+                                        <div class="v1_672"></div><span class="v1_673">BA</span>
+                                    </div>
+                                </a>
+                                <a href="/Freelancer/searchcongviec.php">
+                                    <div class="v1_674">
+                                        <div class="v1_675"></div>
+                                        <div class="v1_676"></div><span class="v1_677">Lập trình nhúng</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm
-                            kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp
-                            của bạn với các danh mục của chúng tôi</span>
+                        <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm các freelancer cho bạn với các danh mục của chúng tôi. Xem thêm nhiều sự lựa chọn phù hợp với các danh mục của chúng tôi</span>
                         <span class="v1_679">Danh mục công việc</span>
                     </div>
                     <div class="separator5" style="margin-top: 30px;"></div>
@@ -1108,10 +1089,138 @@
                         </div>
                     </div>
                 </div>
-                <div class="separator5"></div>
+                <div class="reviews-section">
+                        <h3 class="review-client-title">Khách hàng hài lòng về chất lượng dịch vụ</h3>
+                        <div class="review-clients container">
+                            <div class="row-fluid slide-reviews">
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-01"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Nguyễn Quang Minh</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>"Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
+                                            <div class="feedback-star">
+                                                <img src="/img/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-02"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Nguyễn Trần Bảo Trân</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>Freelancer làm việc nhiệt tình và chiều ý khách. Xu hướng cập nhập nhanh. Giao tiếp lễ phép lịch sự. Quá trình làm việc rất suôn sẻ và cảm thấy dễ chịu. Mong em có nhiều đơn hàng.</p>
+                                            <div class="feedback-star">
+                                                <img src="/img/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-03"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Hồ Nguyễn Quốc Huy</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>“Nhiệt tình, trách nhiệm, đáp ứng deadline công việc. Freelancer sẵn sàng chỉnh sửa theo các yêu cầu của khách hàng, đồng thời có thể đưa ra nhiều option để khách hàng lựa chọn. Một freelancer có thể hợp tác lâu dài.”</p>
+                                            <div class="feedback-star">
+                                                <img src="/img/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-reviews-client">
+                                    <div class="client-item">
+                                        <div class="review-avatar">
+                                            <span class="review-avatar-04"></span>
+                                        </div>
+                                        <div class="review-title">
+                                            <h4 class="name-client">Admin</h4>
+                                            <p>Khách hàng</p>
+                                        </div>
+                                        <div class="review-quote">
+                                            <p>“Hoàng Anh là freelancer rất tích cực trong công việc và giao tiếp, nhanh nhẹn và thông minh. Sẵn sàng hợp tác với bạn khi có dự án mới.”</p>
+                                            <div class="feedback-star">
+                                                <img src="/img/star3.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                $('.slide-reviews').slick({
+                                    centerMode: true,
+                                    centerPadding: '0px',
+                                    slidesToShow: 3,
+                                    responsive: [{
+                                            breakpoint: 976,
+                                            settings: {
+                                                centerMode: true,
+                                                centerPadding: '0px',
+                                                slidesToShow: 2
+                                            }
+                                        },
+                                        {
+                                            breakpoint: 639,
+                                            settings: {
+                                                centerPadding: '0px',
+                                                slidesToShow: 1,
+                                                slidesToScroll: 1
+                                            }
+                                        }
+                                    ]
+                                });
+                            });
+                        </script>
 
-                <div class="separator5"></div>
 
+
+                        <div class="review-media">
+                            <div class="review-media-title">
+                                <h3 class="lh2">Vinh danh trên báo chí</h3>
+                            </div>
+                            <div class="container row-fluid">
+                                <div class="stats-col-left stats-col-left-new span12">
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://dantri.com.vn/kinh-doanh/nguoi-viet-khoi-nghiep-gan-10-trieu-usd-da-duoc-dau-tu-988768.htm" target="_blank"><i class="cat-dantri"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://ictnews.vn/khoi-nghiep/goc-doanh-nghiep/vlance-thuc-day-thi-truong-freelance-viet-nam-chuyen-nghiep-hon-116351.ict" target="_blank"><i class="cat-ict"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://songmoi.vn/kinh-te-thi-truong/san-giao-dich-%E2%80%9Ccuu-canh%E2%80%9D-cho-nghe-tu-do" target="_blank"><i class="cat-kt"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://seatimes.com.vn/startup-weekend-hanoi-2014-vinh-danh-du-an-cong-dong-freelancer-n89808.html" target="_blank"><i class="cat-seatime"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="http://english.vietnamnet.vn/fms/society/98323/freelancers-look-at-work-from-a-fresh-perspective.html" target="_blank"><i class="cat-vietnamnet"></i></a>
+                                    </div>
+                                    <div class="stats-col stats-row row-fluid">
+                                        <a rel="nofollow" href="https://www.dealstreetasia.com/stories/exclusive-vlance-targets-vns-largest-freelance-service/" target="_blank"><i class="cat-tech"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="separator5"></div>
             </div>
 
             <script type="text/javascript">

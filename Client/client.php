@@ -189,7 +189,7 @@
                                     </a>
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
-                                            <span class="vip-menu-ver2">Client</span>
+                                            <span class="vip-menu-ver2">Nhà tuyển dụng</span>
                                             <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
                                         </span>
                                     </div>
@@ -197,6 +197,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li class="divider"></li>
                                         <li><a class="logout">Đăng xuất</a></li>
                                     </ul>
                                 </div>
@@ -212,13 +213,12 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
-                                    <li><a href="#">Quản lý đơn hàng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                                 </ul>
                             </div>
-                        </li>
-                        <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
                         </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
@@ -297,7 +297,7 @@
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Freelancer/profileclient.ph">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="#">Chỉnh sửa hồ sơ</a></li>
-                               
+
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -451,35 +451,10 @@
             });
         </script>
         <div class="top_content">
-            
+
         </div>
         <div class="main_content
             content-fix">
-            <style>
-                .review-avatar-01 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1600px;
-                }
-
-                .review-avatar-02 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1200px;
-                }
-
-                .review-avatar-03 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1400px;
-                }
-
-                .review-avatar-04 {
-                    width: 104px;
-                    height: 104px;
-                    background: url(https://www.vlance.vn/img/vn/homepage-new/homepage_sprite.png) 0 -1800px;
-                }
-            </style>
             <div class="homepage-new">
                 <div class="carousel slide display-desktop">
                     <div class="carousel-inner">
@@ -487,15 +462,16 @@
                             <header class="jumbotron-new carousel-subhead_1">
                                 <div class="container">
                                     <div class="jumbotron-new-even">
-                                        <h1 class="lh8 mp-lh6"><b>Đảm bảo hoàn thành dự án</b> với freelancer hàng đầu</h1>
+                                        <h1 class="lh8 mp-lh6"><b>Với những công việc tốt nhất</b> với những freelancer hàng đầu
+                                        </h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php" title="Đăng dự án ngay">Đăng dự án ngay</a>
+                                            <a style="background-color:transparent" class="btn btn-vl btn-vl-special btn-vl-green" onclick="vtrack('Click post job', {'position':'Homepage'})" title="Đăng báo giá ngay">Chất lượng, uy tín</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
                                                 <li>
                                                     <p class="step-job">1</p>
-                                                    <span>Đăng dự án</span>
+                                                    <span>Đăng báo giá</span>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
@@ -509,7 +485,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="step-job">3</p>
-                                                    <p>Nhận sản phẩm<br />đúng yêu cầu</p>
+                                                    <p>Bàn giao sản phẩm<br />đúng yêu cầu</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -521,29 +497,29 @@
                             <header class="jumbotron-new carousel-subhead_2">
                                 <div class="container">
                                     <div class="jumbotron-new-even">
-                                        <h1 class="lh8 mp-lh6">Nhận đến <b>100 mẫu thiết kế</b> mỗi cuộc thi</h1>
+                                        <h1 class="lh8 mp-lh6">Nơi tiềm việc chất lượng</b> đảm bảo thêm thu nhập </h1>
                                         <div class="jumbotron-button">
-                                            <a class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" href="" title="Tạo cuộc thi mới">Tạo cuộc thi mới</a>
+                                            <a style="background-color:transparent" class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" title="Tạo cuộc thi mới">Có nhiều công việc mới</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
                                                 <li>
                                                     <p class="step-job">1</p>
-                                                    <span>Tạo cuộc thi</span>
+                                                    <span>Đăng báo giá</span>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
                                                 </li>
                                                 <li>
                                                     <p class="step-job">2</p>
-                                                    <p>Nhận đến 100 mẫu thiết kế</p>
+                                                    <p>Kết nối với<br />chuyên gia</p>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
                                                 </li>
                                                 <li>
                                                     <p class="step-job">3</p>
-                                                    <p>Chọn mẫu đẹp nhất và thanh toán</p>
+                                                    <p>Bàn giao sản phẩm<br />đúng yêu cầu</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -555,29 +531,31 @@
                             <header class="jumbotron-new carousel-subhead_3">
                                 <div class="container">
                                     <div class="jumbotron-new-even">
-                                        <h1 class="lh8 mp-lh6">Dịch vụ Marketing, Thiết kế trọn gói chỉ từ <b>200.000</b> <i>₫</i></h1>
+                                        <h1 class="lh8 mp-lh6">Có nhiều freelancer chất lượng với chi phí ổn định
+                                            <b>~ 200.000 </b> <i>₫</i>
+                                        </h1>
                                         <div class="jumbotron-button">
-                                            <a rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-special" onclick="vtrack('Click Thuengay banner', {'position':'Homepage'})" href="" target="_blank" title="Xem tất cả dịch vụ">Xem tất cả dịch vụ</a>
+                                            <a style="background-color:transparent" rel="nofollow" class="btn btn-vl btn-vl-blue btn-vl-special" onclick="vtrack('Click Thuengay banner', {'position':'Homepage'})" target="_blank" title="Xem tất cả dịch vụ">Có nhiều freelancer</a>
                                         </div>
                                         <div class="jumbotron-new-content">
                                             <ul>
                                                 <li>
                                                     <p class="step-job">1</p>
-                                                    <p>Chọn dịch vụ <br />& Đặt hàng</p>
+                                                    <span>Đăng báo giá</span>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
                                                 </li>
                                                 <li>
                                                     <p class="step-job">2</p>
-                                                    <span>Làm việc nhanh chóng</span>
+                                                    <p>Kết nối với<br />chuyên gia</p>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
                                                 </li>
                                                 <li>
                                                     <p class="step-job">3</p>
-                                                    <span>Nhận sản phẩm ưng ý</span>
+                                                    <p>Bàn giao sản phẩm<br />đúng yêu cầu</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -668,56 +646,71 @@
                     <div class="v1_637">
                         <div class="v1_638">
                             <div class="v1_639">
-                                <div class="v1_640">
-                                    <div class="v1_641"></div>
-                                    <div class="v1_642"></div><span class="v1_643">Software Engineer</span>
-                                </div>
-                                <div class="v1_644">
-                                    <div class="v1_645"></div>
-                                    <div class="v1_646"></div><span class="v1_647">Marketing</span>
-                                </div>
-                                <div class="v1_648">
-                                    <div class="v1_649"></div>
-                                    <div class="v1_650"></div><span class="v1_651">UX/UI
-                                        Design</span>
-                                </div>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_640">
+                                        <div class="v1_641"></div>
+                                        <div class="v1_642"></div><span class="v1_643">Software Engineer</span>
+                                    </div>
+                                </a>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_644">
+                                        <div class="v1_645"></div>
+                                        <div class="v1_646"></div><span class="v1_647">App developer</span>
+                                    </div>
+                                </a>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_648">
+                                        <div class="v1_649"></div>
+                                        <div class="v1_650"></div><span class="v1_651">UX/UI
+                                            Design</span>
+                                    </div>
+                                </a>
                             </div>
                             <div class="v1_652">
-                                <div class="v1_653">
-                                    <div class="v1_654"></div>
-                                    <div class="v1_655"></div><span class="v1_656">UX/UI
-                                        Design</span>
-                                </div>
-                                <div class="v1_657">
-                                    <div class="v1_658"></div>
-                                    <div class="v1_659"></div><span class="v1_660">Software Engineer</span>
-                                </div>
-                                <div class="v1_661">
-                                    <div class="v1_662"></div>
-                                    <div class="v1_663"></div><span class="v1_664">Marketing</span>
-                                </div>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_653">
+                                        <div class="v1_654"></div>
+                                        <div class="v1_655"></div><span class="v1_656">Testing,QC</span>
+                                    </div>
+                                </a>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_657">
+                                        <div class="v1_658"></div>
+                                        <div class="v1_659"></div><span class="v1_660">lập trình di động</span>
+                                    </div>
+                                </a>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_661">
+                                        <div class="v1_662"></div>
+                                        <div class="v1_663"></div><span class="v1_664">HTML/CSS/JS/ReactJS</span>
+                                    </div>
+                                </a>
                             </div>
                             <div class="v1_665">
-                                <div class="v1_666">
-                                    <div class="v1_667"></div>
-                                    <div class="v1_668"></div><span class="v1_669">Software
-                                        Engineer</span>
-                                </div>
-                                <div class="v1_670">
-                                    <div class="v1_671"></div>
-                                    <div class="v1_672"></div><span class="v1_673">Marketing</span>
-                                </div>
-                                <div class="v1_674">
-                                    <div class="v1_675"></div>
-                                    <div class="v1_676"></div><span class="v1_677">UX/UI
-                                        Design</span>
-                                </div>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_666">
+                                        <div class="v1_667"></div>
+                                        <div class="v1_668"></div><span class="v1_669">PHP Lavarel</span>
+                                    </div>
+                                </a>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_670">
+                                        <div class="v1_671"></div>
+                                        <div class="v1_672"></div><span class="v1_673">BA</span>
+                                    </div>
+                                </a>
+                                <a href="/Client/searchfreelancer.php">
+                                    <div class="v1_674">
+                                        <div class="v1_675"></div>
+                                        <div class="v1_676"></div><span class="v1_677">Lập trình nhúng</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi</span>
+                        <span class="v1_678">Tìm kiếm cơ hội nghề nghiệp của bạn với các danh mục của chúng tôi. Tìm kiếm các freelancer cho bạn với các danh mục của chúng tôi. Xem thêm nhiều sự lựa chọn phù hợp với các danh mục của chúng tôi</span>
                         <span class="v1_679">Danh mục công việc</span>
                     </div>
-                    <div class="separator5" style = "margin-top: 30px;"></div>
+                    <div class="separator5" style="margin-top: 30px;"></div>
 
                     <div class="v1_568">
                         <div class="v1_569">
@@ -961,7 +954,7 @@
                                         <div class="review-quote">
                                             <p>"Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
                                             <div class="feedback-star">
-                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                                <img src="/img/star3.png">
                                             </div>
                                         </div>
                                     </div>
@@ -978,7 +971,7 @@
                                         <div class="review-quote">
                                             <p>Freelancer làm việc nhiệt tình và chiều ý khách. Xu hướng cập nhập nhanh. Giao tiếp lễ phép lịch sự. Quá trình làm việc rất suôn sẻ và cảm thấy dễ chịu. Mong em có nhiều đơn hàng.</p>
                                             <div class="feedback-star">
-                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                                <img src="/img/star3.png">
                                             </div>
                                         </div>
                                     </div>
@@ -995,7 +988,7 @@
                                         <div class="review-quote">
                                             <p>“Nhiệt tình, trách nhiệm, đáp ứng deadline công việc. Freelancer sẵn sàng chỉnh sửa theo các yêu cầu của khách hàng, đồng thời có thể đưa ra nhiều option để khách hàng lựa chọn. Một freelancer có thể hợp tác lâu dài.”</p>
                                             <div class="feedback-star">
-                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                                <img src="/img/star3.png">
                                             </div>
                                         </div>
                                     </div>
@@ -1012,7 +1005,7 @@
                                         <div class="review-quote">
                                             <p>“Hoàng Anh là freelancer rất tích cực trong công việc và giao tiếp, nhanh nhẹn và thông minh. Sẵn sàng hợp tác với bạn khi có dự án mới.”</p>
                                             <div class="feedback-star">
-                                                <img src="https://www.vlance.vn/img/homepage-new/star3.png">
+                                                <img src="/img/star3.png">
                                             </div>
                                         </div>
                                     </div>
@@ -1076,15 +1069,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="professional-apply-section layzy" data-background="/img/homepage-new/bg_homepage_03.jpg">
-                        <div class="container">
-                            <h3 class="title lh8 mp-lh6">
-                                Bạn có trên <span>3 năm kinh nghiệm</span> Và muốn tìm việc để <span>tăng thu nhập?</span> </h3>
-                            <div class="professional-apply-button">
-                                <a class="btn btn-vl btn-vl-special btn-vl-green" title="link_img_vnen.home_page.title_4" href="/a/register/freelancer">Đăng ký làm chuyên gia</a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <script type="text/javascript">
                         $(document).ready(function() {
                             if ($(".account-menu").length) {
@@ -1176,16 +1161,16 @@
         <script>
             $(document).ready(function() {
                 var x = localStorage.getItem('profile');
-                if(!x){
+                if (!x) {
                     document.location.href = "http://localhost:3000/login.php";
                 }
                 let a = JSON.parse(x);
                 $('.fullname').text(a.fullname);
                 $('.id-user').text("ID. " + a.id_user);
                 $('.wallet').text(a.wallet + " $");
-                $('.imgavt').attr("alt",a.fullname);
-                
-                $('.logout').on('click',function(){
+                $('.imgavt').attr("alt", a.fullname);
+
+                $('.logout').on('click', function() {
                     document.location.href = "http://localhost:3000/welcome.php";
                     localStorage.removeItem('profile');
                 })
