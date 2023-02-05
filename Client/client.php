@@ -54,7 +54,7 @@
             font2.href = 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,vietnamese&display=block';
             font3.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
             font4.href = 'https://www.vlance.vn/css/slider_home.min.css';
-            font5.href = 'https://www.vlance.vn/css/homepage.css?v=20221103.1449';
+            font5.href = '../baner.css';
             font6.href = 'https://www.vlance.vn/css/freelancer-list.css?v=20221103.1449'
 
             var s1 = document.getElementsByTagName('link')[0];
