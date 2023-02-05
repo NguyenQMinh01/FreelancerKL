@@ -140,10 +140,9 @@
                                                         </a>
                                                         <ul class="content-item-detail">
                                                             <li class="menu-dropdown-item-content">
-                                                                <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
+                                                                <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                             </li>
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-dropdown-content-item" style="display:block">
@@ -587,6 +586,7 @@
                                                                     $(this).addClass('active');
                                                                 })
                                                             };
+
                                                             function test1(sa, id) {
                                                                 var t = sa.getAttribute('data-value');
                                                                 $(id).children().first().text(t);
@@ -636,7 +636,7 @@
                                             <div class="span2">
                                             </div>
                                             <div class="span10">
-                                                <p style="font-size: 16px">Số tiền tối đa tôi có thể trả trong khoảng</p>
+                                                <p style="font-size: 16px">Số tiền tôi có thể trả cho dự án/công việc</p>
                                             </div>
                                         </div>
                                         <div class="row-fluid">
@@ -646,15 +646,7 @@
                                                 <div>
                                                     <div class="control-group wrapper append-white combo-row-1st span6 budget">
                                                         <div class="  input-append ">
-                                                            <input type="text" id="vlance_jobbundle_jobtype_budget" name="vlance_jobbundle_jobtype[budget]" required="required" pattern="^(0|[1-9][0-9/.]*)$" placeholder="Từ" data-toggle="popover" data-placement="top" data-content="Thù lao dự kiến, VD: 500.000" data-trigger="hover" class="popovers-input span12" value="" />
-                                                            <span class="add-on">VNĐ</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <div class="control-group wrapper append-white combo-row-1st span6 budget">
-                                                        <div class="  input-append ">
-                                                            <input type="text" id="vlance_jobbundle_jobtype_budgetMax" name="vlance_jobbundle_jobtype[budgetMax]" required="required" pattern="^(0|[1-9][0-9/.]*)$" placeholder="Đến" data-toggle="popover" data-placement="top" data-content="Thù lao dự kiến, VD: 500.000" data-trigger="hover" class="popovers-input span12" value="" />
+                                                            <input type="text" id="vlance_jobbundle_jobtype_budget" name="vlance_jobbundle_jobtype[budget]" required="required" pattern="^(0|[1-9][0-9/.]*)$" placeholder="đ" data-toggle="popover" data-placement="top" data-content="Thù lao dự kiến, VD: 500.000" data-trigger="hover" class="popovers-input span12" value="" />
                                                             <span class="add-on">VNĐ</span>
                                                         </div>
                                                     </div>
@@ -679,9 +671,8 @@
                                 <div class="form-cread-job-btn">
                                     <div class="row-fluid" style="margin-bottom: 10px">
                                         <div class="span12 ">
-                                            <input id='btn-submit-job' type='submit' class='btn btn-vl-yellow btn-large popup-validate span12' value='Đăng tin' onclick='this.form.action= &quot;/Client/Clientdetailjob.php&quot;;' />
+                                            <input id='btn-submit-job' type='submit' class='btn btn-vl-yellow btn-large popup-validate span12' value='Đăng tin' />
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

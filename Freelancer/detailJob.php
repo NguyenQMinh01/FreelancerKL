@@ -197,15 +197,13 @@
                     <ul class="nav-menu span12">
                         <li class="tf200 ">
                             <div class="dropdown manage-user">
-                                <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a href="/Freelancer/quanliviec.php" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="#" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </li>
-
-                       
                     </ul>
                 </div>
             </div>
@@ -300,7 +298,7 @@
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
                                 <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance?dropdown">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2">
-                                    <a class="submenu-link-ver2" href="#">Đăng gói dịch vụ <img  src="/img/new_service.svg"></a>
+                                    <a class="submenu-link-ver2" href="#">Đăng gói dịch vụ <img src="/img/new_service.svg"></a>
                                 </li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
@@ -433,9 +431,42 @@
                 setTimeout("$('#messages').hide();", 7000);
             });
         </script>
+
         <div class="top_content
                     content-fix">
-           
+            <div class="block">
+                <div class="progress-job-wrapper">
+                    <div class="progress-job">
+                        <ul>
+                            <li class="first done">
+                                <div class="number">
+                                    <div class="first">1</div>
+                                </div>
+                                <div class="tally">Đăng việc</div><i></i>
+                            </li>
+                            <li class="done">
+                                <div class="number">
+                                    <div class="done">2</div>
+                                </div>
+                                <div class="tally">Chọn freelancer làm việc</div><i></i>
+                            </li>
+                            <li class="active">
+                                <div class="number">
+                                    <div class="active">3</div>
+                                </div>
+                                <div class="tally">Hoàn thành công việc</div><i></i>
+                            </li>
+                            <li class="last active">
+                                <div class="number">
+                                    <div class="active">4</div>
+                                </div>
+                                <div class="tally">Đánh giá và thanh toán</div><i class="unactive"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="main_content">
             <div class="content-section container width-full-m detail fl-view ">
@@ -612,14 +643,7 @@
                                     </div>
                                     <div class="row-fluid">
                                         <div class="span12 contact-client">
-                                            <a class="btn btn-vl-blue contact-client-new" data-toggle="modal" href="#" onclick="vtrack('Click contact client', {
-                                                        'authenticated':true,
-                                                        'category':'Lập Trình Web',
-                                                        'client':'Nguyễn Minh',
-                                                        'client_id':'1176639',
-                                                        'job_open':true,
-                                                        'viewer_bidded':false,
-                                                        'level':0                                                });">
+                                            <a class="btn btn-vl-blue contact-client-new" data-toggle="modal" href="#" onclick="vtrack('Click contact client');">
                                                 Liên hệ trực tiếp </a>
                                         </div>
                                     </div>
@@ -661,6 +685,13 @@
                                 </div>
                             </div>
                         </div>
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                if ($('#pay-credit-contact-client').hasClass('in')) {
+                                    vtrack('show-popup-contact-client');
+                                }
+                            });
+                        </script>
                         <div class="row-fluid">
                             <div class="row-fluid form-bid">
                                 <div class="span12 container">
@@ -743,7 +774,7 @@
                                                     </div>
                                                 </div>
                                                 <hr class="hr-line-0">
-                                                <div class="block-submit-btn">
+                                                <div class="block-submit-btn" style="background-color: blue;">
                                                     <a href="#" role="button" class="btn btn-primary btn-large span12 sendproposal">Gửi chào giá</a>
                                                 </div>
                                             </div>
@@ -809,7 +840,7 @@
                                                 Nguyễn Minh </a>
                                         </h3>
                                         <div class="work-title">Content Creator</div>
-                                        
+
                                         <div class="skill">
                                             <label>Kỹ năng:</label>
                                             <div class="list-skill">
@@ -866,7 +897,7 @@
                                                 Nguyễn Minh </a>
                                         </h3>
                                         <div class="work-title">Copywriter - Content Writer - Translator</div>
-                           
+
                                         <div class="skill">
                                             <label>Kỹ năng:</label>
                                             <div class="list-skill">
@@ -921,7 +952,7 @@
                                                 Nguyễn Minh </a>
                                         </h3>
                                         <div class="work-title">Freelancer</div>
-                                    
+
                                         <div class="skill">
                                             <label>Kỹ năng:</label>
                                             <div class="list-skill">
@@ -1024,13 +1055,12 @@
         </div>
     </div>
 </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
-    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-    <script>
+<script>
     $(document).ready(function() {
         var x = localStorage.getItem('profile');
         if (!x) {
@@ -1050,20 +1080,23 @@
 
         let id = localStorage.getItem('id');
         let data = {
-            id_job:id
+            id_job: id
         }
         //get detail job
         $.ajax({
             url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job',
             data: data,
-            method:'POST',
+            method: 'POST',
             success: function(res) {
                 var s = "";
                 var p = "";
-                let a = JSON.parse(res);         
-                a.data.map((v,i)=>{
-                    let money = v.budget.toLocaleString('vi', {style : 'currency', currency : 'VND'});
-                    s +=`<div class="span7 news-detail">
+                let a = JSON.parse(res);
+                a.data.map((v, i) => {
+                    let money = v.budget.toLocaleString('vi', {
+                        style: 'currency',
+                        currency: 'VND'
+                    });
+                    s += `<div class="span7 news-detail">
                                 <div class="row-fluid ">
                                     <h1 class="title block-title">
                                         ${v.title}
@@ -1154,21 +1187,21 @@
                                     </div>
                                 </div>
                             </div>`;
-                        
-                    p+=` <span class="bid-counter">
+
+                    p += ` <span class="bid-counter">
                                     Chào giá: <span class="value">
                                         ${v.total_proposal} </span>
                                 </span>`;
-                    
+
                 })
-               
+
                 $(".detailjob").html(s);
                 $(".totalproposal").html(p);
             },
             async: true
         });
         //send proposal
-        $('.sendproposal').on('click',function(e){
+        $('.sendproposal').on('click', function(e) {
             e.preventDefault();
             let detail = $("#vlance_jobbundle_bidtype_introDescription").val();
             let completed_date = $("#vlance_jobbundle_jobtype_closeAt").val();
@@ -1180,17 +1213,16 @@
                 payment_amount: amount,
                 completion_date: completed_date
             }
-            
+
             $.ajax({
                 url: 'https://job.ahlupos.com/modules/job/api.php?ac=send_proposal',
                 data: data,
-                method:'POST',
-                success: function(res){
+                method: 'POST',
+                success: function(res) {
                     let a = JSON.parse(res);
-                    if(a.code == 1){
+                    if (a.code == 1) {
                         alert(a.success);
-                    }
-                    else{
+                    } else {
                         alert(a.error);
                     }
                 },
@@ -1199,7 +1231,6 @@
         })
 
     });
-
-    </script>
+</script>
 
 </html>
