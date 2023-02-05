@@ -688,14 +688,14 @@
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
-                                            <a href="/Freelancer/quanliviec.php" style="color: #ffffff">Gửi báo giá</a>
+                                            <a href="/Freelancer/quanliviec.php" style="color: #ffffff">Việc đã lưu</a>
                                         </span>
                                         <span class="job-step-white" style="float: right;"></span>
                                     </div>
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">2</span>
                                         <span class="job-progress-title">
-                                            <a href="#" style="color: #000000">Nhận việc </a>
+                                            <a href="#" style="color: #000000">Gửi hồ sơ</a>
                                         </span>
                                         <span style="float: right"></span>
                                     </div>
@@ -703,7 +703,7 @@
                                         <span class="circle-number-job display-desktop-workspace">3</span>
                                         <span class="job-progress-title">
                                             <a href="#" style="color: #000000">
-                                                Hoàn thành </a>
+                                                Nhận việc </a>
                                         </span>
                                         <span style="float: right"></span>
                                     </div>
@@ -756,66 +756,38 @@
                                     <tbody>
                                         <tr class="head-title-tb display-desktop-workspace">
                                             <th class="project-freelancer item">Tên việc</th>
-                                            <th class="bid-freelancer item">Ngày cuối báo giá</th>
+                                            <th class="bid-freelancer item">Bàn giao công việc</th>
                                             <th class="payment-th item"></th>
-
                                             <th class="startus-th item">Trạng thái</th>
                                             <th></th>
                                         </tr>
-
-                                        <tr class="even updated cancel-bookmark-job2">
+                                        <tr class="odd updated cancel-bookmark-job1">
                                             <td class="project-freelancer ">
                                                 <div class="title-job">
                                                     <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
-                                                        [64426] Thiết kế banner facebook </a>
-                                                    <span class="label-contest">mới</span>
+                                                        [64865] NHÂN VIÊN HÀNH CHÍNH - NHÂN SỰ </a>
                                                 </div>
                                                 <div class="client">Khách hàng: <a href="/Client/profileclient.php">
-                                                        Quang Nguyen </a>
+                                                        BIV MARKETING </a>
                                                 </div>
                                             </td>
                                             <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">09/01/2023</p>
+                                                <p class="number-right">10/02/2023</p>
                                             </td>
                                             <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                            </td>
+                                                &nbsp &nbsp &nbsp &nbsp </td>
                                             <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: #EB5757">Đang chờ duyệt</p>
+                                                <p style="">Đang làm</p>
                                             </td>
                                             <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden64426">
+                                                <div class="block-hidden" id="block-hidden64865">
+                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top64865">hoàn thành<i style="font-weight:bold" aria-hidden="true" data-original-title="" title=""></i></a>
                                                 </div>
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Đang chờ duyệt</p>
                                             </td>
                                         </tr>
 
 
-                                        <tr class="even updated cancel-bookmark-job2">
-                                            <td class="project-freelancer ">
-                                                <div class="title-job">
-                                                    <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
-                                                        [64426] Thiết kế banner facebook </a>
-                                                    <span class="label-contest">mới</span>
-                                                </div>
-                                                <div class="client">Khách hàng: <a href="/Client/profileclient.php">
-                                                        Quang Nguyen </a>
-                                                </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">09/01/2023</p>
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                            </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: #EB5757">Đang chờ duyệt</p>
-                                            </td>
-                                            <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden64426">
-                                                </div>
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Đang chờ duyệt</p>
-                                            </td>
-                                        </tr>
-
+                                       
                                         <!-- <script type="text/javascript">
                                             $("#clickme").click(function() {
                                                 $(".cancel-bookmark-job2").show();

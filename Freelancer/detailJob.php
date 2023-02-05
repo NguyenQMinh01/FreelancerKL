@@ -225,7 +225,9 @@
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php"
                                             onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản
-                                            lý việc nhận làm</a></li>
+                                            lý việc đang báo giá</a></li>
+                                    <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                    <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -318,11 +320,11 @@
                                         làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
                                         <li class="ver2">
-                                            <a href="#">Quản lý việc nhận làm</a>
+                                            <a href="/Freelancer/quanliviec.php">Quản lý việc đang báo giá</a>
                                         </li>
-                                        <li class="ver2">
-                                            <a href="#">Quản lý gói dịch vụ & đơn hàng</a>
-                                        </li>
+                                        <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                        <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+
                                     </ul>
                                 </li>
                             </ul>

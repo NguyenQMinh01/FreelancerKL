@@ -6311,7 +6311,7 @@ body {
   overflow: hidden;
 }
 .v1_647 {
-  width: 102px;
+  width: 192px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 27px;
@@ -6549,7 +6549,7 @@ body {
   overflow: hidden;
 }
 .v1_664 {
-  width: 102px;
+  width: 252px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 27px;
@@ -6731,7 +6731,7 @@ body {
   overflow: hidden;
 }
 .v1_677 {
-  width: 131px;
+  width: 151px;
   color: rgba(0,0,0,1);
   position: absolute;
   top: 27px;
@@ -6749,7 +6749,7 @@ body {
   top: 66px;
   font-family: DM Sans;
   font-weight: Regular;
-  font-size: 16px;
+  font-size: 20px;
   opacity: 1;
   text-align: center;
 }

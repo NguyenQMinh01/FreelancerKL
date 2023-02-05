@@ -185,10 +185,10 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -452,7 +452,7 @@
                             <div class="progress-job-new container new-progress-job">
                                 <div class="row-fluid">
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
-                                    <span class="circle-number-job display-desktop-workspace">1</span>
+                                        <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
                                             <a href="/Client/dangduan.php" style="color: #ffffff">
                                                 Đăng việc </a>
@@ -476,7 +476,7 @@
                                         <span style="float: right"><img src="" style="height: 50px"></span>
                                     </div>
                                     <div class="span3 progress-job-item" style="padding-top: 13px; background: #0088CC; color: #ffffff">
-                                    <span class="circle-number-job display-desktop-workspace">4</span>
+                                        <span class="circle-number-job display-desktop-workspace">4</span>
                                         <span>
                                             <a href="#" style="color: #000000">
                                                 Đánh giá và thanh toán </a>
@@ -489,14 +489,13 @@
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
                                 <table class="table datatable" style="margin-top: 50px;">
                                     <tr class="head-title-tb display-desktop-workspace">
-                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;">Tên việc</th>
-                                        <th class="bid-freelancer" style=""></th>
-
-                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 100px;">Hạn chót báo giá</th>
-                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Trạng thái</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Phân công</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày hoàn thành</th>
+                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
+                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết công việc</th>
                                         <th></th>
                                     </tr>
-                                    <tr class="odd updated draft-job63948">
+                                    <!-- <tr class="odd updated draft-job63948">
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
@@ -515,64 +514,7 @@
                                         <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             Đang duyệt </td>
                                         <td class="price-td show-block">
-                                            <!-- <div class="block-hidden" id="block-hidden63948">
-                                                <a style="font-size: 14px;width: 70px" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Hiển thị <i style="font-weight:bold" class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                                <div class="startus_icon_show option-push-top option-push-top63948" style="right: 52px">
-                                                    <div class="left startus-job" style="width: 100%">
-                                                        <ul>
-                                                            <li style="padding: 10px 0 10px 20px;">
-                                                                <a style="display:block; width: 100%; color: #000000;cursor: pointer" href="/j/63948/edit">Yêu cầu hiển thị</a>
-                                                            </li>
-                                                            <hr style="margin: 0">
-                                                            <li style="padding: 10px 0 10px 20px;">
-                                                                <a style="display:block; width: 100%; color: #000000;cursor: pointer" href="/j/63948/edit">Sửa việc nháp</a>
-                                                            </li>
-                                                            <hr style="margin: 0">
-                                                            <li style="padding: 10px 0 10px 20px;">
-                                                                <span id="click-delete-job-draft63948" style="display:block; width: 100%; color: #000000;cursor: pointer">Xóa việc nháp</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <!-- <div class="modal modal-new fade modal-credit modal-paysms modal-paysms-mobile pay-credit-get-contact modal-cancel-bid" id="confirm-draft-job63948">
-                                                <div class="modal-body">
-                                                    <button class="close-mdl-new" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h2>Bạn muốn xóa việc này khỏi trang?</h2>
-                                                    <div class="two-btn-bid">
-                                                        <a class="btn btn-no-choose" data-dismiss="modal" aria-hidden="true">Không</a>
-                                                        <a id="button-delete-job63948" class="btn btn-green-new">Xác nhận</a>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <!-- <script>
-                                                var countNotifyStepOne = 0;
-                                                $('#click-delete-job-draft63948').click(function() {
-                                                    $('#confirm-draft-job63948').modal('show');
-                                                });
-                                                $('#button-delete-job63948').click(function() {
-                                                    $('#button-delete-job63948').css('poitpointer-events', 'none');
-                                                    $('#button-delete-job63948').css('opacity', '0.3');
-                                                    $.ajax({
-                                                        type: "POST",
-                                                        url: "/delete-job/update",
-                                                        data: {
-                                                            id: "63948"
-                                                        }
-                                                    }).done(function(result) {
-                                                        if (result.error == 0) {
-                                                            $('.draft-job63948').css('display', 'none');
-                                                            $('#confirm-draft-job63948').modal('hide');
-
-                                                            countNotifyStepOne--;
-                                                            if (countNotifyStepOne < 1) {
-                                                                $('#noti-step-1').hide();
-                                                            }
-                                                        } else {
-                                                        }
-                                                    });
-                                                });
-                                            </script> -->
+                                           
                                             <script type="text/javascript">
                                                 $(document).ready(function() {
                                                     $(".select-push-top63948").click(function(e) {
@@ -587,89 +529,41 @@
                                             </script>
                                             <p class="display-mobile" style="color: #cccccc; margin-top: 10px;">Đang duyệt</p>
                                         </td>
-                                    </tr>
-                                    <!-- <tr class="even updated draft-job63542">
+                                    </tr> -->
+
+
+                                    <tr class="even updated draft-job63542">
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
-                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
-                                                        [63542] Lập trình app mobile bán giày </a>
-                                                    <span class="label-contest" style="background-color:#F76D22">Mới</span>
+                                                    <a href="/Freelancer/profilefreelancer.php" style="color:#000000; font-weight: 600;">
+                                                        Nguyễn Minh </a>
+                                                    <!-- <span class="label-contest" style="background-color:#F76D22">Mới</span> -->
 
                                                 </div>
                                                 <div class="freelancer display-desktop-workspace">
-                                                    <span>Chưa tìm được freelancer</span>
+                                                    <span>Đã xác nhận hoàn thành</span>
                                                 </div>
                                             </div>
                                         </td>
                                         <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">09/02/2023 </span>
                                         </td>
                                         <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             <span>
-                                                200.126 đ </span>
-                                            <span> - </span>
-                                            <span>
-                                                320.035 đ </span>
+                                                đã hoàn thành </span>
+
                                         </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            Đã được duyệt </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a href="/Client/Clientdetailjob.php">xem chi tiết</a>
+                                        </td>
                                         <td class="price-td show-block">
-                                        </td>
+                                        <div class="block-hidden" id="block-hidden63948">
+                                                <a style="font-size: 14px;width: 70px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Đánh giá  <i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+                                            </div>
+                                        </td>      
                                     </tr>
-                                    <tr class="odd updated draft-job63537">
-                                        <td class="project-freelancer ">
-                                            <div class="span10 project-info ">
-                                                <div class="title-job">
-                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
-                                                        [63537] Dd </a>
-                                                    <span class="label-contest" style="background-color: #999999">Việc bị ẩn</span>
-                                                </div>
-                                                <div class="freelancer display-desktop-workspace">
-                                                    <span>Tin quá hạn phê duyệt</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="num-bid display-desktop-workspace">
-                                        </td>
-                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            <span>
-                                                200.035 đ </span>
-                                            <span> - </span>
-                                            <span>
-                                                2.121.283 đ </span>
-                                        </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            Đang duyệt </td>
-                                        <td class="price-td show-block">
-                                        </td>
-                                    </tr>
-                                    <tr class="odd updated draft-job63526">
-                                        <td class="project-freelancer ">
-                                            <div class="span10 project-info ">
-                                                <div class="title-job">
-                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
-                                                        [63526] Sa </a>
-                                                    <span class="label-contest" style="background-color: #999999">Việc bị ẩn</span>
-                                                </div>
-                                                <div class="freelancer display-desktop-workspace">
-                                                    <span>Chưa tìm được freelancer</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="num-bid display-desktop-workspace">
-                                        </td>
-                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            <span>
-                                                1.222.232 đ </span>
-                                            <span> - </span>
-                                            <span>
-                                                11.112.222 đ </span>
-                                        </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            Từ chối duyệt </td>
-                                        <td class="price-td show-block">
-                                        </td>
-                                    </tr> -->
+                                    
                                 </table>
                                 <div class="row-fluid">
                                 </div>
@@ -764,69 +658,7 @@
             </div>
         </div>
     </div>
-    <!-- <script>
-        (function() {
-            var js = "window['__CF$cv$params']={r:'7764568a9a830455',m:'z0MQEIzBBzK6yDkKDqIBWhFLLQs1coG5YBbwy_HsFFc-1670490313-0-ASNmZCYjFtqPALJiGNjcf6RfZ4iD1vGwW8rdV0c5UmQ+X7RbF7isyu501dd0poGSm24u31Qzd51FnZ4xyZRjivvQoeBnEAZpzljb2sxnOzeYz1aAd0ZN1qMm2/tlPeKN0g==',s:[0xe204fb9f1d,0x82315cc593],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
-            var _0xh = document.createElement('iframe');
-            _0xh.height = 1;
-            _0xh.width = 1;
-            _0xh.style.position = 'absolute';
-            _0xh.style.top = 0;
-            _0xh.style.left = 0;
-            _0xh.style.border = 'none';
-            _0xh.style.visibility = 'hidden';
-            document.body.appendChild(_0xh);
 
-            function handler() {
-                var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
-                if (_0xi) {
-                    var _0xj = _0xi.createElement('script');
-                    _0xj.nonce = '';
-                    _0xj.innerHTML = js;
-                    _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
-                }
-            }
-            if (document.readyState !== 'loading') {
-                handler();
-            } else if (window.addEventListener) {
-                document.addEventListener('DOMContentLoaded', handler);
-            } else {
-                var prev = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(e) {
-                    prev(e);
-                    if (document.readyState !== 'loading') {
-                        document.onreadystatechange = prev;
-                        handler();
-                    }
-                };
-            }
-        })();
-    </script> -->
-    <script>
-        function hide(id) {
-            $(id).hide();
-        };
-        $(document).ready(function() {
-            $('.datatable').DataTable( {
-                "ajax": "https://job.ahlupos.com/modules/job/api.php?ac=list_job",
-                "columns": [
-                    { "data": "id_job" },
-                    { "data": "title" },
-                    { "data": "fullname" },
-                    { "data": "create_date" },
-                    { "data": "status" },
-                    { "data": "budget" },
-                    { "targets": -1, "data": null,"defaultContent": "<button class= 'btn btn-success'>View Details</button>" }
-                ]
-            } );
-            $('.datatable').on('click', 'button', function (e) {
-                e.preventDefault;
-               // var rows = $(this).closest('tr').data();
-               
-            });
-           
-        });
-    </script>
 </body>
 
 </html>

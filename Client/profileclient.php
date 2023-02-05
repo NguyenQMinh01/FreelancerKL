@@ -133,52 +133,49 @@
                     </div>
                 </div>
                 <div class="span3 span3-b">
-                    <div class="pull-right nav-account sec-account-menu ver2">
-                        <div class="inbox-menu ver2 pull-right nofity-ver2">
-                            <div class="i32 i32-mail i32-notify ver2 ">
-                                <div class="mail-counter">
+                        <div class="pull-right nav-account sec-account-menu ver2">
+                            <div class="inbox-menu ver2 pull-right nofity-ver2">
+                                <div class="i32 i32-mail i32-notify ver2 ">
+                                    <div class="mail-counter">
+                                    </div>
                                 </div>
+                                <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg" style="margin-top:14px">
                             </div>
-                            <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg" style="margin-top:14px">
-                        </div>
-                        <div class="inbox-menu ver2 pull-right mesenger-ver2">
-                            <div class="i32 i32-mail i32-not-notify ver2">
-                                <div class="mail-counter">
+                            <div class="inbox-menu ver2 pull-right mesenger-ver2">
+                                <div class="i32 i32-mail i32-not-notify ver2">
+                                    <div class="mail-counter">
+                                    </div>
                                 </div>
+                                <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg" style="margin-top:14px">
                             </div>
-                            <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg" style="margin-top:14px">
-                        </div>
-                        <div class="account-menu pull-right">
-                            <div class="avata avata_ver2">
-                                <a href="/khach-hang/minh-166">
-                                    <img width="48" height="48" src="https://www.vlance.vn/uploads/48x48/5137679a253a06555c594a9df5f13502041e06931.png" alt="M&iacute;nh" title="M&iacute;nh" />
-                                </a>
-                            </div>
-                            <div class="dropdown">
-                                <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                    <p>M&iacute;nh</p> <span class="id-user">Id. 1250511</span>
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
-                                </a>
-                                <div class="credit-balance">
-                                    <span id="animategoCredit">
-                                        <span class="vip-menu-ver2">Client</span>
-                                        <span class="credit-menu-ver2" data-credit="balance">0$</span>
-                                    </span>
+                            <div class="account-menu pull-right">
+                                <div class="avata avata_ver2">
+                                    <a href="/Client/profileclient.php">
+                                        <img class="imgavt" width="48" height="48" src="https://www.vlance.vn/img/unknown.png" />
+                                    </a>
                                 </div>
-                                <div id="popover-in"></div>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
-                                    <li><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                    <li><a href="#">Cài đặt thông báo việc mới</a></li>
-                                    <li class="divider"></li>
-                                    <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="/welcome">Đăng xuất</a></li>
-                                </ul>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
+                                        <p class="fullname"></p> <span class="id-user"></span>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
+                                    </a>
+                                    <div class="credit-balance">
+                                        <span id="animategoCredit">
+                                            <span class="vip-menu-ver2">Nhà tuyển dụng</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance"></span>
+                                        </span>
+                                    </div>
+                                    <div id="popover-in"></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
+                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li class="divider"></li>
+                                        <li><a class="logout">Đăng xuất</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
         <div class="menu-section row-fluid menu_scoll">
@@ -188,8 +185,10 @@
                         <div class="dropdown manage-user">
                             <a href="/Client/Quanlitin.php" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
-                                <li><a href="#">Quản lý đơn hàng</a></li>
+                            <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
+                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                             </ul>
                         </div>
                     </li>

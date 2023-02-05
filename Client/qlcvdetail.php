@@ -190,10 +190,10 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -549,7 +549,7 @@
                         </div>
                         <div class="row-fluid">
                             <h1 class="title block-title">
-                                L&agrave;m website b&aacute;n gi&agrave;y <span class="label-tag label-large label-new">Đang duyệt</span>
+                                L&agrave;m website b&aacute;n gi&agrave;y <span class="label-tag label-large label-new">Đang chào giá</span>
                             </h1>
                         </div>
                         <div class="row-fluid page-tabs">
@@ -558,9 +558,17 @@
                                     <a href="#">
                                         Thông tin công việc </a>
                                 </li>
+
                             </ul>
+                           
                             <div class="border"></div>
+                            <div style = "padding-top: 50px;" class="block-hidden" id="block-hidden63948">
+                                <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Ngừng nhận chào giá<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+                                <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Xác nhận hoàn thành<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+
+                            </div>
                         </div>
+                        
                         <div class="row-fluid">
                             <div class="span7 news-client-view">
                                 <div class="body-view hidebody">
@@ -651,7 +659,7 @@
                                     </div>
                                     <div class="row-fluid">
                                         <div class="span12 contact-client">
-                                            <a class="btn btn-vl-green contact-client-new" style = "background-color: #1996d7" data-toggle="modal" href="#pay-credit-contact-client" data-request="{&quot;cid&quot;:346245, &quot;pid&quot;:1229116}" data-display-track="show-contact-client-button" onclick="vtrack('Click contact client', {
+                                            <a class="btn btn-vl-green contact-client-new" style="background-color: #1996d7" data-toggle="modal" href="#pay-credit-contact-client" data-request="{&quot;cid&quot;:346245, &quot;pid&quot;:1229116}" data-display-track="show-contact-client-button" onclick="vtrack('Click contact client', {
                                                         'authenticated':true, 
                                                         'category':'Thiết kế nội thất nhà và chung cư', 
                                                         'client':'Nguyễn Minh', 
