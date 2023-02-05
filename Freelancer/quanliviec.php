@@ -285,10 +285,7 @@
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu" style = "text-align: left;">
                                         <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
-                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
-                                        <li class="divider"></li>
-                                        <li><a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Freelancer</a></li>
+                                        <li><a href="/Freelancer/editprofilefreelancer.php">Chỉnh sửa hồ sơ</a></li>
                                         <li class="divider"></li>
                                         <li><a href="/welcome.php">Đăng xuất</a></li>
                                     </ul>
@@ -306,12 +303,8 @@
                                 <a href="/Freelancer/quanliviec.php" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
-                                    <li><a href="/Freelancer/quanliviec.php">Quản lý gói dịch vụ &amp; đơn hàng</a></li>
                                 </ul>
                             </div>
-                        </li>
-                        <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance">Nâng cấp tài khoản Freelancer</a>
                         </li>
                     </ul>
                 </div>
