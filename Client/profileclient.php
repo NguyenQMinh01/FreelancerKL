@@ -64,32 +64,6 @@
     </script>
     <link href="https://www.vlance.vn/css/gui/main.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     <link href="https://www.vlance.vn/css/gui/account/profile.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
-    <noscript>
-        <link href="https://www.vlance.vn/css/lightbox.min.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    </noscript>
-    <script>
-        (function() {
-            var font = document.createElement('link');
-            font.type = 'text/css';
-            font.rel = 'stylesheet';
-            font.href = '/css/lightbox.min.css?v=20221103.1449';
-            var s = document.getElementsByTagName('link')[0];
-            s.parentNode.insertBefore(font, s);
-        })();
-    </script>
-    <noscript>
-        <link href="https://www.vlance.vn/lib/slick/vlance_slick.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    </noscript>
-    <script>
-        (function() {
-            var font = document.createElement('link');
-            font.type = 'text/css';
-            font.rel = 'stylesheet';
-            font.href = '/lib/slick/vlance_slick.css?v=20221103.1449';
-            var s = document.getElementsByTagName('link')[0];
-            s.parentNode.insertBefore(font, s);
-        })();
-    </script>
 
     <link href="https://www.vlance.vn/css/header_homepage_new_ver2.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="https://www.vlance.vn/js/jquery-1.10.1.min.js"></script>
@@ -138,7 +112,6 @@
                                                             <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                         </li>
                                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
-                                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="menu-dropdown-content-item" style="display:block">
@@ -213,7 +186,7 @@
                 <ul class="nav-menu span12">
                     <li class="tf200 first ">
                         <div class="dropdown manage-user">
-                            <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <a href="/Client/Quanlitin.php" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
                                 <li><a href="#">Quản lý đơn hàng</a></li>
@@ -488,16 +461,8 @@
                                             <h1 style="float: left">
                                                 <span itemprop="name">
                                                     M&iacute;nh
-                                                    <img style="margin-top:-6px;width:20px; height:20px; margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="đã xác thực số điện thoại" title="Đã xác thực số điện thoại">
-                                                    <script type="text/javascript" language="javascript">
-                                                        jQuery(document).ready(function() {
-                                                            $(function() {
-                                                                $('[data-toggle="tooltip"]').tooltip()
-                                                            })
-                                                        });
-                                                    </script>
                                                     <span class="update-profile-link tf200">
-                                                        <a class="btn btn-update info-client" href="#">Cập nhật thông tin</a>
+                                                        <a class="btn btn-update info-client" href="/Client/editprofileclient.php">Cập nhật thông tin</a>
                                                     </span>
                                                 </span>
                                             </h1>
@@ -523,25 +488,93 @@
                                             <h2 class="overview-title" style="margin-top: 17px">
                                                 Giới thiệu </h2>
                                             <div class="body">
-                                                t&ocirc;i l&agrave; freelancer </div>
+                                                tôi là khách hàng tiềm năng đang cần thuê các dịch vụ làm web site về cờ bạc , kinh doanh , chẵn lẽ momo </div>
+                                            <p>Những yêu cầu kĩ năng khi tôi thuê freelaner làm việc:</p>
+                                            <p>- Biết HTML/CSS/JS</p>
+                                            <p>- ReactJS</p>
+                                            <p>- Sql sever</p>
                                         </div>
+
                                         <hx:include evaljs="true" src="/block/client-job-working/minh-nguyen-1130" class="included include_200">
                                             <div class="overview-mobile overview overview-client no-job-client">
                                                 <h2 class="overview-title" style="margin-top: 44px">
                                                     Việc đã đăng </h2>
-                                                <div class="body">
+                                                <!-- <div class="body">
                                                     Khách hàng chưa đăng việc nào
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </hx:include>
-
-
                                         <hx:include evaljs="true" src="/block/client-job-working/minh-nguyen-1130" class="included include_200">
                                             <div class="row-fluid block_jobs block-suggest-freelancers block-all-jobs block-job-client" style="padding-bottom: 0">
                                                 <h2 class="suggest-freelancer-title" style="margin: 0">Tất cả công việc của Minh</h2>
                                                 <div class="row-fluid">
+                                                    <div class="row-fluid job-list job-working jobs-account slide-job-finish-client">
+                                                        <h2 class="block-tilte_jobs" style="margin-top: 23px;margin-bottom: -20px">Đang tuyển Freelancer <span class="job-count-new">2</span></h2>
+                                                        <div class="slide-job-working slick-initialized slick-slider"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" aria-disabled="false" style="display: block;">Previous</button>
+                                                            <div aria-live="polite" class="slick-list draggable">
+                                                                <div class="slick-track" role="listbox" style="opacity: 1; width: 35604px; left: -34830px;">
+                                                                    <div class="sublist-item slick-slide" data-slick-index="44" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide044" style="width: 774px;">
+                                                                        <div style="margin-bottom: 15px;" class="job-item-client">
+                                                                            <div class="row-fluid">
+                                                                                <div class="job-comment span12">
+                                                                                    <h3 class="title-job-client title">
+                                                                                        <a href="/viec-freelance/can-tuyen-nguoi-co-the-ho-tro-seo-website" tabindex="-1">Cần tuyển người có thể hỗ trợ SEO Website</a>
+                                                                                    </h3>
+                                                                                </div>
+                                                                                <div class="span12" style="margin: 0;padding-left: 20px">
+                                                                                    <div class="fr-title span9 job-location">
+                                                                                        <span>
+                                                                                            <img style="display: inline" src="/media/internal-link/location.png">
+                                                                                        </span>
+                                                                                        <span class="location">
+                                                                                            Toàn Quốc </span>
+                                                                                    </div>
+                                                                                    <div class="price span3 price-day-job price-job color-dark-profile">
+                                                                                        500.000 - 1.000.000 VNĐ </div>
+                                                                                </div>
+                                                                                <span class="information-bottom-left color-dark-profile">
+                                                                                    6 chào giá </span>
+                                                                                <span class="price-day-job color-blur-profile">Đã hết hạn chào giá</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="sublist-item slick-slide slick-current slick-active" data-slick-index="45" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide045" style="width: 774px;">
+                                                                        <div style="margin-bottom: 15px;" class="job-item-client">
+                                                                            <div class="row-fluid">
+                                                                                <div class="job-comment span12">
+                                                                                    <h3 class="title-job-client title">
+                                                                                        <a href="/viec-freelance/tro-ly-seo-co-kien-thuc-sau-ve-ahrefs-so-huu-nhieu-tu-khoa-len-top-de-ho-tro-seo-website" tabindex="0">Tuyển người có kiến thức sâu về Ahrefs, Backlink</a>
+                                                                                    </h3>
+                                                                                </div>
+                                                                                <div class="span12" style="margin: 0;padding-left: 20px">
+                                                                                    <div class="fr-title span9 job-location">
+                                                                                        <span>
+                                                                                            <img style="display: inline" src="/media/internal-link/location.png">
+                                                                                        </span>
+                                                                                        <span class="location">
+                                                                                            Toàn Quốc </span>
+                                                                                    </div>
+                                                                                    <div class="price span3 price-day-job price-job color-dark-profile">
+                                                                                        1.500.000 - 9.000.000 VNĐ </div>
+                                                                                </div>
+                                                                                <span class="information-bottom-left color-dark-profile">
+                                                                                    1 chào giá </span>
+                                                                                <span class="price-day-job color-blur-profile">
+                                                                                    <span> Ngày hết hạn:</span>
+                                                                                    <span class="color-dark-profile">09/02/2023</span>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <button type="button" data-role="none" class="slick-next slick-arrow slick-disabled" aria-label="Next" role="button" style="display: block;" aria-disabled="true">Next</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row-fluid">
                                                     <div class="row-fluid job-list job-working jobs-account">
-                                                        <h2 class="block-tilte_jobs" style="margin-top: 23px;margin-bottom: -20px">Việc đã đăng <span class="job-count-new">3</span></h2>
+                                                        <h2 class="block-tilte_jobs" style="margin-top: 23px;margin-bottom: -20px">Việc đã đăng <span class="job-count-new">2</span></h2>
                                                         <div class="slide-job-working slick-initialized slick-slider">
                                                             <button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true" style="display: block;">Previous</button>
                                                             <div aria-live="polite" class="slick-list draggable">
@@ -562,14 +595,41 @@
                                                                                         <span class="location">TP. Hồ Chí Minh</span>
                                                                                     </div>
                                                                                     <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                        0 VNĐ </div>
+                                                                                    5.000.000 VNĐ </div>
                                                                                 </div>
-                                                                                <div class="span12" style="padding: 0 20px;margin: 0">
+                                                                                <!-- <div class="span12" style="padding: 0 20px;margin: 0">
                                                                                     <div class="feedback-job span12 block-no-review">
                                                                                         <div class="span9">
                                                                                             <span style="color: #999999;margin-left: -20px;">Chưa có nhận xét nào</span>
                                                                                         </div>
                                                                                         <div class="span3">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> -->
+                                                                                <div class="span12" style="padding: 0 20px;margin: 0">
+                                                                                    <div class="feedback-job span12 block-review">
+                                                                                        <div class="span9">
+                                                                                            <div>
+                                                                                                <div class="comment comment-three comment-fd-2620">
+                                                                                                    <div class="ds">Mình rất hài lòng với công việc và cách làm việc của bạn.
+                                                                                                        Cảm ơn bạn.</div>
+                                                                                                </div>
+                                                                                                <div class="client-name" style="margin-top: 8px">
+                                                                                                    <span>
+                                                                                                        <a href="/khach-hang/tran-huu-hieu-2" tabindex="-1">
+                                                                                                            <img style="display: inline-block" class="client-pic" itemprop="photo" src="" alt="Nguyễn Minh" title="Nguyễn Minh">
+                                                                                                        </a>
+                                                                                                    </span>
+                                                                                                    <span style="margin-left: 5px">Nguyễn Minh</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="span3">
+                                                                                            <span class="rating_pf">
+                                                                                                <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
+                                                                                                    <div class="rating" style="width:100.0%"></div>
+                                                                                                </div>
+                                                                                            </span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -606,36 +666,6 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="sublist-item slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 698px;">
-                                                                        <div class="job-item-client">
-                                                                            <div class="row-fluid">
-                                                                                <div class="job-comment span12">
-                                                                                    <h3 style="font-size: 16px;color: #0088CC;margin-bottom: -5px" class="title-job-client title">
-                                                                                        <a href="/Client/Clientdetailjob.php" tabindex="-1">Cần Tuyển Freelancer Viết Bài Content SEO</a>
-                                                                                    </h3>
-                                                                                </div>
-                                                                                <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                                    <div class="fr-title span9">
-                                                                                        <span>
-                                                                                            <img style="display: inline" src="/img/location.png">
-                                                                                        </span>
-                                                                                        <span class="location">TP. Hồ Chí Minh</span>
-                                                                                    </div>
-                                                                                    <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                        0 VNĐ </div>
-                                                                                </div>
-                                                                                <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                                    <div class="feedback-job span12 block-no-review">
-                                                                                        <div class="span9">
-                                                                                            <span style="color: #999999;margin-left: -20px;">Chưa có nhận xét nào</span>
-                                                                                        </div>
-                                                                                        <div class="span3">
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                             <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button>
@@ -655,33 +685,33 @@
                                     </div>
                                 </div>
                                 <div class="block-internal-link">
-                                    <div class="row-fluid">
-                                        <div class="span6 il-item il-item-full" onclick="location.href='/';" style="cursor: pointer;">
-                                            <span class="span3" style="padding-top: 12px">
-                                                <img style="width:64px; height:64px;" src="/img/internal_link_profile_client_1.png">
-                                            </span>
-                                            <span class="il-title span7" style="padding-top: 0">
-                                                <a class="il-link-client" href="/Client/searchfreelancer.php">Kết nối uy tín</a>
-                                                <p class="il-content">freelancer.vn là trang kết nối Freelancer và Khách hàng uy tín</p>
-                                            </span>
-                                            <span class="il-arrow span2" style="padding-top: 31px">
-                                                <img style="float: right" src="/img/internal_link_profile_client_3.png">
-                                            </span>
-                                        </div>
-                                        <div class="span6 il-item il-item-2 il-item-full" onclick="location.href='/viec-lam-freelance';" style="cursor: pointer;">
-                                            <span class="span3" style="padding-top: 12px">
-                                                <img style="width:64px; height:64px;" src="/img/internal_link_profile_client_2.png">
-                                            </span>
-                                            <span class="il-title span7" style="padding-top: 0">
-                                                <a class="il-link-client" href="#">Xem việc mới</a>
-                                                <p class="il-content">Xem các việc mới để bắt đầu làm online ngay bây giờ</p>
-                                            </span>
-                                            <span class="il-arrow span2" style="padding-top: 31px">
-                                                <img style="float: right" src="/img/internal_link_profile_client_3.png">
-                                            </span>
-                                        </div>
+                                <div class="row-fluid">
+                                    <div class="span6 il-item il-item-full" onclick="location.href='/';" style="cursor: pointer;">
+                                        <span class="span3" style="padding-top: 12px">
+                                            <img style="width:64px; height:64px;" src="/img/internal_link_profile_freelancer_1.png">
+                                        </span>
+                                        <span class="il-title span7" style="padding-top: 0">
+                                            <a class="il-link" href="/">Chất lượng cao</a>
+                                            <p class="il-content">Freelancer chất - hoàn thành việc nhanh chóng</p>
+                                        </span>
+                                        <span class="il-arrow span2" style="padding-top: 31px">
+                                            <img style="float: right" src="/img/internal_link_profile_freelancer_3.png">
+                                        </span>
+                                    </div>
+                                    <div class="span6 il-item il-item-2 il-item-full" onclick="location.href='/dang-du-an';" style="cursor: pointer;">
+                                        <span class="span3" style="padding-top: 12px">
+                                            <img style="width:64px; height:64px;" src="/img/internal_link_profile_freelancer_2.png">
+                                        </span>
+                                        <span class="il-title span7" style="padding-top: 0">
+                                            <a class="il-link" href="/dang-du-an">Bắt đầu tìm người</a>
+                                            <p class="il-content">An tâm làm việc online ở bất kỳ đâu</p>
+                                        </span>
+                                        <span class="il-arrow span2" style="padding-top: 31px">
+                                            <img style="float: right" src="/img/internal_link_profile_freelancer_3.png">
+                                        </span>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                             <script type="text/javascript">
                                 function scrollWindow(select) {
@@ -787,8 +817,6 @@
                                     </dd>
                                 </dl>
                             </div>
-
-
                         </div>
                         <h2 style="padding-bottom: 15px">Tóm lược</h2>
                         <div class="list-summary-profile row-fluid">

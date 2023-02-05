@@ -6,26 +6,16 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
-    <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
-    <title>L&agrave;m website b&aacute;n gi&agrave;y - TP. Hồ Ch&iacute; Minh | vLance.vn</title>
-    <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
     <meta property="og:site_name" content="vLance.vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="L&agrave;m website b&aacute;n gi&agrave;y - TP. Hồ Ch&iacute; Minh | vLance.vn" />
-    <meta property="og:image" content="https://www.vlance.vn/newsletter/img/logo_share.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://www.vlance.vn/viec-freelance/lam-website-ban-giay" />
     <meta property="og:description" itemprop="description" name="description" content="Việc freelance tại TP. Hồ Ch&iacute; Minh. Ng&acirc;n s&aacute;ch dự kiến: 200.000 VNĐ. Giao diện web gồm: trang chủ, th&ocirc;ng tin sản phẩm , danh s&aacute;ch sản phẩm, th&ocirc;ng tin..." />
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
-    <link itemprop="sameAs" href="https://www.facebook.com/vlance.vn" />
-    <link itemprop="sameAs" href="https://twitter.com/vlancevn" />
-    <link itemprop="sameAs" href="https://www.linkedin.com/company/vlance-vn" />
-    <link itemprop="sameAs" href="https://plus.google.com/+VlanceVn" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
     <script>
         (function() {
@@ -127,7 +117,6 @@
                                                                 <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                             </li>
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="/freelancers" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-dropdown-content-item" style="display:block">
@@ -494,6 +483,38 @@
         </script>
         <div class="top_content
                     content-fix">
+            <div class="block">
+                <div class="progress-job-wrapper">
+                    <div class="progress-job">
+                        <ul>
+                            <li class="first done">
+                                <div class="number">
+                                    <div class="first">1</div>
+                                </div>
+                                <div class="tally">Đăng việc</div><i></i>
+                            </li>
+                            <li class="done">
+                                <div class="number">
+                                    <div class="done">2</div>
+                                </div>
+                                <div class="tally">Chọn freelancer làm việc</div><i></i>
+                            </li>
+                            <li class="active">
+                                <div class="number">
+                                    <div class="active">3</div>
+                                </div>
+                                <div class="tally">Hoàn thành công việc</div><i></i>
+                            </li>
+                            <li class="last active">
+                                <div class="number">
+                                    <div class="active">4</div>
+                                </div>
+                                <div class="tally">Đánh giá và thanh toán</div><i class="unactive"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="main_content">
@@ -629,7 +650,27 @@
                                             </dl>
                                         </div>
                                     </div>
+                                    <div class="row-fluid">
+                                        <div class="span12 contact-client">
+                                            <a class="btn btn-vl-green contact-client-new" style = "background-color: #1996d7" data-toggle="modal" href="#pay-credit-contact-client" data-request="{&quot;cid&quot;:346245, &quot;pid&quot;:1229116}" data-display-track="show-contact-client-button" onclick="vtrack('Click contact client', {
+                                                        'authenticated':true, 
+                                                        'category':'Thiết kế nội thất nhà và chung cư', 
+                                                        'client':'Nguyễn Minh', 
+                                                        'client_id':'346245', 
+                                                        'job_open':false, 
+                                                        'viewer_bidded':false,
+                                                        'level':0                                                });">
+                                                Liên hệ trực tiếp </a>
+                                        </div>
+                                    </div>
                                 </div>
+                                <script type="text/javascript">
+                                    $(document).ready(function() {
+                                        if ($('#pay-credit-contact-client').hasClass('in')) {
+                                            vtrack('show-popup-contact-client');
+                                        }
+                                    });
+                                </script>
                             </div>
                         </div>
                     </div>
@@ -761,7 +802,7 @@
                                         <div class="profile-job-left-bottom" style="width:100%">
                                             <h3 class="title">
                                                 <a href="/Freelancer/profilefreelancer.php" title="Nguyễn Minh">
-                                                     Nguyễn Minh</a>
+                                                    Nguyễn Minh</a>
                                                 <span class="contact-block" style="float:right;">
                                                     <a class="btn btn-vl-green contact-freelancer" style="font-size:12px;" data-toggle="modal" href="#">
                                                         Duyệt chào giá</a>

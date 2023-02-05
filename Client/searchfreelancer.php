@@ -1,27 +1,11 @@
 <html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" class="">
 
 <head>
-    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-PS8Y8VZ6YM&amp;l=dataLayer&amp;cx=c"></script>
-    <script src="https://connect.facebook.net/signals/config/1979534869009021?v=2.9.89&amp;r=stable" async=""></script>
-    <script src="https://connect.facebook.net/vi_VN/all.js?hash=00e5ac8b6d7222e5d3e1da01db1efa0a" async="" crossorigin="anonymous"></script>
-    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/pn3ro1xnhf4yB8qmnrhh9iD2/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-DeC+ATyYrRw1wN361YR251I8W6i3tt5FbF1znwjfQKMMisEM7Gy55q41G6WhDtnp"></script>
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script src="https://connect.facebook.net/signals/config/2581728078720622?v=2.9.89&amp;r=stable" async=""></script>
-    <script id="facebook-jssdk" src="//connect.facebook.net/vi_VN/all.js#xfbml=1&amp;appId=197321233758025"></script>
-    <script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>
-    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WM92T4"></script>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-34003187-3"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="vLance.vn">
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&amp;subset=latin,vietnamese&amp;display=block">
-    <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link type="text/css" rel="stylesheet" href="https://www.vlance.vn/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="https://www.vlance.vn/css/freelancer-list.css?v=20221103.1449">
-    <link rel="publisher" href="https://plus.google.com/110723961725253795351/">
     <title>Thuê freelancer giá tốt nhất Việt Nam | freelancer.vn</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
     <meta property="og:site_name" content="vLance.vn">
@@ -81,449 +65,6 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/form/credit/spend.js" defer=""></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js" defer=""></script>
     <link rel="canonical" href="https://www.vlance.vn/freelancers">
-    <style id="googleidentityservice_button_styles">
-        .qJTHM {
-            -webkit-user-select: none;
-            color: #202124;
-            direction: ltr;
-            -webkit-touch-callout: none;
-            font-family: "Roboto-Regular", arial, sans-serif;
-            -webkit-font-smoothing: antialiased;
-            font-weight: 400;
-            margin: 0;
-            overflow: hidden;
-            -webkit-text-size-adjust: 100%
-        }
-
-        .ynRLnc {
-            left: -9999px;
-            position: absolute;
-            top: -9999px
-        }
-
-        .L6cTce {
-            display: none
-        }
-
-        .bltWBb {
-            word-break: break-all
-        }
-
-        .hSRGPd {
-            color: #1a73e8;
-            cursor: pointer;
-            font-weight: 500;
-            text-decoration: none
-        }
-
-        .Bz112c-W3lGp {
-            height: 16px;
-            width: 16px
-        }
-
-        .Bz112c-E3DyYd {
-            height: 20px;
-            width: 20px
-        }
-
-        .Bz112c-r9oPif {
-            height: 24px;
-            width: 24px
-        }
-
-        .Bz112c-uaxL4e {
-            -webkit-border-radius: 10px;
-            border-radius: 10px
-        }
-
-        .LgbsSe-Bz112c {
-            display: block
-        }
-
-        .S9gUrf-YoZ4jf,
-        .S9gUrf-YoZ4jf * {
-            border: none;
-            margin: 0;
-            padding: 0
-        }
-
-        .fFW7wc-ibnC6b>.aZ2wEe>div {
-            border-color: #4285f4
-        }
-
-        .P1ekSe-ZMv3u>div:nth-child(1) {
-            background-color: #1a73e8 !important
-        }
-
-        .P1ekSe-ZMv3u>div:nth-child(2),
-        .P1ekSe-ZMv3u>div:nth-child(3) {
-            background-image: linear-gradient(to right, rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), linear-gradient(to right, #1a73e8, #1a73e8) !important
-        }
-
-        .haAclf {
-            display: inline-block
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe {
-            -webkit-border-radius: 4px;
-            border-radius: 4px;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-            -webkit-transition: background-color .218s, border-color .218s;
-            transition: background-color .218s, border-color .218s;
-            -webkit-user-select: none;
-            -webkit-appearance: none;
-            background-color: #fff;
-            background-image: none;
-            border: 1px solid #dadce0;
-            color: #3c4043;
-            cursor: pointer;
-            font-family: "Google Sans", arial, sans-serif;
-            font-size: 14px;
-            height: 40px;
-            letter-spacing: 0.25px;
-            outline: none;
-            overflow: hidden;
-            padding: 0 12px;
-            position: relative;
-            text-align: center;
-            vertical-align: middle;
-            white-space: nowrap;
-            width: auto
-        }
-
-        @media screen and (-ms-high-contrast:active) {
-            .nsm7Bb-HzV7m-LgbsSe {
-                border: 2px solid windowText;
-                color: windowText
-            }
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe {
-            font-size: 14px;
-            height: 32px;
-            letter-spacing: 0.25px;
-            padding: 0 10px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe {
-            font-size: 11px;
-            height: 20px;
-            letter-spacing: 0.3px;
-            padding: 0 8px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe {
-            padding: 0;
-            width: 40px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe {
-            width: 32px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe {
-            width: 20px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK {
-            -webkit-border-radius: 20px;
-            border-radius: 20px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe {
-            -webkit-border-radius: 16px;
-            border-radius: 16px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe {
-            -webkit-border-radius: 10px;
-            border-radius: 10px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc {
-            border: none;
-            color: #fff
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc {
-            background-color: #1a73e8
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc {
-            background-color: #202124;
-            color: #e8eaed
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            height: 18px;
-            margin-right: 8px;
-            min-width: 18px;
-            width: 18px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            height: 14px;
-            min-width: 14px;
-            width: 14px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            height: 10px;
-            min-width: 10px;
-            width: 10px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            margin-left: 8px;
-            margin-right: -4px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            margin: 0;
-            padding: 10px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            padding: 8px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            padding: 4px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-top-left-radius: 3px;
-            border-top-left-radius: 3px;
-            -webkit-border-bottom-left-radius: 3px;
-            border-bottom-left-radius: 3px;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: flex;
-            justify-content: center;
-            -webkit-align-items: center;
-            align-items: center;
-            background-color: #fff;
-            height: 36px;
-            margin-left: -10px;
-            margin-right: 12px;
-            min-width: 36px;
-            width: 36px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c,
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c {
-            margin: 0;
-            padding: 0
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            height: 28px;
-            margin-left: -8px;
-            margin-right: 10px;
-            min-width: 28px;
-            width: 28px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            height: 16px;
-            margin-left: -6px;
-            margin-right: 8px;
-            min-width: 16px;
-            width: 16px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-radius: 3px;
-            border-radius: 3px;
-            margin-left: 2px;
-            margin-right: 0;
-            padding: 0
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-radius: 18px;
-            border-radius: 18px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-radius: 14px;
-            border-radius: 14px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-radius: 8px;
-            border-radius: 8px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-align-items: center;
-            align-items: center;
-            -webkit-flex-direction: row;
-            flex-direction: row;
-            justify-content: space-between;
-            -webkit-flex-wrap: nowrap;
-            flex-wrap: nowrap;
-            height: 100%;
-            position: relative;
-            width: 100%
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX {
-            justify-content: center
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-            -webkit-flex-grow: 1;
-            flex-grow: 1;
-            font-family: "Google Sans", arial, sans-serif;
-            font-weight: 500;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            vertical-align: top
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-            font-weight: 300
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-            -webkit-flex-grow: 0;
-            flex-grow: 0
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-            -webkit-transition: background-color .218s;
-            transition: background-color .218s;
-            bottom: 0;
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe:hover,
-        .nsm7Bb-HzV7m-LgbsSe:focus {
-            -webkit-box-shadow: none;
-            box-shadow: none;
-            border-color: #d2e3fc;
-            outline: none
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
-        .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-            background: rgba(66, 133, 244, .04)
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-            background: rgba(66, 133, 244, .1)
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe,
-        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-            background: rgba(255, 255, 255, .24)
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
-            background: rgba(255, 255, 255, .32)
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY {
-            -webkit-border-radius: 50%;
-            border-radius: 50%;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: flex;
-            height: 20px;
-            margin-left: -4px;
-            margin-right: 8px;
-            min-width: 20px;
-            width: 20px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId {
-            font-family: "Roboto";
-            font-size: 12px;
-            text-align: left
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf,
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS {
-            overflow: hidden;
-            text-overflow: ellipsis
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-align-items: center;
-            align-items: center;
-            color: #5f6368;
-            fill: #5f6368;
-            font-size: 11px;
-            font-weight: 400
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
-            color: #e8eaed;
-            fill: #e8eaed
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c {
-            height: 18px;
-            margin: -3px -3px -3px 2px;
-            min-width: 18px;
-            width: 18px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-top-left-radius: 0;
-            border-top-left-radius: 0;
-            -webkit-border-bottom-left-radius: 0;
-            border-bottom-left-radius: 0;
-            -webkit-border-top-right-radius: 3px;
-            border-top-right-radius: 3px;
-            -webkit-border-bottom-right-radius: 3px;
-            border-bottom-right-radius: 3px;
-            margin-left: 12px;
-            margin-right: -10px
-        }
-
-        .nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
-            -webkit-border-radius: 18px;
-            border-radius: 18px
-        }
-
-        .L5Fo6c-sM5MNb {
-            border: 0;
-            display: block;
-            left: 0;
-            position: relative;
-            top: 0
-        }
-
-        .L5Fo6c-bF1uUb {
-            -webkit-border-radius: 4px;
-            border-radius: 4px;
-            bottom: 0;
-            cursor: pointer;
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0
-        }
-
-        .L5Fo6c-bF1uUb:focus {
-            border: none;
-            outline: none
-        }
-
-        sentinel {}
-    </style>
     <script async="" src="https://static.hotjar.com/c/hotjar-1795629.js?sv=6"></script>
     <script async="" src="https://script.hotjar.com/modules.bc0a4c72d88d266f15af.js" charset="utf-8"></script>
 
@@ -537,29 +78,29 @@
         </div>
     </div>
     <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
-        <div class="upper-section row-fluid upper_scoll">
-            <div class="container">
-                <div class="logo span2">
-                    <a href="/Client/client.php">
-                        <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
-                        <div class="bx bx-menu" id="menu-icon"></div>
-                    </a>
-                </div>
-                <div class="span3 span3-b">
-                    <div class="pull-right nav-account sec-account-menu ver2">
+            <div class="upper-section row-fluid upper_scoll">
+
+                <div class="container">
+                    <div class="logo span2">
+                        <a href="/Client/client.php">
+                            <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                            <div class="bx bx-menu" id="menu-icon"></div>
+                        </a>
+                    </div>
+                    <div class="span5">
                         <div class="menu-inner">
                             <ul class="menu-inner-list">
-                                <li class="menu-item first ver2 active" style="margin-top: -13px;">
+                                <li class="menu-item first ver2 ">
                                     <a title="Thuê Freelancer" href="/Client/searchfreelancer.php">Thuê Freelancer<span class="caret"></span></a>
                                     <ul class="menu-dropdown-list">
                                         <li class="menu-dropdown-item">
                                             <div class="container visitor">
                                                 <ul class="menu-dropdown-content">
                                                     <li class="menu-dropdown-content-item">
-                                                        <a href="/Client/dangduan.php">
+                                                        <a href="#">
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
-                                                                    <strong class="block-text-title">Tìm &amp; Đăng tin</strong>
+                                                                    <strong class="block-text-title">Tìm & Đăng tin</strong>
                                                                     <span class="block-text-subtitle"> Nơi hội tụ các freelancer chuyên nghiệp nhất</span>
                                                                 </div>
                                                                 <div class="block-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
@@ -569,12 +110,11 @@
                                                             <li class="menu-dropdown-item-content">
                                                                 <a href="#">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                             </li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/freelancers" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
-                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/ho-so-nang-luc" onclick="vtrack('Click portfolio list page', {'device':'desktop'})">Tìm theo dự án đã làm</a></li>
+                                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-dropdown-content-item" style="display:block">
-                                                        <a href="/tim-dich-vu">
+                                                        <a href="#">
                                                             <div class="content-item-block">
                                                                 <div class="block-text">
                                                                     <strong class="block-text-title">Tìm gói dịch vụ </strong>
@@ -590,75 +130,78 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="inbox-menu ver2 pull-right nofity-ver2">
-                            <div class="i32 i32-mail i32-notify ver2 ">
-                                <div class="mail-counter">
+                    </div>
+                    <div class="span3 span3-b">
+                        <div class="pull-right nav-account sec-account-menu ver2">
+                            <div class="inbox-menu ver2 pull-right nofity-ver2">
+                                <div class="i32 i32-mail i32-notify ver2 ">
+                                    <div class="mail-counter">
+                                    </div>
                                 </div>
+                                <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg" style="margin-top:14px">
                             </div>
-                            <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg" style="margin-top:14px">
-                        </div>
-                        <div class="inbox-menu ver2 pull-right mesenger-ver2">
-                            <div class="i32 i32-mail i32-not-notify ver2">
-                                <div class="mail-counter">
+                            <div class="inbox-menu ver2 pull-right mesenger-ver2">
+                                <div class="i32 i32-mail i32-not-notify ver2">
+                                    <div class="mail-counter">
+                                    </div>
                                 </div>
+                                <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg" style="margin-top:14px">
                             </div>
-                            <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg" style="margin-top:14px">
-                        </div>
-                        <div class="account-menu pull-right">
-                            <div class="avata avata_ver2">
-                                <a href="/Client/profileclient.php">
-                                    <img width="48" height="48" src="https://www.vlance.vn/uploads/48x48/a5604a3d8c8fbc0515fc14784a739396eed2406c.png1.jpg" alt="Minh Nguyen" title="Minh Nguyen">
-                                </a>
-                            </div>
-                            <div class="dropdown">
-                                <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="/Client/profileclient.php">
-                                    <p>Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
-                                </a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
-
-                                <div class="credit-balance">
-                                    <span id="animategoCredit">
-                                        <span class="vip-menu-ver2">Client</span>
-                                        <span class="credit-menu-ver2" data-credit="balance">0$</span>
-                                    </span>
+                            <div class="account-menu pull-right">
+                                <div class="avata avata_ver2">
+                                    <a href="/Client/profileclient.php">
+                                        <img width="48" height="48" src="https://www.vlance.vn/uploads/48x48/5137679a253a06555c594a9df5f13502041e06931.png" alt="M&iacute;nh" title="M&iacute;nh" />
+                                    </a>
                                 </div>
-                                <div id="popover-in"></div>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
-                                    <li><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                    <li><a href="#">Cài đặt thông báo việc mới</a></li>
-                                    <li class="divider"></li>
-                                    <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="/welcome.php">Đăng xuất</a></li>
-                                </ul>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
+                                        <p>M&iacute;nh</p> <span class="id-user">Id. 1250511</span>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
+                                    </a>
+                                    <div class="credit-balance">
+                                        <span id="animategoCredit">
+                                            <span class="vip-menu-ver2">Client</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                        </span>
+                                    </div>
+                                    <div id="popover-in"></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
+                                        <li><a href="#">Chỉnh sửa hồ sơ</a></li>
+                                        <li><a href="#">Cài đặt thông báo việc mới</a></li>
+                                        <li class="divider"></li>
+                                        <li><a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="/welcome.php">Đăng xuất</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="menu-section row-fluid menu_scoll">
-            <div class="container">
-                <ul class="nav-menu span12">
-                    <li class="tf200 first ">
-                        <div class="dropdown manage-user">
-                            <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
-                                <li><a href="">Quản lý đơn hàng</a></li>
-                            </ul>
+            <div class="menu-section row-fluid menu_scoll">
+                <div class="container">
+                    <ul class="nav-menu span12">
+                        <li class="tf200 first active">
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin tuyển dụng</a></li>
+                                    <li><a href="#">Quản lý đơn hàng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="tf200 ">
+                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
+                        </li>
+                        <div class="button">
+                            <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>
-                    </li>
-                    <li class="tf200 ">
-                        <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
-                    </li>
-                    <div class="button">
-                        <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
     <div class="navbar navbar-static-top nav-new display-mobile ver2">
         <div class="container ver2">
             <div class="list-menu ver2">
@@ -1028,13 +571,6 @@
                                                 <li style="" class="cat-item ">
                                                     <a style="display: flex; justify-content: space-between; align-items: center" href="/Client/searchfreelancer.php">
                                                         IT và lập trình (173470)
-                                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                                    </a>
-                                                </li>
-                                                <li style="" class="cat-item ">
-                                                    <a style="display: flex; justify-content: space-between; align-items: center" href="/Client/searchfreelancer.php">
-                                                        Lĩnh vực khác (19093)
-                                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
                                                     </a>
                                                 </li>
                                             </ul>

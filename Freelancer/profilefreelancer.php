@@ -193,9 +193,9 @@
                 <ul class="nav-menu span12">
                     <li class="tf200 ">
                         <div class="dropdown manage-user">
-                            <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <a  data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu" style="min-width:200px">
-                                <li style="margin-bottom:20px"><a href="#" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
+                                <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
                                 <li><a href="#">Quản lý gói dịch vụ & đơn hàng</a></li>
                             </ul>
                         </div>
@@ -220,10 +220,10 @@
                     </div>
                 </div>
                 <div class="menu-item-2">
-                        <h1 class="logo"><a>
-                                <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
-                                <div class="bx bx-menu" id="menu-icon"></div>
-                    </div>
+                    <h1 class="logo"><a>
+                            <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                            <div class="bx bx-menu" id="menu-icon"></div>
+                </div>
                 <div class="button">
                     <div class="inbox-menu ver2 pull-right nofity-ver2">
                         <div class="i32 i32-mail i32-notify ver2 ">
@@ -243,15 +243,15 @@
             </div>
         </div>
         <div class="overlay-block overlay-left login ver2" style="height: 800px;display: none">
-        <div class="close-button">
-                    <a><i><img style="width: 18px; height: 18px;" src="https://www.vlance.vn/img/close_icon.svg" /></i></a>
-                </div>
-                <div class="logo-submenu-mobile">
-                    <h1 class="logo"><a href="#">
-                            <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
-                            <div class="bx bx-menu" id="menu-icon"></div>
-                        </a></h1>
-                </div>
+            <div class="close-button">
+                <a><i><img style="width: 18px; height: 18px;" src="https://www.vlance.vn/img/close_icon.svg" /></i></a>
+            </div>
+            <div class="logo-submenu-mobile">
+                <h1 class="logo"><a href="#">
+                        <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
+                        <div class="bx bx-menu" id="menu-icon"></div>
+                    </a></h1>
+            </div>
             <div class="wrap-mobile login wrap-mobile-ver2 ver2">
                 <ul class="accordion-menu-dropdown nav-menu-mobile ver2">
                     <li class="accordion-menu-dropdown menu-mobile-item ver2">
@@ -473,9 +473,8 @@
                                         <h1 style="float: left">
                                             <span itemprop="name">
                                                 M&iacute;nh
-                                                <img style="margin-top:-6px;width:20px; height:20px; margin-left: 2px" src="/img/icon-verify-contact.png" data-toggle="tooltip" data-placement="top" alt="Đã xác thực số điện thoại" title="Đã xác thực số điện thoại">
                                                 <span class="update-profile-link tf200">
-                                                    <a class="btn btn-update info-fr" href="#">Cập nhật thông tin</a>
+                                                    <a class="btn btn-update info-fr" style="background-color: #23c3eb" href="/Freelancer/editprofilefreelancer.php">Cập nhật thông tin</a>
                                                 </span>
                                             </span>
                                         </h1>
@@ -493,14 +492,14 @@
                                                     H&agrave; Nội </span>
                                             </span>
                                         </div>
-                                        <div class="row-fluid">
+                                        <!-- <div class="row-fluid">
                                             <div class="skills">
                                                 <a href="#" title="App development">
                                                     <div>
                                                         App development</div>
                                                 </a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <script type="text/javascript">
                                         $(document).ready(function() {
@@ -512,8 +511,8 @@
                                     </script>
                                 </div>
                             </div>
-                            <div class="tab-content profile-content">
-                                <div class="active tab-pane" id="tong-quan">
+                            <div class="tab-content profile-content" >
+                                <div class="active tab-pane" id="tong-quan" style =" display: flex; justify-content: space-around;">
                                     <div class="overview overview-mobile">
                                         <h2 class="overview-title">
                                             Giới thiệu </h2>
@@ -521,22 +520,58 @@
                                             t&ocirc;i l&agrave; freelancer </div>
                                     </div>
                                     <div class="service-freelancer">
-                                        <h2>Dịch vụ</h2>
+                                        <h2>Lĩnh Vực Chuyên môn</h2>
                                         <div class="services-provided">
                                             <a href="/Freelancer/detailJob.php"><i class="fa fa-check"></i>
-                                                Làm website b&aacute;n h&agrave;ng </a>
+                                                Lập trình web </a>
                                         </div>
-                                        <div class="update-service">
+                                        <div class="services-provided">
+                                            <a href="/Freelancer/detailJob.php"><i class="fa fa-check"></i>
+                                                Ứng dụng di động </a>
+                                        </div>
+                                        <div class="services-provided">
+                                            <a href="/Freelancer/detailJob.php"><i class="fa fa-check"></i>
+                                                Lập trình phần mềm </a>
+                                        </div>
+                                        <!-- <div class="update-service">
                                             <a class="btn btn-large btn-service" href="#">Thêm dịch vụ</a>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="row-fluid job-list portfolios" id="list-portfolios">
+
+                                    <div class="service-freelancer" >
+                                        <h2>Kĩ năng hiện có</h2>
+                                        <div class="row-fluid">
+                                            <div class="skills">
+                                                <a href="#" title="App development">
+                                                    <div>
+                                                       Design</div>
+                                                </a>
+                                            </div>
+                                            <div class="skills">
+                                                <a href="#" title="App development">
+                                                    <div>
+                                                        PHP</div>
+                                                </a>
+                                            </div>
+                                            <div class="skills">
+                                                <a href="#" title="App development">
+                                                    <div>
+                                                        Java</div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="update-service">
+                                            <a class="btn btn-large btn-service" href="#">Thêm dịch vụ</a>
+                                        </div> -->
+                                    </div>
+                                    <!-- <div class="row-fluid job-list portfolios" id="list-portfolios">
                                         <div class="span12">
                                             <h2>Hồ sơ năng lực</h2>
                                         </div>
                                         <div class="clear"></div>
                                         <div class="no-portfolio"> Hiện tại bạn chưa có hồ sơ năng lực nào.</div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <hx:include evaljs="true" src="/" class="included include_200">
                                     <div class="row-fluid block_jobs block-suggest-freelancers block-all-jobs" style="padding-bottom: 0">
@@ -596,53 +631,7 @@
                                                 <div class="slide-job-finished slick-initialized slick-slider"><button type="button" data-role="none" class="slick-prev slick-arrow slick-disabled" aria-label="Previous" role="button" aria-disabled="true" style="display: block;">Previous</button>
                                                     <div aria-live="polite" class="slick-list draggable">
                                                         <div class="slick-track" style="opacity: 1; width: 14860px; left: 0px;" role="listbox">
-                                                            <div class="sublist-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide20" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="0">Website quản lý tài khoản của 1 trang web</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Toàn Quốc</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                1.725.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-3410">
-                                                                                            <div class="ds">Thanks</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/do-xuan-duong" tabindex="0">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/f44196691f4927abef80e57a4260ac78c6b1515b1.png" alt="Đỗ Xuân Dương" title="Đỗ Xuân Dương">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Đỗ Xuân Dương</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
-                                                                                            <div class="rating" style="width:100.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                           
                                                             <div class="sublist-item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide21" style="width: 743px;">
                                                                 <div class="job-item">
                                                                     <div class="row-fluid">
@@ -705,7 +694,7 @@
                                                                                 <span>
                                                                                     <img style="display: inline" src="/media/internal-link/location.png">
                                                                                 </span>
-                                                                                <span class="location">Toàn Quốc</span>
+                                                                                <span class="location">TP HCM</span>
                                                                             </div>
                                                                             <div class="price span3" style="text-align: right;padding-right: 20px">
                                                                                 1.500.000 VNĐ </div>
@@ -753,7 +742,7 @@
                                                                                 <span>
                                                                                     <img style="display: inline" src="/media/internal-link/location.png">
                                                                                 </span>
-                                                                                <span class="location">Toàn Quốc</span>
+                                                                                <span class="location">TP HCM</span>
                                                                             </div>
                                                                             <div class="price span3" style="text-align: right;padding-right: 20px">
                                                                                 1.000.000 VNĐ </div>
@@ -770,362 +759,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide27" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Thiết kế project video.</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Toàn Quốc</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                2.000.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2410">
-                                                                                            <div class="ds">Thực hiện công việc chuyên nghiệp. Hoàn thành nhanh chóng. Giá cả hợp lý. Chúc anh sẽ có được nhiều dự án thành công hơn nữa!</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/luong-quang-2" tabindex="-1">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/2d78165e76df0ac42ba1467be4d0bdc7a855c79a1.jpg" alt="Lường Quang" title="Lường Quang">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Lường Quang</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
-                                                                                            <div class="rating" style="width:100.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide29" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Thiết kế giao diện web bằng Visual Studio</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Hà Nội</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                3.000.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-no-review">
-                                                                                <div class="span9">
-                                                                                    <span style="color: #999999;margin-left: -20px;">Chưa có nhận xét nào</span>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="12" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide212" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Thiết kế giao diện websit theo yêu cầu</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Hà Nội</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                2.500.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2257">
-                                                                                            <div class="ds">Làm việc nhanh, support nhanh, mình sẽ giới thiệu bạn bè nếu tiếp tục có nhu cầu.</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/mong-van-hoa" tabindex="-1">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/a7a49f6eb780f98fd4b72bf4f21f548c01510fd01.jpg" alt="Mông Văn Hòa" title="Mông Văn Hòa">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Mông Văn Hòa</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="4,4" data-trigger="hover">
-                                                                                            <div class="rating" style="width:88.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="13" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide213" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Clone 1 phần website khác</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Hà Nội</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                200.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2234">
-                                                                                            <div class="ds">Làm việc tận tình, hiệu quả.
-                                                                                                Rất cảm ơn Tiệc! Lần sau có việc mình vẫn sẽ ưu tiên.</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/nguyen-xuan-thoan" tabindex="-1">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/f7792673218282f6b4e603eb65f1b3ae5149e0501.jpg" alt="Nguyễn Xuân Thoán" title="Nguyễn Xuân Thoán">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Nguyễn Xuân Thoán</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
-                                                                                            <div class="rating" style="width:100.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="14" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide214" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Khóa luận</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Hà Nội</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                1.500.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2217">
-                                                                                            <div class="ds">Chuẩn deadline. Làm việc nhiệt tình, vui vẻ, có tâm :3
-                                                                                                Thanks a đã giúp đỡ, cảm ơn a rất nhiều.</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/quang-thai-nguyen-4" tabindex="-1">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/1b5ad8bb61cd2aff8bdc7c75481ad06450971b151.jpg" alt="Quang Thái Nguyễn" title="Quang Thái Nguyễn">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Quang Thái Nguyễn</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
-                                                                                            <div class="rating" style="width:100.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="15" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide215" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Thiết kế Form Đăng Ký</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Hà Nội</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                300.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2206">
-                                                                                            <div class="ds">Hoàn toàn hài lòng với bạn này. Cả về thái độ hợp tác và kết quả công việc.
-                                                                                                Lần sau có việc cần đến code mình lại ưu tiên book bạn này.
-                                                                                                Xin cảm ơn!</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/nguyen-xuan-thoan" tabindex="-1">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/f7792673218282f6b4e603eb65f1b3ae5149e0501.jpg" alt="Nguyễn Xuân Thoán" title="Nguyễn Xuân Thoán">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Nguyễn Xuân Thoán</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
-                                                                                            <div class="rating" style="width:100.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="17" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide217" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title">
-                                                                                <a href="/Freelancer/detailJob.php" tabindex="-1">Thiết kế trang web quản lý dữ liệu</a>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Toàn Quốc</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                2.500.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2192">
-                                                                                            <div class="ds">Bạn làm rất tốt và nhiệt tình. Tôi rất hài lòng!! Chúc bạn gặp nhiều may mắn và thành công</div>
-                                                                                        </div>
-                                                                                        <div class="client-name" style="margin-top: 8px">
-                                                                                            <span>
-                                                                                                <a href="/khach-hang/dong-duy-1" tabindex="-1">
-                                                                                                    <img style="display: inline-block" class="client-pic" itemprop="photo" src="https://www.vlance.vn/uploads/24x24/b772760244c747ce61e361d5d7a1246c9aa106a41.jpg" alt="Đông Duy" title="Đông Duy">
-                                                                                                </a>
-                                                                                            </span>
-                                                                                            <span style="margin-left: 5px">Đông Duy</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="5,0" data-trigger="hover">
-                                                                                            <div class="rating" style="width:100.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="sublist-item slick-slide" data-slick-index="18" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide218" style="width: 743px;">
-                                                                <div class="job-item">
-                                                                    <div class="row-fluid">
-                                                                        <div class="job-comment span12">
-                                                                            <h3 class="title private">
-                                                                                Việc riêng <i class="fa fa-lock"></i>
-                                                                            </h3>
-                                                                        </div>
-                                                                        <div class="span12" style="margin: 0;padding-left: 20px">
-                                                                            <div class="fr-title span9">
-                                                                                <span>
-                                                                                    <img style="display: inline" src="/media/internal-link/location.png">
-                                                                                </span>
-                                                                                <span class="location">Toàn Quốc</span>
-                                                                            </div>
-                                                                            <div class="price span3" style="text-align: right;padding-right: 20px">
-                                                                                300.000 VNĐ </div>
-                                                                        </div>
-                                                                        <div class="span12" style="padding: 0 20px;margin: 0">
-                                                                            <div class="feedback-job span12 block-review">
-                                                                                <div class="span9">
-                                                                                    <div>
-                                                                                        <div class="comment comment-three comment-fd-2165">
-                                                                                            <div class="ds">Lam tot</div>
-                                                                                        </div>
-                                                                                        <div class="client-name"></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="span3">
-                                                                                    <span class="rating_pf">
-                                                                                        <div class="rating-box num_star_rating" style="float:right" data-toggle="popover" data-placement="bottom" data-content="4,8" data-trigger="hover">
-                                                                                            <div class="rating" style="width:96.0%"></div>
-                                                                                        </div>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
                                                     <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;" aria-disabled="false">Next</button>
@@ -1224,33 +858,33 @@
                                 </hx:include>
                             </div>
                             <div class="block-internal-link">
-                                <div class="row-fluid">
-                                    <div class="span6 il-item il-item-full" onclick="location.href='/';" style="cursor: pointer;">
-                                        <span class="span3" style="padding-top: 12px">
-                                            <img style="width:64px; height:64px;" src="/img/internal_link_profile_freelancer_1.png">
-                                        </span>
-                                        <span class="il-title span7" style="padding-top: 0">
-                                            <a class="il-link" href="/">Chất lượng cao</a>
-                                            <p class="il-content">Freelancer chất - hoàn thành việc nhanh chóng</p>
-                                        </span>
-                                        <span class="il-arrow span2" style="padding-top: 31px">
-                                            <img style="float: right" src="/img/internal_link_profile_freelancer_3.png">
-                                        </span>
-                                    </div>
-                                    <div class="span6 il-item il-item-2 il-item-full" onclick="location.href='/dang-du-an';" style="cursor: pointer;">
-                                        <span class="span3" style="padding-top: 12px">
-                                            <img style="width:64px; height:64px;" src="/img/internal_link_profile_freelancer_2.png">
-                                        </span>
-                                        <span class="il-title span7" style="padding-top: 0">
-                                            <a class="il-link" href="/dang-du-an">Bắt đầu tìm người</a>
-                                            <p class="il-content">An tâm làm việc online ở bất kỳ đâu</p>
-                                        </span>
-                                        <span class="il-arrow span2" style="padding-top: 31px">
-                                            <img style="float: right" src="/img/internal_link_profile_freelancer_3.png">
-                                        </span>
+                                    <div class="row-fluid">
+                                        <div class="span6 il-item il-item-full" onclick="location.href='/';" style="cursor: pointer;">
+                                            <span class="span3" style="padding-top: 12px">
+                                                <img style="width:64px; height:64px;" src="/img/internal_link_profile_client_1.png">
+                                            </span>
+                                            <span class="il-title span7" style="padding-top: 0">
+                                                <a class="il-link-client" href="/Client/searchfreelancer.php">Kết nối uy tín</a>
+                                                <p class="il-content">freelancer.vn là trang kết nối Freelancer và Khách hàng uy tín</p>
+                                            </span>
+                                            <span class="il-arrow span2" style="padding-top: 31px">
+                                                <img style="float: right" src="/img/internal_link_profile_client_3.png">
+                                            </span>
+                                        </div>
+                                        <div class="span6 il-item il-item-2 il-item-full" onclick="location.href='/viec-lam-freelance';" style="cursor: pointer;">
+                                            <span class="span3" style="padding-top: 12px">
+                                                <img style="width:64px; height:64px;" src="/img/internal_link_profile_client_2.png">
+                                            </span>
+                                            <span class="il-title span7" style="padding-top: 0">
+                                                <a class="il-link-client" href="#">Xem việc mới</a>
+                                                <p class="il-content">Xem các việc mới để bắt đầu làm online ngay bây giờ</p>
+                                            </span>
+                                            <span class="il-arrow span2" style="padding-top: 31px">
+                                                <img style="float: right" src="/img/internal_link_profile_client_3.png">
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -1278,27 +912,6 @@
                             </dl>
                         </div>
                     </div>
-
-                    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script type="text/javascript">
-                        var form_spend_credit_contact_freelancer = "#pay-sms";
-                        var fid = 0;
-                        var pid = 0;
-                        $("body").on('click', '.contact-freelancer, .contact-freelancer-bid, .contact-freelancer-bid-mobile', function() {
-                            $(form_spend_credit_contact_freelancer + " .load-spinner").hide();
-                            $(form_spend_credit_contact_freelancer + " .screen-confirm").show();
-                            $(form_spend_credit_contact_freelancer + " .screen-success").hide();
-                            $(form_spend_credit_contact_freelancer + " .screen-error").hide();
-                            pid = $(this).attr("pid");
-                            fid = $(this).attr("fid");
-                        });
-                        var form_spend_credit_contact_freelancer_params = {
-                            "service_id": 101,
-                            "url": "/credit/spend",
-                            "balance": 0,
-                            "cost": 5
-                        };
-                    </script>
                     <div class="block">
                         <div class="summary-profile profile-rate summary-title summary-block">
                             <h2 style="padding-bottom: 15px">Tóm lược</h2>
@@ -1350,7 +963,7 @@
                     <div class="block">
                         <div class="fanpage-client-view">
                             <div class="fanpage-title">
-                                <p>Like page để nhận được việc sớm nhất</p>
+
                             </div>
                         </div>
                     </div>

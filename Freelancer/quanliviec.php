@@ -75,6 +75,113 @@
     <script async="" src="https://static.hotjar.com/c/hotjar-1795629.js?sv=6"></script>
     <script async="" src="https://script.hotjar.com/modules.4b160a4831adaf5337e6.js" charset="utf-8"></script>
     <link id="freshworks-frame" rel="stylesheet" href="https://widget.freshworks.com/widgetBase/static/media/frame.d7ae132c.css">
+    <style>
+        body {
+            text-align: center;
+            background: #ebf4fb;
+            min-height: 95vh;
+            margin: 0;
+            padding: 0;          
+        }
+
+        .dropdown-el {
+            margin-top: 20vh;
+            min-width: 12em;
+            position: relative;
+            display: inline-block;
+            margin-right: 1em;
+            max-height: 2.5em;
+            overflow: hidden;
+            top: -13.9em;
+            cursor: pointer;
+            text-align: left;
+            white-space: nowrap;
+            color: #444;
+            outline: none;
+            border: 0.06em solid transparent;
+            /* border-radius: 1em; */
+            background-color: #cde4f5;
+            transition: 0.3s all ease-in-out;
+        }
+
+        .dropdown-el input:focus+label {
+            background: #def;
+        }
+
+        .dropdown-el input {
+            width: 1px;
+            height: 1px;
+            display: inline-block;
+            position: absolute;
+            opacity: 0.01;
+        }
+
+        .dropdown-el label {
+            border-top: 0.06em solid #d9d9d9;
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            padding-left: 1em;
+            padding-right: 3em;
+            cursor: pointer;
+            position: relative;
+            transition: 0.3s color ease-in-out;
+        }
+
+        .dropdown-el label:nth-child(2) {
+            margin-top: 2em;
+            border-top: 0.06em solid #d9d9d9;
+        }
+
+        .dropdown-el input:checked+label {
+            display: block;
+            border-top: none;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .dropdown-el input:checked+label:nth-child(2) {
+            margin-top: 0;
+            position: relative;
+        }
+
+        .dropdown-el::after {
+            content: "";
+            position: absolute;
+            right: 0.8em;
+            top: 1.1em;
+            border: 0.3em solid #3694d7;
+            border-color: #3694d7 transparent transparent transparent;
+            transition: 0.4s all ease-in-out;
+        }
+
+        .dropdown-el.expanded {
+            border: 0.06em solid #3694d7;
+            background: #fff;
+            border-radius: 0.25em;
+            padding: 0;
+            box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
+            max-height: 15em;
+        }
+
+        .dropdown-el.expanded label {
+            border-top: 0.06em solid #d9d9d9;
+        }
+
+        .dropdown-el.expanded label:hover {
+            color: #3694d7;
+        }
+
+        .dropdown-el.expanded input:checked+label {
+            color: #3694d7;
+        }
+
+        .dropdown-el.expanded::after {
+            transform: rotate(-180deg);
+            top: 0.55em;
+        }
+    </style>
 </head>
 
 <body class="one-column bid_job_save_workspace " style="">
@@ -176,7 +283,7 @@
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu" style = "text-align: left;">
                                         <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="#">Chỉnh sửa hồ sơ</a></li>
                                         <li><a href="#">Cài đặt thông báo việc mới</a></li>
@@ -196,7 +303,7 @@
                     <ul class="nav-menu span12">
                         <li class="tf200 active">
                             <div class="dropdown manage-user">
-                                <a href="#" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a href="/Freelancer/quanliviec.php" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc nhận làm</a></li>
                                     <li><a href="/Freelancer/quanliviec.php">Quản lý gói dịch vụ &amp; đơn hàng</a></li>
@@ -619,30 +726,17 @@
                             </div>
                         </div>
                         <div class="row-fluid">
-                            <div class="span12 news-client-view" style="border-radius: 5px; min-height: 450px">
+                            <div class="span12 news-client-view" style="border-radius: 5px; min-height: 150px">
                                 <div class="span4" style="margin-left: 30px; margin-top: 15px; position: relative">
-                                    <div class="block-hidden" style="border: 1px solid #CCCCCC;padding: 10px;width: 250px;border-radius: 5px;">
-                                        <a style="font-size: 14px;width: 100%; color: #000000;position: relative;display: block" href="javascript:void(0)" class="select-filter">
-                                            Tất cả <i style="font-weight:bold; font-size: 18px; position: absolute; right: 0" class="fa fa-angle-down" aria-hidden="true"></i>
-                                        </a>
-                                        <div class="startus_icon_show option-filter" style="top: 42px; left: 0px; width: 270px; display: none;">
-                                            <div class="left startus-job" style="width: 100%">
-                                                <ul>
-                                                    <li id="showall" style="padding: 10px 0 10px 20px;">
-                                                        <a style="color:#000000;width: 100%;display: block" href="#">Tất cả</a>
-                                                    </li>
-                                                    <hr style="margin: 0">
-                                                    <li id="clickme" style="padding: 10px 0 10px 20px;">
-                                                        <a style="color:#000000;width: 100%;display: block" href="#">Đang nhận hồ sơ</a>
-                                                    </li>
-                                                    <hr style="margin: 0">
-                                                    <li id="clickme1" style="padding: 10px 0 10px 20px;">
-                                                        <a style="color:#000000;width: 100%;display: block" href="#">Hết hạn nhận hồ sơ</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                    <div class="block-hidden" style="padding: 10px;width: 250px;">
+                                        <span class="dropdown-el">
+                                        <input  type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label id="showall"  for="sort-relevance">Tất cả</label>
+                                        <input type="radio" name="sortType" value="Popularity" id="sort-best"><label  id="clickme"  for="sort-best">Công việc đang báo giá</label>
+                                        <input  type="radio" name="sortType" value="PriceIncreasing" id="sort-low"><label id="clickme1" for="sort-low">Công việc đang làm</label>
+                                        <input  type="radio" name="sortType" value="PriceDecreasing" id="sort-high"><label id="clickme2" for="sort-high">Công việc đã hoàn thành</label>
+                                    </span>
                                     </div>
+                                   
                                     <script type="text/javascript">
                                         $(document).ready(function() {
                                             $(".select-filter").click(function(e) {
@@ -653,18 +747,30 @@
                                                 $('.option-filter').hide();
                                             });
                                         });
+
+
+
+                                        $('.dropdown-el').click(function(e) {
+                                            e.preventDefault();
+                                            e.stopPropagation();
+                                            $(this).toggleClass('expanded');
+                                            $('#' + $(e.target).attr('for')).prop('checked', true);
+                                        });
+                                        $(document).click(function() {
+                                            $('.dropdown-el').removeClass('expanded');
+                                        });
                                     </script>
                                 </div>
-                                <table class="table">
+                                <table class="table" style="margin-top: -170px;">
                                     <tbody>
                                         <tr class="head-title-tb display-desktop-workspace">
                                             <th class="project-freelancer item">Tên việc</th>
-                                            <th class="bid-freelancer item">Tổng hồ sơ</th>
-                                            <th class="payment-th item">Hạn nhận hồ sơ</th>
+                                            <th class="bid-freelancer item">Ngày cuối báo giá</th>
+                                            <th class="payment-th item">Bàn giao công việc</th>
                                             <th class="startus-th item">Trạng thái</th>
                                             <th></th>
                                         </tr>
-                                        <tr class="odd updated cancel-bookmark-job1" >
+                                        <tr class="odd updated cancel-bookmark-job1">
                                             <td class="project-freelancer ">
                                                 <div class="title-job">
                                                     <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
@@ -675,17 +781,17 @@
                                                 </div>
                                             </td>
                                             <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">0</p>
+                                                <p class="number-right"></p>
                                             </td>
                                             <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
                                                 Còn 26 ngày 13 giờ </td>
                                             <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p>Đang nhận hồ sơ</p>
+                                                <p style="color: green">Đang làm</p>
                                             </td>
                                             <td class="price-td show-block" style="width: 120px">
                                                 <div class="block-hidden" id="block-hidden64865">
-                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top64865">Gửi hồ sơ <i style="font-weight:bold" class="fa fa-angle-down" aria-hidden="true" data-original-title="" title=""></i></a>
-                                                    <div class="startus_icon_show option-push-top option-push-top64865" style="right: 20px; display: none;">
+                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top64865">hoàn thành<i style="font-weight:bold" aria-hidden="true" data-original-title="" title=""></i></a>
+                                                    <!-- <div class="startus_icon_show option-push-top option-push-top64865" style="right: 20px; display: none;">
                                                         <div class="left startus-job" style="width: 100%">
                                                             <ul>
                                                                 <li style="padding: 10px 0 10px 20px; cursor: pointer">
@@ -696,29 +802,12 @@
                                                                 <li style="padding: 10px 0 10px 20px; cursor: pointer">
                                                                     <span id="click-cancel-bookmark-job64865" style="display:block; width: 100%; color: #000000; cursor: pointer">
                                                                         Bỏ lưu </span>
-                                                                    <script>
-                                                                        $('#click-cancel-bookmark-job64865').click(function() {
-                                                                            $.ajax({
-                                                                                type: "POST",
-                                                                                url: "/bookmark_job/update",
-                                                                                data: {
-                                                                                    id: "64865"
-                                                                                }
-                                                                            }).done(function(result) {
-                                                                                if (result.error == 0) {
-                                                                                    $('.cancel-bookmark-job64865').css('display', 'none');
-                                                                                } else {
-                                                                                    //
-                                                                                }
-                                                                            });
-                                                                        });
-                                                                    </script>
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
-                                                <script type="text/javascript">
+                                                <!-- <script type="text/javascript">
                                                     $(document).ready(function() {
                                                         $(".select-push-top64865").click(function(e) {
                                                             $('.option-push-top').hide();
@@ -729,25 +818,10 @@
                                                             $('.option-push-top64865').hide();
                                                         });
                                                     });
-                                                </script>
-                                                <p class="display-mobile" style="margin-top:10px;width: 95px;text-align: center;">Đang nhận hồ sơ</p>
+                                                </script> -->
                                             </td>
                                         </tr>
-                                        <script type="text/javascript">
-                                            $("#clickme").click(function() {
-                                                $(".cancel-bookmark-job1").show();
-                                                $(".cancel-bookmark-job2").hide();
-                                            }); 
 
-                                            $("#clickme1").click(function() {
-                                                $(".cancel-bookmark-job1").hide();
-                                                $(".cancel-bookmark-job2").show();
-                                            }); 
-                                            $("#showall").click(function() {
-                                                $(".cancel-bookmark-job1").show();
-                                                $(".cancel-bookmark-job2").show();
-                                            }); 
-                                        </script>
 
 
                                         <tr class="even updated cancel-bookmark-job2">
@@ -762,66 +836,20 @@
                                                 </div>
                                             </td>
                                             <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">3</p>
+                                                <p class="number-right">09/01/2023</p>
                                             </td>
                                             <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                                05/01/2023 </td>
+                                            </td>
                                             <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: #EB5757">Hết hạn nhận hồ sơ</p>
+                                                <p style="color: #EB5757">Đang chờ duyệt</p>
                                             </td>
                                             <td class="price-td show-block" style="width: 120px">
                                                 <div class="block-hidden" id="block-hidden64426">
-                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top64426">Gửi hồ sơ <i style="font-weight:bold" class="fa fa-angle-down" aria-hidden="true" data-original-title="" title=""></i></a>
-                                                    <div class="startus_icon_show option-push-top option-push-top64426" style="right: 20px; display: none;">
-                                                        <div class="left startus-job" style="width: 100%">
-                                                            <ul>
-                                                                <li style="padding: 10px 0 10px 20px; cursor: pointer">
-                                                                    <a style="display:block; width: 100%; color: #000000" href="
-                                                                                                                                    /cuoc-thi/thiet-ke-banner-facebook-5                                                                ">
-                                                                        Gửi hồ sơ ứng tuyển </a>
-                                                                </li>
-                                                                <hr style="margin: 0">
-                                                                <li style="padding: 10px 0 10px 20px; cursor: pointer">
-                                                                    <span id="click-cancel-bookmark-job64426" style="display:block; width: 100%; color: #000000; cursor: pointer">
-                                                                        Bỏ lưu </span>
-                                                                    <script>
-                                                                        $('#click-cancel-bookmark-job64426').click(function() {
-                                                                            $.ajax({
-                                                                                type: "POST",
-                                                                                url: "/bookmark_job/update",
-                                                                                data: {
-                                                                                    id: "64426"
-                                                                                }
-                                                                            }).done(function(result) {
-                                                                                if (result.error == 0) {
-                                                                                    $('.cancel-bookmark-job64426').css('display', 'none');
-                                                                                } else {
-                                                                                    //
-                                                                                }
-                                                                            });
-                                                                        });
-                                                                    </script>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
                                                 </div>
-                                                <script type="text/javascript">
-                                                    $(document).ready(function() {
-                                                        $(".select-push-top64426").click(function(e) {
-                                                            $('.option-push-top').hide();
-                                                            $(".option-push-top64426").toggle();
-                                                            e.stopPropagation();
-                                                        });
-                                                        $('body').click(function() {
-                                                            $('.option-push-top64426').hide();
-                                                        });
-                                                    });
-                                                </script>
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Hết hạn nhận hồ sơ</p>
+                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Đang chờ duyệt</p>
                                             </td>
                                         </tr>
-                                        <tr class="odd updated cancel-bookmark-job2">
+                                        <tr class="odd updated cancel-bookmark-job3">
                                             <td class="project-freelancer ">
                                                 <div class="title-job">
                                                     <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
@@ -834,49 +862,44 @@
                                                 </div>
                                             </td>
                                             <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">238</p>
+                                                <p class="number-right"></p>
                                             </td>
                                             <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
                                                 23/11/2022 </td>
                                             <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: #EB5757">Hết hạn nhận hồ sơ</p>
+                                                <p style="color: green">Chờ xét duyệt</p>
                                             </td>
                                             <td class="price-td show-block" style="width: 120px">
                                                 <div class="block-hidden" id="block-hidden63148">
-                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top63148">Gửi hồ sơ <i style="font-weight:bold" class="fa fa-angle-down" aria-hidden="true" data-original-title="" title=""></i></a>
-                                                    <div class="startus_icon_show option-push-top option-push-top63148" style="right: 20px; display: none;">
-                                                        <div class="left startus-job" style="width: 100%">
-                                                            <ul>
-                                                                <li style="padding: 10px 0 10px 20px; cursor: pointer">
-                                                                    <a style="display:block; width: 100%; color: #000000" href="
-                                                                                                                                    /cuoc-thi/cuoc-thi-thiet-ke-logo-dai-hoi-xi-hoi-sinh-vien-viet-nam                                                                ">
-                                                                        Gửi hồ sơ ứng tuyển </a>
-                                                                </li>
-                                                                <hr style="margin: 0">
-                                                                <li style="padding: 10px 0 10px 20px; cursor: pointer">
-                                                                    <span id="click-cancel-bookmark-job63148" style="display:block; width: 100%; color: #000000; cursor: pointer">
-                                                                        Bỏ lưu </span>
-                                                                    <script>
-                                                                        $('#click-cancel-bookmark-job63148').click(function() {
-                                                                            $.ajax({
-                                                                                type: "POST",
-                                                                                url: "/bookmark_job/update",
-                                                                                data: {
-                                                                                    id: "63148"
-                                                                                }
-                                                                            }).done(function(result) {
-                                                                                if (result.error == 0) {
-                                                                                    $('.cancel-bookmark-job63148').css('display', 'none');
-                                                                                } else {
-                                                                                    //
-                                                                                }
-                                                                            });
-                                                                        });
-                                                                    </script>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+
+                                                </div>
+
+                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Hết hạn nhận hồ sơ</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="odd updated cancel-bookmark-job3">
+                                            <td class="project-freelancer ">
+                                                <div class="title-job">
+                                                    <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
+                                                        [63148] Lập trình web bán giày </a>
+                                                    <span class="label-contest">mới</span>
+
+                                                </div>
+                                                <div class="client">Khách hàng: <a href="/Client/profileclient.php">
+                                                        Chu Bá Thông </a>
+                                                </div>
+                                            </td>
+                                            <td class="num-bid display-desktop-workspace">
+                                                <p class="number-right"></p>
+                                            </td>
+                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
+                                                23/11/2022 </td>
+                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                                <p style="color: green">Hoàn thành</p>
+                                            </td>
+                                            <td class="price-td show-block" style="width: 120px">
+                                                <div class="block-hidden" id="block-hidden63148">
+                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top63148">Đánh giá <i style="font-weight:bold" aria-hidden="true" data-original-title="" title=""></i></a>
                                                 </div>
                                                 <script type="text/javascript">
                                                     $(document).ready(function() {
@@ -893,6 +916,30 @@
                                                 <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Hết hạn nhận hồ sơ</p>
                                             </td>
                                         </tr>
+
+                                        <script type="text/javascript">
+                                            $("#clickme").click(function() {
+                                                $(".cancel-bookmark-job2").show();
+                                                $(".cancel-bookmark-job1").hide();
+                                                $(".cancel-bookmark-job3").hide();
+                                            });
+
+                                            $("#clickme1").click(function() {
+                                                $(".cancel-bookmark-job1").show();
+                                                $(".cancel-bookmark-job2").hide();
+                                                $(".cancel-bookmark-job3").hide();
+                                            });
+                                            $("#clickme2").click(function() {
+                                                $(".cancel-bookmark-job1").hide();
+                                                $(".cancel-bookmark-job2").hide();
+                                                $(".cancel-bookmark-job3").show();
+                                            });
+                                            $("#showall").click(function() {
+                                                $(".cancel-bookmark-job1").show();
+                                                $(".cancel-bookmark-job2").show();
+                                                $(".cancel-bookmark-job3").show();
+                                            });
+                                        </script>
                                     </tbody>
                                 </table>
                                 <div class="row-fluid">
