@@ -191,8 +191,8 @@
                             </div>
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
-                                    <a href="/Freelancer/profilefreelancer.php">
-                                        <img width="48" height="48" src="https://www.vlance.vn/img/unknown.png" />
+                                    <a href="/Freelancer/yourprofile.php">
+                                        <img class="avt" width="48" height="48" src="https://www.vlance.vn/img/unknown.png" />
                                     </a>
                                 </div>
                                 <div class="dropdown">
@@ -208,7 +208,7 @@
                                     </div>
                                     <div id="popover-in"></div>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
+                                        <li><a href="/Freelancer/yourprofile.php">Hồ sơ cá nhân</a></li>
                                         <li><a href="/Freelancer/editprofilefreelancer.php">Chỉnh sửa hồ sơ</a></li>
                                         <li class="divider"></li>
                                         <li><a class="logout">Đăng xuất</a></li>
@@ -283,7 +283,7 @@
                         <li class="accordion-menu-dropdown menu-mobile-item ver2">
                             <div class="account-menu dropdown accordion-toggle-ver2 ver2">
                                 <div class="avata avata_ver2">
-                                    <a href="/Freelancer/profilefreelancer.php">
+                                    <a href="/Freelancer/yourprofile.php">
                                         <img width="52" height="52" src="https://www.vlance.vn/img/unknown.png" alt="Minh" title="Minh" />
                                     </a>
                                 </div>
@@ -292,17 +292,17 @@
                                         <p class="fullname"> </p>
                                     </a>
                                     <div class="credit-balance">
-                                        <span><a class="id-user" href="/Freelancer/profilefreelancer.php"> </a></span>
+                                        <span><a class="id-user" href="/Freelancer/yourprofile.php"> </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0 VNĐ</span>
                                         </span>
                                     </div>
                                 </div>
                                 <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </div>
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
-                                <li class="ver2"><a href="/Freelancer/profilefreelancer.php">Hồ sơ cá nhân</a></li>
+                                <li class="ver2"><a href="/Freelancer/yourprofile.php">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="/a/1251707/editbasic">Chỉnh sửa hồ sơ</a></li>
                                 <li class="ver2"><a href="/options/general">Cài đặt thông báo việc mới</a></li>
                             </ul>
@@ -1219,7 +1219,7 @@
             $('.fullname').text(a.fullname);
             $('.id-user').text("ID. " + a.id_user);
             $('.wallet').text(a.walllet + " $");
-            $('.imgavt').attr("alt", a.fullname);
+            $('.avt').attr("src", a.avatar);
 
             $('.logout').on('click', function() {
                 document.location.href = "http://localhost:3000/welcome.php";
