@@ -77,7 +77,6 @@
     <link id="freshworks-frame" rel="stylesheet" href="https://widget.freshworks.com/widgetBase/static/media/frame.d7ae132c.css">
     <style>
         body {
-            text-align: center;
             background: #ebf4fb;
             min-height: 95vh;
             margin: 0;
@@ -186,11 +185,7 @@
 
 <body class="one-column bid_job_save_workspace " style="">
     <div class="main">
-        <div id="fb-root" class=" fb_reset">
-            <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
-                <div></div>
-            </div>
-        </div>
+        
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
 
@@ -990,18 +985,10 @@
                 </footer>
             </div>
         </div>
-        <div class="row hidden">
-            <script type="text/javascript">
-            </script>
-        </div>
-        <div class="row hidden">
-        </div>
+   
     </div>
     <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;792b4f679dcb0474&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;cbaaffacb89d4ae0a938b24fff8b447d&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
     </style>
-    <div id="freshworks-container" data-html2canvas-ignore="true" style="width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;">
-        <div aria-live="polite"></div>
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
