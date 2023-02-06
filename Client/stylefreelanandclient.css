@@ -154,6 +154,10 @@ a {
 }
 
 /* End  Media Query For Desktop */
+img{
+	max-width: 100%;
+
+}
 
 *{
     margin: 0;

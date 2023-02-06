@@ -4,7 +4,9 @@
 [class*="span"] {
     float: left;
     min-height: 1px;
-    margin-left: 0.3px
+    margin-left: 0.3px;
+    width: 50%;
+
 }
 
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {

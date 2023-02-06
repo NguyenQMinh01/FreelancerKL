@@ -204,9 +204,6 @@
                                     <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
                                 </ul>
                             </div>
-                        </li><li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="/credit/balance-client">Nâng cấp tài khoản Khách hàng</a>
-                        </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>

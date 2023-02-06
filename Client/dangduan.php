@@ -5,10 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Đăng việc mới</title>
-    <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">>
+    <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="Đăng việc freelance mới" />
     <meta property="og:image" content="https://www.vlance.vn/img/og/dang-viec-freelance.jpg" />
