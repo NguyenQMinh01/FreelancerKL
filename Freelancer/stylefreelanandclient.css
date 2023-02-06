@@ -59,6 +59,10 @@ a {
 /*End contact Section */
 
 /* Footer */
+img {
+	max-width: 100%;
+
+}
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }

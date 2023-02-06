@@ -4,22 +4,26 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="vi">
-    <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="vLance.vn" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
-    <title>Đăng việc mới</title>
-    <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">>
+    <title>Quản lý tin đăng</title>
+    <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
+    <meta property="og:site_name" content="vLance.vn" />
+    <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" name="title" content="Đăng việc freelance mới" />
-    <meta property="og:image" content="https://www.vlance.vn/img/og/dang-viec-freelance.jpg" />
+    <meta property="og:title" name="title" content="Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp - vLance.vn" />
+    <meta property="og:image" content="https://www.vlance.vn/newsletter/img/share_vlance_home.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://www.vlance.vn/dang-du-an" />
+    <meta property="og:url" content="https://www.vlance.vn" />
     <meta property="og:description" itemprop="description" name="description" content="Thuê freelancer lập trình, thiết kế, marketing, viết lách, dịch thuật, v.v. trên toàn Việt Nam với giá hợp lý, giúp tiết kiệm 50% chi phí cho doanh nghiệp." />
     <meta property="fb:app_id" content="197321233758025" />
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
+
     <script>
         (function() {
             var font1 = document.createElement('link');
@@ -40,10 +44,9 @@
             font4.rel = 'stylesheet';
             font5.rel = 'stylesheet';
 
-
             font1.href = 'https://www.vlance.vn/css/bootstrap.min.css';
             font2.href = 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,vietnamese&display=block';
-            font3.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+            font3.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
             font4.href = 'https://www.vlance.vn/css/slider_home.min.css';
             font5.href = 'https://www.vlance.vn/css/vlance_datepicker.min.css';
 
@@ -60,49 +63,24 @@
             s5.parentNode.insertBefore(font5, s5);
         })();
     </script>
-    <link href="main.css" rel="stylesheet" type="text/css" />
-    <link href="https://www.vlance.vn/css/gui/job/job_post.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
-    <link href="https://www.vlance.vn/css/vlance-responsive.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    <script>
-        (function() {
-            var font = document.createElement('link');
-            font.type = 'text/css';
-            font.rel = 'stylesheet';
-            font.href = 'https://www.vlance.vn/css/tagmanager.min.css?v=20221103.1449';
-            var s = document.getElementsByTagName('link')[0];
-            s.parentNode.insertBefore(font, s);
-        })();
-    </script>
+    <link href="https://www.vlance.vn/css/vlance.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.vlance.vn/css/vlance-responsive.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
     <link href="https://www.vlance.vn/css/header_homepage_new_ver2.css?v=20221103.1449" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="https://www.vlance.vn/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js"></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/bootstrap.min.js" defer></script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/vlance_datepicker.min.js" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/vlance_base.min.js" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/slider_home/jquery.eislideshow.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/slider_home/jquery.easing.1.3.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/jquery.anicounter.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/lib/slick/slick.min.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js?v=20221103.1449" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/skill/tagmanager.min.js?v=20221103.1449" defer></script>
+
 </head>
 
-<body class="one-column job_post job_new ">
-    <script>
-        (function() {
-            var font = document.createElement('link');
-            font.type = 'text/css';
-            font.rel = 'stylesheet';
-            font.href = 'https://www.vlance.vn/css/tagmanager.min.css?v=20221103.1449';
-            var s = document.getElementsByTagName('link')[0];
-            s.parentNode.insertBefore(font, s);
-        })();
-    </script>
+<body class="one-column job_draft_workspace ">
     <div class="main">
         <div id="fb-root"></div>
-        <!-- menu -->
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
+
                 <div class="container">
                     <div class="logo span2">
                         <a href="/Client/client.php">
@@ -131,7 +109,7 @@
                                                         </a>
                                                         <ul class="content-item-detail">
                                                             <li class="menu-dropdown-item-content">
-                                                                <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
+                                                                <a href="#">Đăng tin nhận báo giá <i class="" aria-hidden="true" style="margin-left:50px;color:black"></i></a>
                                                             </li>
                                                             <li role="presentation"><a role="menuitem" tabindex="-1" href="/Client/searchfreelancer.php" onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm theo freelancer</a></li>
                                                         </ul>
@@ -203,7 +181,7 @@
             <div class="menu-section row-fluid menu_scoll">
                 <div class="container">
                     <ul class="nav-menu span12">
-                        <li class="tf200 first ">
+                        <li class="tf200 first active">
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
@@ -229,19 +207,18 @@
                 </div>
             </div>
         </div>
-
         <div class="navbar navbar-static-top nav-new display-mobile ver2">
             <div class="container ver2">
                 <div class="list-menu ver2">
                     <div class="menu-item-1 ver2">
                         <div class="toggle dropdown icon-hamberger ver2">
                             <a href="#" class="">
-                                <img style="width: 24px; height: 16px;" src="/img/hambuger_icon.svg" />
+                                <img style="width: 24px; height: 16px;" src="https://www.vlance.vn/img/hambuger_icon.svg" />
                             </a>
                         </div>
                     </div>
                     <div class="menu-item-2">
-                        <div class="logo"><a href="#">
+                        <div class="logo"><a href="/Client/client.php">
                                 <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                                 <div class="bx bx-menu" id="menu-icon"></div>
                             </a></div>
@@ -252,14 +229,14 @@
                                 <div class="mail-counter">
                                 </div>
                             </div>
-                            <img src="/img/homepage-new/icon-bell.svg">
+                            <img src="https://www.vlance.vn/img/homepage-new/icon-bell.svg">
                         </div>
                         <div class="inbox-menu ver2 pull-right mesenger-ver2">
                             <div class="i32 i32-mail i32-not-notify ver2">
                                 <div class="mail-counter">
                                 </div>
                             </div>
-                            <img src="/img/homepage-new/icon-chat.svg">
+                            <img src="https://www.vlance.vn/img/homepage-new/icon-chat.svg">
                         </div>
                     </div>
                 </div>
@@ -269,7 +246,7 @@
                     <a><i><img style="width: 18px; height: 18px;" src="/img/close_icon.svg" /></i></a>
                 </div>
                 <div class="logo-submenu-mobile">
-                    <div class="logo"><a href="#">
+                    <div class="logo"><a href="/Client/client.php">
                             <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg" src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                             <div class="bx bx-menu" id="menu-icon"></div>
                         </a></div>
@@ -280,7 +257,7 @@
                             <div class="account-menu dropdown accordion-toggle-ver2 ver2">
                                 <div class="avata avata_ver2">
                                     <a href="/khach-hang/minh-166">
-                                        <img width="52" height="52" src="/img/unknown.png" alt="M&iacute;nh" title="M&iacute;nh" />
+                                        <img width="52" height="52" src="https://www.vlance.vn/uploads/48x48/5137679a253a06555c594a9df5f13502041e06931.png" alt="M&iacute;nh" title="M&iacute;nh" />
                                     </a>
                                 </div>
                                 <div class="account-menu-detail ver2">
@@ -291,7 +268,7 @@
                                         <span><a class="id-user" href="/Client/profileclient.php">Id. 1250511 </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Client</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0 $</span>
                                         </span>
                                     </div>
                                 </div>
@@ -300,7 +277,7 @@
                             <ul class="submenu-list-ver2 accordion-inner-ver2">
                                 <li class="ver2"><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
                                 <li class="ver2"><a href="#">Chỉnh sửa hồ sơ</a></li>
-                                <li class="ver2"><a href="3">Cài đặt thông báo việc mới</a></li>
+                                <li class="ver2"><a href="#l">Cài đặt thông báo việc mới</a></li>
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
@@ -320,12 +297,15 @@
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
-                            <a class="/*accordion-toggle-ver2*/ ver2" href="/Client/searchfreelancer.php">Thuê Freelancer</a>
+                            <a class="/*accordion-toggle-ver2*/ ver2" href="/freelancers">Thuê Freelancer</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown ">
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản</a></li>
+                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="/credit/balance-client?dropdown">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm & Đăng tin<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
+                                        <li class="ver2">
+                                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng tin nhận báo giá<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        </li>
                                         <li class="ver2">
                                             <a href="/Client/searchfreelancer.php">Tìm theo freelancer</a>
                                         </li>
@@ -337,10 +317,25 @@
                             </ul>
                         </li>
                         <li class="accordion-chevron menu-mobile-item ver2">
+                            <a class="/*accordion-toggle-ver2*/ ver2" href="/viec-lam-freelance">Tìm việc làm</a>
+                            <ul class="submenu-list-ver2 accordion-menu-dropdown">
+                                <li class="submenu-item-ver2 accordion-chevron">
+                                    <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="accordion-inner-ver2">
+                                        <li class="ver2">
+                                            <a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
+                                        </li>
+                                        <li class="ver2">
+                                            <a role="menuitem" tabindex="-1" href="#" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
                         </li>
 
-                        </li>
                         <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
                     </ul>
                 </div>
@@ -349,17 +344,14 @@
                 </div>
             </div>
         </div>
-
         <div class="inbox-menu ver2 pull-right nofity-ver2">
             <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2">
-            </hx:include>ho-so-nang-luc
+            </hx:include>
         </div>
-
         <div class="inbox-menu ver2 pull-right mesenger-ver2">
             <hx:include evaljs="true" src="/message/new-message-ver2">
             </hx:include>
         </div>
-
         <script type="text/javascript">
             //Menu mobile
             $(document).ready(function() {
@@ -439,9 +431,9 @@
                 $(".menu-dropdown-content-item").hover(function() {
                     $(".menu-dropdown-content-item").toggleClass('action');
                 });
-
             });
         </script>
+
         <div id="messages">
             <div class="body-messages">
             </div>
@@ -451,265 +443,148 @@
                 setTimeout("$('#messages').hide();", 7000);
             });
         </script>
-
-        <div class="top_content">
-        </div>
-
-        <!-- post -->
-        <div class="main_content
-                content-fix">
-            <script type='text/javascript'>
-                fbq('track', 'ViewCreateJobPage');
-            </script>
-            <div class="content-section container create-job">
+        <div class="main_content content-fix">
+            <div class="content-section container">
+                <div class="row-fluid" style="background: #F5f5f5">
+                    <div class="span3 manage-job-service" style="background:  #0088CC;width:auto">
+                        <a href="/Client/Quanlitin.php" style="color:white">Quản lí hợp đồng</a>
+                    </div>
+                    <!-- <div class="span3 manage-job-service" style="margin-left:10px;width:auto">
+                        <a href="/Client/Quanlitin.php" style="color:black">Đơn hàng dịch vụ</a>
+                    </div> -->
+                </div>
                 <div class="row-fluid">
-                    <div class="span12 left-side">
-                        <h1 class="new_job_title">Đăng tin tuyển dụng </h1>
-                        <!-- Các trường thuộc tính đăng tin -->
-                        <div class="post-job">
-                            <form id="edit-job-form" action="/j/new" method="post" enctype="multipart/form-data">
-                                <div id="vlance_jobbundle_jobtype">
-                                    <div class="control-group primary-type">
-                                        <div class="row-fluid">
-                                            <div class="span2">
-                                                <div class="sprites-job-posting sprites-1"></div>
-                                            </div>
-                                            <div class="span10">
-                                                <h4>Việc cần tuyển freelancer</h4>
-                                            </div>
-                                        </div>
+                    <div class="span12 progress-job-new" style="border: 1px solid #cccccc; border-radius: 5px">
+                        <div class="progress-job-wrapper progress-job-wrapper-new" style="background: #ffffff; -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);margin: 0;border-radius: 5px 5px 0 0">
+                            <div class="progress-job-new container new-progress-job">
+                                <div class="row-fluid">
+                                    <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
+                                        <span class="circle-number-job display-desktop-workspace">1</span>
+                                        <span class="job-progress-title">
+                                            <a href="/Client/dangduan.php" style="color: #ffffff">
+                                                Xác nhận báo giá </a>
+                                        </span>
+                                        <span class="job-step-white" style="float: right;"></span>
                                     </div>
-                                    <div class="control-group">
-                                        <div class="row-fluid">
-                                            <div class="span10 offset2">
-                                                <div class="control-group ">
-                                                    <label class="required" for="vlance_jobbundle_jobtype_title">Đặt tên cụ thể cho công việc cần tuyển </label> <input type="text" id="vlance_jobbundle_jobtype_title" name="vlance_jobbundle_jobtype[title]" required="required" maxlength="255" placeholder="VD: Thiết kế trang web bán hàng cao cấp" data-toggle="popover" data-placement="top" data-content="Tên công việc, VD: Dịch tiếng anh sang tiếng việt" data-trigger="hover" class="popovers-input span12" value="" />
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
+                                        <span class="circle-number-job display-desktop-workspace">2</span>
+                                        <span class="job-progress-title">
+                                            <a href="#" style="color: #000000">
+                                                Tạo hợp đồng </a>
+                                        </span>
+                                        <span style="float: right"><img src="" style="height: 50px"></span>
                                     </div>
-                                    <div class="control-group primary-type">
-                                        <div class="row-fluid">
-                                            <div class="span2">
-                                                <div class="sprites-job-posting sprites-2"></div>
-                                            </div>
-                                            <div class="span10">
-                                                <h4>Thông tin đầy đủ về yêu cầu tuyển dụng</h4>
-                                                <div class="control-group ">
-                                                    <label class="required" for="vlance_jobbundle_jobtype_description">Nội dung chi tiết, và các đầu việc cần Freelancer thực hiện (càng chi tiết, freelancer càng có đầy đủ thông tin để gửi báo giá chính xác hơn). </label> <textarea id="vlance_jobbundle_jobtype_description" name="vlance_jobbundle_jobtype[description]" required="required" placeholder="Ví dụ: Các giao diện website cần thiết kế như trang chủ, xem hàng, thanh toán..." data-toggle="popover" data-placement="top" data-content="GỢI Ý:
-                                Bạn nên cung cấp tối thiểu những thông tin sau:
-
-                                - Giới thiệu qua về dự án cần tìm freelancer.
-                                - Liệt kê những đầu việc mà bạn dự định sẽ giao cho freelancer làm.
-                                - Một số lưu ý hoặc thỏa thuận đặc biệt khác (nếu có).
-
-                                LƯU Ý:
-                                vLance.vn không cho phép để lộ các tin liên lạc của bạn tại đây. Những công việc có nội dung vi phạm sẽ bị ẩn và khóa tài khoản người đăng." data-trigger="hover" class="popovers-input span12" rows="14"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
+                                        <span class="circle-number-job display-desktop-workspace">3</span>
+                                        <span class="job-progress-title">
+                                            <a href="#" style="color: #000000">
+                                                xác nhận hoàn thành </a>
+                                        </span>
+                                        <span style="float: right"><img src="" style="height: 50px"></span>
                                     </div>
-
-                                    <div class="control-group">
-                                        <div class="row-fluid">
-                                            <div class="span5 offset2 post-job-skill">
-                                                <label>Kỹ năng yêu cầu freelancer phải có</label>
-                                                <div class="form-add-service">
-                                                    <div class="inner-skill">
-
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_1">
-                                                            <span id="text1"></span>
-                                                            <a onclick="hide('#jVWvL_1')" class="tm-tag-remove" id="jVWvL_Remover_1" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_2">
-                                                            <span id="text2"></span>
-                                                            <a onclick="hide('#jVWvL_2')" class="tm-tag-remove" id="jVWvL_Remover_2" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_3">
-                                                            <span id="text3"></span>
-                                                            <a onclick="hide('#jVWvL_3')" class="tm-tag-remove" id="jVWvL_Remover_3" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_4">
-                                                            <span id="text4"></span>
-                                                            <a onclick="hide('#jVWvL_4')" class="tm-tag-remove" id="jVWvL_Remover_4" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_5">
-                                                            <span id="text5"></span>
-                                                            <a onclick="hide('#jVWvL_5')" class="tm-tag-remove" id="jVWvL_Remover_5" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_6">
-                                                            <span id="text6"></span>
-                                                            <a onclick="hide('#jVWvL_6')" class="tm-tag-remove" id="jVWvL_Remover_6" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_7">
-                                                            <span id="text7"></span>
-                                                            <a onclick="hide('#jVWvL_7')" class="tm-tag-remove" id="jVWvL_Remover_7" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_8">
-                                                            <span id="text8"></span>
-                                                            <a onclick="hide('#jVWvL_8')" class="tm-tag-remove" id="jVWvL_Remover_8" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_9">
-                                                            <span id="text9"></span>
-                                                            <a onclick="hide('#jVWvL_9')" class="tm-tag-remove" id="jVWvL_Remover_9" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <span class="tm-tag" style="display: none" id="jVWvL_10">
-                                                            <span id="text10"></span>
-                                                            <a onclick="hide('#jVWvL_10')" class="tm-tag-remove" id="jVWvL_Remover_10" tagidtoremove="1">Xóa bỏ</a>
-                                                        </span>
-                                                        <select id="vlance_jobbundle_jobtype_type vlance_jobbundle_jobtype_skill" name="vlance_jobbundle_jobtype[type]" required="required" pattern="[0-9]*" placeholder="VD: Photoshop, Tiếng Anh,..." class="row-fluid span12" data-provide="typeahead" name="hiddenTagListA">
-                                                            <option data-value="2D Animation" onclick="test1(this,'#jVWvL_1')" value="0" selected="selected">2D Animation</option>
-                                                            <option data-value="Reacjs" onclick="test1(this,'#jVWvL_2')" value="2">Reacjs</option>
-                                                            <option data-value="Design" onclick="test1(this,'#jVWvL_3')" value="2">Design</option>
-                                                            <option data-value="Web developer" onclick="test1(this,'#jVWvL_4')" value="2">Web Developer</option>
-                                                            <option data-value="PHP" onclick="test1(this,'#jVWvL_5')" value="2">PHP</option>
-                                                            <option data-value="Java" onclick="test1(this,'#jVWvL_6')" value="2">Java</option>
-                                                            <option data-value="Android" onclick="test1(this,'#jVWvL_7')" value="2">Android</option>
-                                                            <option data-value="Agile Scrum" onclick="test1(this,'#jVWvL_8')" value="2">Agile Scrum</option>
-                                                            <option data-value="Git Workflow" onclick="test1(this,'#jVWvL_9')" value="2">Git Workflow</option>
-                                                        </select>
-                                                        <input type="hidden" name="hiddenTagListA">
-                                                        <script type="text/javascript">
-                                                            function test() {
-                                                                $('#typeahead li').on('mousemove', function() {
-                                                                    var type = $(this).data('tab');
-
-                                                                    $('#typeahead li').removeClass('active');
-                                                                    $(this).addClass('active');
-                                                                })
-                                                            };
-
-                                                            function test1(sa, id) {
-                                                                var t = sa.getAttribute('data-value');
-                                                                $(id).children().first().text(t);
-                                                                $(id).show();
-                                                            };
-
-                                                            function hide(id) {
-                                                                $(id).hide();
-                                                            };
-                                                        </script>
-                                                    </div>
-                                                </div>
-                                                <div class="clear"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="row-fluid">
-                                            <div class="span5 offset2 job-closed-at">
-                                                <div class="control-group closeat wrapper append-white">
-                                                    <label class="required" for="vlance_jobbundle_jobtype_closeAt">Hạn cuối nhận chào giá của freelancer </label>
-                                                    <div class="datepicker-widget input-append">
-                                                        <input type="date" id="vlance_jobbundle_jobtype_closeAt" name="vlance_jobbundle_jobtype[closeAt]" required="required" placeholder="VD: 22/12/2022" title="" autocomplete="off" data-toggle="popover" data-placement="top" data-content="Hạn nhận báo giá, VD: 24/11/2016" data-trigger="hover" class="popovers-input span12" />
-                                                        <span class="add-on"><i class="i32 i32-calendar"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group primary-type">
-                                        <div class="row-fluid">
-                                            <div class="span2">
-                                                <div class="sprites-job-posting sprites-4"></div>
-                                            </div>
-                                            <div class="span10">
-                                                <h4>Ngân sách dự kiến chi cho công việc này</h4>
-                                                <div class="control-group wrapper append-white combo-row-1st span6 budget">
-                                                    <label class="required" for="vlance_jobbundle_jobtype_typePay">Hình thức trả lương </label> <select id="vlance_jobbundle_jobtype_typePay" name="vlance_jobbundle_jobtype[typePay]" required="required" pattern="[0-9]*" placeholder="ví dụ: 14" class="row-fluid span12">
-                                                        <option value="0" selected="selected">Trả theo dự án</option>
-                                                        <option value="1">Trả theo giờ</option>
-                                                        <option value="2">Trả theo tháng</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row-fluid">
-                                            <div class="span2">
-                                            </div>
-                                            <div class="span10">
-                                                <p style="font-size: 16px">Số tiền tôi có thể trả cho dự án/công việc</p>
-                                            </div>
-                                        </div>
-                                        <div class="row-fluid">
-                                            <div class="span2">
-                                            </div>
-                                            <div class="span10">
-                                                <div>
-                                                    <div class="control-group wrapper append-white combo-row-1st span6 budget">
-                                                        <div class="  input-append ">
-                                                            <input type="text" id="vlance_jobbundle_jobtype_budget" name="vlance_jobbundle_jobtype[budget]" required="required" pattern="^(0|[1-9][0-9/.]*)$" placeholder="đ" data-toggle="popover" data-placement="top" data-content="Thù lao dự kiến, VD: 500.000" data-trigger="hover" class="popovers-input span12" value="" />
-                                                            <span class="add-on">VNĐ</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <input type="hidden" id="vlance_jobbundle_jobtype__token" name="vlance_jobbundle_jobtype[_token]" value="caf9d68f9782bc5431c426ff6e72503204fb4951" />
-                                </div>
-                                <div class="more-options">
-                                    <div class="control-group primary-type">
-                                        <div class="row-fluid">
-                                            <div class="span2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                        <div class="clear"></div>
-                        <div class="row-fluid">
-                            <div class="span10 offset2">
-                                <div class="form-cread-job-btn">
-                                    <div class="row-fluid" style="margin-bottom: 10px">
-                                        <div class="span12 ">
-                                            <input id='btn-submit-job' type='submit' class='btn btn-vl-yellow btn-large popup-validate span12' value='Đăng tin' />
-                                        </div>
+                                    <div class="span3 progress-job-item" style="padding-top: 13px; background: #0088CC; color: #ffffff">
+                                        <span class="circle-number-job display-desktop-workspace">4</span>
+                                        <span>
+                                            <a href="#" style="color: #000000">
+                                                Đánh giá và thanh toán </a>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        </form>
+                        <div class="row-fluid">
+                            <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
+                                <table class="table datatable" style="margin-top: 50px;">
+                                    <tr class="head-title-tb display-desktop-workspace">
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Phân công</th>
+                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
+                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
+                                        <th></th>
+                                    </tr>
+
+                                    <tr class="even updated draft-job63542">
+                                    <td class="project-freelancer ">
+                                            <div class="span10 project-info ">
+                                                <div class="title-job">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
+                                                        [63948] L&agrave;m website b&aacute;n gi&agrave;y </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">Nguyễn Minh</span>
+                                        </td>
+                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                            <span>
+                                                đã hoàn thành </span>
+                                        </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a href="/Client/detailhopdongclient.php">xem chi tiết</a>
+                                        </td>
+                                        <td class="price-td show-block">
+                                        <div class="block-hidden" id="block-hidden63948">
+                                            </div>
+                                        </td>      
+                                    </tr>  
+                                </table>
+                                <div class="row-fluid">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!--footer -->
-    <div id="footer_content">
-        <div class="block">
-            <footer>
-                <section id="footer">
-                    <div class="footer containerfooter">
-                        <div class="brand">
-                            <h1><span>F</span>reelan<span>c</span>er</h1>
-                        </div>
-                        <h2>Your Complete Web Solution</h2>
-                        <div class="social-icon">
-                            <div class="social-item">
-                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-                            </div>
-                            <div class="social-item">
-                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-                            </div>
-                            <div class="social-item">
-                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
-                            </div>
-                            <div class="social-item">
-                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        <div id="footer_content">
+            <div class="block">
+                <footer>
+                    <div class="footer-links-parter">
+                        <div class="container">
+                            <div class="row-fluid vl-relationship">
+                                <div class="vl-funding span12">
+                                    <span class="vl-funding-title">Nhà tài trợ</span>
+                                    <span class="google-footer">
+                                        <a href="https://www.google.com/" target="_blank" rel="nofollow" title="Google" alt="Google"></a>
+                                    </span>
+                                    <span class="aws-footer">
+                                        <a href="https://aws.amazon.com/" target="_blank" rel="nofollow" title="Amazon web services" alt="Amazon web services"></a>
+                                    </span>
+                                    <span class="mixpanel-footer">
+                                        <a href="https://mixpanel.com/f/partner" target="_blank" rel="nofollow" title="Mobile Analytics" alt="Mobile Analytics"></a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                        <p>Copyright © 2020 Arfan. All rights reserved</p>
                     </div>
-                </section>
-            </footer>
+                    <section id="footer">
+                        <div class="footer containerfooter">
+                            <div class="brand">
+                                <h1><span>F</span>reelan<span>c</span>er</h1>
+                            </div>
+                            <h2>Your Complete Web Solution</h2>
+                            <div class="social-icon">
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                                </div>
+                            </div>
+                            <p>Copyright © 2020 Arfan. All rights reserved</p>
+                        </div>
+                    </section>
+                </footer>
+            </div>
         </div>
     </div>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76de25884ce66bd9","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
 </body>
 
 </html>

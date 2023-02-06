@@ -169,7 +169,7 @@
                                 <div class="credit-balance">
                                     <span id="animategoCredit">
                                         <span class="vip-menu-ver2">Freelancer</span>
-                                        <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
+                                        <span class="credit-menu-ver2 wallet" data-credit="balance">0 VNĐ</span>
                                     </span>
                                 </div>
                                 <div id="popover-in"></div>
@@ -195,6 +195,14 @@
                                 <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc đang báo giá</a></li>
                                 <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
                                 <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tf200 ">
+                        <div class="dropdown manage-user">
+                            <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu" style="min-width:200px">
+                                <li><a href="/Freelancer/freelancerquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
                             </ul>
                         </div>
                     </li>
@@ -457,7 +465,7 @@
                         <div class="row-fluid right-content-fl" itemscope itemtype="http://data-vocabulary.org/Person">
                             <div class="col3-left span4 left-profile avata-m">
                                 <div class="avata">
-                                    
+
                                     <img itemprop="photo" src="/img/hero-bg.png" alt="M&iacute;nh" title="M&iacute;nh" />
                                 </div>
                                 <div class="id_profile">
@@ -471,7 +479,7 @@
                                         <h1 style="float: left">
                                             <span itemprop="name">
                                                 M&iacute;nh
-                                               
+
                                             </span>
                                         </h1>
                                         <div class="clearfix"></div>
@@ -1027,24 +1035,24 @@
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
     <script>
-         $(document).ready(function() {
-        var x = localStorage.getItem('profile');
-        if (!x) {
-            document.location.href = "http://localhost:3000/login.php";
-        }
-        let a = JSON.parse(x);
+        $(document).ready(function() {
+            var x = localStorage.getItem('profile');
+            if (!x) {
+                document.location.href = "http://localhost:3000/login.php";
+            }
+            let a = JSON.parse(x);
 
-        $('.fullname').text(a.fullname);
-        $('.id-user').text("ID. " + a.id_user);
-        $('.wallet').text(a.walllet + " $");
-        $('.avt').attr("src", a.avatar);
+            $('.fullname').text(a.fullname);
+            $('.id-user').text("ID. " + a.id_user);
+            $('.wallet').text(a.walllet + " $");
+            $('.avt').attr("src", a.avatar);
 
-        $('.logout').on('click', function() {
-            document.location.href = "http://localhost:3000/welcome.php";
-            localStorage.removeItem('profile');
+            $('.logout').on('click', function() {
+                document.location.href = "http://localhost:3000/welcome.php";
+                localStorage.removeItem('profile');
+            })
         })
-    })
-    </script>                                      
+    </script>
 </body>
 
 </html>

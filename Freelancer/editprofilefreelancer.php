@@ -204,7 +204,14 @@
                             </ul>
                         </div>
                     </li>
-
+                    <li class="tf200 ">
+                        <div class="dropdown manage-user">
+                            <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu" style="min-width:200px">
+                                <li><a href="/Freelancer/freelancerquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -289,8 +296,8 @@
                                     <li class="ver2">
                                         <a href="/Freelancer/quanliviec.php">Quản lý việc đang báo giá</a>
                                     </li>
-                                    <li class = "ver2"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
-                                    <li class = "ver2"><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                                    <li class="ver2"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                    <li class="ver2"><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -325,12 +332,6 @@
                         </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                        <a class="ver2" href="#">freelancer for Business</a>
-                        <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2">
                         <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>

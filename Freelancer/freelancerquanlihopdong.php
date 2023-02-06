@@ -685,7 +685,7 @@
             <div class="content-section container">
                 <div class="row-fluid" style="background: #F5f5f5">
                     <div class="span3 manage-job-service" style="background: #0088CC;width:auto;min-height:82px;">
-                        <a href="/Freelancer/quanliviec.php" style="color:white;display:inline-block;margin-top:10px">Việc nhận làm</a>
+                        <a href="/Freelancer/quanliviec.php" style="color:white;display:inline-block;margin-top:10px">Quản lí hợp đồng</a>
                     </div>
                 </div>
                 <div class="row-fluid">
@@ -696,14 +696,14 @@
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
-                                            <a href="/Freelancer/quanliviec.php" style="color: #ffffff">Việc đã lưu</a>
+                                            <a href="/Freelancer/quanliviec.php" style="color: #ffffff">Gửi báo giá</a>
                                         </span>
                                         <span class="job-step-white" style="float: right;"></span>
                                     </div>
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">2</span>
                                         <span class="job-progress-title">
-                                            <a href="#" style="color: #000000">Gửi hồ sơ</a>
+                                            <a href="#" style="color: #000000">Nhận việc </a>
                                         </span>
                                         <span style="float: right"></span>
                                     </div>
@@ -711,7 +711,7 @@
                                         <span class="circle-number-job display-desktop-workspace">3</span>
                                         <span class="job-progress-title">
                                             <a href="#" style="color: #000000">
-                                                Nhận việc </a>
+                                                Hoàn thành </a>
                                         </span>
                                         <span style="float: right"></span>
                                     </div>
@@ -730,137 +730,44 @@
                                 <div class="span4" style="margin-left: 30px; margin-top: 15px; position: relative">
                                     <div class="block-hidden" style="padding: 10px;width: 250px;">
                                         <span class="dropdown-el">
-                                            <!-- <input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label id="showall" for="sort-relevance">Tất cả</label>
-                                            <input type="radio" name="sortType" value="Popularity" id="sort-best"><label id="clickme" for="sort-best">Công việc đang báo giá</label>
-                                            <input type="radio" name="sortType" value="PriceIncreasing" id="sort-low"><label id="clickme1" for="sort-low">Công việc đang làm</label>
-                                            <input type="radio" name="sortType" value="PriceDecreasing" id="sort-high"><label id="clickme2" for="sort-high">Công việc đã hoàn thành</label> -->
                                         </span>
                                     </div>
-                                    <!-- <script type="text/javascript">
-                                        $(document).ready(function() {
-                                            $(".select-filter").click(function(e) {
-                                                $(".option-filter").toggle();
-                                                e.stopPropagation();
-                                            });
-                                            $('body').click(function() {
-                                                $('.option-filter').hide();
-                                            });
-                                        });
-
-
-
-                                        $('.dropdown-el').click(function(e) {
-                                            e.preventDefault();
-                                            e.stopPropagation();
-                                            $(this).toggleClass('expanded');
-                                            $('#' + $(e.target).attr('for')).prop('checked', true);
-                                        });
-                                        $(document).click(function() {
-                                            $('.dropdown-el').removeClass('expanded');
-                                        });
-                                    </script> -->
                                 </div>
                                 <table class="table" style="margin-top: -170px;">
                                     <tbody>
-                                        <tr class="head-title-tb display-desktop-workspace">
-                                            <th class="project-freelancer item">Tên việc</th>
-                                            <th class="payment-th item">Bàn giao công việc</th>
-                                            <th class="bid-freelancer item"></th>
-                                            <th class="startus-th item">Trạng thái</th>
-                                            <th></th>
-                                        </tr>
-                                        <tr class="odd updated cancel-bookmark-job3">
-                                            <td class="project-freelancer ">
-                                                <div class="title-job">
+                                    <tr class="head-title-tb display-desktop-workspace">
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày kết thúc</th>
+                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
+                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
+                                        <th></th>
+                                    </tr>
+                                    <tr class="even updated draft-job63542">
+                                    <td class="project-freelancer ">
+                                    <div class="title-job">
                                                     <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
-                                                        [63148] Thiết kế logo Đại hội XI - Hội Sinh viên Việt Nam </a>
+                                                        [64426] Thiết kế banner facebook </a>
                                                     <span class="label-contest">mới</span>
-
                                                 </div>
                                                 <div class="client">Khách hàng: <a href="/Client/profileclient.php">
-                                                        Nguyễn Bá Cát </a>
+                                                        Quang Nguyen </a>
                                                 </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">23/11/2022</p>
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                                 </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: green">Chờ xét duyệt</p>
-                                            </td>
-                                            <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden63148">
-
-                                                </div>
-
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Hết hạn nhận hồ sơ</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd updated cancel-bookmark-job3">
-                                            <td class="project-freelancer ">
-                                                <div class="title-job">
-                                                    <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
-                                                        [63148] Lập trình web bán giày </a>
-                                                    <span class="label-contest">mới</span>
-
-                                                </div>
-                                                <div class="client">Khách hàng: <a href="/Client/profileclient.php">
-                                                        Chu Bá Thông </a>
-                                                </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">23/11/2022</p>
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                                    &nbsp &nbsp &nbsp &nbsp &nbsp </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: green">Hoàn thành</p>
-                                            </td>
-                                            <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden63148">
-                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top63148">Đánh giá <i style="font-weight:bold" aria-hidden="true" data-original-title="" title=""></i></a>
-                                                </div>
-                                                <script type="text/javascript">
-                                                    $(document).ready(function() {
-                                                        $(".select-push-top63148").click(function(e) {
-                                                            $('.option-push-top').hide();
-                                                            $(".option-push-top63148").toggle();
-                                                            e.stopPropagation();
-                                                        });
-                                                        $('body').click(function() {
-                                                            $('.option-push-top63148').hide();
-                                                        });
-                                                    });
-                                                </script>
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Hết hạn nhận hồ sơ</p>
-                                            </td>
-                                        </tr>
-
-                                        <!-- <script type="text/javascript">
-                                            $("#clickme").click(function() {
-                                                $(".cancel-bookmark-job2").show();
-                                                $(".cancel-bookmark-job1").hide();
-                                                $(".cancel-bookmark-job3").hide();
-                                            });
-
-                                            $("#clickme1").click(function() {
-                                                $(".cancel-bookmark-job1").show();
-                                                $(".cancel-bookmark-job2").hide();
-                                                $(".cancel-bookmark-job3").hide();
-                                            });
-                                            $("#clickme2").click(function() {
-                                                $(".cancel-bookmark-job1").hide();
-                                                $(".cancel-bookmark-job2").hide();
-                                                $(".cancel-bookmark-job3").show();
-                                            });
-                                            $("#showall").click(function() {
-                                                $(".cancel-bookmark-job1").show();
-                                                $(".cancel-bookmark-job2").show();
-                                                $(".cancel-bookmark-job3").show();
-                                            });
-                                        </script> -->
-                                    </tbody>
+                                        </td>
+                                        <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">10/10/2023</span>
+                                        </td>
+                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                            <span>
+                                                đã hoàn thành </span>
+                                        </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a href="/Freelancer/detailhopdongfreelancer.php">xem chi tiết</a>
+                                        </td>
+                                        <td class="price-td show-block">
+                                        <div class="block-hidden" id="block-hidden63948">
+                                            </div>
+                                        </td>      
+                                    </tr> 
                                 </table>
                                 <div class="row-fluid">
                                 </div>

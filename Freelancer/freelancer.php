@@ -233,6 +233,14 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="tf200 ">
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Freelancer/freelancerquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -737,7 +745,7 @@
                         <span class="v1_679">Danh mục công việc</span>
                     </div>
                     <div class="separator5" style="margin-top: 30px;"></div>
-                    
+
                     <div class="separator5"></div>
                     <h4>Các công việc được quan tâm nhất</h4>
                     <div class="job" style="text-align: left;max-width: 910px;margin-left: auto;margin-right: auto;background: #ffffff;border: 1px solid #CCCCCC;">
@@ -1090,136 +1098,136 @@
                     </div>
                 </div>
                 <div class="reviews-section">
-                        <h3 class="review-client-title">Khách hàng hài lòng về chất lượng dịch vụ</h3>
-                        <div class="review-clients container">
-                            <div class="row-fluid slide-reviews">
-                                <div class="slide-reviews-client">
-                                    <div class="client-item">
-                                        <div class="review-avatar">
-                                            <span class="review-avatar-01"></span>
-                                        </div>
-                                        <div class="review-title">
-                                            <h4 class="name-client">Nguyễn Quang Minh</h4>
-                                            <p>Khách hàng</p>
-                                        </div>
-                                        <div class="review-quote">
-                                            <p>"Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
-                                            <div class="feedback-star">
-                                                <img src="/img/star3.png">
-                                            </div>
-                                        </div>
+                    <h3 class="review-client-title">Khách hàng hài lòng về chất lượng dịch vụ</h3>
+                    <div class="review-clients container">
+                        <div class="row-fluid slide-reviews">
+                            <div class="slide-reviews-client">
+                                <div class="client-item">
+                                    <div class="review-avatar">
+                                        <span class="review-avatar-01"></span>
                                     </div>
-                                </div>
-                                <div class="slide-reviews-client">
-                                    <div class="client-item">
-                                        <div class="review-avatar">
-                                            <span class="review-avatar-02"></span>
-                                        </div>
-                                        <div class="review-title">
-                                            <h4 class="name-client">Nguyễn Trần Bảo Trân</h4>
-                                            <p>Khách hàng</p>
-                                        </div>
-                                        <div class="review-quote">
-                                            <p>Freelancer làm việc nhiệt tình và chiều ý khách. Xu hướng cập nhập nhanh. Giao tiếp lễ phép lịch sự. Quá trình làm việc rất suôn sẻ và cảm thấy dễ chịu. Mong em có nhiều đơn hàng.</p>
-                                            <div class="feedback-star">
-                                                <img src="/img/star3.png">
-                                            </div>
-                                        </div>
+                                    <div class="review-title">
+                                        <h4 class="name-client">Nguyễn Quang Minh</h4>
+                                        <p>Khách hàng</p>
                                     </div>
-                                </div>
-                                <div class="slide-reviews-client">
-                                    <div class="client-item">
-                                        <div class="review-avatar">
-                                            <span class="review-avatar-03"></span>
-                                        </div>
-                                        <div class="review-title">
-                                            <h4 class="name-client">Hồ Nguyễn Quốc Huy</h4>
-                                            <p>Khách hàng</p>
-                                        </div>
-                                        <div class="review-quote">
-                                            <p>“Nhiệt tình, trách nhiệm, đáp ứng deadline công việc. Freelancer sẵn sàng chỉnh sửa theo các yêu cầu của khách hàng, đồng thời có thể đưa ra nhiều option để khách hàng lựa chọn. Một freelancer có thể hợp tác lâu dài.”</p>
-                                            <div class="feedback-star">
-                                                <img src="/img/star3.png">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="slide-reviews-client">
-                                    <div class="client-item">
-                                        <div class="review-avatar">
-                                            <span class="review-avatar-04"></span>
-                                        </div>
-                                        <div class="review-title">
-                                            <h4 class="name-client">Admin</h4>
-                                            <p>Khách hàng</p>
-                                        </div>
-                                        <div class="review-quote">
-                                            <p>“Hoàng Anh là freelancer rất tích cực trong công việc và giao tiếp, nhanh nhẹn và thông minh. Sẵn sàng hợp tác với bạn khi có dự án mới.”</p>
-                                            <div class="feedback-star">
-                                                <img src="/img/star3.png">
-                                            </div>
+                                    <div class="review-quote">
+                                        <p>"Freelancer hoàn thành công việc rất tốt và chuyên nghiệp, đáp ứng tất cả những yêu cầu của tôi đưa ra. Sẽ làm việc lại với freelancer này trong tương lai.”</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <script type="text/javascript">
-                            $(document).ready(function() {
-                                $('.slide-reviews').slick({
-                                    centerMode: true,
-                                    centerPadding: '0px',
-                                    slidesToShow: 3,
-                                    responsive: [{
-                                            breakpoint: 976,
-                                            settings: {
-                                                centerMode: true,
-                                                centerPadding: '0px',
-                                                slidesToShow: 2
-                                            }
-                                        },
-                                        {
-                                            breakpoint: 639,
-                                            settings: {
-                                                centerPadding: '0px',
-                                                slidesToShow: 1,
-                                                slidesToScroll: 1
-                                            }
-                                        }
-                                    ]
-                                });
-                            });
-                        </script>
-
-
-
-                        <div class="review-media">
-                            <div class="review-media-title">
-                                <h3 class="lh2">Vinh danh trên báo chí</h3>
+                            <div class="slide-reviews-client">
+                                <div class="client-item">
+                                    <div class="review-avatar">
+                                        <span class="review-avatar-02"></span>
+                                    </div>
+                                    <div class="review-title">
+                                        <h4 class="name-client">Nguyễn Trần Bảo Trân</h4>
+                                        <p>Khách hàng</p>
+                                    </div>
+                                    <div class="review-quote">
+                                        <p>Freelancer làm việc nhiệt tình và chiều ý khách. Xu hướng cập nhập nhanh. Giao tiếp lễ phép lịch sự. Quá trình làm việc rất suôn sẻ và cảm thấy dễ chịu. Mong em có nhiều đơn hàng.</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="container row-fluid">
-                                <div class="stats-col-left stats-col-left-new span12">
-                                    <div class="stats-col stats-row row-fluid">
-                                        <a rel="nofollow" href="http://dantri.com.vn/kinh-doanh/nguoi-viet-khoi-nghiep-gan-10-trieu-usd-da-duoc-dau-tu-988768.htm" target="_blank"><i class="cat-dantri"></i></a>
+                            <div class="slide-reviews-client">
+                                <div class="client-item">
+                                    <div class="review-avatar">
+                                        <span class="review-avatar-03"></span>
                                     </div>
-                                    <div class="stats-col stats-row row-fluid">
-                                        <a rel="nofollow" href="http://ictnews.vn/khoi-nghiep/goc-doanh-nghiep/vlance-thuc-day-thi-truong-freelance-viet-nam-chuyen-nghiep-hon-116351.ict" target="_blank"><i class="cat-ict"></i></a>
+                                    <div class="review-title">
+                                        <h4 class="name-client">Hồ Nguyễn Quốc Huy</h4>
+                                        <p>Khách hàng</p>
                                     </div>
-                                    <div class="stats-col stats-row row-fluid">
-                                        <a rel="nofollow" href="http://songmoi.vn/kinh-te-thi-truong/san-giao-dich-%E2%80%9Ccuu-canh%E2%80%9D-cho-nghe-tu-do" target="_blank"><i class="cat-kt"></i></a>
+                                    <div class="review-quote">
+                                        <p>“Nhiệt tình, trách nhiệm, đáp ứng deadline công việc. Freelancer sẵn sàng chỉnh sửa theo các yêu cầu của khách hàng, đồng thời có thể đưa ra nhiều option để khách hàng lựa chọn. Một freelancer có thể hợp tác lâu dài.”</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
+                                        </div>
                                     </div>
-                                    <div class="stats-col stats-row row-fluid">
-                                        <a rel="nofollow" href="http://seatimes.com.vn/startup-weekend-hanoi-2014-vinh-danh-du-an-cong-dong-freelancer-n89808.html" target="_blank"><i class="cat-seatime"></i></a>
+                                </div>
+                            </div>
+                            <div class="slide-reviews-client">
+                                <div class="client-item">
+                                    <div class="review-avatar">
+                                        <span class="review-avatar-04"></span>
                                     </div>
-                                    <div class="stats-col stats-row row-fluid">
-                                        <a rel="nofollow" href="http://english.vietnamnet.vn/fms/society/98323/freelancers-look-at-work-from-a-fresh-perspective.html" target="_blank"><i class="cat-vietnamnet"></i></a>
+                                    <div class="review-title">
+                                        <h4 class="name-client">Admin</h4>
+                                        <p>Khách hàng</p>
                                     </div>
-                                    <div class="stats-col stats-row row-fluid">
-                                        <a rel="nofollow" href="https://www.dealstreetasia.com/stories/exclusive-vlance-targets-vns-largest-freelance-service/" target="_blank"><i class="cat-tech"></i></a>
+                                    <div class="review-quote">
+                                        <p>“Hoàng Anh là freelancer rất tích cực trong công việc và giao tiếp, nhanh nhẹn và thông minh. Sẵn sàng hợp tác với bạn khi có dự án mới.”</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $('.slide-reviews').slick({
+                                centerMode: true,
+                                centerPadding: '0px',
+                                slidesToShow: 3,
+                                responsive: [{
+                                        breakpoint: 976,
+                                        settings: {
+                                            centerMode: true,
+                                            centerPadding: '0px',
+                                            slidesToShow: 2
+                                        }
+                                    },
+                                    {
+                                        breakpoint: 639,
+                                        settings: {
+                                            centerPadding: '0px',
+                                            slidesToShow: 1,
+                                            slidesToScroll: 1
+                                        }
+                                    }
+                                ]
+                            });
+                        });
+                    </script>
+
+
+
+                    <div class="review-media">
+                        <div class="review-media-title">
+                            <h3 class="lh2">Vinh danh trên báo chí</h3>
+                        </div>
+                        <div class="container row-fluid">
+                            <div class="stats-col-left stats-col-left-new span12">
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://dantri.com.vn/kinh-doanh/nguoi-viet-khoi-nghiep-gan-10-trieu-usd-da-duoc-dau-tu-988768.htm" target="_blank"><i class="cat-dantri"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://ictnews.vn/khoi-nghiep/goc-doanh-nghiep/vlance-thuc-day-thi-truong-freelance-viet-nam-chuyen-nghiep-hon-116351.ict" target="_blank"><i class="cat-ict"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://songmoi.vn/kinh-te-thi-truong/san-giao-dich-%E2%80%9Ccuu-canh%E2%80%9D-cho-nghe-tu-do" target="_blank"><i class="cat-kt"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://seatimes.com.vn/startup-weekend-hanoi-2014-vinh-danh-du-an-cong-dong-freelancer-n89808.html" target="_blank"><i class="cat-seatime"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="http://english.vietnamnet.vn/fms/society/98323/freelancers-look-at-work-from-a-fresh-perspective.html" target="_blank"><i class="cat-vietnamnet"></i></a>
+                                </div>
+                                <div class="stats-col stats-row row-fluid">
+                                    <a rel="nofollow" href="https://www.dealstreetasia.com/stories/exclusive-vlance-targets-vns-largest-freelance-service/" target="_blank"><i class="cat-tech"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="separator5"></div>
             </div>
 
