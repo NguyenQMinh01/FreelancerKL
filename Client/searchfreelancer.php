@@ -192,8 +192,14 @@
                             </div>
                         </li>
                         <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                                </ul>
+                            </div>
                         </li>
+                       
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>
@@ -588,92 +594,92 @@
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_net">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>.NET </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_ajax">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>AJAX </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_aws">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>AWS </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_bootstrap">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>Bootstrap </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_c">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>C# </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_c-1">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>C++ </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_cakephp">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>PHP </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_css">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>CSS </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_css3">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>CSS3 </div>
                                                     </a>
                                                 </li>
 
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_html">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>HTML </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_html5">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>HTML5 </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_ios">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>iOS </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_java">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>Java </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_javascript">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>Javascript </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/freelancers/kynang_jquery">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>jQuery </div>
                                                     </a>
@@ -697,7 +703,7 @@
                 </div>
                 <div class="alongay-ad-banner" style="text-align: center;margin-top: 20px">
                     <a href="https://www.alongay.vn/?utm_source=vlance&amp;utm_medium=banner&amp;utm_campaign=20201501_banner_alongay_T12&amp;utm_term=banner_fl_left" target="_blank">
-                        <img src="/img/ad/banner-alo-ngay-160x600.jpg" alt="https://www.alongay.vn/">
+                        <img src="/img/quangcaofreelancer1.jpeg" alt="https://www.alongay.vn/">
                     </a>
                 </div>
             </div>
@@ -1668,11 +1674,11 @@
                     </div>
                     <div class="block-internal-link block-internal-link-bot">
                         <div class="row-fluid">
-                            <div class="span6 il-item il-item-full" onclick="location.href='/viec-lam-freelance';" style="cursor: pointer;border-top: none">
+                            <div class="span6 il-item il-item-full" onclick="location.href=''" style="cursor: pointer;border-top: none">
                                 <span class="span3 svg-internal-link-4" style="margin-top: 10px">
                                 </span>
                                 <span class="il-title span7" style="padding-top: 0">
-                                    <a class="il-link" href="/viec-lam-freelance">Cập nhật việc mới</a>
+                                    <a class="il-link" href="">Cập nhật việc mới</a>
                                     <p class="il-content">Việc dự án, part-time, cuộc thi thiết kế đã được làm mới hôm nay</p>
                                 </span>
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: 27px">
@@ -1682,7 +1688,7 @@
                                 <span class="span3 svg-internal-link-5" style="margin-top: 10px">
                                 </span>
                                 <span class="il-title span7" style="padding-top: 0">
-                                    <a class="il-link" href="/freelancers">Top Freelancer?</a>
+                                    <a class="il-link" href="">Top Freelancer?</a>
                                     <p class="il-content">Xem ngay tại trang danh sách Freelancer.</p>
                                 </span>
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: 27px">
@@ -1692,7 +1698,7 @@
                     </div>
                     <div class="block-internal-link-mobile block-internal-link-mobile-bot">
                         <div class="row-fluid">
-                            <div class="span6 il-item il-item-full-2" onclick="location.href='/viec-lam-freelance';" style="cursor: pointer;border-top: none">
+                            <div class="span6 il-item il-item-full-2" onclick="location.href='';" style="cursor: pointer;border-top: none">
                                 <span class="span3 svg-internal-link-4" style="margin-top: 17px">
                                     <img style="width:64px; height:64px;" src="/media/internal-link/internal_link_profile_freelancer_4.png">
                                 </span>
@@ -1703,11 +1709,11 @@
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: -63px">
                                 </span>
                             </div>
-                            <div class="span6 il-item il-item-2 il-item-full-2" onclick="location.href='/freelancers';" style="cursor: pointer;">
+                            <div class="span6 il-item il-item-2 il-item-full-2" onclick="location.href='';" style="cursor: pointer;">
                                 <span class="span3 svg-internal-link-5" style="margin-top: 17px">
                                 </span>
                                 <span class="il-title span7" style="padding-top: 0">
-                                    <a class="il-link" href="/freelancers">Top Freelancer?</a>
+                                    <a class="il-link" href="">Top Freelancer?</a>
                                     <p class="il-content">Xem ngay tại trang danh sách Freelancer.</p>
                                 </span>
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: -63px">
@@ -1717,7 +1723,7 @@
                     </div>
                     <div class="alongay-ad-banner" style="text-align: center;margin-top: 20px">
                         <a href="https://www.alongay.vn/?utm_source=vlance&amp;utm_medium=banner&amp;utm_campaign=20201501_banner_alongay_T12&amp;utm_term=banner_fl_main" target="_blank">
-                            <img src="/img/ad/1200x250-banner-AloNgay.jpg" alt="https://www.alongay.vn/">
+                            <img src="/img/quangcaofreelancer1.jpeg" alt="https://www.alongay.vn/">
                         </a>
                     </div>
                 </div>
