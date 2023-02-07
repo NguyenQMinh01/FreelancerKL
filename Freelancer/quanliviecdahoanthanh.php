@@ -435,11 +435,6 @@
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
                         <a class="ver2" href="#">freelancer for Business</a>
-                        <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2">
                         <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>

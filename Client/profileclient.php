@@ -768,7 +768,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd> Giới thiệu công ty</dd>
                                     <dd>Công ty TNHH AwareSoft</dd>
@@ -786,7 +786,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Mã số thuế </dd>
                                     <dd>8510949061</dd>
@@ -794,7 +794,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Địa chỉ công ty</dd>
                                     <dd>39 Sơn Kỳ, phường Sơn Kỳ, quận Tân Phú, Thành phố Hồ Chí Minh</dd>
@@ -802,7 +802,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Đánh giá</dd>
                                     <dd>

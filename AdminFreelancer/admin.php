@@ -29,10 +29,10 @@
                 <div class="navbar-content scroll-div" style="overflow: hidden; width: 100%; height: calc(-70px + 100vh);">
                     <ul class="nav pcoded-inner-navbar">
                         <li class="nav-item pcoded-menu-caption"> <label>Danh mục</label> </li>
-                        <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
-                        <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
-                        <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Details job</span></a> </li>
-                        <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
+                        <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Trang chủ</span></a> </li>
+                        <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Danh sách công việc đã duyệt</span></a> </li>
+                        <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Chi tiết công việc</span></a> </li>
+                        <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Đăng xuất</span> </a> </li>
                     </ul>
                 </div>
                 <div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.5); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 898px;"></div>
@@ -59,7 +59,7 @@
                     <div class="dropdown"> <a class="" href="javascript:" data-toggle="dropdown" aria-expanded="false"><i class="icon feather icon-bell"></i></a>
                         <div class="dropdown-menu dropdown-menu-right notification">
                             <div class="noti-head">
-                                <h6 class="d-inline-block m-b-0">Notifications</h6>
+                                <h6 class="d-inline-block m-b-0">Thông báo</h6>
                                 <div class="float-right"> <a href="javascript:" class="m-r-10">mark as read</a> <a href="javascript:">clear all</a> </div>
                             </div>
                             <ul class="noti-body">
@@ -69,7 +69,7 @@
                                 <li class="notification">
                                     <div class="media"> <img class="img-radius" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" alt="Generic placeholder image">
                                         <div class="media-body">
-                                            <p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p><strong>Nguyễn Minh</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
                                             <p>New ticket Added</p>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@
                                 <li class="notification">
                                     <div class="media"> <img class="img-radius" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-2.jpg" alt="Generic placeholder image">
                                         <div class="media-body">
-                                            <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+                                            <p><strong>Nguyễn Minh</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
                                             <p>Prchace New Theme and make payment</p>
                                         </div>
                                     </div>
@@ -94,7 +94,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="noti-footer"> <a href="javascript:">show all</a> </div>
+                            <div class="noti-footer"> <a href="javascript:">Hiển thị thêm</a> </div>
                         </div>
                     </div>
                 </li>
@@ -103,8 +103,8 @@
                         <div class="dropdown-menu dropdown-menu-right profile-notification">
                             <div class="pro-head"> <img src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image"> <span> test </span> <a href="/auth-signin.html" class="dud-logout" title="Logout"> <i class="feather icon-log-out"></i> </a> </div>
                             <ul class="pro-body">
-                                <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
-                                <li><a href="#" class="dropdown-item"> <i class="feather icon-lock"></i> Logout</a> </li>
+                                <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i> Hồ sơ</a></li>
+                                <li><a href="#" class="dropdown-item"> <i class="feather icon-lock"></i> Đăng xuất</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                                                     <h3 class="f-w-300 d-flex align-items-center m-b-0"><i class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>$ 249.95</h3>
                                                 </div>
                                                 <div class="col-3 text-right">
-                                                    <p class="m-b-0">67%</p>
+                                                    <p class="m-b-0">67% so với hôm qua</p>
                                                 </div>
                                             </div>
                                             <div class="progress m-t-30" style="height: 7px;">
@@ -146,7 +146,7 @@
                                                     <h3 class="f-w-300 d-flex align-items-center  m-b-0"><i class="feather icon-arrow-down text-c-red f-30 m-r-10"></i>$ 2.942.32</h3>
                                                 </div>
                                                 <div class="col-3 text-right">
-                                                    <p class="m-b-0">36%</p>
+                                                    <p class="m-b-0">36% so với tháng trước</p>
                                                 </div>
                                             </div>
                                             <div class="progress m-t-30" style="height: 7px;">
@@ -164,7 +164,7 @@
                                                     <h3 class="f-w-300 d-flex align-items-center  m-b-0"><i class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>$ 8.638.32</h3>
                                                 </div>
                                                 <div class="col-3 text-right">
-                                                    <p class="m-b-0">80%</p>
+                                                    <p class="m-b-0">80% so với năm truớc</p>
                                                 </div>
                                             </div>
                                             <div class="progress m-t-30" style="height: 7px;">
@@ -176,7 +176,7 @@
                                 <div class="col-xl-8 col-md-6">
                                     <div class="card Recent-Users">
                                         <div class="card-header">
-                                            <h5>Dư án hoặc tin tuyển dụng đang chờ xét duyệt</h5>
+                                            <h5>Dự án hoặc tin tuyển dụng đang chờ xét duyệt</h5>
                                         </div>
                                         <div class="card-block px-0 py-3">
                                             <div class="table-responsive">
@@ -196,7 +196,7 @@
                                             <div class="row d-flex align-items-center">
                                                 <div class="col-auto"> <i class="feather icon-zap f-30 text-c-green"></i> </div>
                                                 <div class="col">
-                                                    <h3 class="f-w-300">54.432</h3> <span class="d-block text-uppercase">Dự án đã được xét duyệt</span>
+                                                    <h3 class="f-w-300">15</h3> <span class="d-block text-uppercase">Dự án đã được xét duyệt</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,7 +204,7 @@
                                             <div class="row d-flex align-items-center">
                                                 <div class="col-auto"> <i class="feather icon-map-pin f-30 text-c-blue"></i> </div>
                                                 <div class="col">
-                                                    <h3 class="f-w-300">1.243.397</h3> <span class="d-block text-uppercase">Sô lượng tài khoản đăng kí và truy cập</span>
+                                                    <h3 class="f-w-300">200</h3> <span class="d-block text-uppercase">Sô lượng tài khoản đăng kí và truy cập</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -213,7 +213,7 @@
                                 <div class="col-xl-4 col-md-6">
                                     <div class="card user-list">
                                         <div class="card-header">
-                                            <h5>Rating</h5>
+                                            <h5>Đánh giá</h5>
                                         </div>
                                         <div class="card-block">
                                             <div class="row align-items-center justify-content-center m-b-20">

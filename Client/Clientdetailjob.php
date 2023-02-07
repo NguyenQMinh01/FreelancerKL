@@ -6,7 +6,6 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:site_name" content="vLance.vn" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="L&agrave;m website b&aacute;n gi&agrave;y - TP. Hồ Ch&iacute; Minh | vLance.vn" />
@@ -190,10 +189,10 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -204,6 +203,7 @@
                                     <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
                                 </ul>
                             </div>
+                        </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>
@@ -655,7 +655,7 @@
                                     </div>
                                     <div class="row-fluid">
                                         <div class="span12 contact-client">
-                                            <a class="btn btn-vl-green contact-client-new" style = "background-color: #1996d7" data-toggle="modal" href="#pay-credit-contact-client" data-request="{&quot;cid&quot;:346245, &quot;pid&quot;:1229116}" data-display-track="show-contact-client-button" onclick="vtrack('Click contact client', {
+                                            <a class="btn btn-vl-green contact-client-new" style="background-color: #1996d7" data-toggle="modal" href="#pay-credit-contact-client" data-request="{&quot;cid&quot;:346245, &quot;pid&quot;:1229116}" data-display-track="show-contact-client-button" onclick="vtrack('Click contact client', {
                                                         'authenticated':true, 
                                                         'category':'Thiết kế nội thất nhà và chung cư', 
                                                         'client':'Nguyễn Minh', 
