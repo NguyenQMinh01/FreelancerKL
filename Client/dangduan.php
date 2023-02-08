@@ -218,8 +218,8 @@
                                 <ul class="dropdown-menu">
                                 <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
                                     <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -289,13 +289,13 @@
                                 </div>
                                 <div class="account-menu-detail ver2">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>M&iacute;nh </p>
+                                        <p class="fullname">M&iacute;nh </p>
                                     </a>
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/Client/profileclient.php">Id. 1250511 </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Client</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
                                         </span>
                                     </div>
                                 </div>
@@ -619,13 +619,7 @@
                                             </div>
                                             <div class="span10">
                                                 <h4>Ngân sách dự kiến chi cho công việc này</h4>
-                                                <div class="control-group wrapper append-white combo-row-1st span6 budget">
-                                                    <label class="required" for="vlance_jobbundle_jobtype_typePay">Hình thức trả lương </label> <select id="vlance_jobbundle_jobtype_typePay" name="vlance_jobbundle_jobtype[typePay]" required="required" pattern="[0-9]*" placeholder="ví dụ: 14" class="row-fluid span12">
-                                                        <option value="0" selected="selected">Trả theo dự án</option>
-                                                        <option value="1">Trả theo giờ</option>
-                                                        <option value="2">Trả theo tháng</option>
-                                                    </select>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                         <div class="row-fluid">
@@ -714,6 +708,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script>
+            $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if (!x) {
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt", a.fullname);
+
+                $('.logout').on('click', function() {
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+
+            })
+        </script>
 </body>
 
 </html>

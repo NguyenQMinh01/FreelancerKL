@@ -192,8 +192,8 @@
                                 <ul class="dropdown-menu">
                                 <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
                                     <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -910,6 +910,61 @@
         </div>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+  
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>                               
+    <script>
+        function hide(id) {
+            $(id).hide();
+        };
+        
+        $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if (!x) {
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt", a.fullname);
+
+                $('.logout').on('click', function() {
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+                var data = {
+                    id_user: a.id_user
+                };
+                
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_pending',
+                    data:data,
+                    method: 'POST',
+                    success: function(res) {
+                        var s = "";
+                        let a = JSON.parse(res);
+                        a.map((v, i) => {
+                            s += ``;
+                        });
+                        $(".datatable tbody").html(s);
+                    },
+                    async: true
+                });
+                $(document).delegate('a.viewdetail','click',function(){
+                    //alert( $(this).attr("data-id"));
+                    localStorage.setItem('id_job',$(this).attr("data-id"));
+                    window.location.href = "/Client/Clientdetailjob.php";
+                })
+     });
+    </script>
 </body>
 
 </html>

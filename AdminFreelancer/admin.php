@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/animation/css/animate.min.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/style.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
-    
+
 </head>
+
 <body>
     <nav class="pcoded-navbar">
         <div class="navbar-wrapper">
@@ -119,60 +120,6 @@
                     <div class="main-body">
                         <div class="page-wrapper">
                             <div class="row">
-                                <div class="col-md-6 col-xl-4">
-                                    <div class="card daily-sales">
-                                        <div class="card-block">
-                                            <h6 class="mb-4">Doanh thu theo ngày</h6>
-                                            <div class="row d-flex align-items-center">
-                                                <div class="col-9">
-                                                    <h3 class="f-w-300 d-flex align-items-center m-b-0"><i class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>$ 249.95</h3>
-                                                </div>
-                                                <div class="col-3 text-right">
-                                                    <p class="m-b-0">67%</p>
-                                                </div>
-                                            </div>
-                                            <div class="progress m-t-30" style="height: 7px;">
-                                                <div class="progress-bar progress-c-theme" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-xl-4">
-                                    <div class="card Monthly-sales">
-                                        <div class="card-block">
-                                            <h6 class="mb-4">Doanh thu theo tháng</h6>
-                                            <div class="row d-flex align-items-center">
-                                                <div class="col-9">
-                                                    <h3 class="f-w-300 d-flex align-items-center  m-b-0"><i class="feather icon-arrow-down text-c-red f-30 m-r-10"></i>$ 2.942.32</h3>
-                                                </div>
-                                                <div class="col-3 text-right">
-                                                    <p class="m-b-0">36%</p>
-                                                </div>
-                                            </div>
-                                            <div class="progress m-t-30" style="height: 7px;">
-                                                <div class="progress-bar progress-c-theme2" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-xl-4">
-                                    <div class="card yearly-sales">
-                                        <div class="card-block">
-                                            <h6 class="mb-4">Doanh thu theo năm</h6>
-                                            <div class="row d-flex align-items-center">
-                                                <div class="col-9">
-                                                    <h3 class="f-w-300 d-flex align-items-center  m-b-0"><i class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>$ 8.638.32</h3>
-                                                </div>
-                                                <div class="col-3 text-right">
-                                                    <p class="m-b-0">80%</p>
-                                                </div>
-                                            </div>
-                                            <div class="progress m-t-30" style="height: 7px;">
-                                                <div class="progress-bar progress-c-theme" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="col-xl-8 col-md-6">
                                     <div class="card Recent-Users">
                                         <div class="card-header">
@@ -182,84 +129,10 @@
                                             <div class="table-responsive">
                                                 <table class="table table-hover tablelist">
                                                     <tbody>
-                                                        
+
                                                     </tbody>
                                                 </table>
                                                 <div class="noti-footer" style="display:flex; justify-content:center;"> <a href="javascript:">show all</a> </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <div class="card">
-                                        <div class="card-block border-bottom">
-                                            <div class="row d-flex align-items-center">
-                                                <div class="col-auto"> <i class="feather icon-zap f-30 text-c-green"></i> </div>
-                                                <div class="col">
-                                                    <h3 class="f-w-300">54.432</h3> <span class="d-block text-uppercase">Dự án đã được xét duyệt</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-block">
-                                            <div class="row d-flex align-items-center">
-                                                <div class="col-auto"> <i class="feather icon-map-pin f-30 text-c-blue"></i> </div>
-                                                <div class="col">
-                                                    <h3 class="f-w-300">1.243.397</h3> <span class="d-block text-uppercase">Sô lượng tài khoản đăng kí và truy cập</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6">
-                                    <div class="card user-list">
-                                        <div class="card-header">
-                                            <h5>Rating</h5>
-                                        </div>
-                                        <div class="card-block">
-                                            <div class="row align-items-center justify-content-center m-b-20">
-                                                <div class="col-6">
-                                                    <h2 class="f-w-300 d-flex align-items-center float-left m-0">4.7 <i class="fas fa-star f-10 m-l-10 text-c-yellow"></i></h2>
-                                                </div>
-                                                <div class="col-6">
-                                                    <h6 class="d-flex  align-items-center float-right m-0">0.4 <i class="fas fa-caret-up text-c-green f-22 m-l-10"></i></h6>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xl-12">
-                                                    <h6 class="align-items-center float-left"><i class="fas fa-star f-10 m-r-10 text-c-yellow"></i>5</h6>
-                                                    <h6 class="align-items-center float-right">384</h6>
-                                                    <div class="progress m-t-30 m-b-20" style="height: 6px;">
-                                                        <div class="progress-bar progress-c-theme" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <h6 class="align-items-center float-left"><i class="fas fa-star f-10 m-r-10 text-c-yellow"></i>4</h6>
-                                                    <h6 class="align-items-center float-right">145</h6>
-                                                    <div class="progress m-t-30  m-b-20" style="height: 6px;">
-                                                        <div class="progress-bar progress-c-theme" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <h6 class="align-items-center float-left"><i class="fas fa-star f-10 m-r-10 text-c-yellow"></i>3</h6>
-                                                    <h6 class="align-items-center float-right">24</h6>
-                                                    <div class="progress m-t-30  m-b-20" style="height: 6px;">
-                                                        <div class="progress-bar progress-c-theme" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <h6 class="align-items-center float-left"><i class="fas fa-star f-10 m-r-10 text-c-yellow"></i>2</h6>
-                                                    <h6 class="align-items-center float-right">1</h6>
-                                                    <div class="progress m-t-30  m-b-20" style="height: 6px;">
-                                                        <div class="progress-bar progress-c-theme" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <h6 class="align-items-center float-left"><i class="fas fa-star f-10 m-r-10 text-c-yellow"></i>1</h6>
-                                                    <h6 class="align-items-center float-right">0</h6>
-                                                    <div class="progress m-t-30  m-b-20" style="height: 6px;">
-                                                        <div class="progress-bar" role="progressbar" style="width:0;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -276,7 +149,7 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             var x = localStorage.getItem('admin');
             if (!x) {
                 document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
@@ -285,10 +158,10 @@
             $.ajax({
                 url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_job_pending',
                 success: function(res) {
-                    var s= "";
-                    JSON.parse(res).map((v,i) => {
+                    var s = "";
+                    JSON.parse(res).map((v, i) => {
                         let day = new Date(v.create_date).toLocaleDateString("en-US");
-                        s+=`<tr class="unread " data-id="${v.id_job}">
+                        s += `<tr class="unread " data-id="${v.id_job}">
                             <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" alt="activity-user"> </td>
                             <td>
                                 <h6 class="mb-1">${v.username}</h6>
@@ -305,10 +178,10 @@
                 async: true
             });
 
-            $(".tablelist").on("click","a.approve",function(e){
+            $(".tablelist").on("click", "a.approve", function(e) {
                 e.preventDefault();
-               var id = $(this).attr("data-id");
-               var data = {
+                var id = $(this).attr("data-id");
+                var data = {
                     id_job: id,
                     type: "approve"
                 }
@@ -316,22 +189,22 @@
                 $.ajax({
                     url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_job',
                     data: data,
-                    method:'POST',
-                    success: function(res){
+                    method: 'POST',
+                    success: function(res) {
                         let a = JSON.parse(res);
-                        if(a.code==1){
+                        if (a.code == 1) {
                             me.remove();
                             alert("Đã duyệt dự án");
                         }
                     },
                     async: true
                 });
-               
+
             });
-            $(".tablelist").on("click","a.reject",function(e){
+            $(".tablelist").on("click", "a.reject", function(e) {
                 e.preventDefault();
-               var id = $(this).attr("data-id");
-               var data = {
+                var id = $(this).attr("data-id");
+                var data = {
                     id_job: id,
                     type: "reject"
                 }
@@ -339,10 +212,10 @@
                 $.ajax({
                     url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_job',
                     data: data,
-                    method:'POST',
-                    success: function(res){
+                    method: 'POST',
+                    success: function(res) {
                         let a = JSON.parse(res);
-                        if(a.code==1){
+                        if (a.code == 1) {
                             me.remove();
                             alert("Đã hủy dự án");
                         }
@@ -353,4 +226,5 @@
         });
     </script>
 </body>
+
 </html>
