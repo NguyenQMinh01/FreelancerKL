@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
 
 </head>
+
 <body>
     <nav class="pcoded-navbar">
         <div class="navbar-wrapper">
@@ -119,6 +120,7 @@
                     <div class="main-body">
                         <div class="page-wrapper">
                             <div class="row">
+
                                 <div class="col-md-6 col-xl-4">
                                     <div class="card daily-sales">
                                         <div class="card-block">
@@ -264,6 +266,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -276,7 +279,7 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             var x = localStorage.getItem('admin');
             if (!x) {
                 document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
@@ -285,10 +288,10 @@
             $.ajax({
                 url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_job_pending',
                 success: function(res) {
-                    var s= "";
-                    JSON.parse(res).map((v,i) => {
+                    var s = "";
+                    JSON.parse(res).map((v, i) => {
                         let day = new Date(v.create_date).toLocaleDateString("en-US");
-                        s+=`<tr class="unread " data-id="${v.id_job}">
+                        s += `<tr class="unread " data-id="${v.id_job}">
                             <td><img class="rounded-circle" style="width:40px;" src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/images/user/avatar-1.jpg" alt="activity-user"> </td>
                             <td>
                                 <h6 class="mb-1">${v.username}</h6>
@@ -305,10 +308,10 @@
                 async: true
             });
 
-            $(".tablelist").on("click","a.approve",function(e){
+            $(".tablelist").on("click", "a.approve", function(e) {
                 e.preventDefault();
-               var id = $(this).attr("data-id");
-               var data = {
+                var id = $(this).attr("data-id");
+                var data = {
                     id_job: id,
                     type: "approve"
                 }
@@ -316,10 +319,10 @@
                 $.ajax({
                     url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_job',
                     data: data,
-                    method:'POST',
-                    success: function(res){
+                    method: 'POST',
+                    success: function(res) {
                         let a = JSON.parse(res);
-                        if(a.code==1){
+                        if (a.code == 1) {
                             me.remove();
                             alert("Đã duyệt dự án");
                         }
@@ -328,10 +331,10 @@
                 });
 
             });
-            $(".tablelist").on("click","a.reject",function(e){
+            $(".tablelist").on("click", "a.reject", function(e) {
                 e.preventDefault();
-               var id = $(this).attr("data-id");
-               var data = {
+                var id = $(this).attr("data-id");
+                var data = {
                     id_job: id,
                     type: "reject"
                 }
@@ -339,10 +342,10 @@
                 $.ajax({
                     url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_job',
                     data: data,
-                    method:'POST',
-                    success: function(res){
+                    method: 'POST',
+                    success: function(res) {
                         let a = JSON.parse(res);
-                        if(a.code==1){
+                        if (a.code == 1) {
                             me.remove();
                             alert("Đã hủy dự án");
                         }
@@ -353,4 +356,4 @@
         });
     </script>
 </body>
-</html>
+

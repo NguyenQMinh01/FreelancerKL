@@ -190,8 +190,8 @@
                                 <ul class="dropdown-menu">
                                     <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -522,34 +522,8 @@
         <div class="main_content">
             <div class="content-section container client-view width-full-m">
                 <div class="row-fluid">
-                    <div class="span12">
-                        <div class="row-fluid notify-consider-job">
-                            <p class="title">Công việc của bạn đang được duyệt. Khi thành công freelancer sẽ gửi thông báo cho bạn qua email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f19c989f999c9e9fc0c0c3c3c2c2b1969c90989ddf929e9c">minhmon112233@gmail.com</a> </p>
-                            <ul>
-                                <li>Bạn có thể kiểm tra ở hòm thư trên để tìm lại công việc đã đăng.</li>
-                                <li>Hoặc có thể tìm lại công việc trong trang <a href="/j-d/client">Quản lý tin đăng.</a></li>
-                            </ul>
-                        </div>
-                        <div class="row-fluid">
-                            <div style="display: none;">
-                                <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-                                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                        <a href="/viec-lam-ban-thoi-gian" itemprop="item">
-                                            <span itemprop="name">Việc freelancer</span>
-                                        </a>
-                                        <meta itemprop="position" content="1">
-                                    </li>
-                                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                                        <a href="/viec-lam-ban-thoi-gian/cpath_cac-cong-viec-it-va-lap-trinh_chash_lap-trinh-web" itemprop="item">
-                                            <span itemprop="name">Web Programming</span>
-                                        </a>
-                                        <meta itemprop="position" content="2">
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div>
-                        </div>
+                    <div class="span12 detailjob">
+                       
                         <div class="row-fluid">
                             <h1 class="title block-title">
                                 L&agrave;m website b&aacute;n gi&agrave;y <span class="label-tag label-large label-new">Đang chào giá</span>
@@ -689,33 +663,16 @@
                     <hx:include evaljs="true" src="/j/64877/bid" class="included include_200">
                         <div class="row-fluid">
                             <div class="information-bidding row-fluid information-bidding-job-new row-fluid">
-                                <div class="span3 client-bidding-left-new">
+                                <div class="span3 client-bidding-left-new total_proposal">
                                     <span class="bid-counter">
-                                        Chào giá: <span class="value">
+                                        Chào giá: <span class="value ">
                                             4 </span>
                                     </span>
                                 </div>
-                                <div class="span7 offset1 client-bidding-between-new">
-                                    <span class="bid-lowest-new">
-                                        Thấp nhất: <span class="value">300.000 VNĐ</span>
-                                    </span>
-                                    <span class="client-bidding-between-boder">|</span>
-                                    <span class="bid-average">
-                                        Trung bình: <span class="value">425.000 VNĐ</span>
-                                    </span>
-                                    <span class="client-bidding-between-boder">|</span>
-                                    <span class="bid-highest-new">
-                                        Cao nhất: <span class="value">600.000 VNĐ</span>
-                                    </span>
-                                </div>
-                                <div class="span2 client-bidding-right-new">
-                                    <span class="duration-average">
-                                        Trung bình: <span class="value">3 ngày</span>
-                                    </span>
-                                </div>
+                               
                             </div>
                         </div>
-                        <div class="row-fluid container list-bid-new" style="margin-bottom: 30px; width: 96%; max-width: 1200px">
+                        <div class="row-fluid container list-bid-new listproposal" style="margin-bottom: 30px; width: 96%; max-width: 1200px">
                             <div class="profile-job-new span12 block-bid">
                                 <div class="row-fluid" style="margin-bottom:20px">
                                     <div class="span2 block-img-fl">
@@ -919,6 +876,272 @@
         </div>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+    <script>
+        function hide(id) {
+            $(id).hide();
+        };
+        
+        $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if (!x) {
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt", a.fullname);
+
+                $('.logout').on('click', function() {
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+                var id_job = localStorage.getItem('id_job')
+                var data = {
+                    id_job: id_job
+                };
+                var detail;
+                var end;
+                var start;
+                var amount;
+                //list proposal
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_proposal_client',
+                    data:data,
+                    method: 'POST',
+                    success: function(res) {
+                        var s = "";
+                        var t = "";
+                        let a = JSON.parse(res);
+                        a.map((v, i) => {
+                            //alert(v.completion_date);
+                            s += `<div class="profile-job-new span12 block-bid">
+                                <div class="row-fluid fullinfo" style="margin-bottom:20px">
+                                    <div class="span2 block-img-fl">
+                                        <div class="freelancer-row-img" style="margin-top: 40px;">
+                                            <div class="images">
+                                                <a href="/Freelancer/profilefreelancer.ph" title=${v.fullname}>
+                                                    <img style="border-radius: 50%" src=${v.avatar}>
+                                                </a>
+                                            </div>
+                                            <div class="rating-box">
+                                                <div class="rating" style="width:${v.client_grade?v.client_grade*10:0}%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span6 profile-job-left bid-freelancer block-information-fl" style="margin-top: 15px">
+                                        <div class="profile-job-left-bottom" style="width:100%">
+                                            <h3 class="title">
+                                                <a href="/Freelancer/profilefreelancer.php" title="Nguyễn Minh">
+                                                    ${v.fullname} </a>
+                                                <span data-id=${v.id_proposal} class="contact-block" style="float:right;">
+                                                    <a class="btn btn-vl-green contact-freelancer accept" data-id=${v.id_freelancer} style="font-size:12px;" >
+                                                        Duyệt chào giá</a>
+                                                </span>
+                                            </h3>
+                                            <div class="work-title detaila">${v.detail}</div>
+                                          
+                                            <div class="skill">
+                                                <label>Kỹ năng:</label>
+                                                <div class="list-skill">
+                                                    ${v.have_skill}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span4 profile-job-right" style="margin-top: 40px">
+                                        <div class="profile-job-right-top">
+                                            <div class="span12">
+                                                <dl class="dl-vertical">
+                                                    <dt>Ngày hoàn thành</dt>
+                                                    <dd class="end_date">${v.completion_date}</dd>
+                                                   
+                                                </dl>
+                                                <dl class="dl-vertical">
+                                                    <dt>Số tiền mong muốn</dt>
+                                                    <dd class="amount">${v.payment_amount}</dd>
+                                                   
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`;
+                           
+                           
+                        });
+                        $(".listproposal").html(s);
+                       
+                    },
+                    async: true
+                });
+                //detail
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job',
+                    data:data,
+                    method: 'POST',
+                    success: function(res) {
+                        var s = "";
+                        var t ="";
+                        let a = JSON.parse(res);
+                        a.data.map((v, i) => {
+                            let budget = v.budget.toLocaleString('en-US');
+                            s += `
+                            <div class="row-fluid">
+                            <h1 class="title block-title">
+                                ${v.title} <span class="label-tag label-large label-new">Đang chào giá</span>
+                            </h1>
+                        </div>
+                        <div class="row-fluid page-tabs">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">
+                                        Thông tin công việc </a>
+                                </li>
+
+                            </ul>
+                            <div class="border"></div>
+                            <div style = "padding-top: 50px;" class="block-hidden" id="block-hidden63948">
+                                <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Ngừng nhận chào giá<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+                                <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Xác nhận hoàn thành<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                            <div class="row-fluid">
+                            <div class="span7 news-client-view">
+                                <div class="body-view hidebody">
+                                    <div class="row-fluid">
+                                        <div class="service-need-hire">
+                                            <div class="service-title">
+                                                Dịch vụ cần thuê:
+                                                <a>
+                                                    <b>
+                                                        ${v.title} </b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row-fluid textbody">
+                                        <div class="description">
+                                            <p>${v.description}
+                                            </p>
+                                        </div>
+                                        <div class="skill">
+                                            <label>Kỹ năng:</label>
+                                            <div class="list-skill">
+                                               ${v.skill_request}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row-fluid fb-like" data-href="https://www.vlance.vn/viec-lam/lam-website-ban-giay" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                                </div>
+                            </div>
+                            <div class="span4 job-information offset1">
+                                <div class="job-information-inner">
+                                    <div class="row-fluid">
+                                        <h2>Thông tin dự án</h2>
+                                        <div class="description-job">
+                                            <dl class="dl-horizontal">
+                                                <dt>ID dự án</dt>
+                                                <dd>${v.id_job}</dd>
+                                               
+                                                <dt>Ngân sách</dt>
+                                                <dd>
+                                                   ${budget} </dd>
+                                                <dt>Hình thức trả lương</dt>
+                                                <dd>
+                                                    Theo dự án </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <h2>Thông tin khách hàng</h2>
+                                    <div class="info-employment">
+                                        <div class="info-employment-top row-fluid">
+                                            <div class="span4">
+                                                <a href="/khach-hang/minh-166" title="M&iacute;nh">
+                                                    <img src="https://www.vlance.vn/uploads/75x75/5137679a253a06555c594a9df5f13502041e06931.png" alt="M&iacute;nh" title="M&iacute;nh" />
+                                                </a>
+                                            </div>
+                                            <div class="span8">
+                                                <h3 class="title">
+                                                    <a href="/Client/profileclient.php" title="M&iacute;nh">
+                                                        ${v.fullname} </a>
+                                                    <a href="/account/verify?utm_campaign=3-YC12%7CPT25.MTW%7CWebsite-HKTB1-12102022&utm_source=trang-thong-tin-du-an&utm_medium=icon&utm_content=button">
+                                                    </a>
+                                                </h3>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="info-employment-bottom row-fluid">
+                                            <dl class="dl-horizontal">
+                                                <dt>Đến từ</dt>
+                                                <dd>TP HCM</dd>
+                                                <dt>Tham gia</dt>
+                                                <dd>${v.create_date_client}</dd>
+                                                <dt>Đã đăng</dt>
+                                                <dd><a href="/Client/profileclient.php" title="0">
+                                                        ${v.total_post} việc </a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>`;
+                            t += ` <span class="bid-counter">
+                                        Chào giá: <span class="value ">
+                                            ${v.total_proposal} </span>
+                                    </span>`;
+                        });
+                        $(".detailjob").html(s);
+                        $(".total_proposal").html(t);
+                    },
+                    async: true
+                });
+                //accept 
+                $(document).delegate('a.accept','click',function(e){
+                    e.preventDefault();
+                    let id_freelancer = $(this).attr('data-id');
+                    let id_proposal = $(this).closest('span').attr('data-id');
+                    detail =  $(this).closest('div').find('div.detaila').text();
+                    end = $(this).closest('div.fullinfo').find('dd.end_date').text();
+                    start = moment(new Date()).format('DD-MM-YYYY');
+                    amount = $(this).closest('div.fullinfo').find('dd.amount').text();
+                   
+                    var id ={
+                        id_user:id_freelancer,
+                        id_job:id_job,
+                        id_proposal: id_proposal,
+                        id_client:a.id_user,
+                        detail: detail,
+                        date_start: start,
+                        date_end: end,
+                        payment_amount:amount
+                    }
+                    $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_proposal',
+                    data:id,
+                    method: 'POST',
+                    success: function(res) {
+                        let a = JSON.parse(res);
+                        //alert(JSON.stringify(a));
+                        if(a["code"]==1){
+                            alert("Đã chấp nhận freelancer thành công! Hãy đến quản lý hợp đồng để xem chi tiết liên hệ");
+                        }
+                    }});
+                })
+     });
+    </script>    
 </body>
 
 </html>

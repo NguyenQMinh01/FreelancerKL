@@ -187,8 +187,8 @@
                                 <ul class="dropdown-menu">
                                     <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -495,49 +495,16 @@
                         <div class="row-fluid">
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
                                 <table class="table datatable" style="margin-top: 50px;">
-                                    <tr class="head-title-tb display-desktop-workspace">
+                                    <thead class="head-title-tb display-desktop-workspace">
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Phân công</th>
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày hoàn thành</th>
                                         <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
                                         <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết công việc</th>
                                         <th></th>
-                                    </tr>
-                                    <!-- <tr class="odd updated draft-job63948">
-                                        <td class="project-freelancer ">
-                                            <div class="span10 project-info ">
-                                                <div class="title-job">
-                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
-                                                        [63948] L&agrave;m website b&aacute;n gi&agrave;y </a>
-                                                    <span class="label-contest" style="background-color:#F76D22">Đang duyệt</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="num-bid display-desktop-workspace">
-                                        </td>
-                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            <span>
-                                                09/02/2023</span>
-                                        </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            Đang duyệt </td>
-                                        <td class="price-td show-block">
-                                           
-                                            <script type="text/javascript">
-                                                $(document).ready(function() {
-                                                    $(".select-push-top63948").click(function(e) {
-                                                        $('.option-push-top').hide();
-                                                        $(".option-push-top63948").toggle();
-                                                        e.stopPropagation();
-                                                    });
-                                                    $('body').click(function() {
-                                                        $('.option-push-top63948').hide();
-                                                    });
-                                                });
-                                            </script>
-                                            <p class="display-mobile" style="color: #cccccc; margin-top: 10px;">Đang duyệt</p>
-                                        </td>
-                                    </tr> -->
+                                    </thead>
+                                    
 
+                                    <tbody>
 
                                     <tr class="even updated draft-job63542">
                                         <td class="project-freelancer ">
@@ -570,6 +537,8 @@
                                             </div>
                                         </td>      
                                     </tr>
+                                    </tbody>
+                                   
                                     
                                 </table>
                                 <div class="row-fluid">
@@ -665,7 +634,80 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+    <script>
+        function hide(id) {
+            $(id).hide();
+        };
+        
+        $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if (!x) {
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt", a.fullname);
 
+                $('.logout').on('click', function() {
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+                var data = {
+                    id_user: a.id_user
+                };
+                $.ajax({
+                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_close',
+                    data:data,
+                    method: 'POST',
+                    success: function(res) {
+                        var s = "";
+                        let a = JSON.parse(res);
+                        a.map((v, i) => {
+                            s += `<tr class="odd updated draft-job63948">
+                                            <td class="project-freelancer ">
+                                                <div class="span10 project-info ">
+                                                    <div class="title-job">
+                                                        <a class="viewdetail" data-id=${v.id_job} style="color:#000000; font-weight: 600;">
+                                                            [${v.id_job}] ${v.title} </a>
+                                                        <span class="label-contest" style="background-color:#F76D22">Đang duyệt</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="num-bid display-desktop-workspace">
+                                            </td>
+                                            <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                                <span>
+                                                    ${v.create_date}</span>
+                                            </td>
+                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                                Đang duyệt </td>
+                                            <td class="price-td show-block">
+                                            
+                                               
+                                            <p class="display-mobile" style="color: #cccccc; margin-top: 10px;">Đang duyệt</p>
+                                            </td>
+                                        </tr>`;
+                        });
+                        $(".datatable tbody").html(s);
+                    },
+                    async: true
+                });
+                
+              
+     });
+    </script>    
 </body>
 
 </html>
