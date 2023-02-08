@@ -930,7 +930,7 @@
                                     <div class="span2 block-img-fl">
                                         <div class="freelancer-row-img" style="margin-top: 40px;">
                                             <div class="images">
-                                                <a href="/Freelancer/profilefreelancer.ph" title=${v.fullname}>
+                                                <a href="/Freelancer/profilefreelancer.php" title=${v.fullname}>
                                                     <img style="border-radius: 50%" src=${v.avatar}>
                                                 </a>
                                             </div>

@@ -34,6 +34,8 @@
                         <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item"> <a href="admin.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Trang chủ</span></a> </li>
                         <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Danh sách công việc đã duyệt</span></a> </li>
                         <li data-username="Details job" class="nav-item active "><a href="details.php" class="nav-link "> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Chi tiết công việc</span></a> </li>
+                        <li data-username="List Contract" class="nav-item "><a href="listcontract.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Danh sách hợp đồng</span></a> </li>
+                       
                         <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Đăng xuất</span> </a> </li>
                     </ul>
                 </div>
@@ -114,7 +116,7 @@
             </ul>
         </div>
     </header>
-    <main class="main" style="margin-left: 230px;">
+    <main class="main detail" style="margin-left: 230px;">
         <section class="section-box-2">
             <div class="container">
                 <div class="row mt-10">
@@ -222,7 +224,104 @@
             if (!x) {
                 document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
             }
-            
+            var id = localStorage.getItem('id_job_admin');
+            var data = {
+                id_job: id
+            }
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job_admin',
+                data:data,
+                method: 'POST',
+                success: function(res) {
+                let s = "";
+                   let a = JSON.parse(res);
+                    a.map((v,i)=>{
+                        s +=`<section class="section-box-2">
+            <div class="container">
+                <div class="row mt-10">
+                    <div class="col-lg-8 col-md-12">
+                        <h3>${v.title}</h3>
+                        <div class="mt-0 mb-15"><span class="card-briefcase">${v.status=="doing"?"Đã duyệt":(v.status=="pending"?"Đang chờ duyệt":(v.status=="done"?"Đã hoàn thành":"Đã đóng"))}</span>
+                        <span class="card-time"></span></div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 text-lg-end">
+                        <div class="btn btn-apply-icon btn-apply btn-apply-big hover-up" data-bs-toggle="modal" data-bs-target="#ModalApplyJobForm">Xóa</div>
+                    </div>
+                </div>
+                <div class="border-bottom pt-10 pb-10"></div>
+            </div>
+        </section>
+        <section class="section-box mt-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                        <div class="job-overview">
+                            <h5 class="border-bottom pb-15 mb-30">Thộng tin job </h5>
+                            <div class="row">
+                            </div>
+                            <div class="row mt-25">
+                                <div class="col-md-6 d-flex mt-sm-15">
+                                    <div class="sidebar-icon-item"><img src="http://wp.alithemes.com/html/jobbox/demos/assets/imgs/page/job-single/industry.svg" alt="jobBox"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description jobtype-icon mb-10">ID Job</span><strong class="small-heading">${v.id_job}</strong></div>
+                                </div>
+                            </div>
+                            <div class="row mt-25">
+                                <div class="col-md-6 d-flex mt-sm-15">
+                                    <div class="sidebar-icon-item"><img src="http://wp.alithemes.com/html/jobbox/demos/assets/imgs/page/job-single/salary.svg" alt="jobBox"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description salary-icon mb-10">Ngân sách</span><strong class="small-heading">${v.budget}</strong></div>
+                                </div>
+                            </div>
+                            <div class="row mt-25">
+                                <div class="col-md-6 d-flex mt-sm-15">
+                                    <div class="sidebar-icon-item"><img src="http://wp.alithemes.com/html/jobbox/demos/assets/imgs/page/job-single/deadline.svg" alt="jobBox"></div>
+                                    <div class="sidebar-text-info ml-10"><span class="text-description mb-10">Hạn chào giá</span><strong class="small-heading">${v.end_date}</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-single">
+                            <h4>Thông tin tuyển dụng</h4>
+                            <p>
+                                ${v.description}
+                            </p>
+
+                            <h4>Kĩ năng yêu cầu</h4>
+                            <ul>
+                               ${v.skill_request}
+                            </ul>
+                        </div>
+                        <div class="author-single"><span>${v.fullname_client}</span></div>
+                        <div class="single-apply-jobs">
+                            <div class="row align-items-center">
+                                <div class="col-md-5"><a class="btn btn-default mr-15" href="#">Xóa job</a><a class="btn btn-border" href="#">Bỏ vào hàng chờ</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 pl-40 pl-lg-15 mt-lg-30">
+                        <div class="sidebar-border">
+                            <div class="sidebar-heading">
+                                <div class="avatar-sidebar">
+                                    <figure><img alt="jobBox" src=${v.avatar}></figure>
+                                    <div class="sidebar-info"><span class="sidebar-company">${v.fullname_client}</span><span class="card-location"></span><a class="link-underline mt-15" href="#">Nhà tuyển dụng</a></div>
+                                </div>
+                            </div>
+                            <div class="sidebar-list-job">
+                                <ul class="ul-disc">
+                                    <li>Phone: ${v.phone_client}</li>
+                                    <li>Email: ${v.email_client}</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>`;
+                    })
+                    $(".detail").html(s);
+
+                },
+                async: true
+                });
         })
     </script>
 </body>

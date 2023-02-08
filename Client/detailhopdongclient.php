@@ -680,32 +680,8 @@
                                                                             <div class=""></div>
                                                                             <div class=""></div>
                                                                         </div>
-                                                                        <div class="icl-Grid icl-Grid--gutters">
-                                                                            <div id="jobsearch-ViewJobButtons-container" class="jobsearch-ViewJobButtons-container is-embedded icl-Grid-col icl-u-xs-span12">
-                                                                                <div class="jobsearch-ViewJobButtons-disclaimer jobsearch-ViewJobButtons-above-buttons">Ấn nút để xác nhận hoàn thành công việc này</div>
-                                                                                <div id="aboveViewjobButtons" class="mosaic mosaic-empty-zone"></div>
-                                                                                <div id="viewJobButtonLinkContainer" class="icl-u-lg-inlineBlock viewJobButtonLinkContainer">
-                                                                                    <div id="applyButtonLinkContainer" class="">
-                                                                                        <div>
-                                                                                            <div class="icl-u-lg-hide"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
-                                                                                            <div class="icl-u-xs-hide icl-u-lg-block icl-u-lg-textCenter"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--md icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div id="saveJobButtonContainer" class="icl-u-lg-inlineBlock" data-loginurl="https://secure.indeed.com/account/login?co=US&amp;hl=en_US&amp;continue=http%3A%2F%2Fwww.indeed.com%2Fjobs%3Fq%3DHTML%2BCSS%2BDeveloper%2BFreelance&amp;from=jsfe-desktopembedded-save-indeedmobile" aria-hidden="false">
-                                                                                    <div class="">
-                                                                                        <div aria-live="assertive"><button data-dd-action-name="save-job" aria-label="Save this job" aria-haspopup="true" class="css-166k7et e8ju0x51"><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" fill="currentColor" viewBox="0 0 24 24" class="css-1xqhio eac13zx0">
-                                                                                                    <title>save-icon</title>
-                                                                                                    <path fill-rule="evenodd" d="M10.577 6.995c-.513-.513-1.007-.997-1.566-1.369-.543-.36-1.033-.536-1.511-.536-.706 0-1.52.183-2.16.634C4.784 6.118 4.203 6.82 4 8.217c.027 1.787.614 3.043 1.97 4.573 1.01 1.138 2.308 2.288 4.01 3.793.618.548 1.29 1.143 2.02 1.8.73-.657 1.402-1.252 2.02-1.8 1.702-1.505 3-2.655 4.01-3.793 1.356-1.53 1.943-2.786 1.97-4.573-.202-1.397-.783-2.099-1.34-2.493-.64-.451-1.454-.634-2.16-.634-.478 0-.968.175-1.51.536-.56.372-1.054.856-1.567 1.37L12 8.418l-1.423-1.424zM22 8.09c0 4.098-2.351 6.181-6.778 10.103-.88.779-1.841 1.63-2.882 2.585a.503.503 0 01-.68 0c-1.04-.955-2.002-1.806-2.882-2.585C4.351 14.27 2 12.188 2 8.09c.5-4 3.5-5 5.5-5 1.98 0 3.47 1.47 4.47 2.47l.02.021.01.01.01-.01.02-.021c1-1 2.49-2.47 4.47-2.47 2 0 5 1 5.5 5z" clip-rule="evenodd"></path>
-                                                                                                </svg></button></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div id="mosaic-belowViewjobButtons" class="mosaic-zone">
-                                                                                    <div class="mosaic mosaic-provider-salary-feedback mosaic-rst mosaic-provider-hydrated" id="mosaic-provider-salary-feedback"></div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div id="saveJobInlineCalloutContainer" class="icl-u-lg-block"></div>
+                                                                       
+                                        
                                                                     </div>
                                                                     <div></div>
                                                                 </div>
@@ -814,4 +790,29 @@
         </section>
     </main>
 
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d7af64ba201fc1","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+        <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+        <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if (!x) {
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt", a.fullname);
+
+                $('.logout').on('click', function() {
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+
+            })
+        </script>
 </html>
