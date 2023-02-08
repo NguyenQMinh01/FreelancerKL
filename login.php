@@ -15,15 +15,15 @@
 <body>
 	<div class="wrapper">
 		<div class="title-text">
-			<div class="title login">Freelancer Login </div>
-			<div class="title signup">Freelancer Signup</div>
+			<div class="title login">Freelancer Đăng Nhập </div>
+			<div class="title signup">Freelancer Đăng Kí</div>
 		</div>
 		<div class="form-container">
 			<div class="slide-controls">
 				<input type="radio" name="slide" id="login" checked>
 				<input type="radio" name="slide" id="signup">
-				<label for="login" class="slide login">Login</label>
-				<label for="signup" class="slide signup">Signup</label>	
+				<label for="login" class="slide login">Đăng Nhập</label>
+				<label for="signup" class="slide signup">Đăng Kí</label>	
 				<div class="slider-tab"></div>
 			</div>
 
@@ -43,13 +43,13 @@
 					<div class=" fg" style="display: flex; justify-content:space-between; padding-top: 20px; padding-bottom: 20px;">
 
 						<span class="pass-link">
-							<label class="remember-me " for="remember_me"><input type="checkbox" id="remember_me" tabindex="3" name="data[remember]" value="1" /> Remember me</label>
+							<label class="remember-me " for="remember_me"><input type="checkbox" id="remember_me" tabindex="3" name="data[remember]" value="1" /> Ghi nhớ mật khẩu</label>
 						</span>
 
-						<span class="pass-link"><a href="#">Forgot password?</a></span>
+						<span class="pass-link"><a href="#">Quên mật khẩu?</a></span>
 					</div>
 					<fieldset>
-						<legend>Your account is:</legend>
+						<legend>Chọn loại tài khoản:</legend>
 						<div style="display: flex; justify-content:space-between; ">
 							<span>
 								<input class="choose" type="radio" id="contactChoice1" name="contact" value="freelancer" , style="display:flex;" />
@@ -57,12 +57,12 @@
 							</span>
 							<span>
 								<input class="choose" type="radio" id="contactChoice2" name="contact" value="client" , style="display:flex;" />
-								<label for="contactChoice2">Client</label>
+								<label for="contactChoice2">Nhà Tuyển Dụng</label>
 							</span>
 						</div>
 					</fieldset>
 					<div class="field btn">
-						<button class="btnlogin" type="button">Login</button>
+						<button class="btnlogin" style = "background-color: #0d6efd; width: 35%; heigth: 70px; color: white;" type="button">ĐĂng nhập</button>
 					</div>
 					<!-- <div class="field btn">
 						<div class="btn-layer"></div>
@@ -79,7 +79,7 @@
 						<span class="icon fa fa-google-plus"></span>
 						Login with google
 					</a>
-					<div class="signup-link">Not a member? <a href="">Signup now</a></div>
+					<div class="signup-link">CHưa có tài khoản? <a href="">Đ\ăng kí ngay bây giờ</a></div>
 				</form>
 				<form action="#" class="signup">
 				<div class="field">
@@ -101,7 +101,7 @@
 						<input id="repassR" type="password" placeholder="Confirm password" required>
 					</div>
 					<fieldset>
-						<legend>You want to do:</legend>
+						<legend>Chọn loại tài khoản:</legend>
 						<div style="display: flex; justify-content:space-between; ">
 							<span>
 								<input class="chooseR" type="radio" id="contactChoice1" name="contact" value="freelancer" , style="display:flex;" />
@@ -109,12 +109,12 @@
 							</span>
 							<span>
 								<input class="chooseR" type="radio" id="contactChoice2" name="contact" value="client" , style="display:flex;" />
-								<label for="contactChoice2">Client</label>
+								<label for="contactChoice2">Nhà Tuyển Dụng</label>
 							</span>
 						</div>
 					</fieldset>
 					<div class="field btn">
-						<button class="btnregister" type="button">Signup</button>
+						<button class="btnregister" style = "background-color: #0d6efd; width: 30%; heigth: 70px; color: white;"  type="button">ĐĂng kí</button>
 					</div>
 					<!-- <div class="field btn">
 						<div class="btn-layer"></div>
