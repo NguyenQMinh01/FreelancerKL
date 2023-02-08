@@ -188,8 +188,8 @@
                                 <ul class="dropdown-menu">
                                     <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/clientquanlihopdong.php">Quản lý hợp đồng</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -585,7 +585,31 @@
             </div>
         </div>
     </div>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76d7af64ba201fc1","version":"2022.11.0","r":1,"token":"cbaaffacb89d4ae0a938b24fff8b447d","si":100}' crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+        <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+        <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var x = localStorage.getItem('profile');
+                if (!x) {
+                    document.location.href = "http://localhost:3000/login.php";
+                }
+                let a = JSON.parse(x);
+                $('.fullname').text(a.fullname);
+                $('.id-user').text("ID. " + a.id_user);
+                $('.wallet').text(a.wallet + " $");
+                $('.imgavt').attr("alt", a.fullname);
 
+                $('.logout').on('click', function() {
+                    document.location.href = "http://localhost:3000/welcome.php";
+                    localStorage.removeItem('profile');
+                })
+
+            })
+        </script>
 </body>
 
 </html>
