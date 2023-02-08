@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/animation/css/animate.min.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/style.css">
     <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/css/dark.css">
-    
+
 </head>
 <body>
     <nav class="pcoded-navbar">
@@ -28,7 +28,7 @@
             <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: 100%; height: calc(-70px + 100vh);">
                 <div class="navbar-content scroll-div" style="overflow: hidden; width: 100%; height: calc(-70px + 100vh);">
                     <ul class="nav pcoded-inner-navbar">
-                        <li class="nav-item pcoded-menu-caption"> <label>Danh mục</label> </li>
+                        <li class="nav-item pcoded-menu-caption"> <label>Danh mục </label> </li>
                         <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item  active "> <a href="" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Trang chủ</span></a> </li>
                         <li data-username="List job" class="nav-item "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Danh sách công việc đã duyệt</span></a> </li>
                         <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Chi tiết công việc</span></a> </li>
@@ -182,7 +182,7 @@
                                             <div class="table-responsive">
                                                 <table class="table table-hover tablelist">
                                                     <tbody>
-                                                        
+
                                                     </tbody>
                                                 </table>
                                                 <div class="noti-footer" style="display:flex; justify-content:center;"> <a href="javascript:">show all</a> </div>
@@ -326,7 +326,7 @@
                     },
                     async: true
                 });
-               
+
             });
             $(".tablelist").on("click","a.reject",function(e){
                 e.preventDefault();
