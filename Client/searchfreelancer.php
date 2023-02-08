@@ -846,10 +846,7 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                            
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -915,10 +912,7 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                           
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -992,10 +986,7 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                            
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -1071,10 +1062,7 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                           
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -1172,10 +1160,7 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                         
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -1248,10 +1233,7 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                          
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -1333,10 +1315,7 @@
 
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                           
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -1425,10 +1404,7 @@
 
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
+                                          
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {
@@ -1526,10 +1502,6 @@
                                     </div>
                                     <div class="row-fluid banner-featured-freelancer">
                                         <div class="span8">
-                                            <span>
-                                                Vị trí hiển thị được tài trợ <i class="fa fa-question-circle" data-toggle="popover" data-placement="right" data-content="Freelancer đã trả một khoản phí nhỏ để được hiển thị hồ sơ tại vị trí này." data-trigger="hover" data-html="true" data-original-title="" title="">
-                                                </i>
-                                            </span>
                                         </div>
                                         <div class="span4 text-align-right tf200">
                                             <a class="hidejs" data-toggle="modal" href="#pay-feature-freelancer" data-request="{&quot;fid&quot;:1229116, &quot;pid&quot;:1229116}" onclick="vtrack('Click - Feature freelancer', {

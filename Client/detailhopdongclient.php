@@ -505,9 +505,7 @@
                                                                             <td>
                                                                                 <div class="heading6 tapItem-gutter result-footer">
                                                                                     <div class="job-snippet">
-                                                                                        <ul style="list-style-type:circle;margin-top: 0px;margin-bottom: 0px;padding-left:20px;">
-                                                                                            <li>Các kỹ năng <b>HTML</b> và <b>CSS</b> (SASS / LESS) xuất sắc là bắt buộc, cùng với kiến thức nâng cao về Javascript và JQuery cũng như xây dựng các trang web đáp ứng trong…</li>
-                                                                                        </ul>
+                                                                                        
                                                                                     </div><span class="date"><span class="visually-hidden">Posted</span>Tạo 5 ngày trước</span><span class="result-link-bar-separator">·</span><button type="button" class="sl resultLink more_links_button" aria-expanded="false">More...</button>
                                                                                 </div>
 
@@ -647,7 +645,7 @@
                                                                                 <h2 style="font-size: 20px; text-align:center;">Độc lập - Tự do - Hạnh Phúc</h2>
                                                                                 <h2 style="font-size: 15px; text-align:right;"> , ngày &nbsp &nbsp tháng &nbsp &nbsp năm &nbsp&nbsp&nbsp&nbsp&nbsp</h2>
 
-                                                                                <h2 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title is-embedded" style="font-size:15px;"><span role="text">Lập trình web bán giày<span class="visually-hidden"> - job post</span></span></h2>
+                                                                                <h2 class="icl-u-xs-mb--xs icl-u-xs-mt--none jobsearch-JobInfoHeader-title is-embedded" style="font-size:20px;"><span role="text">Lập trình web bán giày<span class="visually-hidden"> - job post</span></span></h2>
                                                                             </div>
                                                                             <div class="jobsearch-CompanyInfoContainer">
                                                                                 <div class="jobsearch-CompanyInfoWithoutHeaderImage">
@@ -657,15 +655,15 @@
                                                                                                 <div class="icl-u-xs-hide">
                                                                                                     <div class="css-czdse3 eu4oa1w0"></div>
                                                                                                 </div>
-                                                                                                <div class="">
+                                                                                                <!-- <div class="">
                                                                                                     <div data-company-name="true" class="css-czdse3 eu4oa1w0">Nhà tuyển dụng: Nguyễn Minh</div>
-                                                                                                </div>
+                                                                                                </div> -->
                                                                                             </div>
-                                                                                            <div class="">
+                                                                                            <!-- <div class="">
                                                                                                 <div>TP Hồ Chí Minh<span class="jobsearch-JobInfoHeader-bullet"></span></div>
                                                                                                 <div>SĐT: 0123456782<span class="jobsearch-JobInfoHeader-bullet"></span></div>
                                                                                                 <div>Email: 1234@gmail.com<span class="jobsearch-JobInfoHeader-bullet"></span></div>
-                                                                                            </div>
+                                                                                            </div> -->
                                                                                             <div class=""></div>
                                                                                         </div>
                                                                                     </div>
@@ -673,26 +671,66 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="">
-                                                                            <div class="">
+                                                                            <!-- <div class="">
                                                                                 <div id="salaryInfoAndJobType" class="jobsearch-JobMetadataHeader-item "><span class="css-2iqe2o eu4oa1w0">1000000 VNĐ</span></div>
-                                                                            </div>
+                                                                            </div> -->
                                                                             <div class=""></div>
                                                                             <div class=""></div>
                                                                             <div class=""></div>
                                                                         </div>
-                                                                       
-                                        
+                                                                        <div class="icl-Grid icl-Grid--gutters">
+                                                                            <div id="jobsearch-ViewJobButtons-container" class="jobsearch-ViewJobButtons-container is-embedded icl-Grid-col icl-u-xs-span12">
+                                                                                <div class="jobsearch-ViewJobButtons-disclaimer jobsearch-ViewJobButtons-above-buttons">Ấn nút để xác nhận hoàn thành công việc này</div>
+                                                                                <div id="aboveViewjobButtons" class="mosaic mosaic-empty-zone"></div>
+                                                                                <div id="viewJobButtonLinkContainer" class="icl-u-lg-inlineBlock viewJobButtonLinkContainer">
+                                                                                    <div id="applyButtonLinkContainer" class="">
+                                                                                        <div>
+                                                                                            <div class="icl-u-lg-hide"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
+                                                                                            <div class="icl-u-xs-hide icl-u-lg-block icl-u-lg-textCenter"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--md icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div id="saveJobButtonContainer" class="icl-u-lg-inlineBlock" data-loginurl="https://secure.indeed.com/account/login?co=US&amp;hl=en_US&amp;continue=http%3A%2F%2Fwww.indeed.com%2Fjobs%3Fq%3DHTML%2BCSS%2BDeveloper%2BFreelance&amp;from=jsfe-desktopembedded-save-indeedmobile" aria-hidden="false">
+                                                                                    <div class="">
+                                                                                        <div aria-live="assertive"><button data-dd-action-name="save-job" aria-label="Save this job" aria-haspopup="true" class="css-166k7et e8ju0x51"><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" fill="currentColor" viewBox="0 0 24 24" class="css-1xqhio eac13zx0">
+                                                                                                    <title>save-icon</title>
+                                                                                                    <path fill-rule="evenodd" d="M10.577 6.995c-.513-.513-1.007-.997-1.566-1.369-.543-.36-1.033-.536-1.511-.536-.706 0-1.52.183-2.16.634C4.784 6.118 4.203 6.82 4 8.217c.027 1.787.614 3.043 1.97 4.573 1.01 1.138 2.308 2.288 4.01 3.793.618.548 1.29 1.143 2.02 1.8.73-.657 1.402-1.252 2.02-1.8 1.702-1.505 3-2.655 4.01-3.793 1.356-1.53 1.943-2.786 1.97-4.573-.202-1.397-.783-2.099-1.34-2.493-.64-.451-1.454-.634-2.16-.634-.478 0-.968.175-1.51.536-.56.372-1.054.856-1.567 1.37L12 8.418l-1.423-1.424zM22 8.09c0 4.098-2.351 6.181-6.778 10.103-.88.779-1.841 1.63-2.882 2.585a.503.503 0 01-.68 0c-1.04-.955-2.002-1.806-2.882-2.585C4.351 14.27 2 12.188 2 8.09c.5-4 3.5-5 5.5-5 1.98 0 3.47 1.47 4.47 2.47l.02.021.01.01.01-.01.02-.021c1-1 2.49-2.47 4.47-2.47 2 0 5 1 5.5 5z" clip-rule="evenodd"></path>
+                                                                                                </svg></button></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- căn trái -->
+                                                                                <div id="mosaic-belowViewjobButtons" class="mosaic-zone">
+                                                                                    <div class="mosaic mosaic-provider-salary-feedback mosaic-rst mosaic-provider-hydrated" id="mosaic-provider-salary-feedback"></div>
+                                                                                </div>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="saveJobInlineCalloutContainer" class="icl-u-lg-block"></div>
                                                                     </div>
                                                                     <div></div>
                                                                 </div>
                                                                 <div class="jobsearch-JobComponent-embeddedBody" style="overscroll-behavior-y: auto;">
-                                                                    <div id="aboveExtractedJobDescription" class="mosaic mosaic-empty-zone"></div>
+                                                                    <div id="aboveExtractedJobDescription" class="mosaic mosaic-empty-zone" style  = "font-size: 18px;">Hôm nay, ngày 09/03/2023, các bên gồm có</div>
                                                                     <div class="jobsearch-JobComponent-description jobsearch-JobComponent-description--embedded icl-u-xs-mb--md" tabindex="0">
                                                                         <div id="jobHighlights" class="mosaic mosaic-empty-zone"></div>
                                                                         <div class="jobsearch-JobDescriptionSection is-highlight-enforced">
                                                                             <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section">
+                                                                                <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0 ">
+                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50" style = "font-size: 18px; "><b>BÊN A: NHÀ TUYỂN DỤNG demo (BÊN THUÊ)</b></h2>
+                                                                                </div>
+                                                                                <div class="css-rr5fiy eu4oa1w0">
+                                                                                    <div class="css-1rqilkj eu4oa1w0">Nguyễn Minh</div>
+                                                                                    <div class="css-kyg8or eu4oa1w0"><span class="css-2iqe2o eu4oa1w0">TP HCM</span></div>
+                                                                                </div>
+                                                                                <div class="css-rr5fiy eu4oa1w0">
+                                                                                    <div class="css-1rqilkj eu4oa1w0">SĐT: 012123133</div>
+                                                                                    <div>Email: 123@gmail.com</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section" style = "padding-top: -60px;">
                                                                                 <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0">
-                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50">Thông tin freelancer nhận việc</h2>
+                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50"><b>BÊN B: ỨNG VIÊN: Nguyễn Minh (FREELANCER)</b></h2>
                                                                                 </div>
                                                                                 <div class="css-rr5fiy eu4oa1w0">
                                                                                     <div class="css-1rqilkj eu4oa1w0">Nguyễn Minh</div>
@@ -705,49 +743,76 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
+
                                                                         <div id="aboveFullJobDescription" class="mosaic mosaic-empty-zone"></div>
-                                                                        <h2 id="jobDescriptionTitle" class="jobsearch-JobDescriptionSection-jobDescriptionTitle icl-u-xs-my--md">Full chi tiết</h2>
+                                                                        <h2 id="jobDescriptionTitle" class="jobsearch-JobDescriptionSection-jobDescriptionTitle icl-u-xs-my--md" style = "font-size: 15px;">Sau khi bàn bạc 2 bên đã thỏa thuận và thống nhất kí kết hợp đồng freelancer với nội dung như sau</h2>
                                                                         <div id="jobDescriptionText" class="jobsearch-jobDescriptionText">
                                                                             <div>
-                                                                                <ul>
-                                                                                    <li>TP HCM</li>
-                                                                                    <li>1000000 VNĐ</li>
-                                                                                </ul>
                                                                                 <div></div>
                                                                                 <div>
                                                                                     <div>
-                                                                                        <b>Nội dung công việc</b>
+                                                                                        <b>Điều 1: NỘI DUNG HỢP ĐỒNG</b>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div>
-                                                                                    <p>we are Looking for a <b>US-based</b> remote working Front End Developer, who has an amazing eye for detail and a passion for building beautifully crafted websites. Excellent HTML and CSS (SASS / LESS) skills are a must, along with advanced knowledge of Javascript and JQuery, and of building responsive websites within a headless CMS.</p>
-                                                                                    <p><b><i> Yêu cầu kĩ năng</i></b></p>
+                                                                                    <span>Bên A cần thuê freelancer để thực hiện công việc <b>lập trình web</b> </span>
+                                                                                    <p> <span>Bên B cam kết đủ khả năng để thực hiện công việc mà bên A đang cần triển khai</span></p>
+                                                                                    <p>xét thấy yêu cầu và khả năng của hai bên phù hợp, Bên A đồng ý thuê Bên B và bên B đồng ý thực hiện công việc cho bên A theo các thỏa thuận trong hợp đồng này.</p>
+                                                                                    
+                                                                                    <p><b> Điều 2: THỰC HIỆN HỢP ĐỒNG</b></p>
                                                                                     <ul>
-                                                                                        <li>HTML/CSS/JS</li>
-                                                                                        <li>PHP</li>
+                                                                                        <li>Bên B thực hiện công việc cho bên A theo thời hạn từ ngày <b>09/02/2023</b> đến ngày <b>20/02/2023</b></li>
+                                                                                        <li>Làm việc dưới sự chỉ đạo trực tiếp của <b>Nguyễn Minh</b></li>
 
                                                                                     </ul>
-                                                                                    <p><b><i>Điều khoản công việc hợp đồng</i></b></p>
+                                                                                    <p><b>Điều 3: PHÍ DỊCH VỤ </i></b></p>
                                                                                     <ul>
-                                                                                        <li>Hoàn thành việc đúng hạn</li>
-                                                                                        <li>Thanh toán lương chính xác</li>
-                                                                                        <li>Ấn xác nhận trước khi quá hạn để dễ dàng thanh toán tiền công</li>
-
+                                                                                        <li>Bên A phải trả phí dịch vụ cho bên B là 1.000.000</li>
                                                                                     </ul>
                                                                                 </div>
                                                                             </div>
                                                                             <p></p>
                                                                         </div>
+                                                                        <div class="jobsearch-JobDescriptionSection is-highlight-enforced" style = "display: flex; justify-content: space-between; text-align: center;">
+                                                                            <div id="" class="" style = "padding-top:11px ;">
+                                                                                <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0 ">
+                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50" style = "font-size: 18px; "><b>ĐẠI DIỆN BÊN A</b></h2>
+                                                                                </div>
+                                                                                <div class="css-rr5fiy eu4oa1w0">
+                                                                                    <div class="css-1rqilkj eu4oa1w0">Nguyễn Minh</div>
+                                                                                    <div class="css-kyg8or eu4oa1w0"><span class="css-2iqe2o eu4oa1w0">TP HCM</span></div>
+                                                                                </div>
+                                                                                <div class="css-rr5fiy eu4oa1w0">
+                                                                                    <div class="css-1rqilkj eu4oa1w0">SĐT: 012123133</div>
+                                                                                    <div>Email: 123@gmail.com</div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section" style = "padding-top: -60px;">
+                                                                                <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0">
+                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50"><b>ĐẠI DIỆN BÊN B</b></h2>
+                                                                                </div>
+                                                                                <div class="css-rr5fiy eu4oa1w0">
+                                                                                    <div class="css-1rqilkj eu4oa1w0">Nguyễn Minh</div>
+                                                                                    <div class="css-kyg8or eu4oa1w0"><span class="css-2iqe2o eu4oa1w0">TP HCM</span></div>
+                                                                                </div>
+                                                                                <div class="css-rr5fiy eu4oa1w0">
+                                                                                    <div class="css-1rqilkj eu4oa1w0">SĐT: 012123133</div>
+                                                                                    <div>Email: 123@gmail.com</div>
+                                                                                    <div>Chi phí: 100000 VNĐ/h</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
                                                                         <div id="belowFullJobDescription" class="mosaic mosaic-empty-zone"></div>
                                                                         <div class="css-q7fux eu4oa1w0">
                                                                             <h2 class="css-14vqcyj e1tiznh50">Một số điều khi cả 2 vi phạm hợp đồng</h2>
-                                                                            <h3 class="css-1s8hy3a e1tiznh50">Hệ thống web xử lí tự động</h3>
+                                                                            <!-- <h3 class="css-1s8hy3a e1tiznh50">Hệ thống web xử lí tự động</h3> -->
                                                                             <ul class="css-659xjq eu4oa1w0">
                                                                                 <li class="css-5vsc1i eu4oa1w0"><span class="css-129twvb eu4oa1w0"></span><span class="css-kyg8or eu4oa1w0">ngày tạo 10/10/2022</span></li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
                                                                 </div>
+
                                                                 <div id="successfullySignedInModal"></div>
                                                             </div>
                                                         </div>
