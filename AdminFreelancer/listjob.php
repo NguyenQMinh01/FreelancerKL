@@ -39,10 +39,10 @@
                 <div class="navbar-content scroll-div" style="overflow: hidden; width: 100%; height: calc(-70px + 100vh);">
                     <ul class="nav pcoded-inner-navbar">
                         <li class="nav-item pcoded-menu-caption"> <label>Danh mục</label> </li>
-                        <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item"> <a href="admin.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a> </li>
-                        <li data-username="List job" class="nav-item active "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">List job</span></a> </li>
-                        <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Details job</span></a> </li>
-                        <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Logout</span> </a> </li>
+                        <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item"> <a href="admin.php" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Trang chủ</span></a> </li>
+                        <li data-username="List job" class="nav-item active "><a href="listjob.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Danh sách công việc đã duyệt</span></a> </li>
+                        <li data-username="Details job" class="nav-item "><a href="details.php" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-user"></i></span> <span class="pcoded-mtext">Chi tết công việc</span></a> </li>
+                        <li data-username="Disabled Menu" class="nav-item"><a href="#" class="nav-link"> <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">ĐĂng xuất</span> </a> </li>
                     </ul>
                 </div>
                 <div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.5); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 898px;"></div>

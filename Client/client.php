@@ -220,6 +220,14 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="tf200 ">
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                         </div>
@@ -804,14 +812,21 @@
                         <div class="name"></div>
                         <div class="v1_521">
                             <div class="v1_522">
-                                <span class="v1_524">Minh </span><span class="v1_525">Developer </span>
-                                <div class="v1_526"></div><span class="v1_527">Justin is
-                                    a technical professional with a passion for learning
-                                    and 15+ years of experience leading teams to build
-                                    enterprise-grade distributed applications that solve
-                                    real-world problems. </span>
-
-
+                            <div class="client-item">
+                                    <div class="review-avatar-01">
+                                        <span class="review-avatar-01" style="margin-bottom: 400px;"></span>
+                                    </div>
+                                    <div class="review-title" style="width: 150px; height: 50px;">
+                                        <h5 class="name-client">Nguyễn Quang Minh</h5>
+                                        <h5>Developer</h5>
+                                    </div>
+                                    <div class="review-quote">
+                                        <p>Freelancer chuyên nghiệp, uy tín biết nhiều kĩ năng , thông thạo 6 ngôn ngữ ..."</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="v1_528">
                                     <div class="fr-profile row-fluid" style="margin-top: -40px; display: flex; justify-content: center; weight: 30px;">
                                         <div class="skill-list span12 row-fluid">
@@ -832,19 +847,28 @@
                                         </div>
                                     </div>
                                     <div style="display: flex; justify-content:space-between">
-                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
-                                        <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
+                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button>
+                                            <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="v1_537">
-                                <div class="v1_538"></div><span class="v1_539">Minh</span><span class="v1_540">Developer
-                                </span>
-                                <div class="v1_541"></div><span class="v1_542">Justin is a technical professional
-                                    with a passion for learning and 15+ years of
-                                    experience leading teams to build enterprise-grade
-                                    distributed applications that solve real-world
-                                    problems. </span>
+                                <div class="client-item">
+                                    <div class="review-avatar-01">
+                                        <span class="review-avatar-01" style="margin-bottom: 400px;"></span>
+                                    </div>
+                                    <div class="review-title" style="width: 150px; height: 50px;">
+                                        <h5 class="name-client">Nguyễn Quang Minh</h5>
+                                        <h5>Developer</h5>
+                                    </div>
+                                    <div class="review-quote">
+                                        <p>"Freelancer chuyên nghiệp, uy tín biết nhiều kĩ năng , thông thạo 6 ngôn ngữ ..."</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="v1_528">
                                     <div class="fr-profile row-fluid" style="margin-top: -40px; display: flex; justify-content: center; weight: 30px;">
                                         <div class="skill-list span12 row-fluid">
@@ -865,21 +889,28 @@
                                         </div>
                                     </div>
                                     <div style="display: flex; justify-content:space-between">
-                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button></a>
-                                        <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
+                                        <a href="profileclient.php"><button class="name" style="height: 40px;  width: 100px; background-color: rgba(0,147,208,1); margin-left: 30px;">Xem profile</button>
+                                            <a><button class="name" style="height: 40px; width: 100px; background-color: #fff; color: black; margin-left: 30px;">Liên hệ</button></a>
                                     </div>
 
                                 </div>
-
                             </div>
                             <div class="v1_552">
-                                <div class="v1_553"></div><span class="v1_554">Minh </span><span class="v1_555">Developer
-                                </span>
-                                <div class="v1_556"></div><span class="v1_557">Justin is a technical professional
-                                    with a passion for learning and 15+ years of
-                                    experience leading teams to build enterprise-grade
-                                    distributed applications that solve real-world
-                                    problems. </span>
+                                <div class="client-item">
+                                    <div class="review-avatar-01">
+                                        <span class="review-avatar-01" style="margin-bottom: 400px;"></span>
+                                    </div>
+                                    <div class="review-title" style="width: 150px; height: 50px;">
+                                        <h5 class="name-client">Nguyễn Quang Minh</h5>
+                                        <h5>Developer</h5>
+                                    </div>
+                                    <div class="review-quote">
+                                        <p>Freelancer chuyên nghiệp, uy tín biết nhiều kĩ năng , thông thạo 6 ngôn ngữ ..."</p>
+                                        <div class="feedback-star">
+                                            <img src="/img/star3.png">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="v1_528">
                                     <div class="fr-profile row-fluid" style="margin-top: -40px; display: flex; justify-content: center; weight: 30px;">
                                         <div class="skill-list span12 row-fluid">
@@ -945,7 +976,7 @@
                                 <div class="slide-reviews-client">
                                     <div class="client-item">
                                         <div class="review-avatar">
-                                            <span class="review-avatar-01"></span>
+                                            <span class="review-avatar-02"></span>
                                         </div>
                                         <div class="review-title">
                                             <h4 class="name-client">Nguyễn Quang Minh</h4>
@@ -1069,7 +1100,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <script type="text/javascript">
                         $(document).ready(function() {
                             if ($(".account-menu").length) {

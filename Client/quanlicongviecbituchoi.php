@@ -3,15 +3,11 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Quản lý tin đăng</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
-    <meta property="og:site_name" content="vLance.vn" />
-    <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp - vLance.vn" />
     <meta property="og:image" content="https://www.vlance.vn/newsletter/img/share_vlance_home.jpg" />
@@ -189,6 +185,14 @@
                                     <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="tf200 ">
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
                                 </ul>
                             </div>
                         </li>

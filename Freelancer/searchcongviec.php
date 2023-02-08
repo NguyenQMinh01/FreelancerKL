@@ -173,7 +173,15 @@
                             <ul class="dropdown-menu" style="min-width:200px">
                                 <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc đang báo giá</a></li>
                                 <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
-                                    <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                                <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tf200 ">
+                        <div class="dropdown manage-user">
+                            <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="dropdown-menu" style="min-width:200px">
+                                <li><a href="/Freelancer/freelancerquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
                             </ul>
                         </div>
                     </li>
@@ -262,57 +270,57 @@
                                         <a href="/Freelancer/quanliviec.php">Quản lý việc đang báo giá</a>
                                     </li>
                                     <li class="ver2">
-                                        <li><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                    <li><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                            </li>
+                            <li class="ver2">
+                            <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+                <li class="accordion-chevron menu-mobile-item ver2">
+                    <a class="/*accordion-toggle-ver2*/ ver2" href="#">Tìm việc làm</a>
+                    <ul class="submenu-list-ver2 accordion-menu-dropdown">
+                        <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="">Nâng cấp tài khoản</a></li>
+                        <li class="submenu-item-ver2 accordion-chevron">
+                            <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="accordion-inner-ver2">
+                                <li class="ver2">
+                                    <a role="menuitem" tabindex="-1" href="" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
                                 </li>
                                 <li class="ver2">
-                                <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="accordion-chevron menu-mobile-item ver2">
-                        <a class="/*accordion-toggle-ver2*/ ver2" href="#">Tìm việc làm</a>
-                        <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                            <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="">Nâng cấp tài khoản</a></li>
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="accordion-inner-ver2">
-                                    <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="" onclick="vtrack('Click job list page', {'position':'Homepage'})">Việc online</a>
-                                    </li>
-                                    <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class=" submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng hồ sơ năng lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="accordion-inner-ver2">
-                                    <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Hồ sơ freelancer</a>
-                                    </li>
-                                    <li class="ver2">
-                                        <a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Sản phẩm đã làm</a>
-                                    </li>
+                                    <a role="menuitem" tabindex="-1" href="" onclick="vtrack('Click fulltime job list page', {'position':'Homepage'})">Việc full-time</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="submenu-item-ver2 accordion-chevron">
+                            <a class=" submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Đăng hồ sơ năng lực<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="accordion-inner-ver2">
+                                <li class="ver2">
+                                    <a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Hồ sơ freelancer</a>
+                                </li>
+                                <li class="ver2">
+                                    <a role="menuitem" tabindex="-1" href="/Freelancer/profilefreelancer.php">Sản phẩm đã làm</a>
+                                </li>
 
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
-                        <a class="ver2" href="#">freelancer for Business</a>
-                        <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="accordion-chevron menu-mobile-item ver2">
-                        <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
-                    </li>
-                    <li class="menu-mobile-item ver2 img-500k">
-                    </li>
-                    <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
+                    <a class="ver2" href="#">freelancer for Business</a>
+                    <ul class="submenu-list-ver2 accordion-menu-dropdown">
+                        <li class="submenu-item-ver2 accordion-chevron">
+                            <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="accordion-chevron menu-mobile-item ver2">
+                    <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
+                </li>
+                <li class="menu-mobile-item ver2 img-500k">
+                </li>
+                <li class="menu-mobile-logout"><a href="/welcome.php">Đăng xuất</a></li>
                 </ul>
             </div>
         </div>
@@ -1308,7 +1316,7 @@
                                                             </div>
                                                         </div>
                                                         <a style="color: #000" href="/khach-hang/mac-duc-hai" title="Vina Software JSC">
-                                                            <span>Cty công nghệ  </span>
+                                                            <span>Cty công nghệ </span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1377,7 +1385,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -1399,7 +1407,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -1466,7 +1474,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " >
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result ">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden">
                                                 <div class="span10">
@@ -1488,7 +1496,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         Toàn Quốc </span>
@@ -1551,7 +1559,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -1573,7 +1581,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -1640,7 +1648,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -1662,7 +1670,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -1729,7 +1737,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -1751,7 +1759,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -1818,7 +1826,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -1840,7 +1848,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -1907,7 +1915,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -1929,7 +1937,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -1996,7 +2004,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -2018,7 +2026,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -2085,7 +2093,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style = "">
+                                    <div style="overflow: hidden; background-color: #87CEFA;" class="row-fluid row-result " style="">
                                         <div class="fr-info span12">
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
@@ -2107,7 +2115,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fr-summary row-fluid fr-summary-desktop"  style = " background-color:  #eee4f4;">
+                                            <div class="fr-summary row-fluid fr-summary-desktop" style=" background-color:  #eee4f4;">
                                                 <div class="history span8" style="min-height: initial;padding: 10px 10px 9px">
                                                     <span class="location">
                                                         TP. Hồ Chí Minh </span>
@@ -2237,31 +2245,31 @@
         </div>
     </div>
     <footer>
-            <div class="block">
+        <div class="block">
             <section id="footer">
-                        <div class="footer containerfooter">
-                            <div class="brand">
-                                <h1><span>F</span>reelan<span>c</span>er</h1>
-                            </div>
-                            <h2>Your Complete Web Solution</h2>
-                            <div class="social-icon">
-                                <div class="social-item">
-                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-                                </div>
-                                <div class="social-item">
-                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-                                </div>
-                                <div class="social-item">
-                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
-                                </div>
-                                <div class="social-item">
-                                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-                                </div>
-                            </div>
-                            <p>Copyright © 2020 Arfan. All rights reserved</p>
+                <div class="footer containerfooter">
+                    <div class="brand">
+                        <h1><span>F</span>reelan<span>c</span>er</h1>
+                    </div>
+                    <h2>Your Complete Web Solution</h2>
+                    <div class="social-icon">
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
                         </div>
-                    </section>
-            </div>
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                        </div>
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
+                        </div>
+                        <div class="social-item">
+                            <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                        </div>
+                    </div>
+                    <p>Copyright © 2020 Arfan. All rights reserved</p>
+                </div>
+            </section>
+        </div>
     </footer>
 
 </html>

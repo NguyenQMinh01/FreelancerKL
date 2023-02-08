@@ -6,12 +6,9 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Đăng việc mới</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
-    <meta property="og:site_name" content="vLance.vn" />
-    <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="Đăng việc freelance mới" />
     <meta property="og:image" content="https://www.vlance.vn/img/og/dang-viec-freelance.jpg" />
@@ -66,9 +63,6 @@
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link href="https://www.vlance.vn/css/gui/job/job_post.css?v=20221103.1449" rel="stylesheet" type="text/css" media="all" />
     <link href="https://www.vlance.vn/css/vlance-responsive.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    <noscript>
-        <link href="https://www.vlance.vn/css/tagmanager.min.css?v=20221103.1449" rel="stylesheet" type="text/css" />
-    </noscript>
     <script>
         (function() {
             var font = document.createElement('link');
@@ -94,7 +88,6 @@
 </head>
 
 <body class="one-column job_post job_new ">
-
     <script>
         (function() {
             var font = document.createElement('link');
@@ -106,9 +99,7 @@
         })();
     </script>
     <div class="main">
-
         <div id="fb-root"></div>
-
         <!-- menu -->
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
             <div class="upper-section row-fluid upper_scoll">
@@ -216,15 +207,20 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="tf200 ">
-                            <a onclick="vtrack('Click view upgrade client account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản Khách hàng</a>
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <div class="button">
                             <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>

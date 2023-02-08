@@ -3356,10 +3356,13 @@ div.separator5 {
 
 /* SVG Image */
 .review-avatar-01 {
-    width: 104px;
-    height: 104px;
-
-    background: url(../img/icon-verify-contact.png)0 -1600px;;
+    width: 365px;
+  height: 210px;
+  background: url("../img/v1_276.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
 
 }
 

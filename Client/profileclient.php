@@ -193,8 +193,13 @@
                         </div>
                     </li>
                     <li class="tf200 ">
-                        <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản khách hàng</a>
-                    </li>
+                            <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Client/clientquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     <div class="button">
                         <a class="btn btn-vl btn-vl-green btn-vl-medium" onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng dự án</a>
                     </div>
@@ -763,7 +768,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd> Giới thiệu công ty</dd>
                                     <dd>Công ty TNHH AwareSoft</dd>
@@ -781,7 +786,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Mã số thuế </dd>
                                     <dd>8510949061</dd>
@@ -789,7 +794,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Địa chỉ công ty</dd>
                                     <dd>39 Sơn Kỳ, phường Sơn Kỳ, quận Tân Phú, Thành phố Hồ Chí Minh</dd>
@@ -797,7 +802,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Đánh giá</dd>
                                     <dd>

@@ -23,6 +23,7 @@
     <meta itemprop="keywords" name="keywords" content="freelancer, freelancer là gì, freelancer việt nam, tuyển freelancer, freelance, tìm việc freelance, tìm việc làm thêm, việc làm tự do, việc làm online" />
     <link href="https://www.vlance.vn/rss.xml" rel="alternate" type="application/rss+xml" title="Việc freelance mới nhất cho Freelancer" />
     <link rel="stylesheet" type="text/css" href="stylefreelanandclient.css" />
+    
 
     <script>
         (function() {
@@ -185,10 +186,10 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
-                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã hoàn thành</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý công việc đã bị từ chối duyệt</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -262,13 +263,13 @@
                                 </div>
                                 <div class="account-menu-detail ver2">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p class="fullname">M&iacute;nh </p>
+                                        <p>M&iacute;nh </p>
                                     </a>
                                     <div class="credit-balance">
                                         <span><a class="id-user" href="/Client/profileclient.php">Id. 1250511 </a></span>
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Client</span>
-                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0 $</span>
+                                            <span class="credit-menu-ver2" data-credit="balance">0 $</span>
                                         </span>
                                     </div>
                                 </div>
@@ -319,7 +320,6 @@
                         <li class="accordion-chevron menu-mobile-item ver2">
                             <a class="/*accordion-toggle-ver2*/ ver2" href="/viec-lam-freelance">Tìm việc làm</a>
                             <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                                <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng cấp tài khoản</a></li>
                                 <li class="submenu-item-ver2 accordion-chevron">
                                     <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="accordion-inner-ver2">
@@ -448,7 +448,7 @@
             <div class="content-section container">
                 <div class="row-fluid" style="background: #F5f5f5">
                     <div class="span3 manage-job-service" style="background:  #0088CC;width:auto">
-                        <a href="/Client/Quanlitin.php" style="color:white">Tin tuyển dụng</a>
+                        <a href="/Client/Quanlitin.php" style="color:white">Quản lí hợp đồng</a>
                     </div>
                     <!-- <div class="span3 manage-job-service" style="margin-left:10px;width:auto">
                         <a href="/Client/Quanlitin.php" style="color:black">Đơn hàng dịch vụ</a>
@@ -460,10 +460,10 @@
                             <div class="progress-job-new container new-progress-job">
                                 <div class="row-fluid">
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
-                                    <span class="circle-number-job display-desktop-workspace">1</span>
+                                        <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
                                             <a href="/Client/dangduan.php" style="color: #ffffff">
-                                                Đăng việc </a>
+                                                Xác nhận báo giá </a>
                                         </span>
                                         <span class="job-step-white" style="float: right;"></span>
                                     </div>
@@ -471,7 +471,7 @@
                                         <span class="circle-number-job display-desktop-workspace">2</span>
                                         <span class="job-progress-title">
                                             <a href="#" style="color: #000000">
-                                                Chọn freelancer </a>
+                                                Tạo hợp đồng </a>
                                         </span>
                                         <span style="float: right"><img src="" style="height: 50px"></span>
                                     </div>
@@ -479,12 +479,12 @@
                                         <span class="circle-number-job display-desktop-workspace">3</span>
                                         <span class="job-progress-title">
                                             <a href="#" style="color: #000000">
-                                                Giao việc </a>
+                                                xác nhận hoàn thành </a>
                                         </span>
                                         <span style="float: right"><img src="" style="height: 50px"></span>
                                     </div>
                                     <div class="span3 progress-job-item" style="padding-top: 13px; background: #0088CC; color: #ffffff">
-                                    <span class="circle-number-job display-desktop-workspace">4</span>
+                                        <span class="circle-number-job display-desktop-workspace">4</span>
                                         <span>
                                             <a href="#" style="color: #000000">
                                                 Đánh giá và thanh toán </a>
@@ -496,19 +496,38 @@
                         <div class="row-fluid">
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
                                 <table class="table datatable" style="margin-top: 50px;">
-                                    
-                                    <thead class="head-title-tb display-desktop-workspace">
-                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;">Tên việc</th>
-                                        <th class="bid-freelancer" style=""></th>
-
-                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 100px;">Hạn chót báo giá</th>
-                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Trạng thái</th>
+                                    <tr class="head-title-tb display-desktop-workspace">
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Phân công</th>
+                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
+                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
                                         <th></th>
-                                    </thead>
-                                    <tbody>
+                                    </tr>
 
-                                    </tbody>
-                                
+                                    <tr class="even updated draft-job63542">
+                                    <td class="project-freelancer ">
+                                            <div class="span10 project-info ">
+                                                <div class="title-job">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
+                                                        [63948] L&agrave;m website b&aacute;n gi&agrave;y </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">Nguyễn Minh</span>
+                                        </td>
+                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                            <span>
+                                                đã hoàn thành </span>
+                                        </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a href="/Client/detailhopdongclient.php">xem chi tiết</a>
+                                        </td>
+                                        <td class="price-td show-block">
+                                        <div class="block-hidden" id="block-hidden63948">
+                                            </div>
+                                        </td>      
+                                    </tr>  
                                 </table>
                                 <div class="row-fluid">
                                 </div>
@@ -517,42 +536,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <script type="text/javascript">
-                $(document).ready(function() {
-                    $('#suggest-upgrade-pro').click(function() {
-                        $('#suggest-link').show();
-                        $('#suggest-detail').show();
-                        $('#close-modal-pro').hide();
-                    });
-
-                    $('#not-suggest-upgrade-pro-1').click(function() {
-                        $('#suggest-link').hide();
-                        $('#suggest-detail').hide();
-                        $('#close-modal-pro').show();
-                    });
-
-                    $('#not-suggest-upgrade-pro-2').click(function() {
-                        $('#suggest-link').hide();
-                        $('#suggest-detail').hide();
-                        $('#close-modal-pro').show();
-                    });
-                });
-            </script>
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    $('.news-client-view .table i').popover();
-                    if ($(window).width() > 639) {
-                        $('.push-top-button button').popover({
-                            trigger: "hover"
-                        });
-                    };
-                });
-            </script>
-            <script type="text/javascript">
-                $(document).ready(function() {
-                    vtrack('View workroom client');
-                });
-            </script> -->
         </div>
         <div id="footer_content">
             <div class="block">
@@ -575,7 +558,6 @@
                             </div>
                         </div>
                     </div>
-
                     <section id="footer">
                         <div class="footer containerfooter">
                             <div class="brand">
@@ -603,122 +585,7 @@
             </div>
         </div>
     </div>
-    <!-- <script>
-        (function() {
-            var js = "window['__CF$cv$params']={r:'7764568a9a830455',m:'z0MQEIzBBzK6yDkKDqIBWhFLLQs1coG5YBbwy_HsFFc-1670490313-0-ASNmZCYjFtqPALJiGNjcf6RfZ4iD1vGwW8rdV0c5UmQ+X7RbF7isyu501dd0poGSm24u31Qzd51FnZ4xyZRjivvQoeBnEAZpzljb2sxnOzeYz1aAd0ZN1qMm2/tlPeKN0g==',s:[0xe204fb9f1d,0x82315cc593],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";
-            var _0xh = document.createElement('iframe');
-            _0xh.height = 1;
-            _0xh.width = 1;
-            _0xh.style.position = 'absolute';
-            _0xh.style.top = 0;
-            _0xh.style.left = 0;
-            _0xh.style.border = 'none';
-            _0xh.style.visibility = 'hidden';
-            document.body.appendChild(_0xh);
 
-            function handler() {
-                var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
-                if (_0xi) {
-                    var _0xj = _0xi.createElement('script');
-                    _0xj.nonce = '';
-                    _0xj.innerHTML = js;
-                    _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
-                }
-            }
-            if (document.readyState !== 'loading') {
-                handler();
-            } else if (window.addEventListener) {
-                document.addEventListener('DOMContentLoaded', handler);
-            } else {
-                var prev = document.onreadystatechange || function() {};
-                document.onreadystatechange = function(e) {
-                    prev(e);
-                    if (document.readyState !== 'loading') {
-                        document.onreadystatechange = prev;
-                        handler();
-                    }
-                };
-            }
-        })();
-    </script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
-    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
-    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
-  
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
-    <script>
-        function hide(id) {
-            $(id).hide();
-        };
-        
-        $(document).ready(function() {
-                var x = localStorage.getItem('profile');
-                if (!x) {
-                    document.location.href = "http://localhost:3000/login.php";
-                }
-                let a = JSON.parse(x);
-                $('.fullname').text(a.fullname);
-                $('.id-user').text("ID. " + a.id_user);
-                $('.wallet').text(a.wallet + " $");
-                $('.imgavt').attr("alt", a.fullname);
-
-                $('.logout').on('click', function() {
-                    document.location.href = "http://localhost:3000/welcome.php";
-                    localStorage.removeItem('profile');
-                })
-                var data = {
-                    id_user: a.id_user
-                };
-                
-                $.ajax({
-                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_pending',
-                    data:data,
-                    method: 'POST',
-                    success: function(res) {
-                        var s = "";
-                        let a = JSON.parse(res);
-                        a.map((v, i) => {
-                            s += `<tr class="odd updated draft-job63948">
-                                            <td class="project-freelancer ">
-                                                <div class="span10 project-info ">
-                                                    <div class="title-job">
-                                                        <a class="viewdetail" data-id=${v.id_job} style="color:#000000; font-weight: 600;">
-                                                            [${v.id_job}] ${v.title} </a>
-                                                        <span class="label-contest" style="background-color:#F76D22">Đang duyệt</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <span>
-                                                    ${v.create_date}</span>
-                                            </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                Đang duyệt </td>
-                                            <td class="price-td show-block">
-                                            
-                                               
-                                            <p class="display-mobile" style="color: #cccccc; margin-top: 10px;">Đang duyệt</p>
-                                            </td>
-                                        </tr>`;
-                        });
-                        $(".datatable tbody").html(s);
-                    },
-                    async: true
-                });
-                $(document).delegate('a.viewdetail','click',function(){
-                    //alert( $(this).attr("data-id"));
-                    localStorage.setItem('id_job',$(this).attr("data-id"));
-                    window.location.href = "/Client/Clientdetailjob.php";
-                })
-     });
-    </script>
 </body>
 
 </html>

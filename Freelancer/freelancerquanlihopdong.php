@@ -436,6 +436,9 @@
                     <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
                         <a class="ver2" href="#">freelancer for Business</a>
                         <ul class="submenu-list-ver2 accordion-menu-dropdown">
+                            <li class="submenu-item-ver2 accordion-chevron">
+                                <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2">
@@ -682,7 +685,7 @@
             <div class="content-section container">
                 <div class="row-fluid" style="background: #F5f5f5">
                     <div class="span3 manage-job-service" style="background: #0088CC;width:auto;min-height:82px;">
-                        <a href="/Freelancer/quanliviec.php" style="color:white;display:inline-block;margin-top:10px">Việc nhận làm</a>
+                        <a href="/Freelancer/quanliviec.php" style="color:white;display:inline-block;margin-top:10px">Quản lí hợp đồng</a>
                     </div>
                 </div>
                 <div class="row-fluid">
@@ -727,50 +730,21 @@
                                 <div class="span4" style="margin-left: 30px; margin-top: 15px; position: relative">
                                     <div class="block-hidden" style="padding: 10px;width: 250px;">
                                         <span class="dropdown-el">
-                                            <!-- <input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label id="showall" for="sort-relevance">Tất cả</label>
-                                            <input type="radio" name="sortType" value="Popularity" id="sort-best"><label id="clickme" for="sort-best">Công việc đang báo giá</label>
-                                            <input type="radio" name="sortType" value="PriceIncreasing" id="sort-low"><label id="clickme1" for="sort-low">Công việc đang làm</label>
-                                            <input type="radio" name="sortType" value="PriceDecreasing" id="sort-high"><label id="clickme2" for="sort-high">Công việc đã hoàn thành</label> -->
                                         </span>
                                     </div>
-                                    <!-- <script type="text/javascript">
-                                        $(document).ready(function() {
-                                            $(".select-filter").click(function(e) {
-                                                $(".option-filter").toggle();
-                                                e.stopPropagation();
-                                            });
-                                            $('body').click(function() {
-                                                $('.option-filter').hide();
-                                            });
-                                        });
-
-
-
-                                        $('.dropdown-el').click(function(e) {
-                                            e.preventDefault();
-                                            e.stopPropagation();
-                                            $(this).toggleClass('expanded');
-                                            $('#' + $(e.target).attr('for')).prop('checked', true);
-                                        });
-                                        $(document).click(function() {
-                                            $('.dropdown-el').removeClass('expanded');
-                                        });
-                                    </script> -->
                                 </div>
                                 <table class="table" style="margin-top: -170px;">
                                     <tbody>
-                                        <tr class="head-title-tb display-desktop-workspace">
-                                            <th class="project-freelancer item">Tên việc</th>
-                                            <th class="bid-freelancer item">Ngày cuối báo giá</th>
-                                            <th class="payment-th item"></th>
-
-                                            <th class="startus-th item">Trạng thái</th>
-                                            <th></th>
-                                        </tr>
-
-                                        <tr class="even updated cancel-bookmark-job2">
-                                            <td class="project-freelancer ">
-                                                <div class="title-job">
+                                    <tr class="head-title-tb display-desktop-workspace">
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày kết thúc</th>
+                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
+                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
+                                        <th></th>
+                                    </tr>
+                                    <tr class="even updated draft-job63542">
+                                    <td class="project-freelancer ">
+                                    <div class="title-job">
                                                     <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
                                                         [64426] Thiết kế banner facebook </a>
                                                     <span class="label-contest">mới</span>
@@ -778,73 +752,22 @@
                                                 <div class="client">Khách hàng: <a href="/Client/profileclient.php">
                                                         Quang Nguyen </a>
                                                 </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">09/01/2023</p>
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                            </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: #EB5757">Đang chờ duyệt</p>
-                                            </td>
-                                            <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden64426">
-                                                </div>
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Đang chờ duyệt</p>
-                                            </td>
-                                        </tr>
-
-
-                                        <tr class="even updated cancel-bookmark-job2">
-                                            <td class="project-freelancer ">
-                                                <div class="title-job">
-                                                    <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
-                                                        [64426] Thiết kế banner facebook </a>
-                                                    <span class="label-contest">mới</span>
-                                                </div>
-                                                <div class="client">Khách hàng: <a href="/Client/profileclient.php">
-                                                        Quang Nguyen </a>
-                                                </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                                <p class="number-right">09/01/2023</p>
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                            </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="color: #EB5757">Đang chờ duyệt</p>
-                                            </td>
-                                            <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden64426">
-                                                </div>
-                                                <p style="color: #EB5757; margin-top: 10px;width: 95px;text-align: center;" class="display-mobile">Đang chờ duyệt</p>
-                                            </td>
-                                        </tr>
-
-                                        <!-- <script type="text/javascript">
-                                            $("#clickme").click(function() {
-                                                $(".cancel-bookmark-job2").show();
-                                                $(".cancel-bookmark-job1").hide();
-                                                $(".cancel-bookmark-job3").hide();
-                                            });
-
-                                            $("#clickme1").click(function() {
-                                                $(".cancel-bookmark-job1").show();
-                                                $(".cancel-bookmark-job2").hide();
-                                                $(".cancel-bookmark-job3").hide();
-                                            });
-                                            $("#clickme2").click(function() {
-                                                $(".cancel-bookmark-job1").hide();
-                                                $(".cancel-bookmark-job2").hide();
-                                                $(".cancel-bookmark-job3").show();
-                                            });
-                                            $("#showall").click(function() {
-                                                $(".cancel-bookmark-job1").show();
-                                                $(".cancel-bookmark-job2").show();
-                                                $(".cancel-bookmark-job3").show();
-                                            });
-                                        </script> -->
-                                    </tbody>
+                                        </td>
+                                        <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">10/10/2023</span>
+                                        </td>
+                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                            <span>
+                                                đã hoàn thành </span>
+                                        </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a href="/Freelancer/detailhopdongfreelancer.php">xem chi tiết</a>
+                                        </td>
+                                        <td class="price-td show-block">
+                                        <div class="block-hidden" id="block-hidden63948">
+                                            </div>
+                                        </td>      
+                                    </tr> 
                                 </table>
                                 <div class="row-fluid">
                                 </div>
