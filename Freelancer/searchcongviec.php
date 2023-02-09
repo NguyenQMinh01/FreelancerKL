@@ -58,6 +58,9 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/bootstrap.min.js" defer=""></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/vlance_base.min.js" defer=""></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js" defer=""></script>
+    <link rel="canonical" href="https://www.vlance.vn/freelancers">
+    <script async="" src="https://static.hotjar.com/c/hotjar-1795629.js?sv=6"></script>
+    <script async="" src="https://script.hotjar.com/modules.bc0a4c72d88d266f15af.js" charset="utf-8"></script>
 </head>
 
 <body class="two-columns-left freelance_job_list contest_list " style="">
@@ -309,11 +312,7 @@
                 </li>
                 <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
                     <a class="ver2" href="#">freelancer for Business</a>
-                    <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                        <li class="submenu-item-ver2 accordion-chevron">
-                            <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
-                        </li>
-                    </ul>
+
                 </li>
                 <li class="accordion-chevron menu-mobile-item ver2">
                     <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
@@ -358,7 +357,7 @@
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa xác thực đầy đủ thông tin. Bạn vui lòng xác thực để hồ sơ uy tín và có nhiều Freelancer liên hệ. Xác thực <a href="/account/verify?utm_campaign=4-YC12%7CPT29.MTW%7CIcon-HKTB1-12102022&amp;utm_source=icon-chuong&amp;utm_medium=icon&amp;utm_content=button">tại đây.</a></p>
+                        <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được sự xét duyệt hay lời mời chào giá nào. Bạn vui lòng cập nhật thêm hồ sơ để hồ sơ uy tín và có nhiều nhà tuyển dụng liên hệ. Cập nhật <a href="/Freelancer/yourprofile.php">tại đây.</a></p>
                         <div class="tab-pane active" id="tab_list_invite_bell">
                             <div class="no-message">Bạn không có thông báo mới</div>
                         </div>
@@ -599,7 +598,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_dichvu_bao-tri-cac-du-an-phan-mem">
+                                                    <a href="/Freelancer/searchcongviec.php">
                                                         <i class="span1 "></i>
                                                         <div>Bảo trì các dự án phần mềm
                                                         </div>
@@ -624,21 +623,21 @@
                                         <div class="block-content subcategory_status">
                                             <ul class="subcategory unstyled">
                                                 <li class="sub-item">
-                                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
+                                                    <a href="/Freelancer/searchcongviec.php">
                                                         <i class="spanb checked"></i>
                                                         <div>
                                                             Tất cả </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item">
-                                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_location_lam-online">
+                                                    <a href="/Freelancer/searchcongviec.php">
                                                         <i class="spanb "></i>
                                                         <div>
                                                             Làm online </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item">
-                                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_location_lam-tai-van-phong">
+                                                    <a href="/Freelancer/searchcongviec.php">
                                                         <i class="spanb "></i>
                                                         <div>
                                                             Làm offline </div>
@@ -654,17 +653,91 @@
                                         <div class="block-content subcategory_skill">
                                             <ul class="subcategory unstyled">
                                                 <li class="sub-item checked">
-                                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
+                                                    <a href="/Client/searchfreelancer.php">
                                                         <i class="span1 checked"></i>
                                                         <div>Tất cả </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
-                                                    <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_net">
+                                                    <a href="#">
                                                         <i class="span1 "></i>
                                                         <div>.NET </div>
                                                     </a>
                                                 </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>AJAX </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>Bootstrap </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>C# </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>C++ </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>PHP </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>CSS </div>
+                                                    </a>
+                                                </li>
+
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>HTML </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>ReactJs </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>iOS </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>Java </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>Javascript </div>
+                                                    </a>
+                                                </li>
+                                                <li class="sub-item ">
+                                                    <a href="#">
+                                                        <i class="span1 "></i>
+                                                        <div>jQuery </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
                                         <div id="bottomskill"><span class="buttonskill"></span></div>
                                     </div>
@@ -676,7 +749,7 @@
                                             });
                                         });
                                     </script>
-                                </div> <input type="hidden" id="form__token" name="form[_token]" value="dc49c33376c43672501815be8f5ec01689bf8a53">
+                                </div> <input type="hidden" id="form__token" name="form[_token]" value="46ba4df9b62b05224853f4facf1186e8b03b121f">
                             </div>
                         </div>
                     </hx:include>
@@ -687,356 +760,7 @@
                     </a>
                 </div>
             </div>
-            <div class="overlay-block overlay-right-list-job" style="height: 800px; display: none">
-                <i id="close-filter-job-mobile" class="fa fa-times" aria-hidden="true"></i>
-                <div class="block">
-                    <div id="form">
-                        <div class="control-group ">
-                            <div class="layered-block ln-category">
-                                <h2 class="layered-heading">Lĩnh vực</h2>
-                                <div class="block-content subcategory">
-                                    <ul class="category unstyled">
-                                        <li class="cat-item ">
-                                            <a href="/viec-lam-freelance">
-                                                Tất cả </a>
-                                        </li>
-                                        <li style="" class="cat-item ">
-                                            <a style="display: flex; justify-content: space-between; align-items: center" href="/viec-lam-freelance/cpath_dao-tao-khoa-hoc">
-                                                Đào tạo &amp; Khoá học (69)
-                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li style="" class="cat-item selected">
-                                            <a style="display: flex; justify-content: space-between; align-items: center" href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh">
-                                                IT và lập trình (23701)
-                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <ul class="subcategory unstyled">
-                                            <li class="sub-item">
-                                                <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_qa-tester">
-                                                    <i class="span1 checked"></i>
-                                                    <div>AI - Trí tuệ nhân tạo, Machine Learning (80)</div>
-                                                </a>
-                                            </li>
-                                            <li class="sub-item">
-                                                <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester,lap-trinh-nhung">
-                                                    <i class="span1  "></i>
-                                                    <div>Lập trình nhúng (29)</div>
-                                                </a>
-                                            </li>
-                                            <li class="sub-item">
-                                                <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester,lap-trinh-phan-mem">
-                                                    <i class="span1  "></i>
-                                                    <div>Lập trình phần mềm (3357)</div>
-                                                </a>
-                                            </li>
-                                            <li class="sub-item">
-                                                <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester,lap-trinh-web">
-                                                    <i class="span1  "></i>
-                                                    <div>Lập trình web (12831)</div>
-                                                </a>
-                                            </li>
-                                            <li class="sub-item">
-                                                <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning">
-                                                    <i class="span1 checked"></i>
-                                                    <div>QA Tester (191)</div>
-                                                </a>
-                                            </li>
-                                            <li class="sub-item">
-                                                <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester,ung-dung-di-dong">
-                                                    <i class="span1  "></i>
-                                                    <div>Ứng dụng di động (4112)</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="control-group ">
-                            <div class="layered-block ln-category ln-category-service showservice hideservice">
-                                <h2 class="layered-heading">Dịch vụ</h2>
-                                <div class="block-content subcategory_service">
-                                    <ul class="subcategory unstyled">
-                                        <li class="sub-item checked">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
-                                                <i class="span1 checked"></i>
-                                                <div>Tất cả
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_dichvu_bao-tri-cac-du-an-phan-mem">
-                                                <i class="span1 "></i>
-                                                <div>Bảo trì các dự án phần mềm
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="bottomservice"><span class="buttonservice"></span></div>
-                            </div>
-                            <script type="text/javascript">
-                                $(document).ready(function() {
-                                    $(".buttonservice").click(function() {
-                                        $('.ln-category-service').toggleClass("hideservice");
-                                        $('.layered-navigation').toggleClass("hide-adv");
-                                    });
-                                });
-                            </script>
-                        </div>
-                        <div class="control-group ">
-                            <div class="layered-block ln-category">
-                                <h2 class="layered-heading">Trạng thái</h2>
-                                <div class="block-content subcategory_status">
-                                    <ul class="subcategory unstyled">
-                                        <li class="sub-item item-status-2">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
-                                                <i class="spanb checked"></i>
-                                                <div id="name-status-2">
-                                                    Đang nhận hồ sơ </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item item-status-6" style="display: none;">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_status_nhan-ho-so">
-                                                <i class="spanb "></i>
-                                                <div id="name-status-6">
-                                                    Đang nhận hồ sơ </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item item-status-5">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_status_da-giao-viec">
-                                                <i class="spanb "></i>
-                                                <div id="name-status-5">
-                                                    Đã giao việc </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item item-status-1" style="display: none;">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_status_tat-ca">
-                                                <i class="spanb "></i>
-                                                <div id="name-status-1">
-                                                    Tất cả </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <script>
-                                $(document).ready(function() {
-                                    $('.item-status-6').hide();
-                                });
-                            </script>
-                        </div>
-                        <div class="control-group ">
-                            <div class="layered-block ln-category">
-                                <h2 class="layered-heading">Hình thức làm việc</h2>
-                                <div class="block-content subcategory_status">
-                                    <ul class="subcategory unstyled">
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
-                                                <i class="spanb checked"></i>
-                                                <div>
-                                                    Tất cả </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_location_lam-online">
-                                                <i class="spanb "></i>
-                                                <div>
-                                                    Làm online </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_location_lam-tai-van-phong">
-                                                <i class="spanb "></i>
-                                                <div>
-                                                    Làm tại văn phòng </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="control-group ">
-                            <div class="layered-block ln-category">
-                                <h2 class="layered-heading">Hình thức trả lương</h2>
-                                <div class="block-content subcategory_status">
-                                    <ul class="subcategory unstyled">
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
-                                                <i class="spanb checked"></i>
-                                                <div>
-                                                    Tất cả </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_typepay_tra-theo-du-an">
-                                                <i class="spanb "></i>
-                                                <div>
-                                                    Trả theo dự án </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_typepay_tra-theo-gio">
-                                                <i class="spanb "></i>
-                                                <div>
-                                                    Trả theo giờ </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_typepay_tra-theo-thang">
-                                                <i class="spanb "></i>
-                                                <div>
-                                                    Trả theo tháng </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="control-group ">
-                            <div class="layered-block ln-category ln-category-skill showskill hideskill">
-                                <h2 class="layered-heading">Kỹ năng</h2>
-                                <div class="block-content subcategory_skill">
-                                    <ul class="subcategory unstyled">
-                                        <li class="sub-item checked">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester">
-                                                <i class="span1 checked"></i>
-                                                <div>Tất cả </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_net">
-                                                <i class="span1 "></i>
-                                                <div>.NET </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_ajax">
-                                                <i class="span1 "></i>
-                                                <div>AJAX </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_bootstrap">
-                                                <i class="span1 "></i>
-                                                <div>Bootstrap </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_c">
-                                                <i class="span1 "></i>
-                                                <div>C# </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_c-1">
-                                                <i class="span1 "></i>
-                                                <div>C++ </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_css">
-                                                <i class="span1 "></i>
-                                                <div>CSS </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_curl">
-                                                <i class="span1 "></i>
-                                                <div>cURL </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_html">
-                                                <i class="span1 "></i>
-                                                <div>HTML </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_html5">
-                                                <i class="span1 "></i>
-                                                <div>HTML5 </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_ios">
-                                                <i class="span1 "></i>
-                                                <div>IOS </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_java">
-                                                <i class="span1 "></i>
-                                                <div>Java </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_javascript">
-                                                <i class="span1 "></i>
-                                                <div>Javascript </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_jquery">
-                                                <i class="span1 "></i>
-                                                <div>jQuery </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_linux">
-                                                <i class="span1 "></i>
-                                                <div>Linux </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_mongodb">
-                                                <i class="span1 "></i>
-                                                <div>MongoDB </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_mysql">
-                                                <i class="span1 "></i>
-                                                <div>MySQL </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_php">
-                                                <i class="span1 "></i>
-                                                <div>PHP </div>
-                                            </a>
-                                        </li>
-
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_spring-mvc">
-                                                <i class="span1 "></i>
-                                                <div> MVC </div>
-                                            </a>
-                                        </li>
-                                        <li class="sub-item ">
-                                            <a href="/viec-lam-freelance/cpath_cac-cong-viec-it-va-lap-trinh_chash_ai-tri-tue-nhan-tao-machine-learning,qa-tester_kynang_chatgpt">
-                                                <i class="span1 "></i>
-                                                <div>ChatGPT </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="bottomskill"><span class="buttonskill"></span></div>
-                            </div>
-                            <script type="text/javascript">
-                                $(document).ready(function() {
-                                    $(".buttonskill").click(function() {
-                                        $('.ln-category-skill').toggleClass("hideskill");
-                                        $('.layered-navigation').toggleClass("hide-adv");
-                                    });
-                                });
-                            </script>
-                        </div> <input type="hidden" id="form__token" name="form[_token]" value="dc49c33376c43672501815be8f5ec01689bf8a53">
-                    </div>
-                </div>
-            </div>
+           
             <div class="col2-right span9">
                 <div id="main_content">
                     <div style="display: none;">
@@ -1055,17 +779,17 @@
                                 <div class="layered-heading results-counter results-counter-desktop">
                                     <ul class="nav nav-pills">
                                         <li class="type-job-new" style="background: #0088CC">
-                                            <a style="color: #fff" class="count-list-job" href="/viec-lam-freelance">
+                                            <a style="color: #fff" class="count-list-job" href="/Freelancer/searchcongviec.php">
                                                 Tất cả công việc
                                             </a>
                                         </li>
                                         <li class="type-job-new">
-                                            <a class="count-list-job" href="/viec-lam-ban-thoi-gian">
+                                            <a class="count-list-job" href="/Freelancer/searchcongviec.php">
                                                 Việc online
                                             </a>
                                         </li>
                                         <li class="type-job-new">
-                                            <a class="count-list-job" href="/viec-lam-toan-thoi-gian">
+                                            <a class="count-list-job" href="/Freelancer/searchcongviec.php">
                                                 Việc offline
                                             </a>
                                         </li>
@@ -1075,17 +799,17 @@
                                 <div class="layered-heading results-counter results-counter-mobile">
                                     <ul class="nav nav-pills">
                                         <li class="type-job-new" style="background: #0088CC">
-                                            <a style="color: #fff" class="count-list-job" href="/viec-lam-freelance">
+                                            <a style="color: #fff" class="count-list-job" href="/Freelancer/searchcongviec.php">
                                                 Tất cả công việc
                                             </a>
                                         </li>
                                         <li class="type-job-new">
-                                            <a class="count-list-job" href="/viec-lam-ban-thoi-gian">
+                                            <a class="count-list-job" href="/Freelancer/searchcongviec.php">
                                                 Việc online
                                             </a>
                                         </li>
                                         <li class="type-job-new">
-                                            <a class="count-list-job" href="/viec-lam-toan-thoi-gian">
+                                            <a class="count-list-job" href="/Freelancer/searchcongviec.php">
                                                 Việc offline
                                             </a>
                                         </li>
@@ -1170,43 +894,29 @@
                                     ];
 
                                     function autocomplete(inp, arr) {
-                                        /*the autocomplete function takes two arguments,
-                                        the text field element and an array of possible autocompleted values:*/
                                         var currentFocus;
-                                        /*execute a function when someone writes in the text field:*/
                                         inp.addEventListener("input", function(e) {
                                             var a, b, i, pos, val = this.value;
-                                            /*close any already open lists of autocompleted values*/
                                             closeAllLists();
                                             if (!val) {
                                                 return false;
                                             }
                                             currentFocus = -1;
-                                            /*create a DIV element that will contain the items (values):*/
                                             a = document.createElement("DIV");
                                             a.setAttribute("id", this.id + "autocomplete-list");
                                             a.setAttribute("class", "autocomplete-items");
-                                            /*append the DIV element as a child of the autocomplete container:*/
                                             this.parentNode.appendChild(a);
-                                            /*for each item in the array...*/
                                             for (i = 0; i < arr.length; i++) {
-                                                /*check if the item starts with the same letters as the text field value:*/
                                                 pos = arr[i].toUpperCase().indexOf(val.trim().toUpperCase());
                                                 if (pos != -1) {
-                                                    /*create a DIV element for each matching element:*/
                                                     b = document.createElement("DIV");
-                                                    /*make the matching letters bold:*/
                                                     b.innerHTML = arr[i].substr(0, pos) + "<strong>" + arr[i].substr(pos, val.length) + "</strong>" + arr[i].substr(pos + val.length, arr[i].length);
-                                                    /*insert a input field that will hold the current array item's value:*/
                                                     b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-                                                    /*execute a function when someone clicks on the item value (DIV element):*/
                                                     b.addEventListener("click", function(e) {
-                                                        /*insert the value for the autocomplete text field:*/
+        
                                                         inp.value = this.getElementsByTagName("input")[0].value;
-                                                        /*close the list of autocompleted values,
-                                                        (or any other open lists of autocompleted values:*/
+     
                                                         closeAllLists();
-                                                        /*submit form when click*/
                                                         if ($("#search-job-form-mobile").css('display') == 'none') {
                                                             document.getElementById("search-job-form").submit();
                                                         } else {
@@ -1217,27 +927,17 @@
                                                 }
                                             }
                                         });
-                                        /*execute a function presses a key on the keyboard:*/
                                         inp.addEventListener("keydown", function(e) {
                                             var x = document.getElementById(this.id + "autocomplete-list");
                                             if (x) x = x.getElementsByTagName("div");
                                             if (e.keyCode == 40) {
-                                                /*If the arrow DOWN key is pressed,
-                                                increase the currentFocus variable:*/
                                                 currentFocus++;
-                                                /*and and make the current item more visible:*/
                                                 addActive(x);
-                                            } else if (e.keyCode == 38) { //up
-                                                /*If the arrow UP key is pressed,
-                                                decrease the currentFocus variable:*/
+                                            } else if (e.keyCode == 38) {
                                                 currentFocus--;
-                                                /*and and make the current item more visible:*/
                                                 addActive(x);
                                             } else if (e.keyCode == 13) {
-                                                /*If the ENTER key is pressed, prevent the form from being submitted,*/
-                                                //e.preventDefault();
                                                 if (currentFocus > -1) {
-                                                    /*and simulate a click on the "active" item:*/
                                                     if (x) x[currentFocus].click();
                                                 }
                                             }
@@ -1248,26 +948,20 @@
                                         });
 
                                         function addActive(x) {
-                                            /*a function to classify an item as "active":*/
                                             if (!x) return false;
-                                            /*start by removing the "active" class on all items:*/
                                             removeActive(x);
                                             if (currentFocus >= x.length) currentFocus = 0;
                                             if (currentFocus < 0) currentFocus = (x.length - 1);
-                                            /*add class "autocomplete-active":*/
                                             x[currentFocus].classList.add("autocomplete-active");
                                         }
 
                                         function removeActive(x) {
-                                            /*a function to remove the "active" class from all autocomplete items:*/
                                             for (var i = 0; i < x.length; i++) {
                                                 x[i].classList.remove("autocomplete-active");
                                             }
                                         }
 
                                         function closeAllLists(elmnt) {
-                                            /*close all autocomplete lists in the document,
-                                            except the one passed as an argument:*/
                                             var x = document.getElementsByClassName("autocomplete-items");
                                             for (var i = 0; i < x.length; i++) {
                                                 if (elmnt != x[i] && elmnt != inp) {
@@ -1303,7 +997,7 @@
                                             <div style="overflow: hidden">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="/viec-lam/tu-van-dich-vu-thiet-ke-website">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Tư Vấn Dịch Vụ Thiết Kế Website </a>
                                                         <span class="label-new" data-original-title="" title="">Mới</span>
                                                     </h3>
@@ -1315,7 +1009,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/khach-hang/mac-duc-hai" title="Vina Software JSC">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Vina Software JSC">
                                                             <span>Cty công nghệ </span>
                                                         </a>
                                                     </div>
@@ -1334,7 +1028,7 @@
                                                 </div>
                                                 <div class="span4 remain-job hidejs" style="min-height: initial; padding: 10px 10px 9px; text-align: right;">
                                                     <div class="remain">
-                                                        Hạn nhận hồ sơ: 29 ngày 22 giờ </div>
+                                                        Hạn chót nhận chào giá: 10/ </div>
                                                 </div>
                                             </div>
                                             <div class="fr-summary row-fluid fr-summary-mobile">
@@ -1358,18 +1052,18 @@
                                             <div class="fr-service fr-service-desktop">
                                                 Mô tả công việc
                                                 Tiếp nhận, sàng lọc danh sách khách hàng tiềm năng từ chiến dịch Marketing để phân loại khách hàng có nhu cầu sử dụng dịch vụ để lấy thông tin cần thiết tư vấn dịch vụ.
-                                                Phối hợp... <a class="read_more" href="/viec-lam/tu-van-dich-vu-thiet-ke-website">
+                                                Phối hợp... <a class="read_more" href="/Freelancer/detailJob.php">
                                                     Xem thêm </a>
                                             </div>
                                             <div class="fr-service fr-service-mobile">
                                                 Mô tả công việc
-                                                Tiếp nhận, sàng lọc danh sách khách hàng tiềm năng từ chiến... <a class="read_more" href="/viec-lam/tu-van-dich-vu-thiet-ke-website">
+                                                Tiếp nhận, sàng lọc danh sách khách hàng tiềm năng từ chiến... <a class="read_more" href="/Freelancer/detailJob.php">
                                                     Xem thêm </a>
                                             </div>
                                             <div class="fr-profile row-fluid">
                                                 <div class="skill-list span8 row-fluid">
                                                     <span class="service-tag">
-                                                        <a href="/viec-lam-freelance/dichvu_gioi-thieu-tu-van-san-pham" title="Dịch vụ: &quot;Giới thiệu / Tư vấn sản phẩm&quot;">
+                                                        <a href="/Freelancer/detailJob.php" title="Dịch vụ: &quot;Giới thiệu / Tư vấn sản phẩm&quot;">
                                                             Giới thiệu / Tư vấn sản phẩm </a>
                                                     </span>
                                                     <span>
@@ -1390,7 +1084,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -1401,7 +1095,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -1564,7 +1258,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -1575,7 +1269,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -1653,7 +1347,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -1664,7 +1358,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -1742,7 +1436,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -1753,7 +1447,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -1831,7 +1525,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -1842,7 +1536,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -1920,7 +1614,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -1931,7 +1625,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -2009,7 +1703,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -2020,7 +1714,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -2098,7 +1792,7 @@
                                             <div style="overflow: hidden;">
                                                 <div class="span10">
                                                     <h3 class="fr-name block-title">
-                                                        <a href="#">
+                                                        <a href="/Freelancer/detailJob.php">
                                                             Làm phần mềm Call Bot </a>
                                                     </h3>
                                                     <div class="fr-title">
@@ -2109,7 +1803,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <a style="color: #000" href="/Client/profileclient.php" title="Nguyễn Minh">
+                                                        <a style="color: #000" href="/Freelancer/profileclient.php" title="Nguyễn Minh">
                                                             <span>Nguyễn Minh </span>
                                                         </a>
                                                     </div>
@@ -2271,5 +1965,9 @@
             </section>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+</body>
 
 </html>

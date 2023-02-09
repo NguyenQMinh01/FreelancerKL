@@ -293,7 +293,7 @@
             <div class="menu-section row-fluid menu_scoll">
                 <div class="container">
                     <ul class="nav-menu span12">
-                        <li class="tf200 active">
+                        <li class="tf200 ">
                             <div class="dropdown manage-user">
                                 <a href="/Freelancer/quanliviec.php" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
@@ -303,7 +303,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="tf200 ">
+                        <li class="tf200 active">
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
@@ -407,7 +407,6 @@
                     <li class="accordion-chevron menu-mobile-item ver2">
                         <a class="/*accordion-toggle-ver2*/ ver2" href="#">Tìm việc làm</a>
                         <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                            <li class="submenu-item-ver2"><a class="submenu-link-ver2" onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="">Nâng cấp tài khoản</a></li>
                             <li class="submenu-item-ver2 accordion-chevron">
                                 <a class="submenu-link-ver2 accordion-toggle-ver2 ver2" href="">Tìm việc làm<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="accordion-inner-ver2">
@@ -435,11 +434,6 @@
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2" style="display:none">
                         <a class="ver2" href="#">freelancer for Business</a>
-                        <ul class="submenu-list-ver2 accordion-menu-dropdown">
-                            <li class="submenu-item-ver2 accordion-chevron">
-                                <a class="submenu-link-ver2 ver2" href=";">Trang chủ Business</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="accordion-chevron menu-mobile-item ver2">
                         <a class="/*accordion-toggle-ver2*/ ver2" href="#">Chung</a>
@@ -484,7 +478,7 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa xác thực đầy đủ thông tin. Bạn vui lòng xác thực để hồ sơ uy tín và có nhiều Freelancer liên hệ. Xác thực <a href="/account/verify?utm_campaign=4-YC12%7CPT29.MTW%7CIcon-HKTB1-12102022&amp;utm_source=icon-chuong&amp;utm_medium=icon&amp;utm_content=button">tại đây.</a></p>
+                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được sự xét duyệt hay lời mời chào giá nào. Bạn vui lòng cập nhật thêm hồ sơ để hồ sơ uy tín và có nhiều nhà tuyển dụng liên hệ. Cập nhật <a href="/Freelancer/yourprofile.php">tại đây.</a></p>
                             <div class="tab-pane active" id="tab_list_invite_bell">
                                 <div class="no-message">Bạn không có thông báo mới</div>
                             </div>
@@ -696,14 +690,14 @@
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
-                                            <a href="/Freelancer/quanliviec.php" style="color: #ffffff">Gửi báo giá</a>
+                                            <a href="/Freelancer/quanliviec.php" style="color: #ffffff">Gửi báo giá và nhận việc</a>
                                         </span>
                                         <span class="job-step-white" style="float: right;"></span>
                                     </div>
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
                                         <span class="circle-number-job display-desktop-workspace">2</span>
                                         <span class="job-progress-title">
-                                            <a href="#" style="color: #000000">Nhận việc </a>
+                                            <a href="#" style="color: #000000">Xác nhận hợp đồng </a>
                                         </span>
                                         <span style="float: right"></span>
                                     </div>
@@ -711,7 +705,7 @@
                                         <span class="circle-number-job display-desktop-workspace">3</span>
                                         <span class="job-progress-title">
                                             <a href="#" style="color: #000000">
-                                                Hoàn thành </a>
+                                                làm và hoàn thành việc </a>
                                         </span>
                                         <span style="float: right"></span>
                                     </div>
@@ -719,7 +713,7 @@
                                         <span class="circle-number-job display-desktop-workspace">4</span>
                                         <span>
                                             <a href="#" style="color: #000000">
-                                                Đánh giá </a>
+                                                Đánh giá và nhận tiền </a>
                                         </span>
                                     </div>
                                 </div>
@@ -735,16 +729,16 @@
                                 </div>
                                 <table class="table" style="margin-top: -170px;">
                                     <tbody>
-                                    <tr class="head-title-tb display-desktop-workspace">
-                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
-                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày kết thúc</th>
-                                        <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
-                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
-                                        <th></th>
-                                    </tr>
-                                    <tr class="even updated draft-job63542">
-                                    <td class="project-freelancer ">
-                                    <div class="title-job">
+                                        <tr class="head-title-tb display-desktop-workspace">
+                                            <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
+                                            <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày kết thúc</th>
+                                            <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
+                                            <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
+                                            <th></th>
+                                        </tr>
+                                        <tr class="even updated draft-job63542">
+                                            <td class="project-freelancer ">
+                                                <div class="title-job">
                                                     <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
                                                         [64426] Thiết kế banner facebook </a>
                                                     <span class="label-contest">mới</span>
@@ -752,22 +746,22 @@
                                                 <div class="client">Khách hàng: <a href="/Client/profileclient.php">
                                                         Quang Nguyen </a>
                                                 </div>
-                                        </td>
-                                        <td class="num-bid display-desktop-workspace">
-                                            <span style="padding-left: 30px;">10/10/2023</span>
-                                        </td>
-                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            <span>
-                                                đã hoàn thành </span>
-                                        </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
-                                            <a href="/Freelancer/detailhopdongfreelancer.php">xem chi tiết</a>
-                                        </td>
-                                        <td class="price-td show-block">
-                                        <div class="block-hidden" id="block-hidden63948">
-                                            </div>
-                                        </td>      
-                                    </tr> 
+                                            </td>
+                                            <td class="num-bid display-desktop-workspace">
+                                                <span style="padding-left: 30px;">10/10/2023</span>
+                                            </td>
+                                            <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                                <span>
+                                                    đã hoàn thành </span>
+                                            </td>
+                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                                <a href="/Freelancer/detailhopdongfreelancer.php">xem chi tiết</a>
+                                            </td>
+                                            <td class="price-td show-block">
+                                                <div class="block-hidden" id="block-hidden63948">
+                                                </div>
+                                            </td>
+                                        </tr>
                                 </table>
                                 <div class="row-fluid">
                                 </div>
@@ -837,28 +831,28 @@
     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script>
-    $(document).ready(function() {
-        var b= localStorage.getItem('profile');
-        if (!b) {
-            document.location.href = "http://localhost:3000/login.php";
-        }
-        let a = JSON.parse(b);
+        $(document).ready(function() {
+            var b = localStorage.getItem('profile');
+            if (!b) {
+                document.location.href = "http://localhost:3000/login.php";
+            }
+            let a = JSON.parse(b);
 
-        $('.fullname').text(a.fullname);
-        $('.id-user').text("ID. " + a.id_user);
-        $('.wallet').text(a.walllet + " $");
-        $('.avt').attr("src", a.avatar);
+            $('.fullname').text(a.fullname);
+            $('.id-user').text("ID. " + a.id_user);
+            $('.wallet').text(a.walllet + " $");
+            $('.avt').attr("src", a.avatar);
 
-        $('.logout').on('click', function() {
-            document.location.href = "http://localhost:3000/welcome.php";
-            localStorage.removeItem('profile');
+            $('.logout').on('click', function() {
+                document.location.href = "http://localhost:3000/welcome.php";
+                localStorage.removeItem('profile');
+            })
+            var x = localStorage.getItem('id-profile-client');
+            let data = {
+                id_user: x
+            }
+
         })
-        var x = localStorage.getItem('id-profile-client');
-        let data = {
-            id_user: x
-        }
-    
-    })
     </script>
 </body>
 

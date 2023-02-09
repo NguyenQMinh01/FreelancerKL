@@ -185,8 +185,8 @@
                             <div class="dropdown manage-user">
                                 <a href="#" data-toggle="dropdown"> Quản lý cho khách hàng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
-                                    <li style="margin-bottom:20px"><a  href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý tin công việc đang xét duyệt</a></li>
+                                    <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdangthuchien.php">Quản lý công việc đang thực hiện</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecdahoanthanh.php">Quản lý công việc đã đóng</a></li>
                                     <li style="margin-bottom:20px"><a href="/Client/quanlicongviecbituchoi.php">Quản lý hợp đồng</a></li>
                                 </ul>
@@ -346,11 +346,142 @@
             </div>
         </div>
         <div class="inbox-menu ver2 pull-right nofity-ver2">
-            <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2">
+            <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2" class="included include_200">
+                <div class="popover-mail">
+                    <div class="i32 i32-mail i32-notify ver2 ">
+                        <div class="mail-counter" style="display: none">
+                        </div>
+
+                        <div class="mail-counter mail-counter-invite "></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            if ($('.noti-bell').length) {
+                                $(".i32.i32-mail.i32-notify .mail-counter").css("background", "#bf1e2e");
+                            }
+                        });
+                    </script>
+                    <div class="block-new-message block-new-notify" style="display: none;">
+                        <ul class="nav nav-tabs" id="tab_notify_listinvite">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab_list_invite_bell">Thông báo</a>
+                                <div class="counter-invite" style="left: 200px; width: 5px; top: 14px;"></div>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#tab_list_request_bell">Đăng ký chào giá</a>
+                                <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                            </li>
+                            <li style="float: right;">
+                                <div class="mail-counter" style="width: 6px;height: 11px;border-radius: 10px;right: 19px;display:none"></div>
+                                <a data-toggle="tab" href="#tab_list_whats_new"><img src="/img/icon/icon_light.svg"></a>
+                                <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được thông báo chào giá nào. Bạn vui đăng thêm các dự án chất lượng để có nhiều Freelancer liên hệ , chào giá. đăng dự án <a href="/Client/dangduan">tại đây.</a></p>
+                            <div class="tab-pane active" id="tab_list_invite_bell">
+                                <div class="no-message">Bạn không có thông báo mới</div>
+                            </div>
+                            <div class="tab-pane" id="tab_list_request_bell">
+                                <div class="tab-bottom-msg">
+                                    <p style="margin: 0">Thông báo sẽ được ẩn sau 30 ngày</p>
+                                </div>
+                                <div class="no-message">Bạn không nhận được đăng ký chào giá nào</div>
+                                <ul class="list-invite-job">
+                                </ul>
+                            </div>
+                            <div class="tab-pane" id="tab_list_whats_new">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#tab_notify_listinvite a').click(function(e) {
+                            e.preventDefault()
+                            $(this).tab('show')
+                        })
+
+                        var numRequests = parseInt($("#tab_list_request_bell ul").attr("att-count"));
+                        if (isNaN(numRequests)) {
+                            numRequests = 0;
+                        }
+                        //Hiển thị tổng số thông báo trong phần tin nhắn trên website
+                        if (numRequests == 0) {
+                            numRequests = '';
+                        }
+                        if (numRequests > 0) {
+                            $('.i32-notify .mail-counter-invite').addClass('notify-ver2')
+                        }
+                        $('.mail-counter-invite.notify-ver2').append(numRequests);
+
+                        $('.inbox-menu.mesenger-ver2').click(function(e) {
+                            $('.dropdown-menu').addClass('menuhiden');
+                            $('.block-new-message.block-new-notify').hide();
+                            $('.block-new-message.block-not-new-notify').toggle();
+                            e.stopPropagation();
+                        });
+                        $('body').click(function() {
+                            $('.dropdown-menu').removeClass('menuhiden');
+                            $('.block-new-message.block-not-new-notify').hide();
+                        });
+                        $('.block-new-message.block-not-new-notify').click(function(e) {
+                            e.stopPropagation();
+                        });
+
+                        $('.inbox-menu.nofity-ver2').click(function(e) {
+                            $('.dropdown-menu').addClass('menuhiden');
+                            $('.block-new-message.block-not-new-notify').hide();
+                            $('.block-new-message.block-new-notify').toggle();
+                            e.stopPropagation();
+                        });
+                        $('body').click(function() {
+                            $('.dropdown-menu').removeClass('menuhiden');
+                            $('.block-new-message.block-new-notify').hide();
+                        });
+                        $('.block-new-message.block-new-notify').click(function(e) {
+                            e.stopPropagation();
+                        });
+                    });
+                </script>
             </hx:include>
         </div>
         <div class="inbox-menu ver2 pull-right mesenger-ver2">
-            <hx:include evaljs="true" src="/message/new-message-ver2">
+            <hx:include evaljs="true" src="/message/new-message-ver2" class="included include_200">
+                <div class="popover-mail">
+                    <div class="i32 i32-mail i32-not-notify ver2">
+
+                        <div class="mail-counter mail-counter-invite"></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            if ($('.noti-mess').length) {
+                                $(".i32.i32-mail.i32-not-notify .mail-counter").css("background", "#bf1e2e");
+                            }
+                        });
+                    </script>
+                    <div class="block-new-message block-not-new-notify" style="display: none;">
+                        <ul class="nav nav-tabs" id="tab_messages_listinvite">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab_messages">Tin nhắn</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab_messages">
+                                <div class="no-message">Bạn không có thông báo mới</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#tab_messages_listinvite a').click(function(e) {
+                            e.preventDefault()
+                            $(this).tab('show')
+                        })
+                    });
+                </script>
             </hx:include>
         </div>
         <script type="text/javascript">
@@ -460,7 +591,7 @@
                             <div class="progress-job-new container new-progress-job">
                                 <div class="row-fluid">
                                     <div class="span3 progress-job-item" style="background: #0088CC; color: #ffffff">
-                                    <span class="circle-number-job display-desktop-workspace">1</span>
+                                        <span class="circle-number-job display-desktop-workspace">1</span>
                                         <span class="job-progress-title">
                                             <a href="/Client/dangduan.php" style="color: #ffffff">
                                                 Đăng việc </a>
@@ -484,7 +615,7 @@
                                         <span style="float: right"><img src="" style="height: 50px"></span>
                                     </div>
                                     <div class="span3 progress-job-item" style="padding-top: 13px; background: #0088CC; color: #ffffff">
-                                    <span class="circle-number-job display-desktop-workspace">4</span>
+                                        <span class="circle-number-job display-desktop-workspace">4</span>
                                         <span>
                                             <a href="#" style="color: #000000">
                                                 Đánh giá và thanh toán </a>
@@ -496,7 +627,7 @@
                         <div class="row-fluid">
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
                                 <table class="table datatable" style="margin-top: 50px;">
-                                    
+
                                     <thead class="head-title-tb display-desktop-workspace">
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;">Tên việc</th>
                                         <th class="bid-freelancer" style=""></th>
@@ -508,7 +639,7 @@
                                     <tbody>
 
                                     </tbody>
-                                
+
                                 </table>
                                 <div class="row-fluid">
                                 </div>
@@ -649,41 +780,41 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
-  
+
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
     <script>
         function hide(id) {
             $(id).hide();
         };
-        
-        $(document).ready(function() {
-                var x = localStorage.getItem('profile');
-                if (!x) {
-                    document.location.href = "http://localhost:3000/login.php";
-                }
-                let a = JSON.parse(x);
-                $('.fullname').text(a.fullname);
-                $('.id-user').text("ID. " + a.id_user);
-                $('.wallet').text(a.wallet + " $");
-                $('.imgavt').attr("alt", a.fullname);
 
-                $('.logout').on('click', function() {
-                    document.location.href = "http://localhost:3000/welcome.php";
-                    localStorage.removeItem('profile');
-                })
-                var data = {
-                    id_user: a.id_user
-                };
-                
-                $.ajax({
-                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_pending',
-                    data:data,
-                    method: 'POST',
-                    success: function(res) {
-                        var s = "";
-                        let a = JSON.parse(res);
-                        a.map((v, i) => {
-                            s += `<tr class="odd updated draft-job63948">
+        $(document).ready(function() {
+            var x = localStorage.getItem('profile');
+            if (!x) {
+                document.location.href = "http://localhost:3000/login.php";
+            }
+            let a = JSON.parse(x);
+            $('.fullname').text(a.fullname);
+            $('.id-user').text("ID. " + a.id_user);
+            $('.wallet').text(a.wallet + " $");
+            $('.imgavt').attr("alt", a.fullname);
+
+            $('.logout').on('click', function() {
+                document.location.href = "http://localhost:3000/welcome.php";
+                localStorage.removeItem('profile');
+            })
+            var data = {
+                id_user: a.id_user
+            };
+
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_pending',
+                data: data,
+                method: 'POST',
+                success: function(res) {
+                    var s = "";
+                    let a = JSON.parse(res);
+                    a.map((v, i) => {
+                        s += `<tr class="odd updated draft-job63948">
                                             <td class="project-freelancer ">
                                                 <div class="span10 project-info ">
                                                     <div class="title-job">
@@ -707,17 +838,17 @@
                                             <p class="display-mobile" style="color: #cccccc; margin-top: 10px;">Đang duyệt</p>
                                             </td>
                                         </tr>`;
-                        });
-                        $(".datatable tbody").html(s);
-                    },
-                    async: true
-                });
-                $(document).delegate('a.viewdetail','click',function(){
-                    //alert( $(this).attr("data-id"));
-                    localStorage.setItem('id_job',$(this).attr("data-id"));
-                    window.location.href = "/Client/Clientdetailjob.php";
-                })
-     });
+                    });
+                    $(".datatable tbody").html(s);
+                },
+                async: true
+            });
+            $(document).delegate('a.viewdetail', 'click', function() {
+                //alert( $(this).attr("data-id"));
+                localStorage.setItem('id_job', $(this).attr("data-id"));
+                window.location.href = "/Client/Clientdetailjob.php";
+            })
+        });
     </script>
 </body>
 

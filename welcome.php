@@ -32,8 +32,6 @@
           </div>
           <ul>
             <li><a href="#hero" data-after="Home">Trang chủ</a></li>
-            <!-- <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li> -->
             <li><a href="/login.php" data-after="About">Tìm việc làm</a></li>
             <li><a href="/login.php" data-after="Contact">Thuê Freelancer</a></li>
             <li><a class="btn-login" href="http://localhost:3000/login.php" onclick="login()">Đăng nhập</a></li>
@@ -45,9 +43,7 @@
   </section>
   <!-- End Header -->
 
-
   <!-- Hero Section  -->
-
   <section id="hero">
     <div class="hero container">
       <div></div>
@@ -55,7 +51,7 @@
       <h1>Xin Chào, <span></span></h1>
       <h1> Website <span></span></h1>
       <h1>Freelancer <span></span></h1>
-      <a href="#projects" type="button" class="cta">Thuê Freelancer</a>
+      <a href="#projects" type="button" class="cta">Xem giới thiệu về trang web</a>
     </div>
     </div>
   </section>

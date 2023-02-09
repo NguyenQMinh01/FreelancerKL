@@ -5,11 +5,8 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn">
     <title>Thuê freelancer giá tốt nhất Việt Nam | freelancer.vn</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
-    <meta property="og:site_name" content="vLance.vn">
-    <meta property="og:locale" content="vi_VN">
     <meta property="og:type" content="website">
     <meta property="og:title" name="title" content="Thuê freelancer giá tốt nhất Việt Nam | vLance.vn">
     <meta property="og:image" content="https://www.vlance.vn/img/og/danh-sach-freelancer.jpg">
@@ -361,7 +358,7 @@
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa xác thực đầy đủ thông tin. Bạn vui lòng xác thực để hồ sơ uy tín và có nhiều Freelancer liên hệ. Xác thực <a href="/account/verify?utm_campaign=4-YC12%7CPT29.MTW%7CIcon-HKTB1-12102022&amp;utm_source=icon-chuong&amp;utm_medium=icon&amp;utm_content=button">tại đây.</a></p>
+                        <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được thông báo chào giá nào. Bạn vui đăng thêm các dự án chất lượng để có nhiều Freelancer liên hệ , chào giá. đăng dự án  <a href="/Client/dangduan">tại đây.</a></p>
                         <div class="tab-pane active" id="tab_list_invite_bell">
                             <div class="no-message">Bạn không có thông báo mới</div>
                         </div>
@@ -608,12 +605,6 @@
                                                 <li class="sub-item ">
                                                     <a href="#">
                                                         <i class="span1 "></i>
-                                                        <div>AWS </div>
-                                                    </a>
-                                                </li>
-                                                <li class="sub-item ">
-                                                    <a href="#">
-                                                        <i class="span1 "></i>
                                                         <div>Bootstrap </div>
                                                     </a>
                                                 </li>
@@ -641,12 +632,6 @@
                                                         <div>CSS </div>
                                                     </a>
                                                 </li>
-                                                <li class="sub-item ">
-                                                    <a href="#">
-                                                        <i class="span1 "></i>
-                                                        <div>CSS3 </div>
-                                                    </a>
-                                                </li>
 
                                                 <li class="sub-item ">
                                                     <a href="#">
@@ -657,7 +642,7 @@
                                                 <li class="sub-item ">
                                                     <a href="#">
                                                         <i class="span1 "></i>
-                                                        <div>HTML5 </div>
+                                                        <div>ReactJs </div>
                                                     </a>
                                                 </li>
                                                 <li class="sub-item ">
@@ -736,11 +721,11 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <form action="/tim-freelancer" method="GET" id="search-job-form" autocomplete="off">
+                                <form action="/Client/searchfreelancer.php" method="GET" id="search-job-form" autocomplete="off">
                                     <div class="form-group">
                                         <div class="col-sm-10">
                                             <i class="fa fa-search" aria-hidden="true"></i>
-                                            <input style='height: 4.6%;' type="text" class="form-control" id="input-search-text" name="keyword" placeholder="Tìm kiếm freelancer" required="">
+                                            <input style='height: 4.3%;' type="text" class="form-control" id="input-search-text" name="keyword" placeholder="Tìm kiếm freelancer" required="">
                                             <button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
                                         </div>
                                     </div>
@@ -1636,7 +1621,7 @@
                                 <span class="span3 svg-internal-link-2" style="margin-top: 17px">
                                 </span>
                                 <span class="il-title span7" style="padding-top: 0">
-                                    <a class="il-link" href="/dang-du-an">Đăng tìm Freelancer ngay</a>
+                                    <a class="il-link" href="/Client/dangduan.php">Đăng tìm Freelancer ngay</a>
                                     <p class="il-content">Đăng việc tìm người theo dự án, part-time hoặc thiết kế</p>
                                 </span>
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: -63px">
@@ -1650,8 +1635,8 @@
                                 <span class="span3 svg-internal-link-4" style="margin-top: 10px">
                                 </span>
                                 <span class="il-title span7" style="padding-top: 0">
-                                    <a class="il-link" href="">Cập nhật việc mới</a>
-                                    <p class="il-content">Việc dự án, part-time, cuộc thi thiết kế đã được làm mới hôm nay</p>
+                                    <a class="il-link" href="#">Cập nhật việc mới</a>
+                                    <p class="il-content">Việc dự án, part-time </p>
                                 </span>
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: 27px">
                                 </span>
@@ -1660,7 +1645,7 @@
                                 <span class="span3 svg-internal-link-5" style="margin-top: 10px">
                                 </span>
                                 <span class="il-title span7" style="padding-top: 0">
-                                    <a class="il-link" href="">Top Freelancer?</a>
+                                    <a class="il-link" href="/Client/client.php">Top Freelancer?</a>
                                     <p class="il-content">Xem ngay tại trang danh sách Freelancer.</p>
                                 </span>
                                 <span class="il-arrow span2 svg-il-arrow" style="margin-top: 27px">
