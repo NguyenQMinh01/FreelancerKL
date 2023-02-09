@@ -703,8 +703,15 @@
                                     <h1 class="title block-title">
                                         Nội dung review sản phẩm ngắn d&agrave;nh cho tiktok
                                     </h1>
+                                    
                                     <div class="clear"></div>
+                                    
                                 </div>
+                                <div style="padding-top: 20px;padding-bottom: 20px" class="block-hidden" id="block-hidden63948">
+                                <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Chấp nhận lời mời<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+                                <a style="font-size: 14px;width: 150px; background-color: red;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Từ chối lời mời<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+
+                            </div>
                                 <div class="row-fluid body-view">
                                     <div class="row-fluid">
                                         <div class="service-need-hire">
@@ -881,100 +888,9 @@
                                 }
                             });
                         </script>
-                        <div class="row-fluid">
-                            <div class="row-fluid form-bid">
-                                <div class="span12 container">
-                                    <h2 class="title">Thông tin chào giá</h2>
-                                    <hr class="hr-line-0">
-                                    <form id="submit_bid_form" action="/bid/create/63797" method="post" enctype="multipart/form-data" data-display-track="show-bid-form-bidable">
-                                        <div class="row-fluid">
-                                            <div class="span5">
-                                                <div class="block-amount vlance_jobbundle_bidtype_amount">
-                                                    <label class="title-in-form">ĐỀ XUẤT CHI PHÍ<span class="text-red">*</span></label>
-                                                    <div class="block-amount-detail">
-                                                        <dl class="dl-horizontal" style="display: none">
-                                                            <dt class="block-amount-label price">
-                                                                Bạn muốn nhận </dt>
-                                                            <dd class="block-amount-price">
-                                                                <div class="input-append">
-                                                                    <input id="vlance_jobbundle_bidtype_customers_pay" class="span9" autocomplet="off" type="text" pattern="^(0|[1-9][0-9/.]*)$" disabled>
-                                                                    <span class="add-on bonus">VNĐ</span>
-                                                                </div>
-                                                            </dd>
-                                                        </dl>
-                                                        <dl class="dl-horizontal block-commision" style="display: none">
-                                                            <dt class="block-amount-label commision">
-                                                                +10% phí vLance </dt>
-                                                            <dd class="block-amount-price">
-                                                                <div class="input-append">
-                                                                    <input id="vlance_jobbundle_bidtype_vlance_commision" class="span9" autocomplet="off" type="text" pattern="^(0|[1-9][0-9/.]*)$" disabled>
-                                                                    <span class="add-on bonus">VNĐ</span>
-                                                                </div>
-                                                            </dd>
-                                                        </dl>
-                                                        <hr class="hr-line-10" style="display: none">
-                                                        <dl class="dl-horizontal">
-                                                            <dt class="block-amount-label price" style="margin-top: -3px; text-align: left; white-space: normal;width: 125px;">
-                                                                Bạn muốn nhận (mức phí thực nhận cho dự án) </dt>
-                                                            <dd class="block-amount-price">
-                                                                <div class="bidtype_pay">
-                                                                    <div class="  input-append ">
-                                                                        <input type="text" id="vlance_jobbundle_bidtype_amount" name="vlance_jobbundle_bidtype[amount]" required="required" pattern="^(0|[1-9][0-9/.]*)$" class="span9 popovers-input" data-toggle="popover" data-placement="top" data-trigger="focus" autocomplete="off" value="" />
-                                                                        <span class="add-on">VNĐ</span>
-                                                                    </div>
-                                                                </div>
-                                                            </dd>
-                                                        </dl>
-                                                    </div>
-                                                </div>
-                                                <label class="title-in-form">DỰ KIẾN HOÀN THÀNH ĐẾN NGÀY:<span class="text-red">*</span></label>
-                                                <div class="control-group">
-                                                    <div class="row-fluid">
-                                                        <div class="span5 offset2 job-closed-at">
-                                                            <div class="control-group closeat wrapper append-white">
-                                                                <label class="required" for="vlance_jobbundle_jobtype_closeAt"> </label>
-                                                                <div class="datepicker-widget input-append">
-                                                                    <input type="date" id="vlance_jobbundle_jobtype_closeAt" name="vlance_jobbundle_jobtype[closeAt]" required="required" placeholder="VD: 22/12/2022" title="" autocomplete="off" data-toggle="popover" data-placement="top" data-content="Hạn nhận báo giá, VD: 24/11/2016" data-trigger="hover" class="popovers-input span12" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="span7">
-                                                <hr class="hr-line-0">
-                                                <label class="title-in-form">ĐỀ XUẤT THUYẾT PHỤC KHÁCH HÀNG<span class="text-red">*</span></label>
-                                                <div class="row-fluid">
-                                                    <label class="ques-text">Bạn có những kinh nghiệm và kỹ năng nào phù
-                                                        hợp với dự án này? ,dự định thực hiện dự án này như thế
-                                                        nào?<span class="text-red">*</span></label>
-                                                    <div class="bidtype_description">
-                                                        <div class="control-group ">
-                                                            <textarea id="vlance_jobbundle_bidtype_introDescription" name="vlance_jobbundle_bidtype[introDescription]" required="required" placeholder="- Tôi đã có xx năm kinh nghiệm trong lĩnh vực...
-- Tôi sử dụng thành thạo các công cụ như...
-- Tôi đã từng thực hiện những dự án tương tự..." class="form-textarea" data-placement="right" data-trigger="focus" data-toggle="popover" data-content="- Tôi đã có xx năm kinh nghiệm trong lĩnh vực...
-- Tôi sử dụng thành thạo các công cụ như...
-- Tôi đã từng thực hiện những dự án tương tự..." data-title="form.bid.intro_description"></textarea>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row-fluid">
-                                                    <div class="fileupload_wrapper">
-                                                        <div class="fileupload_wrapper">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <hr class="hr-line-0">
-                                                <div class="block-submit-btn" style="background-color: blue;">
-                                                    <a href="#" role="button" class="btn btn-primary btn-large span12 sendproposal">Gửi chào
-                                                        giá</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-                                </form>
-                            </div>
-                        </div>
+
+
+                       
                     </div>
                 </div>
             </div>
@@ -1253,7 +1169,7 @@
 <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-<script>
+<!-- <script>
     $(document).ready(function() {
         var x = localStorage.getItem('profile');
         if (!x) {
@@ -1514,6 +1430,6 @@
 
 
     });
-</script>
+</script> -->
 
 </html>
