@@ -630,7 +630,7 @@
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên công việc</th>
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày cuối nhận báo giá</th>
                                         <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
-                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết công việc</th>
+                                        <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;"></th>
                                         <th></th>
                                     </thead>
 
@@ -660,7 +660,7 @@
 
                                             </td>
                                             <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
-                                                <a href="/Client/Clientdetailjob.php">xem chi tiết</a>
+                                                
                                             </td>
                                             <td class="price-td show-block">
                                                 <div class="block-hidden" id="block-hidden63948">
@@ -825,11 +825,11 @@
                                         </td>
                                         <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
                                             <span>
-                                               ${v.status=="close"?"Dẫ đóng":"Đã hoàn thành"}</span>
+                                               ${v.status=="close"?"Đã đóng":"Đã hoàn thành"}</span>
 
                                         </td>
                                         <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
-                                            <a href="/Client/Clientdetailjob.php">xem chi tiết</a>
+                                            <a href="/Client/Clientdetailjob.php"></a>
                                         </td>
                                         <td class="price-td show-block">
                                         <div class="block-hidden" id="block-hidden63948">

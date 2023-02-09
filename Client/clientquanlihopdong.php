@@ -627,38 +627,17 @@
                         <div class="row-fluid">
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
                                 <table class="table datatable" style="margin-top: 50px;">
-                                    <tr class="head-title-tb display-desktop-workspace">
+                                    <thead class="head-title-tb display-desktop-workspace">
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên Công việc</th>
                                         <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Phân công</th>
                                         <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
                                         <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết hợp đồng</th>
                                         <th></th>
-                                    </tr>
+                                    </thead>
+                                    <tbody>
 
-                                    <tr class="even updated draft-job63542">
-                                    <td class="project-freelancer ">
-                                            <div class="span10 project-info ">
-                                                <div class="title-job">
-                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
-                                                        [63948] L&agrave;m website b&aacute;n gi&agrave;y </a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="num-bid display-desktop-workspace">
-                                            <span style="padding-left: 30px;">Nguyễn Minh</span>
-                                        </td>
-                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            <span>
-                                                đã hoàn thành </span>
-                                        </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
-                                            <a href="/Client/detailhopdongclient.php">xem chi tiết</a>
-                                        </td>
-                                        <td class="price-td show-block">
-                                        <div class="block-hidden" id="block-hidden63948">
-                                            </div>
-                                        </td>      
-                                    </tr>  
+                                    </tbody>
+                                    
                                 </table>
                                 <div class="row-fluid">
                                 </div>
@@ -737,6 +716,50 @@
                 $('.logout').on('click', function() {
                     document.location.href = "http://localhost:3000/welcome.php";
                     localStorage.removeItem('profile');
+                })
+                var data = {
+                    id_user:a.id_user
+                }
+                $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=get_contract_client',
+                data: data,
+                method: 'POST',
+                success: function(res) {
+                    var s = "";
+                    let a = JSON.parse(res);
+                    a.map((v, i) => {
+                        s += `<tr class="even updated draft-job63542">
+                                    <td class="project-freelancer ">
+                                            <div class="span10 project-info ">
+                                                <div class="title-job">
+                                                    <a href="/Client/Clientdetailjob.php" style="color:#000000; font-weight: 600;">
+                                                        [${v.id_contract}] ${v.name_job} </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">${v.fullname_freelancer}</span>
+                                        </td>
+                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                            <span>
+                                                ${v.status==0?"Đang thực hiện":"Đã hoàn thành"} </span>
+                                        </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a class="viewdetail" data-id=${v.id_contract}>xem chi tiết</a>
+                                        </td>
+                                        <td class="price-td show-block">
+                                        <div class="block-hidden" id="block-hidden63948">
+                                            </div>
+                                        </td>      
+                                    </tr>  `;
+                    });
+                    $(".datatable tbody").html(s);
+                },
+                async: true
+                });
+                $(document).delegate('a.viewdetail','click',function(e){
+                    alert($(this).attr('data-id'));
+                    
                 })
 
             })
