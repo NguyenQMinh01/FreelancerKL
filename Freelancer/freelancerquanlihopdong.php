@@ -262,19 +262,19 @@
                             </div>
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
-                                    <a href="/Freelancer/profilefreelancer.php">
+                                    <a class="avt" href="/Freelancer/profilefreelancer.php">
                                         <img width="48" height="48" src="" alt="Minh Nguyen" title="Minh Nguyen">
                                     </a>
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
+                                        <p class="fullname">Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
                                     </a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
 
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0 VNĐ</span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
@@ -832,6 +832,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var b= localStorage.getItem('profile');
+        if (!b) {
+            document.location.href = "http://localhost:3000/login.php";
+        }
+        let a = JSON.parse(b);
+
+        $('.fullname').text(a.fullname);
+        $('.id-user').text("ID. " + a.id_user);
+        $('.wallet').text(a.walllet + " $");
+        $('.avt').attr("src", a.avatar);
+
+        $('.logout').on('click', function() {
+            document.location.href = "http://localhost:3000/welcome.php";
+            localStorage.removeItem('profile');
+        })
+        var x = localStorage.getItem('id-profile-client');
+        let data = {
+            id_user: x
+        }
+    
+    })
+    </script>
 </body>
 
 </html>

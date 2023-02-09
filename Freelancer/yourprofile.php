@@ -539,27 +539,9 @@
                                             t&ocirc;i l&agrave; freelancer
                                         </div>
                                     </div>
+                                   
                                     <div class="service-freelancer" style="width:25%">
-                                        <h2>Lĩnh Vực Chuyên môn</h2>
-                                        <div class="services-provided">
-                                            <a href="/Freelancer/detailJob.php"><i class="fa fa-check"></i>
-                                                Lập trình web </a>
-                                        </div>
-                                        <div class="services-provided">
-                                            <a href="/Freelancer/detailJob.php"><i class="fa fa-check"></i>
-                                                Ứng dụng di động </a>
-                                        </div>
-                                        <div class="services-provided">
-                                            <a href="/Freelancer/detailJob.php"><i class="fa fa-check"></i>
-                                                Lập trình phần mềm </a>
-                                        </div>
-                                        <!-- <div class="update-service">
-                                            <a class="btn btn-large btn-service" href="#">Thêm dịch vụ</a>
-                                        </div> -->
-                                    </div>
-
-                                    <div class="service-freelancer" style="width:25%">
-                                        <h2>Kĩ năng hiện có</h2>
+                                        <h2>Kĩ năng nổi bật</h2>
                                         <div class="row-fluid haveskill">
 
                                         </div>

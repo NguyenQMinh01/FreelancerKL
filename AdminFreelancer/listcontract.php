@@ -126,7 +126,7 @@
     <div class="col-12 pcoded-main-container">
         <div class="card" style="width:88%;">
             <div class="card-header">
-                <h3 class="card-title">Danh sách tin/job đã được duyệt</h3>
+                <h3 class="card-title">Danh sách hợp đồng</h3>
             </div>
             
             <div class="table-responsive">
@@ -181,13 +181,13 @@
                 document.location.href = "http://localhost:3000/AdminFreelancer/loginadmin.php";
             }
             var x = $('.datatable').DataTable( {
-                "ajax": "https://job.ahlupos.com/modules/job/api.php?ac=list_job",
+                "ajax": "https://job.ahlupos.com/modules/job/api.php?ac=list_contract",
                 "columns": [
-                    { "data": "id_job"},
-                    { "data": "title" },
-                    { "data": "fullname" },
-                    { "data": "create_date" },
-                    { "data": "status" },
+                    { "data": "id_contract"},
+                    { "data": "name_job" },
+                    { "data": "name_client" },
+                    { "data": "name_freelancer" },
+                   
                     { "targets": -1, "data": null,"defaultContent": "<button class='btn btn-success'>Xem chi tiết</button>" }
                 ]
             } );

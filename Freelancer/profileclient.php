@@ -93,7 +93,7 @@
         <div class="upper-section row-fluid upper_scoll">
             <div class="container">
                 <div class="logo span2">
-                    <a href="/Client/client.php">
+                    <a >
                         <img style="padding-top: 10px;" alt="Freelancer logo" class="LogoImg"
                             src="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" data-size="small">
                         <div class="bx bx-menu" id="menu-icon"></div>
@@ -103,7 +103,7 @@
                     <div class="menu-inner">
                         <ul class="menu-inner-list">
                             <li class="menu-item first ver2 ">
-                                <a title="Thuê Freelancer" href="/Client/searchfreelancer.php">Thuê Freelancer<span
+                                <a title="Thuê Freelancer" >Thuê Freelancer<span
                                         class="caret"></span></a>
                                 <ul class="menu-dropdown-list">
                                     <li class="menu-dropdown-item">
@@ -123,12 +123,12 @@
                                                     </a>
                                                     <ul class="content-item-detail">
                                                         <li class="menu-dropdown-item-content">
-                                                            <a href="/Client/dangduan.php">Đăng tin nhận báo giá <i
+                                                            <a >Đăng tin nhận báo giá <i
                                                                     class="" aria-hidden="true"
                                                                     style="margin-left:50px;color:black"></i></a>
                                                         </li>
                                                         <li role="presentation"><a role="menuitem" tabindex="-1"
-                                                                href="/Client/searchfreelancer.php"
+                                                                
                                                                 onclick="vtrack('Click freelancer list page', {'position':'Homepage'})">Tìm
                                                                 theo freelancer</a></li>
                                                     </ul>
@@ -171,26 +171,26 @@
                         </div>
                         <div class="account-menu pull-right">
                             <div class="avata avata_ver2">
-                                <a href="/khach-hang/minh-166">
-                                    <img width="48" height="48"
+                                <a >
+                                    <img class="avt" width="48" height="48"
                                         src="https://www.vlance.vn/uploads/48x48/5137679a253a06555c594a9df5f13502041e06931.png"
-                                        alt="M&iacute;nh" title="M&iacute;nh" />
+                                        alt="avt" title="avt" />
                                 </a>
                             </div>
                             <div class="dropdown">
                                 <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                    <p>M&iacute;nh</p> <span class="id-user">Id. 1250511</span>
+                                    <p class="fullname">M&iacute;nh</p> <span class="id-user">Id. 1250511</span>
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
                                 </a>
                                 <div class="credit-balance">
                                     <span id="animategoCredit">
-                                        <span class="vip-menu-ver2">Client</span>
-                                        <span class="credit-menu-ver2" data-credit="balance">0$</span>
+                                        <span class="vip-menu-ver2">Freelancer</span>
+                                        <span class="credit-menu-ver2 wallet" data-credit="balance">0$</span>
                                     </span>
                                 </div>
                                 <div id="popover-in"></div>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/Client/profileclient.php">Hồ sơ cá nhân</a></li>
+                                    <li><a href="/Freelancer/profileclient.php">Hồ sơ cá nhân</a></li>
                                     <li><a href="#">Chỉnh sửa hồ sơ</a></li>
                                     <li><a href="#">Cài đặt thông báo việc mới</a></li>
                                     <li class="divider"></li>
@@ -212,23 +212,26 @@
                         <div class="dropdown manage-user">
                             <a href="/Client/Quanlitin.php" data-toggle="dropdown"> Quản lý cho khách hàng <i
                                     class="fa fa-angle-down" aria-hidden="true"></i></a>
-                            <ul class="dropdown-menu">
-                                <li style="margin-bottom:20px"><a href="/Client/Quanlitin.php"
-                                        onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý
-                                        tin tuyển dụng</a></li>
-                                <li><a href="#">Quản lý đơn hàng</a></li>
-                            </ul>
+                          
+                            <ul class="dropdown-menu" style="min-width:200px">
+                                    <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php"
+                                            onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quảnlý việc đang báo giá</a></li>
+                                    <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                    <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                                </ul>
+                           
                         </div>
                     </li>
                     <li class="tf200 ">
-                        <a onclick="vtrack('Click view upgrade account', {'location' : 'menu dropdown'})" href="#">Nâng
-                            cấp tài khoản khách hàng</a>
+                    
+                    <div class="dropdown manage-user">
+                                <a href="#" data-toggle="dropdown"> Cam kết đảm bảo công việc <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu" style="min-width:200px">
+                                    <li><a href="/Freelancer/freelancerquanlihopdong.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý hợp đồng công việc</a></li>
+                                </ul>
+                            </div>
                     </li>
-                    <div class="button">
-                        <a class="btn btn-vl btn-vl-green btn-vl-medium"
-                            onclick="vtrack('Click post job', {'position':'Homepage'})" href="/Client/dangduan.php">Đăng
-                            dự án</a>
-                    </div>
+                   
                 </ul>
             </div>
         </div>
@@ -286,7 +289,7 @@
                         <div class="account-menu dropdown accordion-toggle-ver2 ver2">
                             <div class="avata avata_ver2">
                                 <a href="/Client/profileclient.php">
-                                    <img width="52" height="52"
+                                    <img  width="52" height="52"
                                         src="https://www.vlance.vn/uploads/48x48/5137679a253a06555c594a9df5f13502041e06931.png"
                                         alt="M&iacute;nh" title="M&iacute;nh" />
                                 </a>
@@ -1056,6 +1059,21 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script>
     $(document).ready(function() {
+        var b= localStorage.getItem('profile');
+        if (!b) {
+            document.location.href = "http://localhost:3000/login.php";
+        }
+        let a = JSON.parse(b);
+
+        $('.fullname').text(a.fullname);
+        $('.id-user').text("ID. " + a.id_user);
+        $('.wallet').text(a.walllet + " $");
+        $('.avt').attr("src", a.avatar);
+
+        $('.logout').on('click', function() {
+            document.location.href = "http://localhost:3000/welcome.php";
+            localStorage.removeItem('profile');
+        })
         var x = localStorage.getItem('id-profile-client');
         let data = {
             id_user: x
@@ -1097,8 +1115,7 @@
                                                 </span>
                                                 <span itemprop="address" itemscope
                                                     itemtype="http://data-vocabulary.org/Address">
-                                                    <span class="location editable tf300" itemprop="region">H&agrave;
-                                                        Nội</span>
+                                                    <span class="location editable tf300" itemprop="region"></span>
                                                 </span>
                                             </div>
                                         </div>
@@ -1128,48 +1145,7 @@
                                 </dl>
                             </div>
 
-                            <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
-                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
-                                    <dd>Tên công ty</dd>
-                                    <dd>TNHH 1 thành viên</dd>
-                                </dl>
-                            </div>
-
-                            <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
-                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
-                                    <dd> Giới thiệu công ty</dd>
-                                    <dd>Công ty TNHH AwareSoft</dd>
-                                    <dd>là công ty được thành lập </dd>
-                                    <dd>vào ngày 19/11/2022</dd>
-                                </dl>
-                            </div>
-
-                            <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img
-                                        src="/img/phone_number.png"></label>
-                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
-                                    <dd>Điện thoại công ty</dd>
-                                    <dd>0983422291</dd>
-                                </dl>
-                            </div>
-
-                            <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
-                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
-                                    <dd>Mã số thuế </dd>
-                                    <dd>8510949061</dd>
-                                </dl>
-                            </div>
-
-                            <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
-                                <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
-                                    <dd>Địa chỉ công ty</dd>
-                                    <dd>39 Sơn Kỳ, phường Sơn Kỳ, quận Tân Phú, Thành phố Hồ Chí Minh</dd>
-                                </dl>
-                            </div>
+                           
                         </div>
                         <h2 style="padding-bottom: 15px">Tóm lược</h2>
                         <div class="list-summary-profile row-fluid">

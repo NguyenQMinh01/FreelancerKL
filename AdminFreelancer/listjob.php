@@ -202,10 +202,7 @@
                 //var rows = $(this).closest('tbody').find('tr td.sorting_1').val();
                 //alert(JSON.stringify(rows));
             });
-            // $(document).delegate('.btn.btn-success','click',function(){
-            //     var rows = $(this).closest('tbody').find('tr td.sorting_1').text();
-            //     alert(JSON.stringify(rows));
-            // })
+           
            
         });
     </script>

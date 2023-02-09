@@ -496,8 +496,8 @@
                             <div class="span12 news-client-view" style="border-radius: 5px;min-height: 450px">
                                 <table class="table datatable" style="margin-top: 50px;">
                                     <thead class="head-title-tb display-desktop-workspace">
-                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Phân công</th>
-                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày hoàn thành</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:300px;">Tên công việc</th>
+                                        <th class="project-freelancer" style="padding-top: 15px;padding-bottom: 15px;width:250px;">Ngày cuối nhận báo giá</th>
                                         <th class="payment-th" style="padding-top: 15px;padding-bottom: 15px;padding-right: 90px;">trạng thái </th>
                                         <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết công việc</th>
                                         <th></th>
@@ -675,30 +675,36 @@
                         var s = "";
                         let a = JSON.parse(res);
                         a.map((v, i) => {
-                            s += `<tr class="odd updated draft-job63948">
-                                            <td class="project-freelancer ">
-                                                <div class="span10 project-info ">
-                                                    <div class="title-job">
-                                                        <a class="viewdetail" data-id=${v.id_job} style="color:#000000; font-weight: 600;">
-                                                            [${v.id_job}] ${v.title} </a>
-                                                        <span class="label-contest" style="background-color:#F76D22">Đang duyệt</span>
-                                                    </div>
+                            s += `<tr class="even updated draft-job63542">
+                                        <td class="project-freelancer ">
+                                            <div class="span10 project-info ">
+                                                <div class="title-job">
+                                                    <a href="/Freelancer/profilefreelancer.php" style="color:#000000; font-weight: 600;">
+                                                    ${v.title} </a>
+                                                   
+
                                                 </div>
-                                            </td>
-                                            <td class="num-bid display-desktop-workspace">
-                                            </td>
-                                            <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <span>
-                                                    ${v.create_date}</span>
-                                            </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                Đang duyệt </td>
-                                            <td class="price-td show-block">
-                                            
-                                               
-                                            <p class="display-mobile" style="color: #cccccc; margin-top: 10px;">Đang duyệt</p>
-                                            </td>
-                                        </tr>`;
+                                                <div class="freelancer display-desktop-workspace">
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="num-bid display-desktop-workspace">
+                                            <span style="padding-left: 30px;">${v.end_date} </span>
+                                        </td>
+                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                            <span>
+                                               ${v.status=="close"?"Dẫ đóng":"Đã hoàn thành"}</span>
+
+                                        </td>
+                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                            <a href="/Client/Clientdetailjob.php">xem chi tiết</a>
+                                        </td>
+                                        <td class="price-td show-block">
+                                        <div class="block-hidden" id="block-hidden63948">
+                                               </div>
+                                        </td>      
+                                    </tr>`;
                         });
                         $(".datatable tbody").html(s);
                     },
