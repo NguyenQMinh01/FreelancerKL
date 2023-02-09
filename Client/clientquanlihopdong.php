@@ -758,8 +758,9 @@
                 async: true
                 });
                 $(document).delegate('a.viewdetail','click',function(e){
-                    alert($(this).attr('data-id'));
-                    
+                    //alert($(this).attr('data-id'));
+                    localStorage.setItem('id_contract',$(this).attr('data-id'));
+                    window.location.href = "/Client/detailhopdongclient.php";
                 })
 
             })
