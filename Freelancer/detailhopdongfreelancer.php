@@ -611,71 +611,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="mosaic-jobResults" class="mosaic-zone">
-                                <div class="mosaic mosaic-provider-jobcards mosaic-provider-hydrated" id="mosaic-provider-jobcards">
-                                    <ul class="jobsearch-ResultsList css-0">
-                                        <li>
-                                            <div class="cardOutline tapItem fs-unmask result job_7bf1abfe621183e9 resultWithShelf sponTapItem desktop vjs-highlight css-kyg8or eu4oa1w0">
-                                                <div class="slider_container css-g7s71f eu4oa1w0">
-                                                    <div class="slider_list css-kyg8or eu4oa1w0">
-                                                        <div class="slider_item css-kyg8or eu4oa1w0">
-                                                            <div class="job_seen_beacon">
-                                                                <table class="jobCard_mainContent big6_visualChanges" cellpadding="0" cellspacing="0" role="presentation">
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <td class="resultContent">
-                                                                                <div class="css-1m4cuuf e37uo190">
-                                                                                    <h2 class="jobTitle jobTitle-newJob css-bdjp2m eu4oa1w0" tabindex="-1"><a id="job_7bf1abfe621183e9" data-mobtk="1gojjv65fkc3o800" data-jk="7bf1abfe621183e9" data-hiring-event="false" target="_blank" data-hide-spinner="true" role="button" aria-label="full details of Javascript and JQuery Developer – (freelance Project Based)" class="jcs-JobTitle css-jspxzf eu4oa1w0" href="/Freelancer/detailJob.php"><span title="Lập trình web bán giày" id="jobTitle-7bf1abfe621183e9">Lập trình web bán giày</span></a></h2>
-                                                                                    <div class="new css-ud6i3y eu4oa1w0"><span class="label css-1qj35nq eu4oa1w0">new</span></div>
-                                                                                </div>
-                                                                                <div class="heading6 company_location tapItem-gutter companyInfo"><span class="companyName" style="font-size: 8px;">Nhà tuyển dụng: Nguyễn Minh</span>
-                                                                                    <div class="companyLocation">TP Hồ Chí Minh</div>
-                                                                                </div>
-                                                                                <div class="heading6 tapItem-gutter metadataContainer noJEMChips salaryOnly">
-                                                                                    <div class="metadata salary-snippet-container">
-                                                                                        <div style="font-size: 8px;" class="attribute_snippet"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 13" role="presentation" aria-hidden="true" aria-label="Salary">
-                                                                                                <defs></defs>
-                                                                                                <path fill="#595959" fill-rule="evenodd" d="M2.45168 6.10292c-.30177-.125-.62509-.18964-.95168-.1903V4.08678c.32693-.00053.6506-.06518.95267-.1903.30331-.12564.57891-.30979.81105-.54193.23215-.23215.4163-.50775.54194-.81106.12524-.30237.18989-.62638.19029-.95365H9.0902c0 .3283.06466.65339.1903.9567.12564.30331.30978.57891.54193.81106.23217.23215.50777.41629.81107.54193.3032.12558.6281.19024.9562.1903v1.83556c-.3242.00155-.6451.06616-.9448.19028-.3033.12563-.5789.30978-.81102.54193-.23215.23214-.4163.50774-.54193.81106-.12332.2977-.18789.61638-.19024.93849H3.99496c-.00071-.32645-.06535-.64961-.19029-.95124-.12564-.30332-.30979-.57891-.54193-.81106-.23215-.23215-.50775-.4163-.81106-.54193zM0 .589843C0 .313701.223858.0898438.5.0898438h12.0897c.2762 0 .5.2238572.5.5000002V9.40715c0 .27614-.2238.5-.5.5H.5c-.276143 0-.5-.22386-.5-.5V.589843zM6.54427 6.99849c1.10457 0 2-.89543 2-2s-.89543-2-2-2-2 .89543-2 2 .89543 2 2 2zm8.05523-2.69917v7.10958H2.75977c-.27615 0-.5.2238-.5.5v.5c0 .2761.22385.5.5.5H15.422c.4419 0 .6775-.2211.6775-.6629V4.29932c0-.27615-.2239-.5-.5-.5h-.5c-.2761 0-.5.22385-.5.5z" clip-rule="evenodd"></path>
-                                                                                            </svg>1000000 VNĐ</div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="heading6 error-text tapItem-gutter"></div>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                                <table class="jobCardShelfContainer big6_visualChanges" role="presentation">
-                                                                    <tbody>
-                                                                        <tr class="jobCardShelf"></tr>
-                                                                        <tr class="underShelfFooter">
-                                                                            <td>
-                                                                                <div class="heading6 tapItem-gutter result-footer">
-                                                                                    <div class="job-snippet">
-                                                                                    </div><span class="date"><span class="visually-hidden">Posted</span>Tạo 5 ngày trước</span><span class="result-link-bar-separator">·</span><button type="button" class="sl resultLink more_links_button" aria-expanded="false">More...</button>
-                                                                                </div>
-
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                                <div aria-live="polite"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="slider_sub_item css-kyg8or eu4oa1w0"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="kebabMenu" aria-labelledby="jobActionButton-7bf1abfe621183e9 jobTitle-7bf1abfe621183e9" role="group"><span aria-live="polite" class="visually-hidden"></span><button id="jobActionButton-7bf1abfe621183e9" aria-label="Job Actions menu is collapsed" aria-haspopup="true" aria-expanded="false" class="kebabMenu-button"><svg width="24" height="24" role="presentation" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M12 7C13.1 7 14 6.1 14 5C14 3.9 13.1 3 12 3C10.9 3 10 3.9 10 5C10 6.1 10.9 7 12 7ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 17C10.9 17 10 17.9 10 19C10 20.1 10.9 21 12 21C13.1 21 14 20.1 14 19C14 17.9 13.1 17 12 17Z" fill="#2d2d2d"></path>
-                                                        </svg></button></div>
-                                            </div><span aria-live="polite" class="visually-hidden"></span>
-                                        </li>
-                                        <li>
-                                            <div id="mosaic-afterFifteenthJobResult" class="mosaic-zone nonJobContent-desktop"></div>
-                                        </li>
-                                    </ul>
-                                    <div id="toast" aria-live="polite"></div>
-                                </div>
-                            </div>
                             <div class="mosaic mosaic-provider-jobsearch-feedback" id="mosaic-provider-jobsearch-feedback"></div>
                             <div id="mosaic-serpBottomBody" class="mosaic-zone"></div>
                             <div id="mosaic-endResults" class="mosaic-zone">
@@ -716,7 +651,7 @@
                                                                                     <div class="new css-ud6i3y eu4oa1w0"><span class="label css-1qj35nq eu4oa1w0"></span></div>
                                                                                 </div>
 
-                                                                               
+
                                                                                 <div class="list-summary-profile row-fluid">
                                                                                     <dl style="width: 530px; padding-right: 30px; display: flex; justify-content: center;" class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                                                                         <dd></dd>
@@ -739,9 +674,9 @@
 
                                                                                 <h3>Nhận xét</h3>
                                                                                 <input style="width:540px; height: 200px;" type="text" id="fname" name="fname"><br>
-                                                                                <div style = "display: flex; justify-content: right; " id="applyButtonLinkContainer" class="">
+                                                                                <div style="display: flex; justify-content: right; " id="applyButtonLinkContainer" class="">
                                                                                     <div>
-                                                                                        <div class="icl-u-xs-hide icl-u-lg-block icl-u-lg-textCenter"><a  style = "width: 70px; height: 30px; border-radius: 0px; text-align: center; padding-top: 10px; font-size: 12px; background-color: green;" href="" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--md icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Đánh giá </a></div>
+                                                                                        <div class="icl-u-xs-hide icl-u-lg-block icl-u-lg-textCenter"><a style="width: 70px; height: 30px; border-radius: 0px; text-align: center; padding-top: 10px; font-size: 12px; background-color: green;" href="" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--md icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Đánh giá </a></div>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="heading6 error-text tapItem-gutter"></div>
@@ -749,7 +684,7 @@
                                                                         </tr>
                                                                     </tbody>
                                                                 </table>
-                                                               
+
                                                                 <div aria-live="polite"></div>
                                                             </div>
                                                         </div>
@@ -782,7 +717,7 @@
                                                     <div class="icl-Grid jobsearch-ViewJobLayout-innerContentGrid">
                                                         <div class="jobsearch-ViewJobLayout-jobDisplay icl-Grid-col icl-u-xs-span12">
                                                             <div class="jobsearch-JobComponent icl-u-xs-mt--sm jobsearch-JobComponent--embedded" style="height: 902px;">
-                                                            <div class="jobsearch-JobComponent-embeddedHeader">
+                                                                <div class="jobsearch-JobComponent-embeddedHeader">
                                                                     <div class="">
                                                                         <div>
                                                                             <div class="jobsearch-JobInfoHeader-title-container ">
@@ -824,46 +759,18 @@
                                                                             <div class=""></div>
                                                                             <div class=""></div>
                                                                         </div>
-                                                                        <div class="icl-Grid icl-Grid--gutters">
-                                                                            <div id="jobsearch-ViewJobButtons-container" class="jobsearch-ViewJobButtons-container is-embedded icl-Grid-col icl-u-xs-span12">
-                                                                                <div class="jobsearch-ViewJobButtons-disclaimer jobsearch-ViewJobButtons-above-buttons">Ấn nút để xác nhận hoàn thành công việc này</div>
-                                                                                <div id="aboveViewjobButtons" class="mosaic mosaic-empty-zone"></div>
-                                                                                <div id="viewJobButtonLinkContainer" class="icl-u-lg-inlineBlock viewJobButtonLinkContainer">
-                                                                                    <div id="applyButtonLinkContainer" class="">
-                                                                                        <div>
-                                                                                            <div class="icl-u-lg-hide"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
-                                                                                            <div class="icl-u-xs-hide icl-u-lg-block icl-u-lg-textCenter"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--md icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div id="saveJobButtonContainer" class="icl-u-lg-inlineBlock" data-loginurl="https://secure.indeed.com/account/login?co=US&amp;hl=en_US&amp;continue=http%3A%2F%2Fwww.indeed.com%2Fjobs%3Fq%3DHTML%2BCSS%2BDeveloper%2BFreelance&amp;from=jsfe-desktopembedded-save-indeedmobile" aria-hidden="false">
-                                                                                    <div class="">
-                                                                                        <div aria-live="assertive"><button data-dd-action-name="save-job" aria-label="Save this job" aria-haspopup="true" class="css-166k7et e8ju0x51"><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" fill="currentColor" viewBox="0 0 24 24" class="css-1xqhio eac13zx0">
-                                                                                                    <title>save-icon</title>
-                                                                                                    <path fill-rule="evenodd" d="M10.577 6.995c-.513-.513-1.007-.997-1.566-1.369-.543-.36-1.033-.536-1.511-.536-.706 0-1.52.183-2.16.634C4.784 6.118 4.203 6.82 4 8.217c.027 1.787.614 3.043 1.97 4.573 1.01 1.138 2.308 2.288 4.01 3.793.618.548 1.29 1.143 2.02 1.8.73-.657 1.402-1.252 2.02-1.8 1.702-1.505 3-2.655 4.01-3.793 1.356-1.53 1.943-2.786 1.97-4.573-.202-1.397-.783-2.099-1.34-2.493-.64-.451-1.454-.634-2.16-.634-.478 0-.968.175-1.51.536-.56.372-1.054.856-1.567 1.37L12 8.418l-1.423-1.424zM22 8.09c0 4.098-2.351 6.181-6.778 10.103-.88.779-1.841 1.63-2.882 2.585a.503.503 0 01-.68 0c-1.04-.955-2.002-1.806-2.882-2.585C4.351 14.27 2 12.188 2 8.09c.5-4 3.5-5 5.5-5 1.98 0 3.47 1.47 4.47 2.47l.02.021.01.01.01-.01.02-.021c1-1 2.49-2.47 4.47-2.47 2 0 5 1 5.5 5z" clip-rule="evenodd"></path>
-                                                                                                </svg></button></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <!-- căn trái -->
-                                                                                <div id="mosaic-belowViewjobButtons" class="mosaic-zone">
-                                                                                    <div class="mosaic mosaic-provider-salary-feedback mosaic-rst mosaic-provider-hydrated" id="mosaic-provider-salary-feedback"></div>
-                                                                                </div>
-
-
-                                                                            </div>
-                                                                        </div>
                                                                         <div id="saveJobInlineCalloutContainer" class="icl-u-lg-block"></div>
                                                                     </div>
                                                                     <div></div>
                                                                 </div>
                                                                 <div class="jobsearch-JobComponent-embeddedBody" style="overscroll-behavior-y: auto;">
-                                                                    <div id="aboveExtractedJobDescription" class="mosaic mosaic-empty-zone" style  = "font-size: 18px;">Hôm nay, ngày 09/03/2023, các bên gồm có</div>
+                                                                    <div id="aboveExtractedJobDescription" class="mosaic mosaic-empty-zone" style="font-size: 18px;">Hôm nay, ngày 09/03/2023, các bên gồm có</div>
                                                                     <div class="jobsearch-JobComponent-description jobsearch-JobComponent-description--embedded icl-u-xs-mb--md" tabindex="0">
                                                                         <div id="jobHighlights" class="mosaic mosaic-empty-zone"></div>
                                                                         <div class="jobsearch-JobDescriptionSection is-highlight-enforced">
                                                                             <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section">
                                                                                 <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0 ">
-                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50" style = "font-size: 18px; "><b>BÊN A: NHÀ TUYỂN DỤNG demo (BÊN THUÊ)</b></h2>
+                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50" style="font-size: 18px; "><b>BÊN A: NHÀ TUYỂN DỤNG demo (BÊN THUÊ)</b></h2>
                                                                                 </div>
                                                                                 <div class="css-rr5fiy eu4oa1w0">
                                                                                     <div class="css-1rqilkj eu4oa1w0">Nguyễn Minh</div>
@@ -874,7 +781,7 @@
                                                                                     <div>Email: 123@gmail.com</div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section" style = "padding-top: -60px;">
+                                                                            <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section" style="padding-top: -60px;">
                                                                                 <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0">
                                                                                     <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50"><b>BÊN B: ỨNG VIÊN: Nguyễn Minh (FREELANCER)</b></h2>
                                                                                 </div>
@@ -891,7 +798,7 @@
                                                                         </div>
 
                                                                         <div id="aboveFullJobDescription" class="mosaic mosaic-empty-zone"></div>
-                                                                        <h2 id="jobDescriptionTitle" class="jobsearch-JobDescriptionSection-jobDescriptionTitle icl-u-xs-my--md" style = "font-size: 15px;">Sau khi bàn bạc 2 bên đã thỏa thuận và thống nhất kí kết hợp đồng freelancer với nội dung như sau</h2>
+                                                                        <h2 id="jobDescriptionTitle" class="jobsearch-JobDescriptionSection-jobDescriptionTitle icl-u-xs-my--md" style="font-size: 15px;">Sau khi bàn bạc 2 bên đã thỏa thuận và thống nhất kí kết hợp đồng freelancer với nội dung như sau</h2>
                                                                         <div id="jobDescriptionText" class="jobsearch-jobDescriptionText">
                                                                             <div>
                                                                                 <div></div>
@@ -904,7 +811,7 @@
                                                                                     <span>Bên A cần thuê freelancer để thực hiện công việc <b>lập trình web</b> </span>
                                                                                     <p> <span>Bên B cam kết đủ khả năng để thực hiện công việc mà bên A đang cần triển khai</span></p>
                                                                                     <p>xét thấy yêu cầu và khả năng của hai bên phù hợp, Bên A đồng ý thuê Bên B và bên B đồng ý thực hiện công việc cho bên A theo các thỏa thuận trong hợp đồng này.</p>
-                                                                                    
+
                                                                                     <p><b> Điều 2: THỰC HIỆN HỢP ĐỒNG</b></p>
                                                                                     <ul>
                                                                                         <li>Bên B thực hiện công việc cho bên A theo thời hạn từ ngày <b>09/02/2023</b> đến ngày <b>20/02/2023</b></li>
@@ -919,10 +826,10 @@
                                                                             </div>
                                                                             <p></p>
                                                                         </div>
-                                                                        <div class="jobsearch-JobDescriptionSection is-highlight-enforced" style = "display: flex; justify-content: space-between; text-align: center;">
-                                                                            <div id="" class="" style = "padding-top:11px ;">
+                                                                        <div class="jobsearch-JobDescriptionSection is-highlight-enforced" style="display: flex; justify-content: space-between; text-align: center;">
+                                                                            <div id="" class="" style="padding-top:11px ;">
                                                                                 <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0 ">
-                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50" style = "font-size: 18px; "><b>ĐẠI DIỆN BÊN A</b></h2>
+                                                                                    <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50" style="font-size: 18px; "><b>ĐẠI DIỆN BÊN A</b></h2>
                                                                                 </div>
                                                                                 <div class="css-rr5fiy eu4oa1w0">
                                                                                     <div class="css-1rqilkj eu4oa1w0">Nguyễn Minh</div>
@@ -933,7 +840,7 @@
                                                                                     <div>Email: 123@gmail.com</div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section" style = "padding-top: -60px;">
+                                                                            <div id="jobDetailsSection" class="jobsearch-JobDescriptionSection-section" style="padding-top: -60px;">
                                                                                 <div class="jobsearch-JobDescriptionSection-title css-rr5fiy eu4oa1w0">
                                                                                     <h2 tabindex="-1" id="jobDetails" class="css-tmzs7i e1tiznh50"><b>ĐẠI DIỆN BÊN B</b></h2>
                                                                                 </div>
@@ -953,7 +860,7 @@
                                                                             <h2 class="css-14vqcyj e1tiznh50">Một số điều khi cả 2 vi phạm hợp đồng</h2>
                                                                             <!-- <h3 class="css-1s8hy3a e1tiznh50">Hệ thống web xử lí tự động</h3> -->
                                                                             <ul class="css-659xjq eu4oa1w0">
-                                                                                <li class="css-5vsc1i eu4oa1w0"><span class="css-129twvb eu4oa1w0"></span><span class="css-kyg8or eu4oa1w0">ngày tạo 10/10/2022</span></li>
+                                                                                <li class="css-5vsc1i eu4oa1w0"><span class="css-129twvb eu4oa1w0"></span><span class="css-kyg8or eu4oa1w0">Trừ tiền</span></li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -966,6 +873,32 @@
                                                 </div>
                                             </div>
                                             <div id="ssrVJModals" class="mosaic mosaic-empty-zone"></div>
+                                            <div class="icl-Grid icl-Grid--gutters">
+                                                <div style="display:flex; justify-content: center;" id="jobsearch-ViewJobButtons-container" class="jobsearch-ViewJobButtons-container is-embedded icl-Grid-col icl-u-xs-span12">
+                                                    <div style="text-align: center;" class="jobsearch-ViewJobButtons-disclaimer jobsearch-ViewJobButtons-above-buttons">Ấn nút để xác nhận hoàn thành công việc này</div>
+                                                    <div id="aboveViewjobButtons" class="mosaic mosaic-empty-zone"></div>
+                                                    <div id="viewJobButtonLinkContainer" class="icl-u-lg-inlineBlock viewJobButtonLinkContainer">
+                                                        <div id="applyButtonLinkContainer" class="">
+                                                            <div>
+                                                                <div class="icl-u-lg-hide"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--lg icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
+                                                                <div class="icl-u-xs-hide icl-u-lg-block icl-u-lg-textCenter"><a href="https://www.indeed.com/applystart?jk=7bf1abfe621183e9&amp;from=vj&amp;pos=bottom&amp;mvj=0&amp;jobsearchTk=1gojjv65fkc3o800&amp;spon=0&amp;sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXgt_uJiLDQjN6uyCZ2SQPEgnUUKYs5yKqp3Fg7KgmoxhA&amp;vjfrom=vjs&amp;astse=b2365e17653fdb30&amp;assa=6091" referrerpolicy="origin" rel="noopener" target="_blank" aria-label="Apply on company site (opens in a new tab)" class="icl-Button icl-Button--primary icl-Button--md icl-Button--block jobsearch-CallToApply-applyButton-newDesign icon-flipped">Xác nhận hoàn thành </a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div id="saveJobButtonContainer" class="icl-u-lg-inlineBlock" data-loginurl="https://secure.indeed.com/account/login?co=US&amp;hl=en_US&amp;continue=http%3A%2F%2Fwww.indeed.com%2Fjobs%3Fq%3DHTML%2BCSS%2BDeveloper%2BFreelance&amp;from=jsfe-desktopembedded-save-indeedmobile" aria-hidden="false">
+                                                        <div class="">
+                                                            <div aria-live="assertive"><button data-dd-action-name="save-job" aria-label="Save this job" aria-haspopup="true" class="css-166k7et e8ju0x51"><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" fill="currentColor" viewBox="0 0 24 24" class="css-1xqhio eac13zx0">
+                                                                        <title>save-icon</title>
+                                                                        <path fill-rule="evenodd" d="M10.577 6.995c-.513-.513-1.007-.997-1.566-1.369-.543-.36-1.033-.536-1.511-.536-.706 0-1.52.183-2.16.634C4.784 6.118 4.203 6.82 4 8.217c.027 1.787.614 3.043 1.97 4.573 1.01 1.138 2.308 2.288 4.01 3.793.618.548 1.29 1.143 2.02 1.8.73-.657 1.402-1.252 2.02-1.8 1.702-1.505 3-2.655 4.01-3.793 1.356-1.53 1.943-2.786 1.97-4.573-.202-1.397-.783-2.099-1.34-2.493-.64-.451-1.454-.634-2.16-.634-.478 0-.968.175-1.51.536-.56.372-1.054.856-1.567 1.37L12 8.418l-1.423-1.424zM22 8.09c0 4.098-2.351 6.181-6.778 10.103-.88.779-1.841 1.63-2.882 2.585a.503.503 0 01-.68 0c-1.04-.955-2.002-1.806-2.882-2.585C4.351 14.27 2 12.188 2 8.09c.5-4 3.5-5 5.5-5 1.98 0 3.47 1.47 4.47 2.47l.02.021.01.01.01-.01.02-.021c1-1 2.49-2.47 4.47-2.47 2 0 5 1 5.5 5z" clip-rule="evenodd"></path>
+                                                                    </svg></button></div>
+                                                        </div>
+                                                    </div> -->
+                                                    <!-- căn trái -->
+                                                    <div id="mosaic-belowViewjobButtons" class="mosaic-zone">
+                                                        <div class="mosaic mosaic-provider-salary-feedback mosaic-rst mosaic-provider-hydrated" id="mosaic-provider-salary-feedback"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div><button class="jobsearch-VjPaneBackToJobcardButton visible-on-focus-only bottom">Return to Search Result</button>
