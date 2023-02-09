@@ -298,8 +298,7 @@
                                 <a href="/Freelancer/quanliviec.php" data-toggle="dropdown"> Quản lý cho freelancer <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản lý việc đang báo giá</a></li>
-                                    <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
-                                    <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
+                                    <li><a href="/Freelancer/quanliviecdanglam.php" style="font-size: 15px;">Quản lý lời mời nhận việc</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -396,10 +395,9 @@
                                             <a href="/Freelancer/quanliviec.php">Quản lý việc đang báo giá</a>
                                         </li>
                                         <li class="ver2">
-                                        <li><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
+                                        <li><a href="/Freelancer/quanliviecdanglam.php" style="font-size: 15px;">Quản lý lời mời nhận việc</a></li>
                                 </li>
                                 <li class="ver2">
-                                <li><a href="/Freelancer/quanliviecdahoanthanh.php">Quản lý việc đã hoàn thành</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -758,9 +756,9 @@
                                     <tbody>
                                         <tr class="head-title-tb display-desktop-workspace">
                                             <th class="project-freelancer item">Tên việc</th>
-                                            <th class="bid-freelancer item">Bàn giao công việc</th>
-                                            <th class="payment-th item"></th>
+                                            <th class="bid-freelancer item">Ngày cuối nhận báo giá</th>
                                             <th class="startus-th item">Trạng thái</th>
+                                            <th class="payment-th item" style = "padding-right: 60p;">Chi tiết công việc</th>
                                             <th></th>
                                         </tr>
                                         <tr class="odd updated cancel-bookmark-job1">
@@ -776,20 +774,17 @@
                                             <td class="num-bid display-desktop-workspace">
                                                 <p class="number-right">10/02/2023</p>
                                             </td>
-                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px">
-                                                &nbsp &nbsp &nbsp &nbsp </td>
-                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                                <p style="">Đang làm</p>
+                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px; padding-right: 30px;">
+                                                 <p style="color: red;">Chờ xác nhận</p>  </td>
+                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; padding-left: 60px;">
+                                                <a href = "/Freelancer/detail_offer.php"> <p style="color: #08c;">xem chi tiết</p></a>
                                             </td>
-                                            <td class="price-td show-block" style="width: 120px">
+                                            <!-- <td class="price-td show-block" style="width: 120px">
                                                 <div class="block-hidden" id="block-hidden64865">
                                                     <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top64865">hoàn thành<i style="font-weight:bold" aria-hidden="true" data-original-title="" title=""></i></a>
                                                 </div>
-                                            </td>
+                                            </td> -->
                                         </tr>
-
-
-
                                         <!-- <script type="text/javascript">
                                             $("#clickme").click(function() {
                                                 $(".cancel-bookmark-job2").show();

@@ -6,12 +6,9 @@
     <meta http-equiv="Content-Language" content="vi">
     <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="vLance.vn" />
     <link rel="publisher" href="https://plus.google.com/110723961725253795351/" />
     <title>Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp</title>
     <link rel="icon" href="https://www.f-cdn.com/assets/main/en/assets/freelancer-logo-old.svg" type="image/x-icon">
-    <meta property="og:site_name" content="vLance.vn" />
-    <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" name="title" content="Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp - vLance.vn" />
     <meta property="og:image" content="https://www.vlance.vn/img/og/vlance.jpg" />
@@ -92,8 +89,7 @@
     <script type="text/javascript" src="https://www.vlance.vn/js/bootstrap.min.js" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/vlance_base.min.js" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/lazyload.js" defer></script>
-    <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js?v=20221103.1449" defer>
-    </script>
+    <script type="text/javascript" src="https://www.vlance.vn/js/form/vlance_validate.min.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/slider_home/jquery.eislideshow.min.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/slider_home/jquery.easing.1.3.min.js?v=20221103.1449" defer></script>
     <script type="text/javascript" src="https://www.vlance.vn/js/jquery.anicounter.js?v=20221103.1449" defer></script>
@@ -226,8 +222,7 @@
                                 <ul class="dropdown-menu" style="min-width:200px">
                                     <li style="margin-bottom:20px"><a href="/Freelancer/quanliviec.php" onclick="vtrack('Click view workroom FL', {'position':'menu header'})">Quản
                                             lý việc đang báo giá</a></li>
-                                    <li style="margin-bottom:20px;"><a href="/Freelancer/quanliviecdanglam.php">Quản lý việc đang làm</a></li>
-                                    
+                                    <li><a href="/Freelancer/quanliviecdanglam.php">Quản lý lời mời nhận việc</a></li>
                                 </ul>
                             </div>
                         </li>
