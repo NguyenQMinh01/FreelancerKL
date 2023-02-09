@@ -183,7 +183,7 @@
     </style>
 </head>
 
-<body class="one-column bid_job_save_workspace " style="">
+<body class="one-column bid_job_save_workspace " >
     <div class="main">
 
         <div class="navbar navbar-static-top navbar-mini display-desktop ver2">
