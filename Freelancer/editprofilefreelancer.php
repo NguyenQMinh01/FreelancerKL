@@ -616,7 +616,7 @@
                             <dt>Họ và tên<span class="text-red">*</span></dt>
                             <dd>
                                 <div>
-                                    <input type="text" id="vlance_accountbundle_accountbasictype_fullName" name="vlance_accountbundle_accountbasictype[fullName]" required="required" placeholder="Tên đầy đủ" data-toggle="popover" data-placement="right" data-content="Tên đầy đủ theo CMND của bạn.<br/><i>Lưu ý sử dụng tên thật của bạn. vLance.vn sẽ sử dụng thông tin này khi chuyển tiền thanh toán các dự án cho bạn.</i>" data-trigger="hover" data-html="true" class="popovers-input" value="Minh Nguyen" data-original-title="" title="">
+                                    <input type="text" id="vlance_accountbundle_accountbasictype_fullName" name="vlance_accountbundle_accountbasictype[fullName]" required="required" placeholder="Tên đầy đủ" data-toggle="popover" data-placement="right" data-content="Tên đầy đủ theo CMND của bạn.<br/><i>Lưu ý sử dụng tên thật của bạn. freelancer.vn sẽ sử dụng thông tin này khi chuyển tiền thanh toán các dự án cho bạn.</i>" data-trigger="hover" data-html="true" class="popovers-input" value="Minh Nguyen" data-original-title="" title="">
                                 </div>
                             </dd>
                             <div class="clear"></div>

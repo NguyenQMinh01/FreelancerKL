@@ -441,7 +441,7 @@
                         <div class="dropdown clearfix">
                             <ul class="nav-left">
                                 <li class="tf200 active">
-                                    <a href="/Client/editprofileclient.php" class="menu_general  active ">
+                                    <a style="text-align: center;" href="/Client/editprofileclient.php" class="menu_general  active ">
                                         Tài khoản </a>
                                 </li>
                             </ul>
@@ -464,7 +464,7 @@
                         <div style="display: inline-block;" class="number">1</div>
                         <div style="display: inline-block;"><label class="personal-info">Thông tin chung</label></div>
                         <div class="clear"></div>
-                        <dl class="dl-horizontal">
+                        <dl class="dl-horizontal" style=" box-shadow: 5px 5px 5px 5px #39c;">
                             <dt>Ảnh đại diện<span class="text-red">*</span></dt>
                             <dd>
                                 <div class="images">
@@ -588,7 +588,7 @@
                             </dd>
                             <div class="clear"></div>
                         </dl>
-                        <dl class="dl-horizontal1">
+                        <dl class="dl-horizontal1" style=" box-shadow: 5px 5px 5px 5px #39c;">
                             <div class="clear"></div>
                             <dt style="float: left;">Tên công ty<span class="text-red">*</span></dt>
                             <dd>
@@ -627,12 +627,12 @@
                         <div style="display: inline-block;" class="number">2</div>
                         <div style="display: inline-block;"><label class="personal-info">Thông tin giới thiệu chung</div>
                         <div class="clear"></div>
-                        <dl class="dl-horizontal">
+                        <dl class="dl-horizontal" style=" box-shadow: 5px 5px 5px 5px #39c;">
                             <dt>Tôi là </dt>
                             <dd>
                                 <div>
                                     <select id="vlance_accountbundle_accounttype_type" name="vlance_accountbundle_accounttype[type]" placeholder="Loại hình tài khoản" data-toggle="popover" data-placement="right" data-content="bạn đang là <b>Freelancer</b>." data-trigger="hover" data-html="true" class="popovers-input" data-original-title="" title="">
-                                        <option value="freelancer">Customer</option>
+                                        <option value="freelancer">Nhà tuyển dụng</option>
                                     </select>
                                 </div>
                             </dd>
@@ -665,7 +665,7 @@ Những yêu cầu kĩ năng khi tôi thuê freelaner làm việc:
                             </dd>
                         </dl>
 
-                        <dl class="dl-horizontal1">
+                        <dl class="dl-horizontal1" style=" box-shadow: 5px 5px 5px 5px #39c;">
                             <dt style="float: left;">ngành nghề<span class="text-red">*</span></dt>
                             <dd>
                                 <div class="form-add-service">
@@ -834,152 +834,31 @@ Những yêu cầu kĩ năng khi tôi thuê freelaner làm việc:
                         </div>
                     </div>
                 </div>
-                <div class="footer-links-section grey-bg">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span4 category-block">
-                                <div class="job-category span6">
-                                    <h4><a title="Việc phổ biến nhất">Việc phổ biến nhất</a></h4>
-                                    <div class="row-fluid">
-                                        <ul class="first span12">
-                                            <li><a href="/viec/lap-trinh-web">Việc làm web</a></li>
-                                            <li><a href="/viec/ung-dung-di-dong">Việc lập trình di động</a></li>
-                                            <li><a href="/viec/toi-uu-cho-cong-cu-tim-kiem-seo">Việc làm SEO</a></li>
-                                            <li><a href="/viec/cac-cong-viec-marketing-kinh-doanh">Việc marketing online</a></li>
-                                            <li><a href="/viec/dich-thuat">Việc dịch thuật</a></li>
-                                            <li><a href="/viec/cac-cong-viec-viet-lach">Việc viết lách</a></li>
-                                            <li><a href="/viec/cac-cong-viec-thiet-ke">Việc thiết kế</a></li>
-                                            <li><a href="/viec/quan-ly-blog-fanpage">Việc quản lý fanpage</a></li>
-                                            <li><a href="/viec-lam-freelance">Cuộc thi thiết kế</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="job-category span6">
-                                    <h4><a title="Được thuê nhiều nhất">Được thuê nhiều nhất</a></h4>
-                                    <div class="row-fluid">
-                                        <ul>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-marketing-kinh-doanh">Freelancer Marketing online</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-it-va-lap-trinh_chash_lap-trinh-web">Freelancer Làm web</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-it-va-lap-trinh_chash_ung-dung-di-dong">Freelancer Mobile app</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-it-va-lap-trinh_chash_toi-uu-cho-cong-cu-tim-kiem-seo">Freelancer SEO</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-thiet-ke">Freelancer Thiết kế</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-thiet-ke_chash_banner-quang-cao">Freelancer thiết kế banner</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-viet-lach">Freelancer Viết bài</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-viet-lach_chash_dich-thuat">Freelancer Dịch thuật</a></li>
-                                            <li><a href="/freelancers/cpath_cac-cong-viec-hanh-chinh_chash_nhap-du-lieu">Freelancer nhập dữ liệu</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                <section id="footer">
+                    <div class="footer containerfooter">
+                        <div class="brand">
+                            <h1><span>F</span>reelan<span>c</span>er</h1>
+                        </div>
+                        <h2>Your Complete Web Solution</h2>
+                        <div class="social-icon">
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
                             </div>
-                            <div class="span8 right-footer-block">
-                                <div class="sub-col footer-fl ft-right span4">
-                                    <h4><a title="Freelancer">Freelancer</a></h4>
-                                    <div class="row-fluid">
-                                        <ul class="first span12">
-                                            <li><a href="/huong-dan-freelancer-kiem-tien-tren-vlance">Hướng dẫn freelancer kiếm tiền</a></li>
-                                            <li><a href="/huong-dan-freelancer-hoan-thien-ho-so-tren-vlance">Hướng dẫn hoàn thiện hồ sơ</a></li>
-                                            <li><a href="/huong-dan-freelancer-chao-gia-du-an">Hướng dẫn chào giá dự án</a></li>
-                                            <li><a href="/huong-dan-freelancer-nhan-thanh-toan">Hướng dẫn nhận thanh toán</a></li>
-                                            <li><a href="/huong-dan-freelancer-xac-thuc-thong-tin-tai-khoan">Hướng dẫn xác thực tài khoản</a></li>
-                                            <li><a href="/huong-dan-freelancer-lien-he-khach-hang">Hướng dẫn liên hệ khách hàng</a></li>
-                                            <li><a href="/huong-dan-freelancer-mua-credit">Hướng dẫn mua credit</a></li>
-                                            <li><a href="/huong-dan-nang-cap-tai-khoan-freelancer" title="Hướng dẫn nâng cấp tài khoản freelancer">Hướng dẫn nâng cấp tài khoản freelancer</a></li>
-                                            <li><a href="/huong-dan-freelancer-tao-goi-dich-vu">Hướng dẫn tạo gói dịch vụ</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="sub-col footer-cl ft-right span3">
-                                    <h4><a title="Khách hàng">Khách hàng</a></h4>
-                                    <div class="row-fluid">
-                                        <ul class="first span12">
-                                            <li><a href="/huong-dan-thue-freelancer">Cách thuê freelancer</a></li>
-                                            <li><a href="/huong-dan-dang-viec">Hướng dẫn đăng việc</a></li>
-                                            <li><a href="/huong-dan-xac_thuc_email">Hướng dẫn xác thực email</a></li>
-                                            <li><a href="/huong-dan-chon-freelancer">Hướng dẫn chọn freelancer</a></li>
-
-                                            <li><a href="/huong-dan-quan-ly-du-an">Hướng dẫn quản lý dự án</a></li>
-                                            <li><a href="/huong-dan-lien-he-truc-tiep-freelancer">Hướng dẫn liên hệ freelancer</a></li>
-                                            <li><a href="/huong-dan-nang-cap-tai-khoan-khach-hang">Hướng dẫn nâng cấp tài khoản khách hàng</a></li>
-                                            <li><a href="/huong-dan-khach-hang-mua-goi-dich-vu">Hướng dẫn mua gói dịch vụ</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="sub-col about-us ft-right span2">
-                                    <h4><a title="Giới thiệu">Giới thiệu</a></h4>
-                                    <ul>
-                                        <li><a href="/page/gioi-thieu-ve-vlance" title="Về chúng tôi">Về chúng tôi</a></li>
-                                        <li><a href="/doi-tac" title="Nhà tài trợ">Nhà tài trợ</a></li>
-                                        <li><a href="https://kienthuc.vlance.vn/" title="Kiến thức vLance">Kiến thức vLance</a></li>
-                                        <li><a target="_blank" href="https://www.vlance.vn/blog" title="Blog vLance">Blog vLance</a></li>
-                                    </ul>
-                                </div>
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                            </div>
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png" /></a>
+                            </div>
+                            <div class="social-item">
+                                <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
                             </div>
                         </div>
+                        <p>Copyright © 2020 Arfan. All rights reserved</p>
                     </div>
-                </div>
-                <div class="bottom-logo">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span9">
-                                <div class="row-fluid">
-                                    <div class="vlance-logo span2">
-                                        <a href="/" title="Thuê freelancer Việt Nam nhanh và hiệu quả"></a>
-                                    </div>
-                                    <div class="copyright span8">
-                                        <p>Freelancer Việt Nam - Lựa chọn số 1 của doanh nghiệp</p>
-                                        <p>© 2023 vLance.vn</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span3">
-                                <div class="footer-payment">
-                                    <div class="nlh-partner">
-                                        <ul class="">
-                                            <li>
-                                                <a rel="nofollow" class="visacrd" title="Thẻ thanh toán VisaCard" target="_blank">
-                                                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a rel="nofollow" class="mastercrd" title="Thẻ thanh toán MasterCard" target="_blank">
-                                                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a rel="nofollow" class="paypal" title="Hệ thống thanh toán trực tuyến Paypal" target="_blank">
-                                                    <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-                                                </a>
-                                            </li>
-                                            <li><a rel="nofollow" class="vietcombank" title="Ngân hàng TMCP Ngoại Thương Việt Nam" target="_blank"></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row-fluid">
-                            <div class="span9">
-                                <div class="footer-rule">
-                                    <ul>
-                                        <li><a href="/page/dieu-khoan-su-dung" title="Điều khoản sử dụng">Điều khoản sử dụng |</a></li>
-                                        <li><a href="/page/dieu-khoan-su-dung-danh-cho-khach-hang" title="Điều khoản khách hàng">Điều khoản khách hàng |</a></li>
-                                        <li><a href="/page/dieu-khoan-su-dung-danh-cho-freelancer" title="Điều khoản freelancer">Điều khoản freelancer |</a></li>
-                                        <li><a href="/page/dieu-khoan-thanh-toan" title="Điều khoản thanh toán">Điều khoản thanh toán |</a></li>
-                                        <li><a href="/page/quy-che-hoat-dong" title="Quy chế hoạt động">Quy chế hoạt động |</a></li>
-                                        <li><a href="/page/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật |</a></li>
-                                        <li><a href="/page/giai-quyet-khieu-nai" title="Giải quyết khiếu nại">Giải quyết khiếu nại</a></li>
-                                    </ul>
-                                </div>
-                                <p class="address">Chủ quản: Công ty Cổ phần Magenweb Việt Nam - Giấy phép đăng ký kinh doanh số 0106119703 - Cấp ngày 11/03/2013 - Tại Sở Kế hoạch và Đầu tư Hà Nội.</p>
-                                <p class="address">Trụ sở công ty: Số 2, ngõ 86 Âu Cơ, phường Tứ Liên, quận Tây Hồ, thành phố Hà Nội</p>
-                                <p class="address">Văn phòng làm việc: Tòa nhà Ladeco, tầng 12A, số 266 Đội Cấn, phường Liễu Giai, quận Ba Đình, thành phố Hà Nội</p>
-                                <p class="address">Hỗ trợ: <a href="mailto:hotro@vlance.vn">hotro@vlance.vn</a> - ĐT: (+84) 024.6684.1818</p>
-                            </div>
-                            <div class="dkkd">
-                                <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=46478" rel="nofollow" target="blank"><img alt="Đã đăng ký với bộ công thương" title="" data-src="/media/dkkd-vlance.png" class="lazyload"></a>
-                            </div>
-                        </div>
+                </section>
+                      
                     </div>
-                </div>
             </footer>
         </div>
     </footer>
