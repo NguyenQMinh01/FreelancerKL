@@ -320,7 +320,7 @@
                 <div class="icl-Grid jobsearch-ViewJobLayout-content jobsearch-ViewJobLayout-mainContent">
                     <div class="jobsearch-ViewJobLayout-innerContent icl-Grid-col icl-u-xs-span12">
                         <div class="icl-Grid jobsearch-ViewJobLayout-innerContentGrid">
-                            <div class="jobsearch-ViewJobLayout-jobDisplay icl-Grid-col icl-u-xs-span12">
+                            <div class="jobsearch-ViewJobLayout-jobDisplay icl-Grid-col icl-u-xs-span12"></div>
                                 <div class="jobsearch-JobComponent icl-u-xs-mt--sm jobsearch-JobComponent--embedded" style="">
                                     <div class="jobsearch-JobComponent-embeddedHeader">
                                         <div class="">
