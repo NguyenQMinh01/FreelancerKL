@@ -330,11 +330,142 @@
         </div>
     </div>
     <div class="inbox-menu ver2 pull-right nofity-ver2">
-        <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2">
+        <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2" class="included include_200">
+            <div class="popover-mail">
+                <div class="i32 i32-mail i32-notify ver2 ">
+                    <div class="mail-counter" style="display: none">
+                    </div>
+
+                    <div class="mail-counter mail-counter-invite "></div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        if ($('.noti-bell').length) {
+                            $(".i32.i32-mail.i32-notify .mail-counter").css("background", "#bf1e2e");
+                        }
+                    });
+                </script>
+                <div class="block-new-message block-new-notify" style="display: none;">
+                    <ul class="nav nav-tabs" id="tab_notify_listinvite">
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab_list_invite_bell">Thông báo</a>
+                            <div class="counter-invite" style="left: 200px; width: 5px; top: 14px;"></div>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#tab_list_request_bell">Đăng ký chào giá</a>
+                            <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                        </li>
+                        <li style="float: right;">
+                            <div class="mail-counter" style="width: 6px;height: 11px;border-radius: 10px;right: 19px;display:none"></div>
+                            <a data-toggle="tab" href="#tab_list_whats_new"><img src="/img/icon/icon_light.svg"></a>
+                            <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được thông báo chào giá nào. Bạn vui đăng thêm các dự án chất lượng để có nhiều Freelancer liên hệ , chào giá. đăng dự án  <a href="/Client/dangduan">tại đây.</a></p>
+                        <div class="tab-pane active" id="tab_list_invite_bell">
+                            <div class="no-message">Bạn không có thông báo mới</div>
+                        </div>
+                        <div class="tab-pane" id="tab_list_request_bell">
+                            <div class="tab-bottom-msg">
+                                <p style="margin: 0">Thông báo sẽ được ẩn sau 30 ngày</p>
+                            </div>
+                            <div class="no-message">Bạn không nhận được đăng ký chào giá nào</div>
+                            <ul class="list-invite-job">
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="tab_list_whats_new">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#tab_notify_listinvite a').click(function(e) {
+                        e.preventDefault()
+                        $(this).tab('show')
+                    })
+
+                    var numRequests = parseInt($("#tab_list_request_bell ul").attr("att-count"));
+                    if (isNaN(numRequests)) {
+                        numRequests = 0;
+                    }
+                    //Hiển thị tổng số thông báo trong phần tin nhắn trên website
+                    if (numRequests == 0) {
+                        numRequests = '';
+                    }
+                    if (numRequests > 0) {
+                        $('.i32-notify .mail-counter-invite').addClass('notify-ver2')
+                    }
+                    $('.mail-counter-invite.notify-ver2').append(numRequests);
+
+                    $('.inbox-menu.mesenger-ver2').click(function(e) {
+                        $('.dropdown-menu').addClass('menuhiden');
+                        $('.block-new-message.block-new-notify').hide();
+                        $('.block-new-message.block-not-new-notify').toggle();
+                        e.stopPropagation();
+                    });
+                    $('body').click(function() {
+                        $('.dropdown-menu').removeClass('menuhiden');
+                        $('.block-new-message.block-not-new-notify').hide();
+                    });
+                    $('.block-new-message.block-not-new-notify').click(function(e) {
+                        e.stopPropagation();
+                    });
+
+                    $('.inbox-menu.nofity-ver2').click(function(e) {
+                        $('.dropdown-menu').addClass('menuhiden');
+                        $('.block-new-message.block-not-new-notify').hide();
+                        $('.block-new-message.block-new-notify').toggle();
+                        e.stopPropagation();
+                    });
+                    $('body').click(function() {
+                        $('.dropdown-menu').removeClass('menuhiden');
+                        $('.block-new-message.block-new-notify').hide();
+                    });
+                    $('.block-new-message.block-new-notify').click(function(e) {
+                        e.stopPropagation();
+                    });
+                });
+            </script>
         </hx:include>
     </div>
     <div class="inbox-menu ver2 pull-right mesenger-ver2">
-        <hx:include evaljs="true" src="/message/new-message-ver2">
+        <hx:include evaljs="true" src="/message/new-message-ver2" class="included include_200">
+            <div class="popover-mail">
+                <div class="i32 i32-mail i32-not-notify ver2">
+
+                    <div class="mail-counter mail-counter-invite"></div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        if ($('.noti-mess').length) {
+                            $(".i32.i32-mail.i32-not-notify .mail-counter").css("background", "#bf1e2e");
+                        }
+                    });
+                </script>
+                <div class="block-new-message block-not-new-notify" style="display: none;">
+                    <ul class="nav nav-tabs" id="tab_messages_listinvite">
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab_messages">Tin nhắn</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab_messages">
+                            <div class="no-message">Bạn không có thông báo mới</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#tab_messages_listinvite a').click(function(e) {
+                        e.preventDefault()
+                        $(this).tab('show')
+                    })
+                });
+            </script>
         </hx:include>
     </div>
     <script type="text/javascript">
@@ -451,7 +582,7 @@
                             <div class="row-fluid" itemscope itemtype="http://data-vocabulary.org/Person">
                                 <div class="col3-left span4 left-profile">
                                     <div class="avata">
-                                        <div class="update-link tf300"><a class="tf300" href="/a/1250511/editbasic/redirect">Thay hình đại diện</a></div>
+                                        <div class="update-link tf300"><a class="tf300" href="/Client/editprofileclient.php">Thay hình đại diện</a></div>
                                         <img itemprop="photo" src="img/img-2.png" alt="M&iacute;nh" title="M&iacute;nh" />
                                     </div>
                                     <div class="id_profile">
@@ -522,13 +653,13 @@
                                                                             <div class="row-fluid">
                                                                                 <div class="job-comment span12">
                                                                                     <h3 class="title-job-client title">
-                                                                                        <a href="/viec-freelance/can-tuyen-nguoi-co-the-ho-tro-seo-website" tabindex="-1">Cần tuyển người có thể hỗ trợ SEO Website</a>
+                                                                                        <a href="/Client/Clientdetailjob.php" tabindex="-1">Cần tuyển người có thể hỗ trợ SEO Website</a>
                                                                                     </h3>
                                                                                 </div>
                                                                                 <div class="span12" style="margin: 0;padding-left: 20px">
                                                                                     <div class="fr-title span9 job-location">
                                                                                         <span>
-                                                                                            <img style="display: inline" src="/media/internal-link/location.png">
+                                                                                            <img style="display: inline" src="/img/location.png">
                                                                                         </span>
                                                                                         <span class="location">
                                                                                             Toàn Quốc </span>
@@ -547,13 +678,13 @@
                                                                             <div class="row-fluid">
                                                                                 <div class="job-comment span12">
                                                                                     <h3 class="title-job-client title">
-                                                                                        <a href="/viec-freelance/tro-ly-seo-co-kien-thuc-sau-ve-ahrefs-so-huu-nhieu-tu-khoa-len-top-de-ho-tro-seo-website" tabindex="0">Tuyển người có kiến thức sâu về Ahrefs, Backlink</a>
+                                                                                        <a href="/Client/Clientdetailjob.php" tabindex="0">Tuyển người có kiến thức sâu về Ahrefs, Backlink</a>
                                                                                     </h3>
                                                                                 </div>
                                                                                 <div class="span12" style="margin: 0;padding-left: 20px">
                                                                                     <div class="fr-title span9 job-location">
                                                                                         <span>
-                                                                                            <img style="display: inline" src="/media/internal-link/location.png">
+                                                                                            <img style="display: inline" src="/img/location.png">
                                                                                         </span>
                                                                                         <span class="location">
                                                                                             Toàn Quốc </span>
@@ -620,7 +751,7 @@
                                                                                                 </div>
                                                                                                 <div class="client-name" style="margin-top: 8px">
                                                                                                     <span>
-                                                                                                        <a href="/khach-hang/tran-huu-hieu-2" tabindex="-1">
+                                                                                                        <a href="/Freelancer/profilefreelancer.php" tabindex="-1">
                                                                                                             <img style="display: inline-block" class="client-pic" itemprop="photo" src="" alt="Nguyễn Minh" title="Nguyễn Minh">
                                                                                                         </a>
                                                                                                     </span>
@@ -695,7 +826,7 @@
                                             <img style="width:64px; height:64px;" src="/img/internal_link_profile_freelancer_1.png">
                                         </span>
                                         <span class="il-title span7" style="padding-top: 0">
-                                            <a class="il-link" href="/">Chất lượng cao</a>
+                                            <a class="il-link" href="/Client/searchfreelancer.php">Chất lượng cao</a>
                                             <p class="il-content">Freelancer chất - hoàn thành việc nhanh chóng</p>
                                         </span>
                                         <span class="il-arrow span2" style="padding-top: 31px">
@@ -707,7 +838,7 @@
                                             <img style="width:64px; height:64px;" src="/img/internal_link_profile_freelancer_2.png">
                                         </span>
                                         <span class="il-title span7" style="padding-top: 0">
-                                            <a class="il-link" href="/dang-du-an">Bắt đầu tìm người</a>
+                                            <a class="il-link" href="/Client/dangduan.php">Bắt đầu đăng việc tìm người</a>
                                             <p class="il-content">An tâm làm việc online ở bất kỳ đâu</p>
                                         </span>
                                         <span class="il-arrow span2" style="padding-top: 31px">
@@ -749,7 +880,7 @@
                             <div class="list-summary-profile row-fluid">
                                 <label style="width: 23px" class="span2"><img src="/img/email.png"></label>
                                 <dl class="dl-horizontal span7 detail-contact-client">
-                                    <dd><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="600d090e080d0f0e51515252535320070d01090c4e030f0d">minhmon112233@gmail.com</a></dd>
+                                    <dd><a href="#" class="__cf_email__" data-cfemail="600d090e080d0f0e51515252535320070d01090c4e030f0d">minhmon112233@gmail.com</a></dd>
                                 </dl>
                             </div>
                             <div class="list-summary-profile row-fluid">
@@ -760,7 +891,7 @@
                             </div>
 
                             <div class="list-summary-profile row-fluid">
-                                <label style="width: 23px" class="span2 tel-btn-m"><img src="#"></label>
+                                <label style="width: 23px" class="span2 tel-btn-m"><img ></label>
                                 <dl class="dl-horizontal span7 detail-contact-client tel-btn-m">
                                     <dd>Tên công ty</dd>
                                     <dd>TNHH 1 thành viên</dd>

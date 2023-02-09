@@ -357,14 +357,144 @@
         </div>
 
         <div class="inbox-menu ver2 pull-right nofity-ver2">
-            <hx:include evaljs="true" src="https://www.vlance.vn/ji/list_jobinvite_acc_ver2">
-            </hx:include>
-        </div>
+        <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2" class="included include_200">
+            <div class="popover-mail">
+                <div class="i32 i32-mail i32-notify ver2 ">
+                    <div class="mail-counter" style="display: none">
+                    </div>
 
-        <div class="inbox-menu ver2 pull-right mesenger-ver2">
-            <hx:include evaljs="true" src="https://www.vlance.vn/message/new-message-ver2">
-            </hx:include>
-        </div>
+                    <div class="mail-counter mail-counter-invite "></div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        if ($('.noti-bell').length) {
+                            $(".i32.i32-mail.i32-notify .mail-counter").css("background", "#bf1e2e");
+                        }
+                    });
+                </script>
+                <div class="block-new-message block-new-notify" style="display: none;">
+                    <ul class="nav nav-tabs" id="tab_notify_listinvite">
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab_list_invite_bell">Thông báo</a>
+                            <div class="counter-invite" style="left: 200px; width: 5px; top: 14px;"></div>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#tab_list_request_bell">Đăng ký chào giá</a>
+                            <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                        </li>
+                        <li style="float: right;">
+                            <div class="mail-counter" style="width: 6px;height: 11px;border-radius: 10px;right: 19px;display:none"></div>
+                            <a data-toggle="tab" href="#tab_list_whats_new"><img src="/img/icon/icon_light.svg"></a>
+                            <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được thông báo chào giá nào. Bạn vui đăng thêm các dự án chất lượng để có nhiều Freelancer liên hệ , chào giá. đăng dự án  <a href="/Client/dangduan">tại đây.</a></p>
+                        <div class="tab-pane active" id="tab_list_invite_bell">
+                            <div class="no-message">Bạn không có thông báo mới</div>
+                        </div>
+                        <div class="tab-pane" id="tab_list_request_bell">
+                            <div class="tab-bottom-msg">
+                                <p style="margin: 0">Thông báo sẽ được ẩn sau 30 ngày</p>
+                            </div>
+                            <div class="no-message">Bạn không nhận được đăng ký chào giá nào</div>
+                            <ul class="list-invite-job">
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="tab_list_whats_new">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#tab_notify_listinvite a').click(function(e) {
+                        e.preventDefault()
+                        $(this).tab('show')
+                    })
+
+                    var numRequests = parseInt($("#tab_list_request_bell ul").attr("att-count"));
+                    if (isNaN(numRequests)) {
+                        numRequests = 0;
+                    }
+                    //Hiển thị tổng số thông báo trong phần tin nhắn trên website
+                    if (numRequests == 0) {
+                        numRequests = '';
+                    }
+                    if (numRequests > 0) {
+                        $('.i32-notify .mail-counter-invite').addClass('notify-ver2')
+                    }
+                    $('.mail-counter-invite.notify-ver2').append(numRequests);
+
+                    $('.inbox-menu.mesenger-ver2').click(function(e) {
+                        $('.dropdown-menu').addClass('menuhiden');
+                        $('.block-new-message.block-new-notify').hide();
+                        $('.block-new-message.block-not-new-notify').toggle();
+                        e.stopPropagation();
+                    });
+                    $('body').click(function() {
+                        $('.dropdown-menu').removeClass('menuhiden');
+                        $('.block-new-message.block-not-new-notify').hide();
+                    });
+                    $('.block-new-message.block-not-new-notify').click(function(e) {
+                        e.stopPropagation();
+                    });
+
+                    $('.inbox-menu.nofity-ver2').click(function(e) {
+                        $('.dropdown-menu').addClass('menuhiden');
+                        $('.block-new-message.block-not-new-notify').hide();
+                        $('.block-new-message.block-new-notify').toggle();
+                        e.stopPropagation();
+                    });
+                    $('body').click(function() {
+                        $('.dropdown-menu').removeClass('menuhiden');
+                        $('.block-new-message.block-new-notify').hide();
+                    });
+                    $('.block-new-message.block-new-notify').click(function(e) {
+                        e.stopPropagation();
+                    });
+                });
+            </script>
+        </hx:include>
+    </div>
+    <div class="inbox-menu ver2 pull-right mesenger-ver2">
+        <hx:include evaljs="true" src="/message/new-message-ver2" class="included include_200">
+            <div class="popover-mail">
+                <div class="i32 i32-mail i32-not-notify ver2">
+
+                    <div class="mail-counter mail-counter-invite"></div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        if ($('.noti-mess').length) {
+                            $(".i32.i32-mail.i32-not-notify .mail-counter").css("background", "#bf1e2e");
+                        }
+                    });
+                </script>
+                <div class="block-new-message block-not-new-notify" style="display: none;">
+                    <ul class="nav nav-tabs" id="tab_messages_listinvite">
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab_messages">Tin nhắn</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab_messages">
+                            <div class="no-message">Bạn không có thông báo mới</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#tab_messages_listinvite a').click(function(e) {
+                        e.preventDefault()
+                        $(this).tab('show')
+                    })
+                });
+            </script>
+        </hx:include>
+    </div>
 
         <!-- end header -->
 
@@ -486,7 +616,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="step-job">2</p>
-                                                    <p>Kết nối với<br />chuyên gia</p>
+                                                    <p>Kết nối với<br />freelancer</p>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
@@ -505,7 +635,7 @@
                             <header class="jumbotron-new carousel-subhead_2">
                                 <div class="container">
                                     <div class="jumbotron-new-even">
-                                        <h1 class="lh8 mp-lh6">Nơi tiềm việc chất lượng</b> đảm bảo thêm thu nhập </h1>
+                                        <h1 class="lh8 mp-lh6"><b style = "color: rgba(0,147,208,1)">Nơi tìm việc chất lượng đảm</b>  bảo thêm thu nhập </h1>
                                         <div class="jumbotron-button">
                                             <a style="background-color:transparent" class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" title="Tạo cuộc thi mới">Có nhiều công việc mới</a>
                                         </div>
@@ -520,7 +650,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="step-job">2</p>
-                                                    <p>Kết nối với<br />chuyên gia</p>
+                                                    <p>Kết nối với<br />freelancer</p>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
@@ -556,7 +686,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="step-job">2</p>
-                                                    <p>Kết nối với<br />chuyên gia</p>
+                                                    <p>Kết nối với<br />freelancer</p>
                                                 </li>
                                                 <li class="angle-right">
                                                     <i class="fa fa-angle-right"></i>
@@ -1074,8 +1204,7 @@
 
                         <div class="review-media">
                             <div class="review-media-title">
-                                <h3 class="lh2">Vinh danh trên báo chí</h3>
-                            </div>
+                            <h1 class="lh2" style = "text-align: center;">Trang web được vinh danh trong cộng đồng freelancer</h1></div>
                             <div class="container row-fluid">
                                 <div class="stats-col-left stats-col-left-new span12">
                                     <div class="stats-col stats-row row-fluid">

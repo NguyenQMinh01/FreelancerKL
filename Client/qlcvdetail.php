@@ -386,11 +386,142 @@
             </div>
         </div>
         <div class="inbox-menu ver2 pull-right nofity-ver2">
-            <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2">
+            <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2" class="included include_200">
+                <div class="popover-mail">
+                    <div class="i32 i32-mail i32-notify ver2 ">
+                        <div class="mail-counter" style="display: none">
+                        </div>
+
+                        <div class="mail-counter mail-counter-invite "></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            if ($('.noti-bell').length) {
+                                $(".i32.i32-mail.i32-notify .mail-counter").css("background", "#bf1e2e");
+                            }
+                        });
+                    </script>
+                    <div class="block-new-message block-new-notify" style="display: none;">
+                        <ul class="nav nav-tabs" id="tab_notify_listinvite">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab_list_invite_bell">Thông báo</a>
+                                <div class="counter-invite" style="left: 200px; width: 5px; top: 14px;"></div>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#tab_list_request_bell">Đăng ký chào giá</a>
+                                <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                            </li>
+                            <li style="float: right;">
+                                <div class="mail-counter" style="width: 6px;height: 11px;border-radius: 10px;right: 19px;display:none"></div>
+                                <a data-toggle="tab" href="#tab_list_whats_new"><img src="/img/icon/icon_light.svg"></a>
+                                <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được thông báo chào giá nào. Bạn vui đăng thêm các dự án chất lượng để có nhiều Freelancer liên hệ , chào giá. đăng dự án <a href="/Client/dangduan">tại đây.</a></p>
+                            <div class="tab-pane active" id="tab_list_invite_bell">
+                                <div class="no-message">Bạn không có thông báo mới</div>
+                            </div>
+                            <div class="tab-pane" id="tab_list_request_bell">
+                                <div class="tab-bottom-msg">
+                                    <p style="margin: 0">Thông báo sẽ được ẩn sau 30 ngày</p>
+                                </div>
+                                <div class="no-message">Bạn không nhận được đăng ký chào giá nào</div>
+                                <ul class="list-invite-job">
+                                </ul>
+                            </div>
+                            <div class="tab-pane" id="tab_list_whats_new">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#tab_notify_listinvite a').click(function(e) {
+                            e.preventDefault()
+                            $(this).tab('show')
+                        })
+
+                        var numRequests = parseInt($("#tab_list_request_bell ul").attr("att-count"));
+                        if (isNaN(numRequests)) {
+                            numRequests = 0;
+                        }
+                        //Hiển thị tổng số thông báo trong phần tin nhắn trên website
+                        if (numRequests == 0) {
+                            numRequests = '';
+                        }
+                        if (numRequests > 0) {
+                            $('.i32-notify .mail-counter-invite').addClass('notify-ver2')
+                        }
+                        $('.mail-counter-invite.notify-ver2').append(numRequests);
+
+                        $('.inbox-menu.mesenger-ver2').click(function(e) {
+                            $('.dropdown-menu').addClass('menuhiden');
+                            $('.block-new-message.block-new-notify').hide();
+                            $('.block-new-message.block-not-new-notify').toggle();
+                            e.stopPropagation();
+                        });
+                        $('body').click(function() {
+                            $('.dropdown-menu').removeClass('menuhiden');
+                            $('.block-new-message.block-not-new-notify').hide();
+                        });
+                        $('.block-new-message.block-not-new-notify').click(function(e) {
+                            e.stopPropagation();
+                        });
+
+                        $('.inbox-menu.nofity-ver2').click(function(e) {
+                            $('.dropdown-menu').addClass('menuhiden');
+                            $('.block-new-message.block-not-new-notify').hide();
+                            $('.block-new-message.block-new-notify').toggle();
+                            e.stopPropagation();
+                        });
+                        $('body').click(function() {
+                            $('.dropdown-menu').removeClass('menuhiden');
+                            $('.block-new-message.block-new-notify').hide();
+                        });
+                        $('.block-new-message.block-new-notify').click(function(e) {
+                            e.stopPropagation();
+                        });
+                    });
+                </script>
             </hx:include>
         </div>
         <div class="inbox-menu ver2 pull-right mesenger-ver2">
-            <hx:include evaljs="true" src="/message/new-message-ver2">
+            <hx:include evaljs="true" src="/message/new-message-ver2" class="included include_200">
+                <div class="popover-mail">
+                    <div class="i32 i32-mail i32-not-notify ver2">
+
+                        <div class="mail-counter mail-counter-invite"></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            if ($('.noti-mess').length) {
+                                $(".i32.i32-mail.i32-not-notify .mail-counter").css("background", "#bf1e2e");
+                            }
+                        });
+                    </script>
+                    <div class="block-new-message block-not-new-notify" style="display: none;">
+                        <ul class="nav nav-tabs" id="tab_messages_listinvite">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab_messages">Tin nhắn</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab_messages">
+                                <div class="no-message">Bạn không có thông báo mới</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#tab_messages_listinvite a').click(function(e) {
+                            e.preventDefault()
+                            $(this).tab('show')
+                        })
+                    });
+                </script>
             </hx:include>
         </div>
         <script type="text/javascript">
@@ -523,7 +654,7 @@
             <div class="content-section container client-view width-full-m">
                 <div class="row-fluid">
                     <div class="span12 detailjob">
-                       
+
                         <div class="row-fluid">
                             <h1 class="title block-title">
                                 L&agrave;m website b&aacute;n gi&agrave;y <span class="label-tag label-large label-new">Đang chào giá</span>
@@ -537,13 +668,13 @@
                                 </li>
                             </ul>
                             <div class="border"></div>
-                            <div style = "padding-top: 50px;" class="block-hidden" id="block-hidden63948">
+                            <div style="padding-top: 50px;" class="block-hidden" id="block-hidden63948">
                                 <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Ngừng nhận chào giá<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
                                 <a style="font-size: 14px;width: 150px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Xác nhận hoàn thành<i style="font-weight:bold" class="" aria-hidden="true"></i></a>
 
                             </div>
                         </div>
-                        
+
                         <div class="row-fluid">
                             <div class="span7 news-client-view">
                                 <div class="body-view hidebody">
@@ -669,7 +800,7 @@
                                             4 </span>
                                     </span>
                                 </div>
-                               
+
                             </div>
                         </div>
                         <div class="row-fluid container list-bid-new listproposal" style="margin-bottom: 30px; width: 96%; max-width: 1200px">
@@ -890,42 +1021,42 @@
         function hide(id) {
             $(id).hide();
         };
-        
-        $(document).ready(function() {
-                var x = localStorage.getItem('profile');
-                if (!x) {
-                    document.location.href = "http://localhost:3000/login.php";
-                }
-                let a = JSON.parse(x);
-                $('.fullname').text(a.fullname);
-                $('.id-user').text("ID. " + a.id_user);
-                $('.wallet').text(a.wallet + " $");
-                $('.imgavt').attr("alt", a.fullname);
 
-                $('.logout').on('click', function() {
-                    document.location.href = "http://localhost:3000/welcome.php";
-                    localStorage.removeItem('profile');
-                })
-                var id_job = localStorage.getItem('id_job')
-                var data = {
-                    id_job: id_job
-                };
-                var detail;
-                var end;
-                var start;
-                var amount;
-                //list proposal
-                $.ajax({
-                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_proposal_client',
-                    data:data,
-                    method: 'POST',
-                    success: function(res) {
-                        var s = "";
-                        var t = "";
-                        let a = JSON.parse(res);
-                        a.map((v, i) => {
-                            //alert(v.completion_date);
-                            s += `<div class="profile-job-new span12 block-bid">
+        $(document).ready(function() {
+            var x = localStorage.getItem('profile');
+            if (!x) {
+                document.location.href = "http://localhost:3000/login.php";
+            }
+            let a = JSON.parse(x);
+            $('.fullname').text(a.fullname);
+            $('.id-user').text("ID. " + a.id_user);
+            $('.wallet').text(a.wallet + " $");
+            $('.imgavt').attr("alt", a.fullname);
+
+            $('.logout').on('click', function() {
+                document.location.href = "http://localhost:3000/welcome.php";
+                localStorage.removeItem('profile');
+            })
+            var id_job = localStorage.getItem('id_job')
+            var data = {
+                id_job: id_job
+            };
+            var detail;
+            var end;
+            var start;
+            var amount;
+            //list proposal
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=list_proposal_client',
+                data: data,
+                method: 'POST',
+                success: function(res) {
+                    var s = "";
+                    var t = "";
+                    let a = JSON.parse(res);
+                    a.map((v, i) => {
+                        //alert(v.completion_date);
+                        s += `<div class="profile-job-new span12 block-bid">
                                 <div class="row-fluid fullinfo" style="margin-bottom:20px">
                                     <div class="span2 block-img-fl">
                                         <div class="freelancer-row-img" style="margin-top: 40px;">
@@ -977,26 +1108,26 @@
                                     </div>
                                 </div>
                             </div>`;
-                           
-                           
-                        });
-                        $(".listproposal").html(s);
-                       
-                    },
-                    async: true
-                });
-                //detail
-                $.ajax({
-                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job',
-                    data:data,
-                    method: 'POST',
-                    success: function(res) {
-                        var s = "";
-                        var t ="";
-                        let a = JSON.parse(res);
-                        a.data.map((v, i) => {
-                            let budget = v.budget.toLocaleString('en-US');
-                            s += `
+
+
+                    });
+                    $(".listproposal").html(s);
+
+                },
+                async: true
+            });
+            //detail
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=detail_job',
+                data: data,
+                method: 'POST',
+                success: function(res) {
+                    var s = "";
+                    var t = "";
+                    let a = JSON.parse(res);
+                    a.data.map((v, i) => {
+                        let budget = v.budget.toLocaleString('en-US');
+                        s += `
                             <div class="row-fluid">
                             <h1 class="title block-title">
                                 ${v.title} <span class="label-tag label-large label-new">Đang chào giá</span>
@@ -1098,50 +1229,51 @@
                                 </div>
                             </div>
                             </div>`;
-                            t += ` <span class="bid-counter">
+                        t += ` <span class="bid-counter">
                                         Chào giá: <span class="value ">
                                             ${v.total_proposal} </span>
                                     </span>`;
-                        });
-                        $(".detailjob").html(s);
-                        $(".total_proposal").html(t);
-                    },
-                    async: true
-                });
-                //accept 
-                $(document).delegate('a.accept','click',function(e){
-                    e.preventDefault();
-                    let id_freelancer = $(this).attr('data-id');
-                    let id_proposal = $(this).closest('span').attr('data-id');
-                    detail =  $(this).closest('div').find('div.detaila').text();
-                    end = $(this).closest('div.fullinfo').find('dd.end_date').text();
-                    start = moment(new Date()).format('DD-MM-YYYY');
-                    amount = $(this).closest('div.fullinfo').find('dd.amount').text();
-                   
-                    var id ={
-                        id_user:id_freelancer,
-                        id_job:id_job,
-                        id_proposal: id_proposal,
-                        id_client:a.id_user,
-                        detail: detail,
-                        date_start: start,
-                        date_end: end,
-                        payment_amount:amount
-                    }
-                    $.ajax({
+                    });
+                    $(".detailjob").html(s);
+                    $(".total_proposal").html(t);
+                },
+                async: true
+            });
+            //accept 
+            $(document).delegate('a.accept', 'click', function(e) {
+                e.preventDefault();
+                let id_freelancer = $(this).attr('data-id');
+                let id_proposal = $(this).closest('span').attr('data-id');
+                detail = $(this).closest('div').find('div.detaila').text();
+                end = $(this).closest('div.fullinfo').find('dd.end_date').text();
+                start = moment(new Date()).format('DD-MM-YYYY');
+                amount = $(this).closest('div.fullinfo').find('dd.amount').text();
+
+                var id = {
+                    id_user: id_freelancer,
+                    id_job: id_job,
+                    id_proposal: id_proposal,
+                    id_client: a.id_user,
+                    detail: detail,
+                    date_start: start,
+                    date_end: end,
+                    payment_amount: amount
+                }
+                $.ajax({
                     url: 'https://job.ahlupos.com/modules/job/api.php?ac=update_proposal',
-                    data:id,
+                    data: id,
                     method: 'POST',
                     success: function(res) {
                         let a = JSON.parse(res);
                         //alert(JSON.stringify(a));
-                        if(a["code"]==1){
+                        if (a["code"] == 1) {
                             alert("Đã chấp nhận freelancer thành công! Hãy đến quản lý hợp đồng để xem chi tiết liên hệ");
                         }
-                    }});
-                })
-     });
-    </script>    
+                    }
+                });
+            })
+        });
+    </script>
 </body>
 
 </html>

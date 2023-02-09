@@ -345,11 +345,142 @@
             </div>
         </div>
         <div class="inbox-menu ver2 pull-right nofity-ver2">
-            <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2">
+            <hx:include evaljs="true" src="/ji/list_jobinvite_acc_ver2" class="included include_200">
+                <div class="popover-mail">
+                    <div class="i32 i32-mail i32-notify ver2 ">
+                        <div class="mail-counter" style="display: none">
+                        </div>
+
+                        <div class="mail-counter mail-counter-invite "></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            if ($('.noti-bell').length) {
+                                $(".i32.i32-mail.i32-notify .mail-counter").css("background", "#bf1e2e");
+                            }
+                        });
+                    </script>
+                    <div class="block-new-message block-new-notify" style="display: none;">
+                        <ul class="nav nav-tabs" id="tab_notify_listinvite">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab_list_invite_bell">Thông báo</a>
+                                <div class="counter-invite" style="left: 200px; width: 5px; top: 14px;"></div>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#tab_list_request_bell">Đăng ký chào giá</a>
+                                <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                            </li>
+                            <li style="float: right;">
+                                <div class="mail-counter" style="width: 6px;height: 11px;border-radius: 10px;right: 19px;display:none"></div>
+                                <a data-toggle="tab" href="#tab_list_whats_new"><img src="/img/icon/icon_light.svg"></a>
+                                <div class="counter-request" style="left: 350px; width: 5px; top: 14px;"></div>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được thông báo chào giá nào. Bạn vui đăng thêm các dự án chất lượng để có nhiều Freelancer liên hệ , chào giá. đăng dự án <a href="/Client/dangduan">tại đây.</a></p>
+                            <div class="tab-pane active" id="tab_list_invite_bell">
+                                <div class="no-message">Bạn không có thông báo mới</div>
+                            </div>
+                            <div class="tab-pane" id="tab_list_request_bell">
+                                <div class="tab-bottom-msg">
+                                    <p style="margin: 0">Thông báo sẽ được ẩn sau 30 ngày</p>
+                                </div>
+                                <div class="no-message">Bạn không nhận được đăng ký chào giá nào</div>
+                                <ul class="list-invite-job">
+                                </ul>
+                            </div>
+                            <div class="tab-pane" id="tab_list_whats_new">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#tab_notify_listinvite a').click(function(e) {
+                            e.preventDefault()
+                            $(this).tab('show')
+                        })
+
+                        var numRequests = parseInt($("#tab_list_request_bell ul").attr("att-count"));
+                        if (isNaN(numRequests)) {
+                            numRequests = 0;
+                        }
+                        //Hiển thị tổng số thông báo trong phần tin nhắn trên website
+                        if (numRequests == 0) {
+                            numRequests = '';
+                        }
+                        if (numRequests > 0) {
+                            $('.i32-notify .mail-counter-invite').addClass('notify-ver2')
+                        }
+                        $('.mail-counter-invite.notify-ver2').append(numRequests);
+
+                        $('.inbox-menu.mesenger-ver2').click(function(e) {
+                            $('.dropdown-menu').addClass('menuhiden');
+                            $('.block-new-message.block-new-notify').hide();
+                            $('.block-new-message.block-not-new-notify').toggle();
+                            e.stopPropagation();
+                        });
+                        $('body').click(function() {
+                            $('.dropdown-menu').removeClass('menuhiden');
+                            $('.block-new-message.block-not-new-notify').hide();
+                        });
+                        $('.block-new-message.block-not-new-notify').click(function(e) {
+                            e.stopPropagation();
+                        });
+
+                        $('.inbox-menu.nofity-ver2').click(function(e) {
+                            $('.dropdown-menu').addClass('menuhiden');
+                            $('.block-new-message.block-not-new-notify').hide();
+                            $('.block-new-message.block-new-notify').toggle();
+                            e.stopPropagation();
+                        });
+                        $('body').click(function() {
+                            $('.dropdown-menu').removeClass('menuhiden');
+                            $('.block-new-message.block-new-notify').hide();
+                        });
+                        $('.block-new-message.block-new-notify').click(function(e) {
+                            e.stopPropagation();
+                        });
+                    });
+                </script>
             </hx:include>
         </div>
         <div class="inbox-menu ver2 pull-right mesenger-ver2">
-            <hx:include evaljs="true" src="/message/new-message-ver2">
+            <hx:include evaljs="true" src="/message/new-message-ver2" class="included include_200">
+                <div class="popover-mail">
+                    <div class="i32 i32-mail i32-not-notify ver2">
+
+                        <div class="mail-counter mail-counter-invite"></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            if ($('.noti-mess').length) {
+                                $(".i32.i32-mail.i32-not-notify .mail-counter").css("background", "#bf1e2e");
+                            }
+                        });
+                    </script>
+                    <div class="block-new-message block-not-new-notify" style="display: none;">
+                        <ul class="nav nav-tabs" id="tab_messages_listinvite">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab_messages">Tin nhắn</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab_messages">
+                                <div class="no-message">Bạn không có thông báo mới</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('#tab_messages_listinvite a').click(function(e) {
+                            e.preventDefault()
+                            $(this).tab('show')
+                        })
+                    });
+                </script>
             </hx:include>
         </div>
         <script type="text/javascript">
@@ -502,44 +633,44 @@
                                         <th class="startus-th" style="padding-top: 15px;padding-bottom: 15px;">Chi tiết công việc</th>
                                         <th></th>
                                     </thead>
-                                    
+
 
                                     <tbody>
 
-                                    <tr class="even updated draft-job63542">
-                                        <td class="project-freelancer ">
-                                            <div class="span10 project-info ">
-                                                <div class="title-job">
-                                                    <a href="/Freelancer/profilefreelancer.php" style="color:#000000; font-weight: 600;">
-                                                        Nguyễn Minh </a>
-                                                    <!-- <span class="label-contest" style="background-color:#F76D22">Mới</span> -->
+                                        <tr class="even updated draft-job63542">
+                                            <td class="project-freelancer ">
+                                                <div class="span10 project-info ">
+                                                    <div class="title-job">
+                                                        <a href="/Freelancer/profilefreelancer.php" style="color:#000000; font-weight: 600;">
+                                                            Nguyễn Minh </a>
+                                                        <!-- <span class="label-contest" style="background-color:#F76D22">Mới</span> -->
 
+                                                    </div>
+                                                    <div class="freelancer display-desktop-workspace">
+                                                        <span>Đã xác nhận hoàn thành</span>
+                                                    </div>
                                                 </div>
-                                                <div class="freelancer display-desktop-workspace">
-                                                    <span>Đã xác nhận hoàn thành</span>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="num-bid display-desktop-workspace">
-                                            <span style="padding-left: 30px;">09/02/2023 </span>
-                                        </td>
-                                        <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
-                                            <span>
-                                                đã hoàn thành </span>
+                                            </td>
+                                            <td class="num-bid display-desktop-workspace">
+                                                <span style="padding-left: 30px;">09/02/2023 </span>
+                                            </td>
+                                            <td class="payment-icon display-desktop-workspace" style="text-align: center; padding-top: 30px">
+                                                <span>
+                                                    đã hoàn thành </span>
 
-                                        </td>
-                                        <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
-                                            <a href="/Client/Clientdetailjob.php">xem chi tiết</a>
-                                        </td>
-                                        <td class="price-td show-block">
-                                        <div class="block-hidden" id="block-hidden63948">
-                                                <a style="font-size: 14px;width: 70px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Đánh giá  <i style="font-weight:bold" class="" aria-hidden="true"></i></a>
-                                            </div>
-                                        </td>      
-                                    </tr>
+                                            </td>
+                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; color:#08c;">
+                                                <a href="/Client/Clientdetailjob.php">xem chi tiết</a>
+                                            </td>
+                                            <td class="price-td show-block">
+                                                <div class="block-hidden" id="block-hidden63948">
+                                                    <a style="font-size: 14px;width: 70px; background-color: #1996d7;" href="javascript:void(0)" class="btn btn-primary btn-vl-green select-push-top63948">Đánh giá <i style="font-weight:bold" class="" aria-hidden="true"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
                                     </tbody>
-                                   
-                                    
+
+
                                 </table>
                                 <div class="row-fluid">
                                 </div>
@@ -648,34 +779,34 @@
         function hide(id) {
             $(id).hide();
         };
-        
-        $(document).ready(function() {
-                var x = localStorage.getItem('profile');
-                if (!x) {
-                    document.location.href = "http://localhost:3000/login.php";
-                }
-                let a = JSON.parse(x);
-                $('.fullname').text(a.fullname);
-                $('.id-user').text("ID. " + a.id_user);
-                $('.wallet').text(a.wallet + " $");
-                $('.imgavt').attr("alt", a.fullname);
 
-                $('.logout').on('click', function() {
-                    document.location.href = "http://localhost:3000/welcome.php";
-                    localStorage.removeItem('profile');
-                })
-                var data = {
-                    id_user: a.id_user
-                };
-                $.ajax({
-                    url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_close',
-                    data:data,
-                    method: 'POST',
-                    success: function(res) {
-                        var s = "";
-                        let a = JSON.parse(res);
-                        a.map((v, i) => {
-                            s += `<tr class="even updated draft-job63542">
+        $(document).ready(function() {
+            var x = localStorage.getItem('profile');
+            if (!x) {
+                document.location.href = "http://localhost:3000/login.php";
+            }
+            let a = JSON.parse(x);
+            $('.fullname').text(a.fullname);
+            $('.id-user').text("ID. " + a.id_user);
+            $('.wallet').text(a.wallet + " $");
+            $('.imgavt').attr("alt", a.fullname);
+
+            $('.logout').on('click', function() {
+                document.location.href = "http://localhost:3000/welcome.php";
+                localStorage.removeItem('profile');
+            })
+            var data = {
+                id_user: a.id_user
+            };
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_client_close',
+                data: data,
+                method: 'POST',
+                success: function(res) {
+                    var s = "";
+                    let a = JSON.parse(res);
+                    a.map((v, i) => {
+                        s += `<tr class="even updated draft-job63542">
                                         <td class="project-freelancer ">
                                             <div class="span10 project-info ">
                                                 <div class="title-job">
@@ -705,15 +836,15 @@
                                                </div>
                                         </td>      
                                     </tr>`;
-                        });
-                        $(".datatable tbody").html(s);
-                    },
-                    async: true
-                });
-                
-              
-     });
-    </script>    
+                    });
+                    $(".datatable tbody").html(s);
+                },
+                async: true
+            });
+
+
+        });
+    </script>
 </body>
 
 </html>

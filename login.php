@@ -79,7 +79,7 @@
 						<span class="icon fa fa-google-plus"></span>
 						Login with google
 					</a>
-					<div class="signup-link">CHưa có tài khoản? <a href="">Đ\ăng kí ngay bây giờ</a></div>
+					<div class="signup-link">CHưa có tài khoản? <a href="">Đăng kí ngay bây giờ</a></div>
 				</form>
 				<form action="#" class="signup">
 				<div class="field">

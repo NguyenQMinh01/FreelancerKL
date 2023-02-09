@@ -392,7 +392,7 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa xác thực đầy đủ thông tin. Bạn vui lòng xác thực để hồ sơ uy tín và có nhiều Freelancer liên hệ. Xác thực <a href="/account/verify?utm_campaign=4-YC12%7CPT29.MTW%7CIcon-HKTB1-12102022&amp;utm_source=icon-chuong&amp;utm_medium=icon&amp;utm_content=button">tại đây.</a></p>
+                            <p style="padding:10px 10px;background-color:#ffebcd"><b>Lưu ý:</b> Bạn chưa nhận được sự xét duyệt hay lời mời chào giá nào. Bạn vui lòng cập nhật thêm hồ sơ để hồ sơ uy tín và có nhiều nhà tuyển dụng liên hệ. Cập nhật <a href="/Freelancer/yourprofile.php">tại đây.</a></p>
                             <div class="tab-pane active" id="tab_list_invite_bell">
                                 <div class="no-message">Bạn không có thông báo mới</div>
                             </div>
