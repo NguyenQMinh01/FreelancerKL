@@ -141,7 +141,7 @@
                             </th>
                             <th>Tên công việc</th>
                             <th>Người đăng</th>
-                            <th>Ngày đăng</th>
+                            <th>Freelancer</th>
                             <th>Trạng Thái</th>
                             
                             <th></th>
@@ -186,16 +186,17 @@
                     { "data": "name_job" },
                     { "data": "name_client" },
                     { "data": "name_freelancer" },
-                   
+                    
                     { "targets": -1, "data": null,"defaultContent": "<button class='btn btn-success'>Xem chi tiết</button>" }
                 ]
             } );
             $('.datatable').on('click', 'button', function (e) {
                 e.preventDefault;
                 var data = x.row($(this).parents('tr')).data();
-                localStorage.setItem('id_job_admin',data.id_job);
-                 //alert(JSON.stringify(data));
-                window.location.href = "/AdminFreelancer/details.php";
+
+                localStorage.setItem('id_contract_admin',data.id_contract);
+                // alert(JSON.stringify(data));
+                window.location.href = "/AdminFreelancer/detailcontractadmin.php";
                 //var rows = $(this).closest('tbody').find('tr td.sorting_1').val();
                 //alert(JSON.stringify(rows));
             });

@@ -216,6 +216,8 @@
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/pcoded.min.js"></script>
     <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/dark-mode.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
     <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fi-rr-arrow-small-up"></i></a>
     <script>
          $(document).ready(function(){
