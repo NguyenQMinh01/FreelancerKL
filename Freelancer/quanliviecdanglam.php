@@ -263,18 +263,18 @@
                             <div class="account-menu pull-right">
                                 <div class="avata avata_ver2">
                                     <a href="/Freelancer/profilefreelancer.php">
-                                        <img width="48" height="48" src="" alt="Minh Nguyen" title="Minh Nguyen">
+                                        <img width="48" height="48" src="">
                                     </a>
                                 </div>
                                 <div class="dropdown">
                                     <a class="dropdown-toggle name-acc-menu show-cate-acc" data-toggle="dropdown" href="#">
-                                        <p>Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
+                                        <p class="fullname">Minh Nguyen</p> <span class="id-user">Id. 1229116</span>
                                     </a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
 
                                     <div class="credit-balance">
                                         <span id="animategoCredit">
                                             <span class="vip-menu-ver2">Freelancer</span>
-                                            <span class="credit-menu-ver2" data-credit="balance">0 VNĐ</span>
+                                            <span class="credit-menu-ver2 wallet" data-credit="balance">0 VNĐ</span>
                                         </span>
                                     </div>
                                     <div id="popover-in"></div>
@@ -752,15 +752,17 @@
                                         });
                                     </script> -->
                                 </div>
-                                <table class="table" style="margin-top: -170px;">
-                                    <tbody>
+                                <table class="table datatable" style="margin-top: -170px;">
+                                <thead>
                                         <tr class="head-title-tb display-desktop-workspace">
                                             <th class="project-freelancer item">Tên việc</th>
-                                            <th class="bid-freelancer item">Ngày cuối nhận báo giá</th>
+                                            <th class="bid-freelancer item">Ngày dự kiến hoàn thành</th>
                                             <th class="startus-th item">Trạng thái</th>
                                             <th class="payment-th item" style = "padding-right: 60p;">Chi tiết công việc</th>
                                             <th></th>
                                         </tr>
+                                </thead>
+                                    <tbody>
                                         <tr class="odd updated cancel-bookmark-job1">
                                             <td class="project-freelancer ">
                                                 <div class="title-job">
@@ -779,11 +781,7 @@
                                             <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; padding-left: 60px;">
                                                 <a href = "/Freelancer/detail_offer.php"> <p style="color: #08c;">xem chi tiết</p></a>
                                             </td>
-                                            <!-- <td class="price-td show-block" style="width: 120px">
-                                                <div class="block-hidden" id="block-hidden64865">
-                                                    <a style="font-size: 14px;width: 80px" href="javascript:void(0)" class="btn btn-primary btn-vl-blue select-push-top64865">hoàn thành<i style="font-weight:bold" aria-hidden="true" data-original-title="" title=""></i></a>
-                                                </div>
-                                            </td> -->
+                                           
                                         </tr>
                                         <!-- <script type="text/javascript">
                                             $("#clickme").click(function() {
@@ -873,6 +871,77 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/data-able-v100-enh1/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var x = localStorage.getItem('profile');
+            if (!x) {
+                document.location.href = "http://localhost:3000/login.php";
+            }
+            let a = JSON.parse(x);
+
+            $('.fullname').text(a.fullname);
+            $('.id-user').text("ID. " + a.id_user);
+            $('.wallet').text(a.walllet + " $");
+            $('.avt').attr("src", a.avatar);
+
+            $('.logout').on('click', function() {
+                document.location.href = "http://localhost:3000/welcome.php";
+                localStorage.removeItem('profile');
+            })
+
+            var data = {
+                id_user: a.id_user
+            };
+            $.ajax({
+                url: 'https://job.ahlupos.com/modules/job/api.php?ac=job_freelancer_offer',
+                data:data,
+                method:"POST",
+                success: function(res) {
+                    var s = "";
+                    let a = JSON.parse(res);
+                    a.map((v, i) => {
+                        s += ` <tr class="odd updated cancel-bookmark-job1">
+                                            <td class="project-freelancer ">
+                                                <div class="title-job">
+                                                    <a href="/Freelancer/detailJob.php" style="color:#000000; font-weight: 600;">
+                                                        [${v.job_id_job}] ${v.name_job} </a>
+                                                </div>
+                                                <div class="client">Khách hàng: <a href="/Client/profileclient.php">
+                                                       ${v.name_client}</a>
+                                                </div>
+                                            </td>
+                                            <td class="num-bid display-desktop-workspace">
+                                                <p class="number-right">${moment(v.completion_date).format('DD-MM-YYYY ')}</p>
+                                            </td>
+                                            <td class="payment-icon display-desktop-workspace number-right" style="padding-top: 30px; padding-right: 30px;">
+                                                 <p style="color: red;">Chờ xác nhận</p>  </td>
+                                            <td class="startus-job display-desktop-workspace" style="text-align: center; padding-top: 30px; padding-left: 60px;">
+                                                <a href = "/Freelancer/detail_offer.php"> <p style="color: #08c;">xem chi tiết</p></a>
+                                            </td>
+                                           
+                                        </tr>`;
+                    });
+                    $(".datatable tbody").html(s);
+                },
+                async: true
+            });
+
+
+
+            $(document).delegate("a", "click", function(e) {
+                //alert( $(this).attr('data-id'));       
+                localStorage.setItem('id', $(this).attr('data-id'));
+                window.location.href = "http://localhost:3000/Freelancer/detailJob.php";
+            });
+
+
+
+
+        })
+    </script>
 </body>
 
 </html>

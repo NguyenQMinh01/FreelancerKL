@@ -660,7 +660,7 @@
                             <header class="jumbotron-new carousel-subhead_2">
                                 <div class="container">
                                     <div class="jumbotron-new-even">
-                                        <h1 class="lh8 mp-lh6"><b style = "color: rgba(0,147,208,1)">Nơi tiềm việc chất lượng</b> đảm bảo thêm thu nhập </h1>
+                                        <h1 class="lh8 mp-lh6"><b style="color: rgba(0,147,208,1)">Nơi tiềm việc chất lượng</b> đảm bảo thêm thu nhập </h1>
                                         <div class="jumbotron-button">
                                             <a style="background-color:transparent" class="btn btn-vl btn-vl-orange btn-vl-special" onclick="vtrack('Click contest job', {'position':'Homepage'})" title="Tạo cuộc thi mới">Có nhiều công việc mới</a>
                                         </div>
@@ -1330,7 +1330,7 @@
 
                     <div class="review-media">
                         <div class="review-media-title">
-                            <h1 class="lh2" style = "text-align: center;">Trang web được vinh danh trong cộng đồng freelancer</h1>
+                            <h1 class="lh2" style="text-align: center;">Trang web được vinh danh trong cộng đồng freelancer</h1>
                         </div>
                         <div class="container row-fluid">
                             <div class="stats-col-left stats-col-left-new span12">
